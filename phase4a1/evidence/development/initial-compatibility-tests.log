@@ -1,0 +1,64 @@
+test_A_new_subset_activates_without_alphabet_coverage (__main__.Tests.test_A_new_subset_activates_without_alphabet_coverage) ... ok
+test_B_equal_width_existing_glyph_reordering (__main__.Tests.test_B_equal_width_existing_glyph_reordering) ... ok
+test_C_longer_existing_glyphs_wrap (__main__.Tests.test_C_longer_existing_glyphs_wrap) ... ok
+test_D_only_original_chars_reused (__main__.Tests.test_D_only_original_chars_reused) ... ok
+test_E_unavailable_glyph_rejected (__main__.Tests.test_E_unavailable_glyph_rejected) ... ok
+test_F_bold_subset_reused (__main__.Tests.test_F_bold_subset_reused) ... ok
+test_G_fragments_not_promoted (__main__.Tests.test_G_fragments_not_promoted) ... ok
+test_H_character_spacing_refused (__main__.Tests.test_H_character_spacing_refused) ... FAIL
+test_I_kerning_refused (__main__.Tests.test_I_kerning_refused) ... FAIL
+test_J_duplicate_unicode_safe_selected_mapping (__main__.Tests.test_J_duplicate_unicode_safe_selected_mapping) ... ok
+test_K_wrong_unicode_not_promoted (__main__.Tests.test_K_wrong_unicode_not_promoted) ... ok
+test_L_missing_unicode_not_promoted (__main__.Tests.test_L_missing_unicode_not_promoted) ... ok
+test_M_word_font_vs_structure_blockers (__main__.Tests.test_M_word_font_vs_structure_blockers) ... FAIL
+test_N_different_word_fonts_remain_honestly_classified (__main__.Tests.test_N_different_word_fonts_remain_honestly_classified) ... FAIL
+test_O_second_generation_subset_edit (__main__.Tests.test_O_second_generation_subset_edit) ... ok
+test_P_probes_removed_and_cache_stable (__main__.Tests.test_P_probes_removed_and_cache_stable) ... ok
+test_Q_unsafe_growth_not_weakened (__main__.Tests.test_Q_unsafe_growth_not_weakened) ... ok
+test_R_no_cmap_is_distinct_from_missing_subset_character (__main__.Tests.test_R_no_cmap_is_distinct_from_missing_subset_character) ... ok
+test_S_new_partial_encoding_scenario (__main__.Tests.test_S_new_partial_encoding_scenario) ... ok
+test_T_unmapped_existing_font_glyph_refused (__main__.Tests.test_T_unmapped_existing_font_glyph_refused) ... ok
+test_U_partial_encoding_second_generation (__main__.Tests.test_U_partial_encoding_second_generation) ... ok
+test_V_frozen_phase3_refuses_new_scenario (__main__.Tests.test_V_frozen_phase3_refuses_new_scenario) ... ok
+test_W_powerpoint_conservative_refusal (__main__.Tests.test_W_powerpoint_conservative_refusal) ... ok
+
+======================================================================
+FAIL: test_H_character_spacing_refused (__main__.Tests.test_H_character_spacing_refused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase4a1\tools\test_compatibility.py", line 33, in test_H_character_spacing_refused
+    def test_H_character_spacing_refused(self):self.assertIn('NON_NATURAL_GLYPH_SPACING',self.region(self.inspect('E-character-spacing'))['Reasons'])
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'NON_NATURAL_GLYPH_SPACING' not found in ['COMPLETE_OBJECT_OWNERSHIP', 'ORIGINAL_CHARACTER_OUTLINES_WIDTHS_AND_ENCODING_VERIFIED', 'VERIFIED_EXPLICIT_GLYPH_POSITIONS', 'CONSERVATIVE_SPACE_AVAILABLE']
+
+======================================================================
+FAIL: test_I_kerning_refused (__main__.Tests.test_I_kerning_refused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase4a1\tools\test_compatibility.py", line 34, in test_I_kerning_refused
+    def test_I_kerning_refused(self):self.assertIn('NON_NATURAL_GLYPH_SPACING',self.region(self.inspect('F-kerning'))['Reasons'])
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'NON_NATURAL_GLYPH_SPACING' not found in ['COMPLETE_OBJECT_OWNERSHIP', 'ORIGINAL_CHARACTER_OUTLINES_WIDTHS_AND_ENCODING_VERIFIED', 'VERIFIED_EXPLICIT_GLYPH_POSITIONS', 'CONSERVATIVE_SPACE_AVAILABLE']
+
+======================================================================
+FAIL: test_M_word_font_vs_structure_blockers (__main__.Tests.test_M_word_font_vs_structure_blockers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase4a1\tools\test_compatibility.py", line 42, in test_M_word_font_vs_structure_blockers
+    d=self.inspect(None,source=base.RUN/'corpus/11-word-letter.pdf');r=self.region(d);self.assertNotEqual(r['Eligibility'],'Editable');self.assertNotIn('INITIAL_TEXT_MAPPING_OR_GLYPH_UNAVAILABLE',r['Reasons']);self.assertIn('NON_NATURAL_GLYPH_SPACING',r['Reasons']);self.assertIn('OWNED_SPACE_INTERSECTS_NEIGHBOUR',r['Reasons']);self.assertIn('INITIAL_OBJECT_RECONSTRUCTION_DIFFERS',r['Reasons']);self.assertTrue(any(c['State']=='FontPresentEncodingUnavailable' for c in r['Characters']));self.assertTrue(any(c['State']=='ExistingMappingVerified' for c in r['Characters']))
+                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Editable' == 'Editable'
+
+======================================================================
+FAIL: test_N_different_word_fonts_remain_honestly_classified (__main__.Tests.test_N_different_word_fonts_remain_honestly_classified)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase4a1\tools\test_compatibility.py", line 45, in test_N_different_word_fonts_remain_honestly_classified
+    d=self.inspect(name);self.assertTrue(d['Regions']);self.assertTrue(all(r['Eligibility']!='Editable' for r in d['Regions']));self.assertTrue(all(r['Reasons'] for r in d['Regions']))
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 23 tests in 3.340s
+
+FAILED (failures=4)

@@ -1,0 +1,107 @@
+{
+  "file": "output\\pdf\\originals\\mixed.pdf",
+  "sha256": "7635a56d585699ab5f0321f209b4236afec3ed11886f82b8afc4bb0a63ee62f1",
+  "page_count": 1,
+  "metadata": {
+    "format": "PDF 1.3",
+    "title": "Phase 1 reproducible fixture: mixed.pdf",
+    "author": "PDF Editor feasibility",
+    "subject": "Offline synthetic test, no private data",
+    "keywords": "",
+    "creator": "anonymous",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "creationDate": "D:20000101000000+00'00'",
+    "modDate": "D:20000101000000+00'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "xml_metadata": "",
+  "toc": [],
+  "pages": [
+    {
+      "number": 1,
+      "dimensions": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_extractable": true,
+      "text": "Digital caption: blue water\n",
+      "spans": [
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Digital caption: blue water",
+          "origin": [
+            50.0,
+            732.0
+          ],
+          "bbox": [
+            50.0,
+            719.0999755859375,
+            187.38796997070312,
+            735.5880126953125
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "width": 1224,
+          "height": 1584,
+          "digest": "86eaa8ce7e4143ceff211dcb1b970ff9"
+        }
+      ],
+      "classification": "mixed-or-OCR-candidate",
+      "image_coverage_sum": 1.0,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow",
+        "Large image plus text may be OCR, mixed content, or a background; heuristic only"
+      ],
+      "annotations": [],
+      "links": [],
+      "drawing_count": 0
+    }
+  ]
+}

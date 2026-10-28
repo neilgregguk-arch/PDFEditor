@@ -1,0 +1,181 @@
+{
+  "file": "output\\pdf\\originals\\expansion.pdf",
+  "sha256": "bd5aadbcb060356fdf9c0b588a939d1cc6b63dd3dee3ff4cb7d37cc1d2393388",
+  "page_count": 1,
+  "metadata": {
+    "format": "PDF 1.3",
+    "title": "Phase 1 reproducible fixture: expansion.pdf",
+    "author": "PDF Editor feasibility",
+    "subject": "Offline synthetic test, no private data",
+    "keywords": "",
+    "creator": "anonymous",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "creationDate": "D:20000101000000+00'00'",
+    "modDate": "D:20000101000000+00'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "xml_metadata": "",
+  "toc": [],
+  "pages": [
+    {
+      "number": 1,
+      "dimensions": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_extractable": true,
+      "text": "Expansion and controlled reflow\nA brief note ends here.\nNEIGHBOUR - DO NOT MOVE\nFixed content below the allowed paragraph region.\n",
+      "spans": [
+        {
+          "size": 20.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 1717069,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Expansion and controlled reflow",
+          "origin": [
+            50.0,
+            50.0
+          ],
+          "bbox": [
+            50.0,
+            28.599998474121094,
+            358.9599609375,
+            56.13999938964844
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "A brief note ends here.",
+          "origin": [
+            50.0,
+            112.0
+          ],
+          "bbox": [
+            50.0,
+            99.0999984741211,
+            171.4039764404297,
+            115.58799743652344
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 11.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "NEIGHBOUR - DO NOT MOVE",
+          "origin": [
+            365.0,
+            112.0
+          ],
+          "bbox": [
+            365.0,
+            100.22999572753906,
+            520.2319946289062,
+            115.37699890136719
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Fixed content below the allowed paragraph region.",
+          "origin": [
+            50.0,
+            192.0
+          ],
+          "bbox": [
+            50.0,
+            179.10000610351562,
+            318.7999267578125,
+            195.58799743652344
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F2",
+          "basefont": "Helvetica-Bold",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [],
+      "classification": "digital-text",
+      "image_coverage_sum": 0.0,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow"
+      ],
+      "annotations": [],
+      "links": [],
+      "drawing_count": 1
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "tests": 18,
+  "success": true,
+  "results": [
+    {
+      "test": "regression_phase4a.Tests.test_A_actual_pdf_and_glyph_mapping",
+      "status": "pass",
+      "ms": 263.3
+    },
+    {
+      "test": "regression_phase4a.Tests.test_A_successful_region_edit",
+      "status": "pass",
+      "ms": 139.91
+    },
+    {
+      "test": "regression_phase4a.Tests.test_B_longer_wraps",
+      "status": "pass",
+      "ms": 141.87
+    },
+    {
+      "test": "regression_phase4a.Tests.test_C_actual_neighbour_collision_preflight",
+      "status": "pass",
+      "ms": 74.69
+    },
+    {
+      "test": "regression_phase4a.Tests.test_C_unsafe_expansion_rejected",
+      "status": "pass",
+      "ms": 35.79
+    },
+    {
+      "test": "regression_phase4a.Tests.test_D_missing_glyph_rejected",
+      "status": "pass",
+      "ms": 71.4
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_append_preserves_legitimate_original_phrase_only_once",
+      "status": "pass",
+      "ms": 144.28
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_empty_deletion_is_real",
+      "status": "pass",
+      "ms": 98.57
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_existing_destination_unchanged",
+      "status": "pass",
+      "ms": 90.72
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_explicit_linebreaks",
+      "status": "pass",
+      "ms": 110.76
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_locked_destination_unchanged",
+      "status": "pass",
+      "ms": 90.27
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_long_word_soft_wrap",
+      "status": "pass",
+      "ms": 107.11
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_original_cannot_be_overwritten",
+      "status": "pass",
+      "ms": 89.97
+    },
+    {
+      "test": "regression_phase4a.Tests.test_G_stale_source_hash_rejected",
+      "status": "pass",
+      "ms": 0.34
+    },
+    {
+      "test": "regression_phase4a.Tests.test_cross_language_revision_roundtrip",
+      "status": "pass",
+      "ms": 33.69
+    },
+    {
+      "test": "regression_phase4a.Tests.test_manifestless_supported_copy_is_discovered",
+      "status": "pass",
+      "ms": 119.12
+    },
+    {
+      "test": "regression_phase4a.Tests.test_noop_is_not_reported_as_saved_edit",
+      "status": "pass",
+      "ms": 68.61
+    },
+    {
+      "test": "regression_phase4a.Tests.test_tampered_manifest_view_only",
+      "status": "pass",
+      "ms": 7.0
+    }
+  ],
+  "saved_outputs": [
+    {
+      "case": "A-Simple",
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-2.pdf",
+      "draft": "A genuinely changed paragraph.",
+      "result": {
+        "Revision": 3,
+        "Safe": true,
+        "Diagnostic": "Verified PDF saved. Source preserved.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\candidate-229617802e2f4460b43ad4303d41da06.png",
+        "Verification": {
+          "method": "owned-region original-font reconstruction; original text objects removed",
+          "sourceHash": "f6015d3e7833c7b675f24efe65c563aa3b2e53c19e05e9f1a71bad464063ff18",
+          "candidateHash": "45bc3f6213433010256d69934eb865b6a20db9c032aaeb74a299ed7a502f15df",
+          "revision": 3,
+          "originalObjectsRemoved": 1,
+          "newTextObjects": 1,
+          "replacementLinesMatch": true,
+          "originalFullTextAbsent": true,
+          "originalTextIntentionallyRetainedInDraft": false,
+          "fontProgramPreserved": true,
+          "maxNeighbourGeometryShiftPt": 0,
+          "maxNeighbourGlyphShiftPt": 0,
+          "maxReplacementAdvanceErrorPt": 0.233154296875,
+          "replacementGlyphsVerified": true,
+          "changedPixels144Dpi": 6227,
+          "outsidePixels144Dpi": 0,
+          "untouchedPageDifferences": 0,
+          "metadataPreserved": true,
+          "layout": {
+            "Lines": [
+              "A genuinely changed paragraph."
+            ],
+            "Height": 18,
+            "Safe": true,
+            "Diagnostic": "Draft layout fits the owned paragraph region.",
+            "LineBoxes": [
+              {
+                "X": 60,
+                "Y": 138.861328125,
+                "Width": 196.599609375,
+                "Height": 18,
+                "Right": 256.599609375,
+                "Bottom": 156.861328125
+              }
+            ],
+            "GlyphIssues": [],
+            "ProposedTextEligibility": "Supported"
+          }
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-2.pdf",
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "case": "B-Longer",
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\samples\\B-Longer.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\B-Longer-4.pdf",
+      "draft": "Longer replacement text wraps into several lines without changing the protected reference. Longer replacement text wraps into several lines without changing the protected reference. Longer replacement text wraps into several lines without changing the protected reference. Longer replacement text wraps into several lines without changing the protected reference. Longer replacement text wraps into several lines without changing the protected reference.",
+      "result": {
+        "Revision": 5,
+        "Safe": true,
+        "Diagnostic": "Verified PDF saved. Source preserved.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\candidate-acbc72df5bc54a87b22e1492911c8981.png",
+        "Verification": {
+          "method": "owned-region original-font reconstruction; original text objects removed",
+          "sourceHash": "d40845e6f581e7c5cbef80f6a5ae00a9056c1d773ae3d4e77982ece5e8cc7aa2",
+          "candidateHash": "2a7dbda0f86a2f8e4ec3b890845804d0adebdfabacb3aaaeb4df622c7b6aacf4",
+          "revision": 5,
+          "originalObjectsRemoved": 1,
+          "newTextObjects": 7,
+          "replacementLinesMatch": true,
+          "originalFullTextAbsent": true,
+          "originalTextIntentionallyRetainedInDraft": false,
+          "fontProgramPreserved": true,
+          "maxNeighbourGeometryShiftPt": 0,
+          "maxNeighbourGlyphShiftPt": 0,
+          "maxReplacementAdvanceErrorPt": 0.485626220703125,
+          "replacementGlyphsVerified": true,
+          "changedPixels144Dpi": 44143,
+          "outsidePixels144Dpi": 0,
+          "untouchedPageDifferences": 0,
+          "metadataPreserved": true,
+          "layout": {
+            "Lines": [
+              "Longer replacement text wraps into several lines without changing ",
+              "the protected reference. Longer replacement text wraps into several ",
+              "lines without changing the protected reference. Longer replacement ",
+              "text wraps into several lines without changing the protected ",
+              "reference. Longer replacement text wraps into several lines without ",
+              "changing the protected reference. Longer replacement text wraps ",
+              "into several lines without changing the protected reference."
+            ],
+            "Height": 126,
+            "Safe": true,
+            "Diagnostic": "Draft layout fits the owned paragraph region.",
+            "LineBoxes": [
+              {
+                "X": 60,
+                "Y": 138.861328125,
+                "Width": 406.828125,
+                "Height": 18,
+                "Right": 466.828125,
+                "Bottom": 156.861328125
+              },
+              {
+                "X": 60,
+                "Y": 156.861328125,
+                "Width": 418.08984375,
+                "Height": 18,
+                "Right": 478.08984375,
+                "Bottom": 174.861328125
+              },
+              {
+                "X": 60,
+                "Y": 174.861328125,
+                "Width": 416.0390625,
+                "Height": 18,
+                "Right": 476.0390625,
+                "Bottom": 192.861328125
+              },
+              {
+                "X": 60,
+                "Y": 192.861328125,
+                "Width": 367.25390625,
+                "Height": 18,
+                "Right": 427.25390625,
+                "Bottom": 210.861328125
+              },
+              {
+                "X": 60,
+                "Y": 210.861328125,
+                "Width": 413.1328125,
+                "Height": 18,
+                "Right": 473.1328125,
+                "Bottom": 228.861328125
+              },
+              {
+                "X": 60,
+                "Y": 228.861328125,
+                "Width": 402.884765625,
+                "Height": 18,
+                "Right": 462.884765625,
+                "Bottom": 246.861328125
+              },
+              {
+                "X": 60,
+                "Y": 246.861328125,
+                "Width": 361.400390625,
+                "Height": 18,
+                "Right": 421.400390625,
+                "Bottom": 264.861328125
+              }
+            ],
+            "GlyphIssues": [],
+            "ProposedTextEligibility": "Supported"
+          }
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\B-Longer-4.pdf",
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "case": "A-Simple",
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-13.pdf",
+      "draft": "Edit this original paragraph directly on the page. Added text wraps when necessary.",
+      "result": {
+        "Revision": 14,
+        "Safe": true,
+        "Diagnostic": "Verified PDF saved. Source preserved.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\candidate-0d555cc104d24bad8752553934c42993.png",
+        "Verification": {
+          "method": "owned-region original-font reconstruction; original text objects removed",
+          "sourceHash": "f6015d3e7833c7b675f24efe65c563aa3b2e53c19e05e9f1a71bad464063ff18",
+          "candidateHash": "bb44bb75cbbd39daa02ab55ea953655a5a4659ae8d41db7f83afc45e20e16c0a",
+          "revision": 14,
+          "originalObjectsRemoved": 1,
+          "newTextObjects": 2,
+          "replacementLinesMatch": true,
+          "originalFullTextAbsent": false,
+          "originalTextIntentionallyRetainedInDraft": true,
+          "fontProgramPreserved": true,
+          "maxNeighbourGeometryShiftPt": 0,
+          "maxNeighbourGlyphShiftPt": 0,
+          "maxReplacementAdvanceErrorPt": 0.5218505859375,
+          "replacementGlyphsVerified": true,
+          "changedPixels144Dpi": 3242,
+          "outsidePixels144Dpi": 0,
+          "untouchedPageDifferences": 0,
+          "metadataPreserved": true,
+          "layout": {
+            "Lines": [
+              "Edit this original paragraph directly on the page. Added text wraps ",
+              "when necessary."
+            ],
+            "Height": 36,
+            "Safe": true,
+            "Diagnostic": "Draft layout fits the owned paragraph region.",
+            "LineBoxes": [
+              {
+                "X": 60,
+                "Y": 138.861328125,
+                "Width": 406.072265625,
+                "Height": 18,
+                "Right": 466.072265625,
+                "Bottom": 156.861328125
+              },
+              {
+                "X": 60,
+                "Y": 156.861328125,
+                "Width": 100.8984375,
+                "Height": 18,
+                "Right": 160.8984375,
+                "Bottom": 174.861328125
+              }
+            ],
+            "GlyphIssues": [],
+            "ProposedTextEligibility": "Supported"
+          }
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-13.pdf",
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "case": "A-Simple",
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-15.pdf",
+      "draft": "",
+      "result": {
+        "Revision": 16,
+        "Safe": true,
+        "Diagnostic": "Verified PDF saved. Source preserved.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\candidate-3216d2e21a894a348be9e9978d53424a.png",
+        "Verification": {
+          "method": "owned-region original-font reconstruction; original text objects removed",
+          "sourceHash": "f6015d3e7833c7b675f24efe65c563aa3b2e53c19e05e9f1a71bad464063ff18",
+          "candidateHash": "5e49da3af9221e51d714748d17c99d09051d12274b38b0654db496e73bc38907",
+          "revision": 16,
+          "originalObjectsRemoved": 1,
+          "newTextObjects": 0,
+          "replacementLinesMatch": true,
+          "originalFullTextAbsent": true,
+          "originalTextIntentionallyRetainedInDraft": false,
+          "fontProgramPreserved": true,
+          "maxNeighbourGeometryShiftPt": 0,
+          "maxNeighbourGlyphShiftPt": 0,
+          "maxReplacementAdvanceErrorPt": 0,
+          "replacementGlyphsVerified": true,
+          "changedPixels144Dpi": 4688,
+          "outsidePixels144Dpi": 0,
+          "untouchedPageDifferences": 0,
+          "metadataPreserved": true,
+          "layout": {
+            "Lines": [
+              ""
+            ],
+            "Height": 18,
+            "Safe": true,
+            "Diagnostic": "Draft layout fits the owned paragraph region.",
+            "LineBoxes": [
+              {
+                "X": 60,
+                "Y": 138.861328125,
+                "Width": 0,
+                "Height": 18,
+                "Right": 60,
+                "Bottom": 156.861328125
+              }
+            ],
+            "GlyphIssues": [],
+            "ProposedTextEligibility": "Supported"
+          }
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-15.pdf",
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "case": "A-Simple",
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-19.pdf",
+      "draft": "First replacement line.\n\nA second paragraph line.",
+      "result": {
+        "Revision": 20,
+        "Safe": true,
+        "Diagnostic": "Verified PDF saved. Source preserved.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\candidate-a4a895000fef4e4f9c714c8a8fb87aae.png",
+        "Verification": {
+          "method": "owned-region original-font reconstruction; original text objects removed",
+          "sourceHash": "f6015d3e7833c7b675f24efe65c563aa3b2e53c19e05e9f1a71bad464063ff18",
+          "candidateHash": "a6caa636e80e012ff1702fec339e6b26a56a2ff2cfb3075b8ef0e765d1eaff20",
+          "revision": 20,
+          "originalObjectsRemoved": 1,
+          "newTextObjects": 2,
+          "replacementLinesMatch": true,
+          "originalFullTextAbsent": true,
+          "originalTextIntentionallyRetainedInDraft": false,
+          "fontProgramPreserved": true,
+          "maxNeighbourGeometryShiftPt": 0,
+          "maxNeighbourGlyphShiftPt": 0,
+          "maxReplacementAdvanceErrorPt": 0.18621826171875,
+          "replacementGlyphsVerified": true,
+          "changedPixels144Dpi": 7545,
+          "outsidePixels144Dpi": 0,
+          "untouchedPageDifferences": 0,
+          "metadataPreserved": true,
+          "layout": {
+            "Lines": [
+              "First replacement line.",
+              "",
+              "A second paragraph line."
+            ],
+            "Height": 54,
+            "Safe": true,
+            "Diagnostic": "Draft layout fits the owned paragraph region.",
+            "LineBoxes": [
+              {
+                "X": 60,
+                "Y": 138.861328125,
+                "Width": 135.2109375,
+                "Height": 18,
+                "Right": 195.2109375,
+                "Bottom": 156.861328125
+              },
+              {
+                "X": 60,
+                "Y": 156.861328125,
+                "Width": 0,
+                "Height": 18,
+                "Right": 60,
+                "Bottom": 174.861328125
+              },
+              {
+                "X": 60,
+                "Y": 174.861328125,
+                "Width": 150.3046875,
+                "Height": 18,
+                "Right": 210.3046875,
+                "Bottom": 192.861328125
+              }
+            ],
+            "GlyphIssues": [],
+            "ProposedTextEligibility": "Supported"
+          }
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-19.pdf",
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "case": "A-Simple",
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-23.pdf",
+      "draft": "LongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWord",
+      "result": {
+        "Revision": 24,
+        "Safe": true,
+        "Diagnostic": "Verified PDF saved. Source preserved.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\candidate-d21f219cf18e4b07b075714b5de7b10f.png",
+        "Verification": {
+          "method": "owned-region original-font reconstruction; original text objects removed",
+          "sourceHash": "f6015d3e7833c7b675f24efe65c563aa3b2e53c19e05e9f1a71bad464063ff18",
+          "candidateHash": "1fff42dcc95231092cd41a6bed0b6c04cf69b5228f04d6cc9fd5df94314b4b1e",
+          "revision": 24,
+          "originalObjectsRemoved": 1,
+          "newTextObjects": 6,
+          "replacementLinesMatch": true,
+          "originalFullTextAbsent": true,
+          "originalTextIntentionallyRetainedInDraft": false,
+          "fontProgramPreserved": true,
+          "maxNeighbourGeometryShiftPt": 0,
+          "maxNeighbourGlyphShiftPt": 0,
+          "maxReplacementAdvanceErrorPt": 0.40350341796875,
+          "replacementGlyphsVerified": true,
+          "changedPixels144Dpi": 42742,
+          "outsidePixels144Dpi": 0,
+          "untouchedPageDifferences": 0,
+          "metadataPreserved": true,
+          "layout": {
+            "Lines": [
+              "LongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbr",
+              "okenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWord",
+              "LongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbr",
+              "okenWordLongUnbrokenWordLongUnbrokenWordLongUnbrokenWord",
+              "LongUnbrokenWordLongUnbrokenWordLongUnbrokenWordLongUnbr",
+              "okenWordLongUnbrokenWordLongUnbrokenWord"
+            ],
+            "Height": 108,
+            "Safe": true,
+            "Diagnostic": "Draft layout fits the owned paragraph region.",
+            "LineBoxes": [
+              {
+                "X": 60,
+                "Y": 138.861328125,
+                "Width": 415.869140625,
+                "Height": 18,
+                "Right": 475.869140625,
+                "Bottom": 156.861328125
+              },
+              {
+                "X": 60,
+                "Y": 156.861328125,
+                "Width": 418.716796875,
+                "Height": 18,
+                "Right": 478.716796875,
+                "Bottom": 174.861328125
+              },
+              {
+                "X": 60,
+                "Y": 174.861328125,
+                "Width": 415.869140625,
+                "Height": 18,
+                "Right": 475.869140625,
+                "Bottom": 192.861328125
+              },
+              {
+                "X": 60,
+                "Y": 192.861328125,
+                "Width": 418.716796875,
+                "Height": 18,
+                "Right": 478.716796875,
+                "Bottom": 210.861328125
+              },
+              {
+                "X": 60,
+                "Y": 210.861328125,
+                "Width": 415.869140625,
+                "Height": 18,
+                "Right": 475.869140625,
+                "Bottom": 228.861328125
+              },
+              {
+                "X": 60,
+                "Y": 228.861328125,
+                "Width": 299.490234375,
+                "Height": 18,
+                "Right": 359.490234375,
+                "Bottom": 246.861328125
+              }
+            ],
+            "GlyphIssues": [],
+            "ProposedTextEligibility": "Supported"
+          }
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\test-work\\regression-phase4a-1793180188441659000\\A-Simple-23.pdf",
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    }
+  ]
+}

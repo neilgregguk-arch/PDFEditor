@@ -1,0 +1,99 @@
+{
+  "id": "e3_subset",
+  "source": "complex.pdf",
+  "output": "output\\pdf\\edited\\e3_subset.pdf",
+  "old": "cafe",
+  "new": "face",
+  "regions": [
+    [
+      102.5,
+      191.36328125,
+      132.32000732421875,
+      205.36328125
+    ]
+  ],
+  "edit_save_ms": 17.712,
+  "method": "content-operand rewrite",
+  "encoded_occurrences": 1,
+  "advance_compensated": false,
+  "fix_metadata_version": false,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": true,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 514,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 230
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 563,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 229
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 519,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 230
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  },
+  "verification": {
+    "old_absent_mupdf": true,
+    "new_present_mupdf": true,
+    "old_absent_pdfium": true,
+    "new_present_pdfium": true,
+    "old_absent_text_operands": true,
+    "syntax_warnings": [],
+    "style": {
+      "font_before": "BitstreamVeraSans-Roman",
+      "font_after": "BitstreamVeraSans-Roman",
+      "size_before": 14.0,
+      "size_after": 14.0,
+      "color_before": 5053056,
+      "color_after": 5053056,
+      "origin_before": [
+        102.5,
+        202.0
+      ],
+      "origin_after": [
+        102.5,
+        202.0
+      ]
+    }
+  }
+}

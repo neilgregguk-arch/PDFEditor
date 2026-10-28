@@ -1,0 +1,101 @@
+{
+  "Revision": 2,
+  "Ok": true,
+  "Data": {
+    "Revision": 2,
+    "Safe": true,
+    "Diagnostic": "Verified PDF saved. Source preserved.",
+    "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\test-work\\candidate-9c1985962ff24aa99a6de02b714ea25a.png",
+    "Verification": {
+      "method": "owned-region original-font reconstruction; original text objects removed",
+      "sourceHash": "309a0ed11e471a52ddfd8f9ad5852ac4d0eb0de9a5863d812ca15d30f3d01d06",
+      "candidateHash": "e44584d020cfda7eec63ea952997a1d1c2a9961775a0e2434f8f5b087ecf85e9",
+      "revision": 2,
+      "originalObjectsRemoved": 1,
+      "newTextObjects": 7,
+      "replacementLinesMatch": true,
+      "originalFullTextAbsent": true,
+      "originalTextIntentionallyRetainedInDraft": false,
+      "fontProgramPreserved": true,
+      "maxNeighbourGeometryShiftPt": 0,
+      "changedPixels144Dpi": 43067,
+      "outsidePixels144Dpi": 0,
+      "untouchedPageDifferences": 0,
+      "metadataPreserved": true,
+      "layout": {
+        "Lines": [
+          "A genuine replacement paragraph that is substantially longer than ",
+          "the original and wraps into multiple lines without moving the ",
+          "reference block. A genuine replacement paragraph that is ",
+          "substantially longer than the original and wraps into multiple lines ",
+          "without moving the reference block. A genuine replacement ",
+          "paragraph that is substantially longer than the original and wraps ",
+          "into multiple lines without moving the reference block. "
+        ],
+        "Height": 126,
+        "Safe": true,
+        "Diagnostic": "Draft layout fits the owned paragraph region.",
+        "LineBoxes": [
+          {
+            "X": 60,
+            "Y": 138.861328125,
+            "Width": 405.43359375,
+            "Height": 18,
+            "Right": 465.43359375,
+            "Bottom": 156.861328125
+          },
+          {
+            "X": 60,
+            "Y": 156.861328125,
+            "Width": 370.62890625,
+            "Height": 18,
+            "Right": 430.62890625,
+            "Bottom": 174.861328125
+          },
+          {
+            "X": 60,
+            "Y": 174.861328125,
+            "Width": 353.0625,
+            "Height": 18,
+            "Right": 413.0625,
+            "Bottom": 192.861328125
+          },
+          {
+            "X": 60,
+            "Y": 192.861328125,
+            "Width": 403.171875,
+            "Height": 18,
+            "Right": 463.171875,
+            "Bottom": 210.861328125
+          },
+          {
+            "X": 60,
+            "Y": 210.861328125,
+            "Width": 366.216796875,
+            "Height": 18,
+            "Right": 426.216796875,
+            "Bottom": 228.861328125
+          },
+          {
+            "X": 60,
+            "Y": 228.861328125,
+            "Width": 399.615234375,
+            "Height": 18,
+            "Right": 459.615234375,
+            "Bottom": 246.861328125
+          },
+          {
+            "X": 60,
+            "Y": 246.861328125,
+            "Width": 333.38671875,
+            "Height": 18,
+            "Right": 393.38671875,
+            "Bottom": 264.861328125
+          }
+        ]
+      }
+    },
+    "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\test-work\\first-edit.pdf"
+  },
+  "Error": null
+}

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><UseWPF>true</UseWPF><AssemblyName>PdfEditorPrototype</AssemblyName></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../Core/Core.csproj" /></ItemGroup>
+</Project>

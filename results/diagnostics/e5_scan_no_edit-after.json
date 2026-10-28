@@ -1,0 +1,80 @@
+{
+  "file": "output\\pdf\\edited\\e5_scan_no_edit.pdf",
+  "sha256": "5383fc36e39360189d107e1569517ad4369584e0da8a94a4925a0ff0b3236d06",
+  "page_count": 1,
+  "metadata": {
+    "format": "PDF 1.3",
+    "title": "Phase 1 reproducible fixture: scanned.pdf",
+    "author": "PDF Editor feasibility",
+    "subject": "Offline synthetic test, no private data",
+    "keywords": "",
+    "creator": "anonymous",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "creationDate": "D:20000101000000+00'00'",
+    "modDate": "D:20000101000000+00'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "xml_metadata": "",
+  "toc": [],
+  "pages": [
+    {
+      "number": 1,
+      "dimensions": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_extractable": false,
+      "text": "",
+      "spans": [],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "width": 1224,
+          "height": 1584,
+          "digest": "86eaa8ce7e4143ceff211dcb1b970ff9"
+        }
+      ],
+      "classification": "scan-candidate",
+      "image_coverage_sum": 1.0,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow",
+        "No extractable text: OCR or vector analysis required before text editing"
+      ],
+      "annotations": [],
+      "links": [],
+      "drawing_count": 0
+    }
+  ]
+}

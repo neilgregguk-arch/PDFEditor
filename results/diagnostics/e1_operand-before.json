@@ -1,0 +1,351 @@
+{
+  "file": "output\\pdf\\originals\\basic.pdf",
+  "sha256": "b6f5779cd0255458b14bab48b3f373edae9d2be1b7e7a1b5a657d083a26de13f",
+  "page_count": 2,
+  "metadata": {
+    "format": "PDF 1.3",
+    "title": "Phase 1 reproducible fixture: basic.pdf",
+    "author": "PDF Editor feasibility",
+    "subject": "Offline synthetic test, no private data",
+    "keywords": "",
+    "creator": "anonymous",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "creationDate": "D:20000101000000+00'00'",
+    "modDate": "D:20000101000000+00'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "xml_metadata": "",
+  "toc": [],
+  "pages": [
+    {
+      "number": 1,
+      "dimensions": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_extractable": true,
+      "text": "Basic text replacement\nThis paragraph contains blue water beside the quiet harbour.\nA second paragraph stays at its original coordinates.\nPDF lines have positions; paragraphs need not have semantics.\nA third paragraph verifies untouched text after saving.\n",
+      "spans": [
+        {
+          "size": 20.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 1717069,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Basic text replacement",
+          "origin": [
+            50.0,
+            50.0
+          ],
+          "bbox": [
+            50.0,
+            28.599998474121094,
+            267.8599853515625,
+            56.13999938964844
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 1720435,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "This paragraph contains blue water beside the quiet harbour.",
+          "origin": [
+            50.0,
+            112.0
+          ],
+          "bbox": [
+            50.0,
+            99.0999984741211,
+            373.49591064453125,
+            115.58799743652344
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "A second paragraph stays at its original coordinates.",
+          "origin": [
+            50.0,
+            152.0
+          ],
+          "bbox": [
+            50.0,
+            139.10000610351562,
+            328.79595947265625,
+            155.58799743652344
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "PDF lines have positions; paragraphs need not have semantics.",
+          "origin": [
+            50.0,
+            172.0
+          ],
+          "bbox": [
+            50.0,
+            159.10000610351562,
+            389.4919128417969,
+            175.58799743652344
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "A third paragraph verifies untouched text after saving.",
+          "origin": [
+            50.0,
+            212.0
+          ],
+          "bbox": [
+            50.0,
+            199.10000610351562,
+            334.8079528808594,
+            215.58799743652344
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F2",
+          "basefont": "Helvetica-Bold",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F3",
+          "basefont": "Courier",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [],
+      "classification": "digital-text",
+      "image_coverage_sum": 0.0,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow"
+      ],
+      "annotations": [
+        {
+          "type": "Text",
+          "rect": [
+            500.0,
+            72.0,
+            516.0,
+            88.0
+          ],
+          "info": {
+            "content": "Keep this annotation",
+            "name": "",
+            "title": "",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "",
+            "id": ""
+          }
+        }
+      ],
+      "links": [],
+      "drawing_count": 2
+    },
+    {
+      "number": 2,
+      "dimensions": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_extractable": true,
+      "text": "Untouched second page\nThis entire page must remain visually identical.\n",
+      "spans": [
+        {
+          "size": 20.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 1717069,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Untouched second page",
+          "origin": [
+            50.0,
+            50.0
+          ],
+          "bbox": [
+            50.0,
+            28.599998474121094,
+            282.2599792480469,
+            56.13999938964844
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 8,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Courier",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "This entire page must remain visually identical.",
+          "origin": [
+            50.0,
+            112.0
+          ],
+          "bbox": [
+            50.0,
+            100.81600189208984,
+            395.60015869140625,
+            115.80400085449219
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F2",
+          "basefont": "Helvetica-Bold",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F3",
+          "basefont": "Courier",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [],
+      "classification": "digital-text",
+      "image_coverage_sum": 0.0,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow"
+      ],
+      "annotations": [],
+      "links": [],
+      "drawing_count": 0
+    }
+  ]
+}

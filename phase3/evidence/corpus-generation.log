@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-letter.pdf",
+    "generator": "ReportLab",
+    "expected": "editable paragraphs; heading and salutation separate",
+    "sha256": "f266fd28c6ca14e3eb6dce3ee6e5289975cba73ad49d7d83e322b18c631123f9"
+  },
+  {
+    "file": "02-report.pdf",
+    "generator": "ReportLab",
+    "expected": "regular, bold, coloured regions; untouched second page",
+    "sha256": "6edc3ca7169f79703cb0cc4fa892d7f3289e833bb77cae0ea674ff436f00c4a6"
+  },
+  {
+    "file": "03-adjacent.pdf",
+    "generator": "ReportLab",
+    "expected": "same-baseline labels limited; isolated text editable",
+    "sha256": "1d4e1aa60de2dcc5f523238c1ec3c6045f308f54c1e8b24ea4b12cdcfadb5982"
+  },
+  {
+    "file": "04-two-columns.pdf",
+    "generator": "ReportLab",
+    "expected": "limited; no cross-column joins",
+    "sha256": "85239229aae01337796792232135cefc9b8a206cb444448d85d403f848dcbbb2"
+  },
+  {
+    "file": "05-table.pdf",
+    "generator": "ReportLab",
+    "expected": "limited; no table cell reconstruction",
+    "sha256": "445ea58154b6c3b9ceb69d07f7ea2f09029eec8bc356ab2ab8db190f923ed43c"
+  },
+  {
+    "file": "06-ambiguous.pdf",
+    "generator": "ReportLab",
+    "expected": "limited short-line boundary; do not merge",
+    "sha256": "e5daf1e6d1336d3057fd7a319a6c42f2abde53aceb283bbd1aedb1a3ed3541b2"
+  },
+  {
+    "file": "07-rotated.pdf",
+    "generator": "ReportLab",
+    "expected": "view only transform",
+    "sha256": "05cf424fb1c9dca369f0968b9ae1ef431713c76233d8ceaddd17b806b36ec8c2"
+  },
+  {
+    "file": "08-nonembedded.pdf",
+    "generator": "ReportLab",
+    "expected": "view only font not embedded",
+    "sha256": "f7e75ba83eb2d0248794d5ddf35147f85899b2b594940bf3f918ae1005fdac69"
+  },
+  {
+    "file": "12-image-overlap.pdf",
+    "generator": "ReportLab",
+    "expected": "limited intersecting image; no automatic image movement",
+    "sha256": "d1e00c90ae931b1625c004205718a91e050a325cebd1a74f27dcb8a5ebbecded"
+  },
+  {
+    "file": "13-shuffled-order.pdf",
+    "generator": "ReportLab",
+    "expected": "editable paragraph grouped geometrically despite reversed object order",
+    "sha256": "258c166fdcbe0cf50dee8941fc41f22e2f269539502b13147a00dab6ad9a986d"
+  },
+  {
+    "file": "14-annotation.pdf",
+    "generator": "ReportLab",
+    "expected": "view only page annotation",
+    "sha256": "adef4648310e73fde1a13e13dd93822f4cd29759f674519f47d32fa664cdd390"
+  },
+  {
+    "file": "15-letter-spacing.pdf",
+    "generator": "ReportLab",
+    "expected": "view only nonnatural glyph spacing",
+    "sha256": "bf6921aee1bbc0f2a92e432ef1932d86182409208e8283e727558e3bd3f33850"
+  },
+  {
+    "file": "09-mupdf-letter.pdf",
+    "generator": "MuPDF",
+    "expected": "embedded horizontal text; missing subset glyphs blocked when unavailable",
+    "sha256": "756c3ed81a442c178581b1e7579ec7997ff1f3f3d4b5fafa8a8c0c709716b398"
+  },
+  {
+    "file": "10-mupdf-subset.pdf",
+    "generator": "MuPDF",
+    "expected": "embedded horizontal text; missing subset glyphs blocked when unavailable",
+    "sha256": "9e8f2359a5124a4d407b5fe56f0a455a7fbe91665aefce0306ab2ae56ad2af69"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "id": "e3_italic",
+  "source": "complex.pdf",
+  "output": "output\\pdf\\edited\\e3_italic.pdf",
+  "old": "elegant",
+  "new": "refined",
+  "regions": [
+    [
+      157.9520263671875,
+      124.63700103759766,
+      196.22402954101562,
+      140.50999450683594
+    ]
+  ],
+  "edit_save_ms": 17.513,
+  "method": "content-operand rewrite",
+  "encoded_occurrences": 1,
+  "advance_compensated": false,
+  "fix_metadata_version": false,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": true,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 835,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 230
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 942,
+        "outside_edit_pixels": 1,
+        "max_channel_delta": 229
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 836,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 230
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  },
+  "verification": {
+    "old_absent_mupdf": true,
+    "new_present_mupdf": true,
+    "old_absent_pdfium": true,
+    "new_present_pdfium": true,
+    "old_absent_text_operands": true,
+    "syntax_warnings": [],
+    "style": {
+      "font_before": "Times-Italic",
+      "font_after": "Times-Italic",
+      "size_before": 13.0,
+      "size_after": 13.0,
+      "color_before": 10885670,
+      "color_after": 10885670,
+      "origin_before": [
+        157.9520263671875,
+        137.0
+      ],
+      "origin_after": [
+        157.9520263671875,
+        137.0
+      ]
+    }
+  }
+}

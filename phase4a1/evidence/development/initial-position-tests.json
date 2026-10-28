@@ -1,0 +1,5220 @@
+{
+  "tests": 20,
+  "failures": 4,
+  "results": [
+    {
+      "name": "A-original-position-reconstruction",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-reconstructed-1793185046562658100.pdf"
+    },
+    {
+      "name": "B-C-equal-and-unequal-advance-reopen-second-edit",
+      "status": "pass",
+      "detail": {
+        "one": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-first-1793185046716544800.pdf",
+        "two": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-second-narrower-1793185046994131500.pdf"
+      }
+    },
+    {
+      "name": "D-refusal-longer",
+      "status": "pass",
+      "detail": {
+        "Revision": 9,
+        "Ok": true,
+        "Data": {
+          "Revision": 9,
+          "Safe": false,
+          "Diagnostic": "This line needs the original number of characters. Longer or shorter text needs spacing or wrapping this version cannot preserve. Your changes have been kept; shorten, replace or undo before saving.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "ProposedTextEligibility": "Supported",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "D-refusal-shorter",
+      "status": "pass",
+      "detail": {
+        "Revision": 11,
+        "Ok": true,
+        "Data": {
+          "Revision": 11,
+          "Safe": false,
+          "Diagnostic": "This line needs the original number of characters. Longer or shorter text needs spacing or wrapping this version cannot preserve. Your changes have been kept; shorten, replace or undo before saving.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "ProposedTextEligibility": "Supported",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "D-refusal-wider",
+      "status": "pass",
+      "detail": {
+        "Revision": 13,
+        "Ok": true,
+        "Data": {
+          "Revision": 13,
+          "Safe": false,
+          "Diagnostic": "A replacement character is wider than its original space. Nearby letters must stay in place. Your changes have been kept; shorten, replace or undo before saving.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "ProposedTextEligibility": "Supported",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "D-refusal-unmapped",
+      "status": "pass",
+      "detail": {
+        "Revision": 15,
+        "Ok": true,
+        "Data": {
+          "Revision": 15,
+          "Safe": false,
+          "Diagnostic": "The original PDF font cannot safely display one of these characters. Your changes have been kept; shorten, replace or undo before saving.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "ProposedTextEligibility": "Unsupported",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": [
+            {
+              "Unicode": 33,
+              "State": "FontPresentEncodingUnavailable",
+              "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+              "GlyphId": 4,
+              "Advance": -1
+            }
+          ]
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "D-refusal-newline",
+      "status": "pass",
+      "detail": {
+        "Revision": 17,
+        "Ok": true,
+        "Data": {
+          "Revision": 17,
+          "Safe": false,
+          "Diagnostic": "The original PDF font cannot safely display one of these characters. Your changes have been kept; shorten, replace or undo before saving.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "ProposedTextEligibility": "Unsupported",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": [
+            {
+              "Unicode": 10,
+              "State": "UnsupportedCharacter",
+              "Reason": "POSITION_ASCII_ONLY",
+              "GlyphId": null,
+              "Advance": -1
+            }
+          ]
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "D-refusal-nul",
+      "status": "pass",
+      "detail": {
+        "Revision": 19,
+        "Ok": true,
+        "Data": {
+          "Revision": 19,
+          "Safe": false,
+          "Diagnostic": "The original PDF font cannot safely display one of these characters. Your changes have been kept; shorten, replace or undo before saving.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "ProposedTextEligibility": "Unsupported",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": [
+            {
+              "Unicode": 0,
+              "State": "UnsupportedCharacter",
+              "Reason": "POSITION_ASCII_ONLY",
+              "GlyphId": null,
+              "Advance": -1
+            }
+          ]
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "Word-Word-Arial-two-generations",
+      "status": "fail",
+      "error": "AssertionError({'Revision': 21, 'Ok': False, 'Data': None, 'Error': 'Saved replacement text differs from draft layout.'})"
+    },
+    {
+      "name": "Word-Word-Calibri-two-generations",
+      "status": "fail",
+      "error": "AssertionError({'Revision': 23, 'Ok': False, 'Data': None, 'Error': 'Saved replacement text differs from draft layout.'})"
+    },
+    {
+      "name": "protected-Word-multiple-runs",
+      "status": "pass",
+      "detail": [
+        [
+          "Phase ",
+          [
+            "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+          ]
+        ],
+        [
+          "cafe ",
+          [
+            "INCOMPLETE_GLYPH_OWNERSHIP",
+            "INITIAL_TEXT_MAPPING_OR_GLYPH_UNAVAILABLE",
+            "INITIAL_OBJECT_RECONSTRUCTION_DIFFERS",
+            "GLYPH_SPACING_UNASSESSABLE",
+            "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+            "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+          ]
+        ],
+        [
+          "calm and office letter.",
+          [
+            "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+          ]
+        ],
+        [
+          "Protected reference block.",
+          [
+            "COMPLETE_OBJECT_OWNERSHIP",
+            "ORIGINAL_CHARACTER_OUTLINES_WIDTHS_AND_ENCODING_VERIFIED",
+            "VERIFIED_EXPLICIT_GLYPH_POSITIONS",
+            "CONSERVATIVE_SPACE_AVAILABLE"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "protected-adjacent-label",
+      "status": "pass",
+      "detail": [
+        [
+          "cafe calm. ",
+          [
+            "INCOMPLETE_GLYPH_OWNERSHIP",
+            "INITIAL_OBJECT_RECONSTRUCTION_DIFFERS",
+            "NON_NATURAL_GLYPH_SPACING",
+            "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+            "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+          ]
+        ],
+        [
+          "nearby label",
+          [
+            "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "protected-nearby-graphic",
+      "status": "pass",
+      "detail": [
+        [
+          "cafe calm.",
+          [
+            "GRAPHIC_IMAGE_OR_TABLE_INTERSECTION",
+            "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "protected-restricted-boundary",
+      "status": "pass",
+      "detail": [
+        [
+          "cafe calm.",
+          [
+            "INITIAL_OBJECT_RECONSTRUCTION_DIFFERS",
+            "NON_NATURAL_GLYPH_SPACING",
+            "PAGE_BOUNDARY_OR_METRICS"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "protected-visible-whitespace",
+      "status": "pass",
+      "detail": [
+        [
+          "cafe calm. ",
+          [
+            "INCOMPLETE_GLYPH_OWNERSHIP",
+            "INITIAL_TEXT_MAPPING_OR_GLYPH_UNAVAILABLE",
+            "INITIAL_OBJECT_RECONSTRUCTION_DIFFERS",
+            "GLYPH_SPACING_UNASSESSABLE",
+            "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "explicit-E-character-spacing",
+      "status": "fail",
+      "error": "AssertionError({'Revision': 30, 'Ok': True, 'Data': {'Revision': 30, 'Safe': False, 'Diagnostic': 'A replacement character is wider than its original space. Nearby letters must stay in place. Your changes have been kept; shorten, replace or undo before saving.', 'Image': None, 'Verification': None, 'Destination': None, 'ProposedTextEligibility': 'Supported', 'ExportEligibility': 'Blocked', 'GlyphIssues': []}, 'Error': None})"
+    },
+    {
+      "name": "explicit-F-kerning",
+      "status": "fail",
+      "error": "AssertionError({'Revision': 32, 'Ok': True, 'Data': {'Revision': 32, 'Safe': False, 'Diagnostic': 'A replacement character is wider than its original space. Nearby letters must stay in place. Your changes have been kept; shorten, replace or undo before saving.', 'Image': None, 'Verification': None, 'Destination': None, 'ProposedTextEligibility': 'Supported', 'ExportEligibility': 'Blocked', 'GlyphIssues': []}, 'Error': None})"
+    },
+    {
+      "name": "stale-source-hash-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 34,
+        "Ok": false,
+        "Data": null,
+        "Error": "Source changed on disk. Draft retained; reopen the source deliberately before exporting."
+      }
+    },
+    {
+      "name": "cached-immutable-observations-and-probe-cleanup",
+      "status": "pass",
+      "detail": true
+    },
+    {
+      "name": "original-and-existing-destination-protected",
+      "status": "pass",
+      "detail": true
+    }
+  ],
+  "saved": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "region": {
+        "Positioned": {
+          "OriginalGlyphs": [
+            {
+              "Index": 0,
+              "Text": "P",
+              "Bounds": {
+                "X": 72.94800567626953,
+                "Y": 74.57598876953125,
+                "Width": 6.563995361328125,
+                "Height": 8.7239990234375,
+                "Right": 79.51200103759766,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 72.02400207519531,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 1,
+              "Text": "h",
+              "Bounds": {
+                "X": 80.84400177001953,
+                "Y": 74.57598876953125,
+                "Width": 5.064002990722656,
+                "Height": 8.7239990234375,
+                "Right": 85.90800476074219,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 80.052001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 2,
+              "Text": "a",
+              "Bounds": {
+                "X": 87.19200134277344,
+                "Y": 76.843994140625,
+                "Width": 5.736000061035156,
+                "Height": 6.5880126953125,
+                "Right": 92.9280014038086,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 86.76000213623047,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 3,
+              "Text": "s",
+              "Bounds": {
+                "X": 93.84000396728516,
+                "Y": 76.843994140625,
+                "Width": 5.159996032714844,
+                "Height": 6.5880126953125,
+                "Right": 99,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 93.46800231933594,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 4,
+              "Text": "e",
+              "Bounds": {
+                "X": 99.91200256347656,
+                "Y": 76.843994140625,
+                "Width": 5.736000061035156,
+                "Height": 6.5880126953125,
+                "Right": 105.64800262451172,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 99.46800231933594,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 5,
+              "Text": " ",
+              "Bounds": {
+                "X": 106.06800842285156,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 109.40400695800781,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 106.06800842285156,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 6,
+              "Text": "3",
+              "Bounds": {
+                "X": 109.90800476074219,
+                "Y": 74.53997802734375,
+                "Width": 5.627998352050781,
+                "Height": 8.90399169921875,
+                "Right": 115.53600311279297,
+                "Bottom": 83.4439697265625
+              },
+              "OriginX": 109.40400695800781,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 7,
+              "Text": " ",
+              "Bounds": {
+                "X": 116.13600158691406,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 119.47200012207031,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 116.13600158691406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 8,
+              "Text": "O",
+              "Bounds": {
+                "X": 120.04800415039062,
+                "Y": 74.41998291015625,
+                "Width": 8.220001220703125,
+                "Height": 9.01202392578125,
+                "Right": 128.26800537109375,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 119.47200012207031,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 9,
+              "Text": "f",
+              "Bounds": {
+                "X": 128.95201110839844,
+                "Y": 74.4320068359375,
+                "Width": 3.6479949951171875,
+                "Height": 8.86798095703125,
+                "Right": 132.60000610351562,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 128.84400939941406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 10,
+              "Text": "f",
+              "Bounds": {
+                "X": 131.95201110839844,
+                "Y": 74.4320068359375,
+                "Width": 3.6479949951171875,
+                "Height": 8.86798095703125,
+                "Right": 135.60000610351562,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 131.84400939941406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 11,
+              "Text": "i",
+              "Bounds": {
+                "X": 135.9720001220703,
+                "Y": 74.57598876953125,
+                "Width": 1.0560150146484375,
+                "Height": 8.7239990234375,
+                "Right": 137.02801513671875,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 135.1800079345703,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 12,
+              "Text": "c",
+              "Bounds": {
+                "X": 138.31201171875,
+                "Y": 76.843994140625,
+                "Width": 5.423980712890625,
+                "Height": 6.5880126953125,
+                "Right": 143.73599243164062,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 137.843994140625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 13,
+              "Text": "e",
+              "Bounds": {
+                "X": 144.28799438476562,
+                "Y": 76.843994140625,
+                "Width": 5.7360076904296875,
+                "Height": 6.5880126953125,
+                "Right": 150.0240020751953,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 143.843994140625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 14,
+              "Text": " ",
+              "Bounds": {
+                "X": 150.552001953125,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 153.88800048828125,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 150.552001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 15,
+              "Text": "l",
+              "Bounds": {
+                "X": 154.656005859375,
+                "Y": 74.57598876953125,
+                "Width": 1.055999755859375,
+                "Height": 8.7239990234375,
+                "Right": 155.71200561523438,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 153.88800048828125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 16,
+              "Text": "e",
+              "Bounds": {
+                "X": 156.99600219726562,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 162.73199462890625,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 156.552001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 17,
+              "Text": "t",
+              "Bounds": {
+                "X": 163.47601318359375,
+                "Y": 74.77996826171875,
+                "Width": 3.035980224609375,
+                "Height": 8.592041015625,
+                "Right": 166.51199340820312,
+                "Bottom": 83.37200927734375
+              },
+              "OriginX": 163.260009765625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 18,
+              "Text": "t",
+              "Bounds": {
+                "X": 166.71600341796875,
+                "Y": 74.77996826171875,
+                "Width": 3.0359954833984375,
+                "Height": 8.592041015625,
+                "Right": 169.7519989013672,
+                "Bottom": 83.37200927734375
+              },
+              "OriginX": 166.5,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 19,
+              "Text": "e",
+              "Bounds": {
+                "X": 170.27999877929688,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 176.0159912109375,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 169.83599853515625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 20,
+              "Text": "r",
+              "Bounds": {
+                "X": 177.34799194335938,
+                "Y": 76.843994140625,
+                "Width": 3.384002685546875,
+                "Height": 6.45599365234375,
+                "Right": 180.73199462890625,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 176.5679931640625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            }
+          ],
+          "RelativePositions": [
+            8.028,
+            14.736,
+            21.444,
+            27.444,
+            34.044006,
+            37.380005,
+            44.112,
+            47.447998,
+            56.820007,
+            59.820007,
+            63.156006,
+            65.81999,
+            71.81999,
+            78.528,
+            81.864,
+            84.528,
+            91.23601,
+            94.476,
+            97.812,
+            104.54399
+          ],
+          "Strategy": "FixedOriginsEqualOrNarrowerSubstitution",
+          "MappingEvidence": "Unicode reverse mapping, original embedded cmap GID, outline, width, roundtrip and exact positioned object bitmap verified; no raw codes guessed.",
+          "ProtectedObjects": [
+            {
+              "Index": 1,
+              "Type": 1,
+              "Bounds": {
+                "X": 180.52999877929688,
+                "Y": 83.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 180.52999877929688,
+                "Bottom": 83.29998779296875
+              }
+            },
+            {
+              "Index": 2,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 107.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 72.02400207519531,
+                "Bottom": 107.29998779296875
+              }
+            },
+            {
+              "Index": 3,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.30000305175781,
+                "Y": 122.4320068359375,
+                "Width": 410.592041015625,
+                "Height": 11.3759765625,
+                "Right": 482.8920440673828,
+                "Bottom": 133.8079833984375
+              }
+            },
+            {
+              "Index": 4,
+              "Type": 1,
+              "Bounds": {
+                "X": 484.20001220703125,
+                "Y": 131.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 484.20001220703125,
+                "Bottom": 131.29998779296875
+              }
+            },
+            {
+              "Index": 5,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 155.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 72.02400207519531,
+                "Bottom": 155.29998779296875
+              }
+            },
+            {
+              "Index": 6,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 170.45599365234375,
+                "Width": 293.052001953125,
+                "Height": 11.23199462890625,
+                "Right": 365.0760040283203,
+                "Bottom": 181.68798828125
+              }
+            },
+            {
+              "Index": 7,
+              "Type": 1,
+              "Bounds": {
+                "X": 366.30999755859375,
+                "Y": 179.17999267578125,
+                "Width": 0,
+                "Height": 0,
+                "Right": 366.30999755859375,
+                "Bottom": 179.17999267578125
+              }
+            }
+          ],
+          "CoexistingWhitespace": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        "StructuralEligibility": "Editable",
+        "ProposedTextEligibility": "DependsOnDraft",
+        "Characters": [
+          {
+            "Unicode": 32,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 3,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 33,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 4,
+            "Advance": -1
+          },
+          {
+            "Unicode": 34,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 5,
+            "Advance": -1
+          },
+          {
+            "Unicode": 35,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 36,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 37,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 38,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 39,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 40,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 41,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 42,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 43,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 44,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 45,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 46,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 17,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 47,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 48,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 49,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 50,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 51,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 22,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 52,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 53,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 54,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 55,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 56,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 57,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 58,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 59,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 60,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 61,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 62,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 63,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 64,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 65,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 36,
+            "Advance": 8.00390625
+          },
+          {
+            "Unicode": 66,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 37,
+            "Advance": -1
+          },
+          {
+            "Unicode": 67,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 38,
+            "Advance": -1
+          },
+          {
+            "Unicode": 68,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 39,
+            "Advance": 8.666015625
+          },
+          {
+            "Unicode": 69,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 70,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 41,
+            "Advance": 7.330078125
+          },
+          {
+            "Unicode": 71,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 42,
+            "Advance": -1
+          },
+          {
+            "Unicode": 72,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 43,
+            "Advance": -1
+          },
+          {
+            "Unicode": 73,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 44,
+            "Advance": -1
+          },
+          {
+            "Unicode": 74,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 75,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 76,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 47,
+            "Advance": -1
+          },
+          {
+            "Unicode": 77,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 48,
+            "Advance": 9.99609375
+          },
+          {
+            "Unicode": 78,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 79,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 50,
+            "Advance": 9.333984375
+          },
+          {
+            "Unicode": 80,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 51,
+            "Advance": 8.00390625
+          },
+          {
+            "Unicode": 81,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 82,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 53,
+            "Advance": -1
+          },
+          {
+            "Unicode": 83,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 54,
+            "Advance": -1
+          },
+          {
+            "Unicode": 84,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 55,
+            "Advance": 7.330078125
+          },
+          {
+            "Unicode": 85,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 86,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 57,
+            "Advance": -1
+          },
+          {
+            "Unicode": 87,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 58,
+            "Advance": 11.326171875
+          },
+          {
+            "Unicode": 88,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 59,
+            "Advance": -1
+          },
+          {
+            "Unicode": 89,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 60,
+            "Advance": -1
+          },
+          {
+            "Unicode": 90,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 91,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 92,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 93,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 94,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 95,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 96,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 97,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 68,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 98,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 69,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 99,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 70,
+            "Advance": 6
+          },
+          {
+            "Unicode": 100,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 71,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 101,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 72,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 102,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 73,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 103,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 74,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 104,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 75,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 105,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 76,
+            "Advance": 2.666015625
+          },
+          {
+            "Unicode": 106,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 107,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 108,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 79,
+            "Advance": 2.666015625
+          },
+          {
+            "Unicode": 109,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 110,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 81,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 111,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 82,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 112,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 83,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 113,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 114,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 85,
+            "Advance": 3.99609375
+          },
+          {
+            "Unicode": 115,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 86,
+            "Advance": 6
+          },
+          {
+            "Unicode": 116,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 87,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 117,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 88,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 118,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 89,
+            "Advance": 6
+          },
+          {
+            "Unicode": 119,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 90,
+            "Advance": 8.666015625
+          },
+          {
+            "Unicode": 120,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 91,
+            "Advance": 6
+          },
+          {
+            "Unicode": 121,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 92,
+            "Advance": 6
+          },
+          {
+            "Unicode": 122,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 123,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 124,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 125,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 126,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          }
+        ],
+        "Id": "p0-o0",
+        "Eligibility": "Editable",
+        "Reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "ORIGINAL_CHARACTER_OUTLINES_WIDTHS_AND_ENCODING_VERIFIED",
+          "VERIFIED_EXPLICIT_GLYPH_POSITIONS",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ],
+        "Observed": [
+          "object-index:0",
+          "matrix:1,0,0,1,72.024,758.62",
+          "font-size:12",
+          "rgba:0,0,0,255",
+          "glyph-count:21",
+          "embedded-font-sha256:1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7",
+          "family:Arial",
+          "style:Normal",
+          "weight:Normal",
+          "verified-ascii-glyphs:32",
+          "POSITIONED_ORIGINAL_BITMAP_IDENTICAL_144DPI"
+        ],
+        "Inferred": [
+          "One complete text object is a candidate visual line; paragraph semantics are absent.",
+          "width:108.708; symmetric margin capped by page boundary",
+          "safe-bottom:119.432; nearest overlapping neighbour minus 3pt"
+        ],
+        "ObservedBounds": {
+          "X": 72.94800567626953,
+          "Y": 74.41998291015625,
+          "Width": 107.78398895263672,
+          "Height": 9.02398681640625,
+          "Right": 180.73199462890625,
+          "Bottom": 83.4439697265625
+        },
+        "Glyphs": [
+          {
+            "Index": 0,
+            "Text": "P",
+            "Bounds": {
+              "X": 72.94800567626953,
+              "Y": 74.57598876953125,
+              "Width": 6.563995361328125,
+              "Height": 8.7239990234375,
+              "Right": 79.51200103759766,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 72.02400207519531,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 1,
+            "Text": "h",
+            "Bounds": {
+              "X": 80.84400177001953,
+              "Y": 74.57598876953125,
+              "Width": 5.064002990722656,
+              "Height": 8.7239990234375,
+              "Right": 85.90800476074219,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 80.052001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 2,
+            "Text": "a",
+            "Bounds": {
+              "X": 87.19200134277344,
+              "Y": 76.843994140625,
+              "Width": 5.736000061035156,
+              "Height": 6.5880126953125,
+              "Right": 92.9280014038086,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 86.76000213623047,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 3,
+            "Text": "s",
+            "Bounds": {
+              "X": 93.84000396728516,
+              "Y": 76.843994140625,
+              "Width": 5.159996032714844,
+              "Height": 6.5880126953125,
+              "Right": 99,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 93.46800231933594,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 4,
+            "Text": "e",
+            "Bounds": {
+              "X": 99.91200256347656,
+              "Y": 76.843994140625,
+              "Width": 5.736000061035156,
+              "Height": 6.5880126953125,
+              "Right": 105.64800262451172,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 99.46800231933594,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 5,
+            "Text": " ",
+            "Bounds": {
+              "X": 106.06800842285156,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 109.40400695800781,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 106.06800842285156,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 6,
+            "Text": "3",
+            "Bounds": {
+              "X": 109.90800476074219,
+              "Y": 74.53997802734375,
+              "Width": 5.627998352050781,
+              "Height": 8.90399169921875,
+              "Right": 115.53600311279297,
+              "Bottom": 83.4439697265625
+            },
+            "OriginX": 109.40400695800781,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 7,
+            "Text": " ",
+            "Bounds": {
+              "X": 116.13600158691406,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 119.47200012207031,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 116.13600158691406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 8,
+            "Text": "O",
+            "Bounds": {
+              "X": 120.04800415039062,
+              "Y": 74.41998291015625,
+              "Width": 8.220001220703125,
+              "Height": 9.01202392578125,
+              "Right": 128.26800537109375,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 119.47200012207031,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 9,
+            "Text": "f",
+            "Bounds": {
+              "X": 128.95201110839844,
+              "Y": 74.4320068359375,
+              "Width": 3.6479949951171875,
+              "Height": 8.86798095703125,
+              "Right": 132.60000610351562,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 128.84400939941406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 10,
+            "Text": "f",
+            "Bounds": {
+              "X": 131.95201110839844,
+              "Y": 74.4320068359375,
+              "Width": 3.6479949951171875,
+              "Height": 8.86798095703125,
+              "Right": 135.60000610351562,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 131.84400939941406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 11,
+            "Text": "i",
+            "Bounds": {
+              "X": 135.9720001220703,
+              "Y": 74.57598876953125,
+              "Width": 1.0560150146484375,
+              "Height": 8.7239990234375,
+              "Right": 137.02801513671875,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 135.1800079345703,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 12,
+            "Text": "c",
+            "Bounds": {
+              "X": 138.31201171875,
+              "Y": 76.843994140625,
+              "Width": 5.423980712890625,
+              "Height": 6.5880126953125,
+              "Right": 143.73599243164062,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 137.843994140625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 13,
+            "Text": "e",
+            "Bounds": {
+              "X": 144.28799438476562,
+              "Y": 76.843994140625,
+              "Width": 5.7360076904296875,
+              "Height": 6.5880126953125,
+              "Right": 150.0240020751953,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 143.843994140625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 14,
+            "Text": " ",
+            "Bounds": {
+              "X": 150.552001953125,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 153.88800048828125,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 150.552001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 15,
+            "Text": "l",
+            "Bounds": {
+              "X": 154.656005859375,
+              "Y": 74.57598876953125,
+              "Width": 1.055999755859375,
+              "Height": 8.7239990234375,
+              "Right": 155.71200561523438,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 153.88800048828125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 16,
+            "Text": "e",
+            "Bounds": {
+              "X": 156.99600219726562,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 162.73199462890625,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 156.552001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 17,
+            "Text": "t",
+            "Bounds": {
+              "X": 163.47601318359375,
+              "Y": 74.77996826171875,
+              "Width": 3.035980224609375,
+              "Height": 8.592041015625,
+              "Right": 166.51199340820312,
+              "Bottom": 83.37200927734375
+            },
+            "OriginX": 163.260009765625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 18,
+            "Text": "t",
+            "Bounds": {
+              "X": 166.71600341796875,
+              "Y": 74.77996826171875,
+              "Width": 3.0359954833984375,
+              "Height": 8.592041015625,
+              "Right": 169.7519989013672,
+              "Bottom": 83.37200927734375
+            },
+            "OriginX": 166.5,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 19,
+            "Text": "e",
+            "Bounds": {
+              "X": 170.27999877929688,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 176.0159912109375,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 169.83599853515625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 20,
+            "Text": "r",
+            "Bounds": {
+              "X": 177.34799194335938,
+              "Y": 76.843994140625,
+              "Width": 3.384002685546875,
+              "Height": 6.45599365234375,
+              "Right": 180.73199462890625,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 176.5679931640625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          }
+        ],
+        "SourceHash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+        "Name": "Text object 0",
+        "Page": 0,
+        "Objects": [
+          0
+        ],
+        "OriginalLines": [
+          "Phase 3 Office letter"
+        ],
+        "X": 72.02400207519531,
+        "Baseline": 83.29998779296875,
+        "Width": 108.70799255371094,
+        "SafeBottom": 119.4320068359375,
+        "FontSize": 12,
+        "LineHeight": 18,
+        "Ascent": 10.86328125,
+        "FontHash": "1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7",
+        "FontFile": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\test-work\\suite-1793185046153492200\\fonts\\1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7\\original.ttf",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "Advances": [
+          3.333984375,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          3.333984375,
+          -1,
+          -1,
+          -1,
+          -1,
+          6.673828125,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          8.00390625,
+          -1,
+          -1,
+          8.666015625,
+          -1,
+          7.330078125,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          9.99609375,
+          -1,
+          9.333984375,
+          8.00390625,
+          -1,
+          -1,
+          -1,
+          7.330078125,
+          -1,
+          -1,
+          11.326171875,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          6.673828125,
+          6.673828125,
+          6,
+          6.673828125,
+          6.673828125,
+          3.333984375,
+          6.673828125,
+          6.673828125,
+          2.666015625,
+          -1,
+          -1,
+          2.666015625,
+          -1,
+          6.673828125,
+          6.673828125,
+          6.673828125,
+          -1,
+          3.99609375,
+          6,
+          3.333984375,
+          6.673828125,
+          6,
+          8.666015625,
+          6,
+          6,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "OriginalText": "Phase 3 Office letter",
+        "Top": 72.43670654296875
+      },
+      "draft": "Phase 3 Office letter",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-reconstructed-1793185046562658100.pdf",
+      "verification": {
+        "method": "fixed original glyph origins; original-font single-object replacement",
+        "sourceHash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+        "candidateHash": "aa8a5a29508ca3546a015fbd32bfdb68363c5be637947fbe0dbd6dd366bf4a68",
+        "revision": 2,
+        "originalObjectsRemoved": 1,
+        "newTextObjects": 1,
+        "replacementLinesMatch": true,
+        "originalFullTextAbsent": false,
+        "originalTextIntentionallyRetainedInDraft": true,
+        "fontProgramPreserved": true,
+        "maxNeighbourGeometryShiftPt": 0,
+        "maxNeighbourGlyphShiftPt": 0,
+        "maxReplacementAdvanceErrorPt": 0,
+        "replacementGlyphsVerified": true,
+        "replacementOutlinesVerified": true,
+        "savedObjectReconstructionVerified": true,
+        "changedPixels144Dpi": 0,
+        "outsidePixels144Dpi": 0,
+        "untouchedPageDifferences": 0,
+        "metadataPreserved": true,
+        "layout": {
+          "Lines": [
+            "Phase 3 Office letter"
+          ],
+          "Height": 18,
+          "Safe": true,
+          "Diagnostic": "Original letter positions retained; checking the PDF candidate.",
+          "LineBoxes": [
+            {
+              "X": 72.94800567626953,
+              "Y": 74.41998291015625,
+              "Width": 107.78398895263672,
+              "Height": 9.02398681640625,
+              "Right": 180.73199462890625,
+              "Bottom": 83.4439697265625
+            }
+          ],
+          "ReasonCodes": [],
+          "GlyphIssues": [],
+          "ProposedTextEligibility": "Supported"
+        }
+      },
+      "reconstruction": true
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "region": {
+        "Positioned": {
+          "OriginalGlyphs": [
+            {
+              "Index": 0,
+              "Text": "P",
+              "Bounds": {
+                "X": 72.94800567626953,
+                "Y": 74.57598876953125,
+                "Width": 6.563995361328125,
+                "Height": 8.7239990234375,
+                "Right": 79.51200103759766,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 72.02400207519531,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 1,
+              "Text": "h",
+              "Bounds": {
+                "X": 80.84400177001953,
+                "Y": 74.57598876953125,
+                "Width": 5.064002990722656,
+                "Height": 8.7239990234375,
+                "Right": 85.90800476074219,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 80.052001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 2,
+              "Text": "a",
+              "Bounds": {
+                "X": 87.19200134277344,
+                "Y": 76.843994140625,
+                "Width": 5.736000061035156,
+                "Height": 6.5880126953125,
+                "Right": 92.9280014038086,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 86.76000213623047,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 3,
+              "Text": "s",
+              "Bounds": {
+                "X": 93.84000396728516,
+                "Y": 76.843994140625,
+                "Width": 5.159996032714844,
+                "Height": 6.5880126953125,
+                "Right": 99,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 93.46800231933594,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 4,
+              "Text": "e",
+              "Bounds": {
+                "X": 99.91200256347656,
+                "Y": 76.843994140625,
+                "Width": 5.736000061035156,
+                "Height": 6.5880126953125,
+                "Right": 105.64800262451172,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 99.46800231933594,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 5,
+              "Text": " ",
+              "Bounds": {
+                "X": 106.06800842285156,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 109.40400695800781,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 106.06800842285156,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 6,
+              "Text": "3",
+              "Bounds": {
+                "X": 109.90800476074219,
+                "Y": 74.53997802734375,
+                "Width": 5.627998352050781,
+                "Height": 8.90399169921875,
+                "Right": 115.53600311279297,
+                "Bottom": 83.4439697265625
+              },
+              "OriginX": 109.40400695800781,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 7,
+              "Text": " ",
+              "Bounds": {
+                "X": 116.13600158691406,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 119.47200012207031,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 116.13600158691406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 8,
+              "Text": "O",
+              "Bounds": {
+                "X": 120.04800415039062,
+                "Y": 74.41998291015625,
+                "Width": 8.220001220703125,
+                "Height": 9.01202392578125,
+                "Right": 128.26800537109375,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 119.47200012207031,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 9,
+              "Text": "f",
+              "Bounds": {
+                "X": 128.95201110839844,
+                "Y": 74.4320068359375,
+                "Width": 3.6479949951171875,
+                "Height": 8.86798095703125,
+                "Right": 132.60000610351562,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 128.84400939941406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 10,
+              "Text": "f",
+              "Bounds": {
+                "X": 131.95201110839844,
+                "Y": 74.4320068359375,
+                "Width": 3.6479949951171875,
+                "Height": 8.86798095703125,
+                "Right": 135.60000610351562,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 131.84400939941406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 11,
+              "Text": "i",
+              "Bounds": {
+                "X": 135.9720001220703,
+                "Y": 74.57598876953125,
+                "Width": 1.0560150146484375,
+                "Height": 8.7239990234375,
+                "Right": 137.02801513671875,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 135.1800079345703,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 12,
+              "Text": "c",
+              "Bounds": {
+                "X": 138.31201171875,
+                "Y": 76.843994140625,
+                "Width": 5.423980712890625,
+                "Height": 6.5880126953125,
+                "Right": 143.73599243164062,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 137.843994140625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 13,
+              "Text": "e",
+              "Bounds": {
+                "X": 144.28799438476562,
+                "Y": 76.843994140625,
+                "Width": 5.7360076904296875,
+                "Height": 6.5880126953125,
+                "Right": 150.0240020751953,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 143.843994140625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 14,
+              "Text": " ",
+              "Bounds": {
+                "X": 150.552001953125,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 153.88800048828125,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 150.552001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 15,
+              "Text": "l",
+              "Bounds": {
+                "X": 154.656005859375,
+                "Y": 74.57598876953125,
+                "Width": 1.055999755859375,
+                "Height": 8.7239990234375,
+                "Right": 155.71200561523438,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 153.88800048828125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 16,
+              "Text": "e",
+              "Bounds": {
+                "X": 156.99600219726562,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 162.73199462890625,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 156.552001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 17,
+              "Text": "t",
+              "Bounds": {
+                "X": 163.47601318359375,
+                "Y": 74.77996826171875,
+                "Width": 3.035980224609375,
+                "Height": 8.592041015625,
+                "Right": 166.51199340820312,
+                "Bottom": 83.37200927734375
+              },
+              "OriginX": 163.260009765625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 18,
+              "Text": "t",
+              "Bounds": {
+                "X": 166.71600341796875,
+                "Y": 74.77996826171875,
+                "Width": 3.0359954833984375,
+                "Height": 8.592041015625,
+                "Right": 169.7519989013672,
+                "Bottom": 83.37200927734375
+              },
+              "OriginX": 166.5,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 19,
+              "Text": "e",
+              "Bounds": {
+                "X": 170.27999877929688,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 176.0159912109375,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 169.83599853515625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            },
+            {
+              "Index": 20,
+              "Text": "r",
+              "Bounds": {
+                "X": 177.34799194335938,
+                "Y": 76.843994140625,
+                "Width": 3.384002685546875,
+                "Height": 6.45599365234375,
+                "Right": 180.73199462890625,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 176.5679931640625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 0
+            }
+          ],
+          "RelativePositions": [
+            8.028,
+            14.736,
+            21.444,
+            27.444,
+            34.044006,
+            37.380005,
+            44.112,
+            47.447998,
+            56.820007,
+            59.820007,
+            63.156006,
+            65.81999,
+            71.81999,
+            78.528,
+            81.864,
+            84.528,
+            91.23601,
+            94.476,
+            97.812,
+            104.54399
+          ],
+          "Strategy": "FixedOriginsEqualOrNarrowerSubstitution",
+          "MappingEvidence": "Unicode reverse mapping, original embedded cmap GID, outline, width, roundtrip and exact positioned object bitmap verified; no raw codes guessed.",
+          "ProtectedObjects": [
+            {
+              "Index": 1,
+              "Type": 1,
+              "Bounds": {
+                "X": 180.52999877929688,
+                "Y": 83.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 180.52999877929688,
+                "Bottom": 83.29998779296875
+              }
+            },
+            {
+              "Index": 2,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 107.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 72.02400207519531,
+                "Bottom": 107.29998779296875
+              }
+            },
+            {
+              "Index": 3,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.30000305175781,
+                "Y": 122.4320068359375,
+                "Width": 410.592041015625,
+                "Height": 11.3759765625,
+                "Right": 482.8920440673828,
+                "Bottom": 133.8079833984375
+              }
+            },
+            {
+              "Index": 4,
+              "Type": 1,
+              "Bounds": {
+                "X": 484.20001220703125,
+                "Y": 131.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 484.20001220703125,
+                "Bottom": 131.29998779296875
+              }
+            },
+            {
+              "Index": 5,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 155.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 72.02400207519531,
+                "Bottom": 155.29998779296875
+              }
+            },
+            {
+              "Index": 6,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 170.45599365234375,
+                "Width": 293.052001953125,
+                "Height": 11.23199462890625,
+                "Right": 365.0760040283203,
+                "Bottom": 181.68798828125
+              }
+            },
+            {
+              "Index": 7,
+              "Type": 1,
+              "Bounds": {
+                "X": 366.30999755859375,
+                "Y": 179.17999267578125,
+                "Width": 0,
+                "Height": 0,
+                "Right": 366.30999755859375,
+                "Bottom": 179.17999267578125
+              }
+            }
+          ],
+          "CoexistingWhitespace": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        "StructuralEligibility": "Editable",
+        "ProposedTextEligibility": "DependsOnDraft",
+        "Characters": [
+          {
+            "Unicode": 32,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 3,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 33,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 4,
+            "Advance": -1
+          },
+          {
+            "Unicode": 34,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 5,
+            "Advance": -1
+          },
+          {
+            "Unicode": 35,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 36,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 37,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 38,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 39,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 40,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 41,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 42,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 43,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 44,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 45,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 46,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 17,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 47,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 48,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 49,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 50,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 51,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 22,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 52,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 53,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 54,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 55,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 56,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 57,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 58,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 59,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 60,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 61,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 62,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 63,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 64,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 65,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 36,
+            "Advance": 8.00390625
+          },
+          {
+            "Unicode": 66,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 37,
+            "Advance": -1
+          },
+          {
+            "Unicode": 67,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 38,
+            "Advance": -1
+          },
+          {
+            "Unicode": 68,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 39,
+            "Advance": 8.666015625
+          },
+          {
+            "Unicode": 69,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 70,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 41,
+            "Advance": 7.330078125
+          },
+          {
+            "Unicode": 71,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 42,
+            "Advance": -1
+          },
+          {
+            "Unicode": 72,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 43,
+            "Advance": -1
+          },
+          {
+            "Unicode": 73,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 44,
+            "Advance": -1
+          },
+          {
+            "Unicode": 74,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 75,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 76,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 47,
+            "Advance": -1
+          },
+          {
+            "Unicode": 77,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 48,
+            "Advance": 9.99609375
+          },
+          {
+            "Unicode": 78,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 79,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 50,
+            "Advance": 9.333984375
+          },
+          {
+            "Unicode": 80,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 51,
+            "Advance": 8.00390625
+          },
+          {
+            "Unicode": 81,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 82,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 53,
+            "Advance": -1
+          },
+          {
+            "Unicode": 83,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 54,
+            "Advance": -1
+          },
+          {
+            "Unicode": 84,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 55,
+            "Advance": 7.330078125
+          },
+          {
+            "Unicode": 85,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 86,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 57,
+            "Advance": -1
+          },
+          {
+            "Unicode": 87,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 58,
+            "Advance": 11.326171875
+          },
+          {
+            "Unicode": 88,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 59,
+            "Advance": -1
+          },
+          {
+            "Unicode": 89,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 60,
+            "Advance": -1
+          },
+          {
+            "Unicode": 90,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 91,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 92,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 93,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 94,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 95,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 96,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 97,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 68,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 98,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 69,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 99,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 70,
+            "Advance": 6
+          },
+          {
+            "Unicode": 100,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 71,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 101,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 72,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 102,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 73,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 103,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 74,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 104,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 75,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 105,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 76,
+            "Advance": 2.666015625
+          },
+          {
+            "Unicode": 106,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 107,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 108,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 79,
+            "Advance": 2.666015625
+          },
+          {
+            "Unicode": 109,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 110,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 81,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 111,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 82,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 112,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 83,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 113,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 114,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 85,
+            "Advance": 3.99609375
+          },
+          {
+            "Unicode": 115,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 86,
+            "Advance": 6
+          },
+          {
+            "Unicode": 116,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 87,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 117,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 88,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 118,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 89,
+            "Advance": 6
+          },
+          {
+            "Unicode": 119,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 90,
+            "Advance": 8.666015625
+          },
+          {
+            "Unicode": 120,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 91,
+            "Advance": 6
+          },
+          {
+            "Unicode": 121,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 92,
+            "Advance": 6
+          },
+          {
+            "Unicode": 122,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 123,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 124,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 125,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 126,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          }
+        ],
+        "Id": "p0-o0",
+        "Eligibility": "Editable",
+        "Reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "ORIGINAL_CHARACTER_OUTLINES_WIDTHS_AND_ENCODING_VERIFIED",
+          "VERIFIED_EXPLICIT_GLYPH_POSITIONS",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ],
+        "Observed": [
+          "object-index:0",
+          "matrix:1,0,0,1,72.024,758.62",
+          "font-size:12",
+          "rgba:0,0,0,255",
+          "glyph-count:21",
+          "embedded-font-sha256:1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7",
+          "family:Arial",
+          "style:Normal",
+          "weight:Normal",
+          "verified-ascii-glyphs:32",
+          "POSITIONED_ORIGINAL_BITMAP_IDENTICAL_144DPI"
+        ],
+        "Inferred": [
+          "One complete text object is a candidate visual line; paragraph semantics are absent.",
+          "width:108.708; symmetric margin capped by page boundary",
+          "safe-bottom:119.432; nearest overlapping neighbour minus 3pt"
+        ],
+        "ObservedBounds": {
+          "X": 72.94800567626953,
+          "Y": 74.41998291015625,
+          "Width": 107.78398895263672,
+          "Height": 9.02398681640625,
+          "Right": 180.73199462890625,
+          "Bottom": 83.4439697265625
+        },
+        "Glyphs": [
+          {
+            "Index": 0,
+            "Text": "P",
+            "Bounds": {
+              "X": 72.94800567626953,
+              "Y": 74.57598876953125,
+              "Width": 6.563995361328125,
+              "Height": 8.7239990234375,
+              "Right": 79.51200103759766,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 72.02400207519531,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 1,
+            "Text": "h",
+            "Bounds": {
+              "X": 80.84400177001953,
+              "Y": 74.57598876953125,
+              "Width": 5.064002990722656,
+              "Height": 8.7239990234375,
+              "Right": 85.90800476074219,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 80.052001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 2,
+            "Text": "a",
+            "Bounds": {
+              "X": 87.19200134277344,
+              "Y": 76.843994140625,
+              "Width": 5.736000061035156,
+              "Height": 6.5880126953125,
+              "Right": 92.9280014038086,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 86.76000213623047,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 3,
+            "Text": "s",
+            "Bounds": {
+              "X": 93.84000396728516,
+              "Y": 76.843994140625,
+              "Width": 5.159996032714844,
+              "Height": 6.5880126953125,
+              "Right": 99,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 93.46800231933594,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 4,
+            "Text": "e",
+            "Bounds": {
+              "X": 99.91200256347656,
+              "Y": 76.843994140625,
+              "Width": 5.736000061035156,
+              "Height": 6.5880126953125,
+              "Right": 105.64800262451172,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 99.46800231933594,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 5,
+            "Text": " ",
+            "Bounds": {
+              "X": 106.06800842285156,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 109.40400695800781,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 106.06800842285156,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 6,
+            "Text": "3",
+            "Bounds": {
+              "X": 109.90800476074219,
+              "Y": 74.53997802734375,
+              "Width": 5.627998352050781,
+              "Height": 8.90399169921875,
+              "Right": 115.53600311279297,
+              "Bottom": 83.4439697265625
+            },
+            "OriginX": 109.40400695800781,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 7,
+            "Text": " ",
+            "Bounds": {
+              "X": 116.13600158691406,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 119.47200012207031,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 116.13600158691406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 8,
+            "Text": "O",
+            "Bounds": {
+              "X": 120.04800415039062,
+              "Y": 74.41998291015625,
+              "Width": 8.220001220703125,
+              "Height": 9.01202392578125,
+              "Right": 128.26800537109375,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 119.47200012207031,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 9,
+            "Text": "f",
+            "Bounds": {
+              "X": 128.95201110839844,
+              "Y": 74.4320068359375,
+              "Width": 3.6479949951171875,
+              "Height": 8.86798095703125,
+              "Right": 132.60000610351562,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 128.84400939941406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 10,
+            "Text": "f",
+            "Bounds": {
+              "X": 131.95201110839844,
+              "Y": 74.4320068359375,
+              "Width": 3.6479949951171875,
+              "Height": 8.86798095703125,
+              "Right": 135.60000610351562,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 131.84400939941406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 11,
+            "Text": "i",
+            "Bounds": {
+              "X": 135.9720001220703,
+              "Y": 74.57598876953125,
+              "Width": 1.0560150146484375,
+              "Height": 8.7239990234375,
+              "Right": 137.02801513671875,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 135.1800079345703,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 12,
+            "Text": "c",
+            "Bounds": {
+              "X": 138.31201171875,
+              "Y": 76.843994140625,
+              "Width": 5.423980712890625,
+              "Height": 6.5880126953125,
+              "Right": 143.73599243164062,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 137.843994140625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 13,
+            "Text": "e",
+            "Bounds": {
+              "X": 144.28799438476562,
+              "Y": 76.843994140625,
+              "Width": 5.7360076904296875,
+              "Height": 6.5880126953125,
+              "Right": 150.0240020751953,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 143.843994140625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 14,
+            "Text": " ",
+            "Bounds": {
+              "X": 150.552001953125,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 153.88800048828125,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 150.552001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 15,
+            "Text": "l",
+            "Bounds": {
+              "X": 154.656005859375,
+              "Y": 74.57598876953125,
+              "Width": 1.055999755859375,
+              "Height": 8.7239990234375,
+              "Right": 155.71200561523438,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 153.88800048828125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 16,
+            "Text": "e",
+            "Bounds": {
+              "X": 156.99600219726562,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 162.73199462890625,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 156.552001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 17,
+            "Text": "t",
+            "Bounds": {
+              "X": 163.47601318359375,
+              "Y": 74.77996826171875,
+              "Width": 3.035980224609375,
+              "Height": 8.592041015625,
+              "Right": 166.51199340820312,
+              "Bottom": 83.37200927734375
+            },
+            "OriginX": 163.260009765625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 18,
+            "Text": "t",
+            "Bounds": {
+              "X": 166.71600341796875,
+              "Y": 74.77996826171875,
+              "Width": 3.0359954833984375,
+              "Height": 8.592041015625,
+              "Right": 169.7519989013672,
+              "Bottom": 83.37200927734375
+            },
+            "OriginX": 166.5,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 19,
+            "Text": "e",
+            "Bounds": {
+              "X": 170.27999877929688,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 176.0159912109375,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 169.83599853515625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          },
+          {
+            "Index": 20,
+            "Text": "r",
+            "Bounds": {
+              "X": 177.34799194335938,
+              "Y": 76.843994140625,
+              "Width": 3.384002685546875,
+              "Height": 6.45599365234375,
+              "Right": 180.73199462890625,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 176.5679931640625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 0
+          }
+        ],
+        "SourceHash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+        "Name": "Text object 0",
+        "Page": 0,
+        "Objects": [
+          0
+        ],
+        "OriginalLines": [
+          "Phase 3 Office letter"
+        ],
+        "X": 72.02400207519531,
+        "Baseline": 83.29998779296875,
+        "Width": 108.70799255371094,
+        "SafeBottom": 119.4320068359375,
+        "FontSize": 12,
+        "LineHeight": 18,
+        "Ascent": 10.86328125,
+        "FontHash": "1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7",
+        "FontFile": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\test-work\\suite-1793185046153492200\\fonts\\1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7\\original.ttf",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "Advances": [
+          3.333984375,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          3.333984375,
+          -1,
+          -1,
+          -1,
+          -1,
+          6.673828125,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          8.00390625,
+          -1,
+          -1,
+          8.666015625,
+          -1,
+          7.330078125,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          9.99609375,
+          -1,
+          9.333984375,
+          8.00390625,
+          -1,
+          -1,
+          -1,
+          7.330078125,
+          -1,
+          -1,
+          11.326171875,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          6.673828125,
+          6.673828125,
+          6,
+          6.673828125,
+          6.673828125,
+          3.333984375,
+          6.673828125,
+          6.673828125,
+          2.666015625,
+          -1,
+          -1,
+          2.666015625,
+          -1,
+          6.673828125,
+          6.673828125,
+          6.673828125,
+          -1,
+          3.99609375,
+          6,
+          3.333984375,
+          6.673828125,
+          6,
+          8.666015625,
+          6,
+          6,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "OriginalText": "Phase 3 Office letter",
+        "Top": 72.43670654296875
+      },
+      "draft": "Phace 3 Office letter",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-first-1793185046716544800.pdf",
+      "verification": {
+        "method": "fixed original glyph origins; original-font single-object replacement",
+        "sourceHash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+        "candidateHash": "36c1845c5530d7450d42d50e52394debe1b08d2346f05551a5226de4ee6a7b87",
+        "revision": 4,
+        "originalObjectsRemoved": 1,
+        "newTextObjects": 1,
+        "replacementLinesMatch": true,
+        "originalFullTextAbsent": true,
+        "originalTextIntentionallyRetainedInDraft": false,
+        "fontProgramPreserved": true,
+        "maxNeighbourGeometryShiftPt": 0,
+        "maxNeighbourGlyphShiftPt": 0,
+        "maxReplacementAdvanceErrorPt": 0,
+        "replacementGlyphsVerified": true,
+        "replacementOutlinesVerified": true,
+        "savedObjectReconstructionVerified": true,
+        "changedPixels144Dpi": 106,
+        "outsidePixels144Dpi": 0,
+        "untouchedPageDifferences": 0,
+        "metadataPreserved": true,
+        "layout": {
+          "Lines": [
+            "Phace 3 Office letter"
+          ],
+          "Height": 18,
+          "Safe": true,
+          "Diagnostic": "Original letter positions retained; checking the PDF candidate.",
+          "LineBoxes": [
+            {
+              "X": 72.94800567626953,
+              "Y": 74.41998291015625,
+              "Width": 107.78398895263672,
+              "Height": 9.02398681640625,
+              "Right": 180.73199462890625,
+              "Bottom": 83.4439697265625
+            }
+          ],
+          "ReasonCodes": [],
+          "GlyphIssues": [],
+          "ProposedTextEligibility": "Supported"
+        }
+      },
+      "reconstruction": false
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-first-1793185046716544800.pdf",
+      "region": {
+        "Positioned": {
+          "OriginalGlyphs": [
+            {
+              "Index": 0,
+              "Text": "P",
+              "Bounds": {
+                "X": 72.94800567626953,
+                "Y": 74.57598876953125,
+                "Width": 6.563995361328125,
+                "Height": 8.7239990234375,
+                "Right": 79.51200103759766,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 72.02400207519531,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 1,
+              "Text": "h",
+              "Bounds": {
+                "X": 80.84400177001953,
+                "Y": 74.57598876953125,
+                "Width": 5.064002990722656,
+                "Height": 8.7239990234375,
+                "Right": 85.90800476074219,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 80.052001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 2,
+              "Text": "a",
+              "Bounds": {
+                "X": 87.19200134277344,
+                "Y": 76.843994140625,
+                "Width": 5.736000061035156,
+                "Height": 6.5880126953125,
+                "Right": 92.9280014038086,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 86.76000213623047,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 3,
+              "Text": "c",
+              "Bounds": {
+                "X": 93.93600463867188,
+                "Y": 76.843994140625,
+                "Width": 5.4239959716796875,
+                "Height": 6.5880126953125,
+                "Right": 99.36000061035156,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 93.46800231933594,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 4,
+              "Text": "e",
+              "Bounds": {
+                "X": 99.91200256347656,
+                "Y": 76.843994140625,
+                "Width": 5.736000061035156,
+                "Height": 6.5880126953125,
+                "Right": 105.64800262451172,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 99.46800231933594,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 5,
+              "Text": " ",
+              "Bounds": {
+                "X": 106.06800842285156,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 109.40400695800781,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 106.06800842285156,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 6,
+              "Text": "3",
+              "Bounds": {
+                "X": 109.90800476074219,
+                "Y": 74.53997802734375,
+                "Width": 5.6280059814453125,
+                "Height": 8.90399169921875,
+                "Right": 115.5360107421875,
+                "Bottom": 83.4439697265625
+              },
+              "OriginX": 109.40400695800781,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 7,
+              "Text": " ",
+              "Bounds": {
+                "X": 116.13600158691406,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 119.47200012207031,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 116.13600158691406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 8,
+              "Text": "O",
+              "Bounds": {
+                "X": 120.04800415039062,
+                "Y": 74.41998291015625,
+                "Width": 8.220001220703125,
+                "Height": 9.01202392578125,
+                "Right": 128.26800537109375,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 119.47200012207031,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 9,
+              "Text": "f",
+              "Bounds": {
+                "X": 128.95201110839844,
+                "Y": 74.4320068359375,
+                "Width": 3.6479949951171875,
+                "Height": 8.86798095703125,
+                "Right": 132.60000610351562,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 128.84400939941406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 10,
+              "Text": "f",
+              "Bounds": {
+                "X": 131.95201110839844,
+                "Y": 74.4320068359375,
+                "Width": 3.6479949951171875,
+                "Height": 8.86798095703125,
+                "Right": 135.60000610351562,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 131.84400939941406,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 11,
+              "Text": "i",
+              "Bounds": {
+                "X": 135.97201538085938,
+                "Y": 74.57598876953125,
+                "Width": 1.055999755859375,
+                "Height": 8.7239990234375,
+                "Right": 137.02801513671875,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 135.1800079345703,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 12,
+              "Text": "c",
+              "Bounds": {
+                "X": 138.31199645996094,
+                "Y": 76.843994140625,
+                "Width": 5.4239959716796875,
+                "Height": 6.5880126953125,
+                "Right": 143.73599243164062,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 137.843994140625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 13,
+              "Text": "e",
+              "Bounds": {
+                "X": 144.28799438476562,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 150.02398681640625,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 143.843994140625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 14,
+              "Text": " ",
+              "Bounds": {
+                "X": 150.552001953125,
+                "Y": 83.2879638671875,
+                "Width": 3.33599853515625,
+                "Height": 0.01202392578125,
+                "Right": 153.88800048828125,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 150.552001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 15,
+              "Text": "l",
+              "Bounds": {
+                "X": 154.656005859375,
+                "Y": 74.57598876953125,
+                "Width": 1.055999755859375,
+                "Height": 8.7239990234375,
+                "Right": 155.71200561523438,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 153.88800048828125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 16,
+              "Text": "e",
+              "Bounds": {
+                "X": 156.99600219726562,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 162.73199462890625,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 156.552001953125,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 17,
+              "Text": "t",
+              "Bounds": {
+                "X": 163.47601318359375,
+                "Y": 74.77996826171875,
+                "Width": 3.0359954833984375,
+                "Height": 8.592041015625,
+                "Right": 166.5120086669922,
+                "Bottom": 83.37200927734375
+              },
+              "OriginX": 163.260009765625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 18,
+              "Text": "t",
+              "Bounds": {
+                "X": 166.71600341796875,
+                "Y": 74.77996826171875,
+                "Width": 3.0359954833984375,
+                "Height": 8.592041015625,
+                "Right": 169.7519989013672,
+                "Bottom": 83.37200927734375
+              },
+              "OriginX": 166.5,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 19,
+              "Text": "e",
+              "Bounds": {
+                "X": 170.27999877929688,
+                "Y": 76.843994140625,
+                "Width": 5.735992431640625,
+                "Height": 6.5880126953125,
+                "Right": 176.0159912109375,
+                "Bottom": 83.4320068359375
+              },
+              "OriginX": 169.83599853515625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            },
+            {
+              "Index": 20,
+              "Text": "r",
+              "Bounds": {
+                "X": 177.34799194335938,
+                "Y": 76.843994140625,
+                "Width": 3.384002685546875,
+                "Height": 6.45599365234375,
+                "Right": 180.73199462890625,
+                "Bottom": 83.29998779296875
+              },
+              "OriginX": 176.5679931640625,
+              "Baseline": 83.29998779296875,
+              "ObjectIndex": 7
+            }
+          ],
+          "RelativePositions": [
+            8.028,
+            14.736,
+            21.444,
+            27.444,
+            34.044006,
+            37.380005,
+            44.112,
+            47.447998,
+            56.820007,
+            59.820007,
+            63.156006,
+            65.81999,
+            71.81999,
+            78.528,
+            81.864,
+            84.528,
+            91.23601,
+            94.476,
+            97.812,
+            104.54399
+          ],
+          "Strategy": "FixedOriginsEqualOrNarrowerSubstitution",
+          "MappingEvidence": "Unicode reverse mapping, original embedded cmap GID, outline, width, roundtrip and exact positioned object bitmap verified; no raw codes guessed.",
+          "ProtectedObjects": [
+            {
+              "Index": 0,
+              "Type": 1,
+              "Bounds": {
+                "X": 180.52999877929688,
+                "Y": 83.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 180.52999877929688,
+                "Bottom": 83.29998779296875
+              }
+            },
+            {
+              "Index": 1,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 107.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 72.02400207519531,
+                "Bottom": 107.29998779296875
+              }
+            },
+            {
+              "Index": 2,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.30000305175781,
+                "Y": 122.4320068359375,
+                "Width": 410.592041015625,
+                "Height": 11.3759765625,
+                "Right": 482.8920440673828,
+                "Bottom": 133.8079833984375
+              }
+            },
+            {
+              "Index": 3,
+              "Type": 1,
+              "Bounds": {
+                "X": 484.20001220703125,
+                "Y": 131.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 484.20001220703125,
+                "Bottom": 131.29998779296875
+              }
+            },
+            {
+              "Index": 4,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 155.29998779296875,
+                "Width": 0,
+                "Height": 0,
+                "Right": 72.02400207519531,
+                "Bottom": 155.29998779296875
+              }
+            },
+            {
+              "Index": 5,
+              "Type": 1,
+              "Bounds": {
+                "X": 72.02400207519531,
+                "Y": 170.45599365234375,
+                "Width": 293.052001953125,
+                "Height": 11.23199462890625,
+                "Right": 365.0760040283203,
+                "Bottom": 181.68798828125
+              }
+            },
+            {
+              "Index": 6,
+              "Type": 1,
+              "Bounds": {
+                "X": 366.30999755859375,
+                "Y": 179.17999267578125,
+                "Width": 0,
+                "Height": 0,
+                "Right": 366.30999755859375,
+                "Bottom": 179.17999267578125
+              }
+            }
+          ],
+          "CoexistingWhitespace": [
+            0,
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "StructuralEligibility": "Editable",
+        "ProposedTextEligibility": "DependsOnDraft",
+        "Characters": [
+          {
+            "Unicode": 32,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 3,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 33,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 4,
+            "Advance": -1
+          },
+          {
+            "Unicode": 34,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 5,
+            "Advance": -1
+          },
+          {
+            "Unicode": 35,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 36,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 37,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 38,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 39,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 40,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 41,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 42,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 43,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 44,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 45,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 46,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 17,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 47,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 48,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 49,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 50,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 51,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 22,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 52,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 53,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 54,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 55,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 56,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 57,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 58,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 59,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 60,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 61,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 62,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 63,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 64,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 65,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 36,
+            "Advance": 8.00390625
+          },
+          {
+            "Unicode": 66,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 37,
+            "Advance": -1
+          },
+          {
+            "Unicode": 67,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 38,
+            "Advance": -1
+          },
+          {
+            "Unicode": 68,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 39,
+            "Advance": 8.666015625
+          },
+          {
+            "Unicode": 69,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 70,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 41,
+            "Advance": 7.330078125
+          },
+          {
+            "Unicode": 71,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 42,
+            "Advance": -1
+          },
+          {
+            "Unicode": 72,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 43,
+            "Advance": -1
+          },
+          {
+            "Unicode": 73,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 44,
+            "Advance": -1
+          },
+          {
+            "Unicode": 74,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 75,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 76,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 47,
+            "Advance": -1
+          },
+          {
+            "Unicode": 77,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 48,
+            "Advance": 9.99609375
+          },
+          {
+            "Unicode": 78,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 79,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 50,
+            "Advance": 9.333984375
+          },
+          {
+            "Unicode": 80,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 51,
+            "Advance": 8.00390625
+          },
+          {
+            "Unicode": 81,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 82,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 53,
+            "Advance": -1
+          },
+          {
+            "Unicode": 83,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 54,
+            "Advance": -1
+          },
+          {
+            "Unicode": 84,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 55,
+            "Advance": 7.330078125
+          },
+          {
+            "Unicode": 85,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 86,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 57,
+            "Advance": -1
+          },
+          {
+            "Unicode": 87,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 58,
+            "Advance": 11.326171875
+          },
+          {
+            "Unicode": 88,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 59,
+            "Advance": -1
+          },
+          {
+            "Unicode": 89,
+            "State": "FontPresentEncodingUnavailable",
+            "Reason": "PDF_ENCODING_ROUNDTRIP_FAILED",
+            "GlyphId": 60,
+            "Advance": -1
+          },
+          {
+            "Unicode": 90,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 91,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 92,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 93,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 94,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 95,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 96,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 97,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 68,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 98,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 69,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 99,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 70,
+            "Advance": 6
+          },
+          {
+            "Unicode": 100,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 71,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 101,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 72,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 102,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 73,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 103,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 74,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 104,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 75,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 105,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 76,
+            "Advance": 2.666015625
+          },
+          {
+            "Unicode": 106,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 107,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 108,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 79,
+            "Advance": 2.666015625
+          },
+          {
+            "Unicode": 109,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 110,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 81,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 111,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 82,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 112,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 83,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 113,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 114,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 85,
+            "Advance": 3.99609375
+          },
+          {
+            "Unicode": 115,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 86,
+            "Advance": 6
+          },
+          {
+            "Unicode": 116,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 87,
+            "Advance": 3.333984375
+          },
+          {
+            "Unicode": 117,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 88,
+            "Advance": 6.673828125
+          },
+          {
+            "Unicode": 118,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 89,
+            "Advance": 6
+          },
+          {
+            "Unicode": 119,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 90,
+            "Advance": 8.666015625
+          },
+          {
+            "Unicode": 120,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 91,
+            "Advance": 6
+          },
+          {
+            "Unicode": 121,
+            "State": "ExistingMappingVerified",
+            "Reason": "UNICODE_OUTLINE_AND_WIDTH_VERIFIED",
+            "GlyphId": 92,
+            "Advance": 6
+          },
+          {
+            "Unicode": 122,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 123,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 124,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 125,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          },
+          {
+            "Unicode": 126,
+            "State": "AbsentFromEmbeddedSubset",
+            "Reason": "GLYPH_ABSENT_FROM_FONT_CMAP",
+            "GlyphId": null,
+            "Advance": -1
+          }
+        ],
+        "Id": "p0-o7",
+        "Eligibility": "Editable",
+        "Reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "ORIGINAL_CHARACTER_OUTLINES_WIDTHS_AND_ENCODING_VERIFIED",
+          "VERIFIED_EXPLICIT_GLYPH_POSITIONS",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ],
+        "Observed": [
+          "object-index:7",
+          "matrix:1,0,0,1,72.024,758.62",
+          "font-size:12",
+          "rgba:0,0,0,255",
+          "glyph-count:21",
+          "embedded-font-sha256:1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7",
+          "family:Arial",
+          "style:Normal",
+          "weight:Normal",
+          "verified-ascii-glyphs:32",
+          "POSITIONED_ORIGINAL_BITMAP_IDENTICAL_144DPI"
+        ],
+        "Inferred": [
+          "One complete text object is a candidate visual line; paragraph semantics are absent.",
+          "width:108.708; symmetric margin capped by page boundary",
+          "safe-bottom:119.432; nearest overlapping neighbour minus 3pt"
+        ],
+        "ObservedBounds": {
+          "X": 72.94800567626953,
+          "Y": 74.41998291015625,
+          "Width": 107.78398895263672,
+          "Height": 9.02398681640625,
+          "Right": 180.73199462890625,
+          "Bottom": 83.4439697265625
+        },
+        "Glyphs": [
+          {
+            "Index": 0,
+            "Text": "P",
+            "Bounds": {
+              "X": 72.94800567626953,
+              "Y": 74.57598876953125,
+              "Width": 6.563995361328125,
+              "Height": 8.7239990234375,
+              "Right": 79.51200103759766,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 72.02400207519531,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 1,
+            "Text": "h",
+            "Bounds": {
+              "X": 80.84400177001953,
+              "Y": 74.57598876953125,
+              "Width": 5.064002990722656,
+              "Height": 8.7239990234375,
+              "Right": 85.90800476074219,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 80.052001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 2,
+            "Text": "a",
+            "Bounds": {
+              "X": 87.19200134277344,
+              "Y": 76.843994140625,
+              "Width": 5.736000061035156,
+              "Height": 6.5880126953125,
+              "Right": 92.9280014038086,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 86.76000213623047,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 3,
+            "Text": "c",
+            "Bounds": {
+              "X": 93.93600463867188,
+              "Y": 76.843994140625,
+              "Width": 5.4239959716796875,
+              "Height": 6.5880126953125,
+              "Right": 99.36000061035156,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 93.46800231933594,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 4,
+            "Text": "e",
+            "Bounds": {
+              "X": 99.91200256347656,
+              "Y": 76.843994140625,
+              "Width": 5.736000061035156,
+              "Height": 6.5880126953125,
+              "Right": 105.64800262451172,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 99.46800231933594,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 5,
+            "Text": " ",
+            "Bounds": {
+              "X": 106.06800842285156,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 109.40400695800781,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 106.06800842285156,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 6,
+            "Text": "3",
+            "Bounds": {
+              "X": 109.90800476074219,
+              "Y": 74.53997802734375,
+              "Width": 5.6280059814453125,
+              "Height": 8.90399169921875,
+              "Right": 115.5360107421875,
+              "Bottom": 83.4439697265625
+            },
+            "OriginX": 109.40400695800781,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 7,
+            "Text": " ",
+            "Bounds": {
+              "X": 116.13600158691406,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 119.47200012207031,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 116.13600158691406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 8,
+            "Text": "O",
+            "Bounds": {
+              "X": 120.04800415039062,
+              "Y": 74.41998291015625,
+              "Width": 8.220001220703125,
+              "Height": 9.01202392578125,
+              "Right": 128.26800537109375,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 119.47200012207031,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 9,
+            "Text": "f",
+            "Bounds": {
+              "X": 128.95201110839844,
+              "Y": 74.4320068359375,
+              "Width": 3.6479949951171875,
+              "Height": 8.86798095703125,
+              "Right": 132.60000610351562,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 128.84400939941406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 10,
+            "Text": "f",
+            "Bounds": {
+              "X": 131.95201110839844,
+              "Y": 74.4320068359375,
+              "Width": 3.6479949951171875,
+              "Height": 8.86798095703125,
+              "Right": 135.60000610351562,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 131.84400939941406,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 11,
+            "Text": "i",
+            "Bounds": {
+              "X": 135.97201538085938,
+              "Y": 74.57598876953125,
+              "Width": 1.055999755859375,
+              "Height": 8.7239990234375,
+              "Right": 137.02801513671875,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 135.1800079345703,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 12,
+            "Text": "c",
+            "Bounds": {
+              "X": 138.31199645996094,
+              "Y": 76.843994140625,
+              "Width": 5.4239959716796875,
+              "Height": 6.5880126953125,
+              "Right": 143.73599243164062,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 137.843994140625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 13,
+            "Text": "e",
+            "Bounds": {
+              "X": 144.28799438476562,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 150.02398681640625,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 143.843994140625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 14,
+            "Text": " ",
+            "Bounds": {
+              "X": 150.552001953125,
+              "Y": 83.2879638671875,
+              "Width": 3.33599853515625,
+              "Height": 0.01202392578125,
+              "Right": 153.88800048828125,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 150.552001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 15,
+            "Text": "l",
+            "Bounds": {
+              "X": 154.656005859375,
+              "Y": 74.57598876953125,
+              "Width": 1.055999755859375,
+              "Height": 8.7239990234375,
+              "Right": 155.71200561523438,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 153.88800048828125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 16,
+            "Text": "e",
+            "Bounds": {
+              "X": 156.99600219726562,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 162.73199462890625,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 156.552001953125,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 17,
+            "Text": "t",
+            "Bounds": {
+              "X": 163.47601318359375,
+              "Y": 74.77996826171875,
+              "Width": 3.0359954833984375,
+              "Height": 8.592041015625,
+              "Right": 166.5120086669922,
+              "Bottom": 83.37200927734375
+            },
+            "OriginX": 163.260009765625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 18,
+            "Text": "t",
+            "Bounds": {
+              "X": 166.71600341796875,
+              "Y": 74.77996826171875,
+              "Width": 3.0359954833984375,
+              "Height": 8.592041015625,
+              "Right": 169.7519989013672,
+              "Bottom": 83.37200927734375
+            },
+            "OriginX": 166.5,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 19,
+            "Text": "e",
+            "Bounds": {
+              "X": 170.27999877929688,
+              "Y": 76.843994140625,
+              "Width": 5.735992431640625,
+              "Height": 6.5880126953125,
+              "Right": 176.0159912109375,
+              "Bottom": 83.4320068359375
+            },
+            "OriginX": 169.83599853515625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          },
+          {
+            "Index": 20,
+            "Text": "r",
+            "Bounds": {
+              "X": 177.34799194335938,
+              "Y": 76.843994140625,
+              "Width": 3.384002685546875,
+              "Height": 6.45599365234375,
+              "Right": 180.73199462890625,
+              "Bottom": 83.29998779296875
+            },
+            "OriginX": 176.5679931640625,
+            "Baseline": 83.29998779296875,
+            "ObjectIndex": 7
+          }
+        ],
+        "SourceHash": "36c1845c5530d7450d42d50e52394debe1b08d2346f05551a5226de4ee6a7b87",
+        "Name": "Text object 7",
+        "Page": 0,
+        "Objects": [
+          7
+        ],
+        "OriginalLines": [
+          "Phace 3 Office letter"
+        ],
+        "X": 72.02400207519531,
+        "Baseline": 83.29998779296875,
+        "Width": 108.70799255371094,
+        "SafeBottom": 119.4320068359375,
+        "FontSize": 12,
+        "LineHeight": 18,
+        "Ascent": 10.86328125,
+        "FontHash": "1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7",
+        "FontFile": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\test-work\\suite-1793185046153492200\\fonts\\1084841ed16610758c0366d044ce12b39cfb82b8e67afeccd689d9ba3c225ac7\\original.ttf",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "Advances": [
+          3.333984375,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          3.333984375,
+          -1,
+          -1,
+          -1,
+          -1,
+          6.673828125,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          8.00390625,
+          -1,
+          -1,
+          8.666015625,
+          -1,
+          7.330078125,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          9.99609375,
+          -1,
+          9.333984375,
+          8.00390625,
+          -1,
+          -1,
+          -1,
+          7.330078125,
+          -1,
+          -1,
+          11.326171875,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          6.673828125,
+          6.673828125,
+          6,
+          6.673828125,
+          6.673828125,
+          3.333984375,
+          6.673828125,
+          6.673828125,
+          2.666015625,
+          -1,
+          -1,
+          2.666015625,
+          -1,
+          6.673828125,
+          6.673828125,
+          6.673828125,
+          -1,
+          3.99609375,
+          6,
+          3.333984375,
+          6.673828125,
+          6,
+          8.666015625,
+          6,
+          6,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "OriginalText": "Phace 3 Office letter",
+        "Top": 72.43670654296875
+      },
+      "draft": "Phace 3 Oflice letter",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-second-narrower-1793185046994131500.pdf",
+      "verification": {
+        "method": "fixed original glyph origins; original-font single-object replacement",
+        "sourceHash": "36c1845c5530d7450d42d50e52394debe1b08d2346f05551a5226de4ee6a7b87",
+        "candidateHash": "dbe87849bad25684d915fe85260e4b4d5386c63ce39cfa57893773b08dcf5e48",
+        "revision": 6,
+        "originalObjectsRemoved": 1,
+        "newTextObjects": 1,
+        "replacementLinesMatch": true,
+        "originalFullTextAbsent": true,
+        "originalTextIntentionallyRetainedInDraft": false,
+        "fontProgramPreserved": true,
+        "maxNeighbourGeometryShiftPt": 0,
+        "maxNeighbourGlyphShiftPt": 0,
+        "maxReplacementAdvanceErrorPt": 0,
+        "replacementGlyphsVerified": true,
+        "replacementOutlinesVerified": true,
+        "savedObjectReconstructionVerified": true,
+        "changedPixels144Dpi": 87,
+        "outsidePixels144Dpi": 0,
+        "untouchedPageDifferences": 0,
+        "metadataPreserved": true,
+        "layout": {
+          "Lines": [
+            "Phace 3 Oflice letter"
+          ],
+          "Height": 18,
+          "Safe": true,
+          "Diagnostic": "Original letter positions retained; checking the PDF candidate.",
+          "LineBoxes": [
+            {
+              "X": 72.94800567626953,
+              "Y": 74.41998291015625,
+              "Width": 107.78398895263672,
+              "Height": 9.02398681640625,
+              "Right": 180.73199462890625,
+              "Bottom": 83.4439697265625
+            }
+          ],
+          "ReasonCodes": [],
+          "GlyphIssues": [],
+          "ProposedTextEligibility": "Supported"
+        }
+      },
+      "reconstruction": false
+    }
+  ],
+  "sourceHashesPreserved": true,
+  "inspectMs": {
+    "min": 34.56840000580996,
+    "median": 74.09870001720265,
+    "max": 388.9609999896493
+  },
+  "times": [
+    388.9609999896493,
+    38.017099985154346,
+    181.58509998465888,
+    196.15549998707138,
+    44.58889999659732,
+    39.21339998487383,
+    45.35030000261031,
+    39.44059999776073,
+    40.00340000493452,
+    39.9217999947723,
+    160.2073000103701,
+    152.9136000026483,
+    228.55110000818968,
+    95.18750000279397,
+    82.72500001476146,
+    52.87059998954646,
+    74.09870001720265,
+    134.43949999054894,
+    113.47829998703673,
+    138.05219999630935,
+    36.406600003829226,
+    34.56840000580996,
+    35.433300014119595
+  ]
+}

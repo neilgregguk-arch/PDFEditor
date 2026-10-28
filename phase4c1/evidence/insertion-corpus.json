@@ -1,0 +1,12 @@
+{
+  "developmentOnly": true,
+  "ownershipHints": false,
+  "description": "Unmodified genuine Word page plus separate natural page; Word page with protected vector obstacle outside original title.",
+  "hashes": {
+    "collision.pdf": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd",
+    "mixed-multipage.pdf": "ebc4529c4c808a088bc5aafdc558c3650a8bf70b2482e3a8aebbba2a2d4af642",
+    "mixed.pdf": "d9700765fbab24e078bfe861d502ee46dde6b4a88238339878306057c3a270c3",
+    "multi-natural.pdf": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+    "word-horizontal-obstacle.pdf": "2a64b03e39d18233fc398c7ee39f57d357a6a6460fc038d40fdc3a281e4b5f72"
+  }
+}

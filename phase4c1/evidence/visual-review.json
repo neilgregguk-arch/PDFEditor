@@ -1,0 +1,16 @@
+{
+  "images": [
+    "final-release-controls/insertion-caret.png",
+    "final-release-controls/insertion-blocked.png",
+    "selection-verified-controls/Calibri-position-selection.png",
+    "combined-exports-contact-sheet.png"
+  ],
+  "scope": "WPF rendered output and Poppler pages reviewed; no physical input or native file-picker automation",
+  "dpi": 96,
+  "zooms": [
+    0.75,
+    1,
+    1.5,
+    2
+  ]
+}

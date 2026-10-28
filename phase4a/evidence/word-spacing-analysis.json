@@ -1,0 +1,23 @@
+[
+  {
+    "object": 0,
+    "text": "Phase 3 Office letter",
+    "glyphCount": 21,
+    "maxLocalSpacingErrorPt": 0.333984375,
+    "maxCumulativeSpacingErrorPt": 0.2407989501953125
+  },
+  {
+    "object": 3,
+    "text": "This fictional letter was exported by Microsoft Word for PDF discovery testing.",
+    "glyphCount": 79,
+    "maxLocalSpacingErrorPt": 0.166168212890625,
+    "maxCumulativeSpacingErrorPt": 0.2772369384765625
+  },
+  {
+    "object": 6,
+    "text": "A separate paragraph should retain its own boundaries.",
+    "glyphCount": 54,
+    "maxLocalSpacingErrorPt": 0.6839065551757812,
+    "maxCumulativeSpacingErrorPt": 0.8019561767578125
+  }
+]

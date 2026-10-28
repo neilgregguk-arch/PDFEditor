@@ -1,0 +1,1818 @@
+[
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\.gitignore",
+    "Hash": "303D457CEA9A4FA7E14D2ED017DB64CD054740C8FDA4CFF228F507984A2EED18"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\build.log",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\build.ps1",
+    "Hash": "5BB16D98B58EE47FB5E86136E77744D814CB092349583BCDAB326D2B166FD29D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Directory.Build.props",
+    "Hash": "0DBAE1B9289BA7EA8509CDFA436E58AF35E87B7F7146E611EE96999045E16795"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Launch.ps1",
+    "Hash": "8BFD50CA559955E4818A6773F2B06FEC317D8AAA7DA50C1F6FC1FE54EA22617C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\README.md",
+    "Hash": "9D96EC084EDFDC581CB69020F19405CF8FF793E232393EB52029303A96709B6C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\App.csproj",
+    "Hash": "AE16ECF1BA26985F4A516EA01E41FB00620884C5A2014D8533FF228B8DDA6673"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\ControlTests.cs",
+    "Hash": "B90888FD58682B515AAA00556C72F0BBCF45623AF26C86D99D65D9A96076A890"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\EditorWindow.cs",
+    "Hash": "AB09E5C8091B7F3A336A8B1852C2EB44A58CFE13CFCB65981206081EE6A76E07"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\Global.cs",
+    "Hash": "9EB56B713F4BD450C169F140E74FF7B6D5E456F3742A30188B947223D01628E4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\Program.cs",
+    "Hash": "F9EA12D0E03CFAA29198E766741147C54E03BF7D92116C58F33F85450422A28E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\UnicodeClipboard.cs",
+    "Hash": "6486DA39FD53B48AE067BE7F8D163227180C30B0BC6E588D3E69FEEB234829A4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\App\\WorkerClient.cs",
+    "Hash": "DBE992A62C398968985967A18036E3160DD37569EB68F08AA55F9C98295512B3"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Core\\Core.csproj",
+    "Hash": "66009F809C782CF25EBF0EE2F4F7ED6A97C15B36EB77807BE8D1C71904C45D72"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Core\\Global.cs",
+    "Hash": "9EB56B713F4BD450C169F140E74FF7B6D5E456F3742A30188B947223D01628E4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Core\\Models.cs",
+    "Hash": "F0404791A074765033B835BBC4A589F9C94FE0E1AC7151FD4893FBE6E62F372A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Core\\Native.cs",
+    "Hash": "070D207296017FB25B5093B364C2B37ACDF9AC5749FE970BDA6C6B345E04F1D9"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Core\\PdfEngine.cs",
+    "Hash": "966502C33D627CD189DBA4FFCE8BADDF32DA349F72E5F4C3E17F4863463408EC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\build-manifest.json",
+    "Hash": "6B4556F3E0E6F7665990A613E198B67CC63367F0259CDC38B1A0E17A5B282559"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\engine-test.log",
+    "Hash": "7F4BFFD642AB67858FBB2EBA60A24D8977D6A54ADBFBD09E888782293652CC60"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\engine-tests.json",
+    "Hash": "FE04BDD9F588E89DD9771C1D4F52B5FA481B56A17B7F8327FA1E7AE150E55F02"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent-verification.json",
+    "Hash": "2F6DF9618E32D4EED37328E1BCAFAA9147873A273BB0A80176CC20F257D40EE2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent-visual.log",
+    "Hash": "7D45EB7ACBDAFC7B8F615D9F6070B687901689E90451D6C57BE77A854C28C1EB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\initial-inspection.json",
+    "Hash": "7BF8E139AFD148BCD14D5036D0369F98FC4F330BCE7F30B28D1621340E31AE25"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\initial-save.json",
+    "Hash": "552EA599A60EEBAFD234E3C504F1F48A51F9241FDBF144A4F22318B306C93E8B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\phase1-manifest.json",
+    "Hash": "20C3A2B36CD7CC79F6B1D173DDE9F6EC10B24554E35A6E7DD47F94F680046043"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\phase1-preservation.json",
+    "Hash": "3A689D4180261F4AA2CE37C7055B1B895DD63A1380C131DA0934E9234BAB8CC9"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\control-tests.json",
+    "Hash": "860519BBF9C18256FCEE96FE606DD905FFB6A3D79E9B48F8819D87A68B5E722B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\font-warning.png",
+    "Hash": "35707D9B408D84836FAFE0A62EAAC1B71836A5AD99594872DE65AAF518C7D7FF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\inline-caret.png",
+    "Hash": "6ACA26FE75542950368AF8241B1E5B49352F1CADEBADF1A4A2B31D28CEE790FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\last-save.json",
+    "Hash": "D0D28E2783547FCDDD5570ED3DE3AC860ADB1F0738525DCF9E4EAE216333205B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\overflow-warning.png",
+    "Hash": "2F923817BC5C2CE103BAFAEE7B942836EFDC0FDACE7EC534034A92C6E413BE38"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\state.json",
+    "Hash": "EDFCA8ACFD9DE0A672E129CA88E5EA94C44EC8EAFCBEBE901AEBAEB630C562DA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-05f6c61e17334f2f89f4edcfb96cd283.pdf",
+    "Hash": "EFECF233875F4D1A2893C37E314C96FFAE99DE3269102EACEAD436D9D5D60C36"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-0ee1d81c38e44bd2bddca33d4f65a153.pdf",
+    "Hash": "E16DD3FF88549F31212CE9095ED318CF3D7B3B38F78B60F5E86FCF2694AFE6E7"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-1ef3e02fb1da4d13b48665dc58d8a3c7.pdf",
+    "Hash": "467C37F98C3F801A4846F1ED82061EAFCBF4FCCBA958250743211EEA4B45475E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-732a5966de3248d0a2e5a4ee51e83653.pdf",
+    "Hash": "C23FE55AC1D8510FEDE31868D1904186EC96015ADD268DB7A8E26941F335ADA9"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-9b97b6a688ef4c9aae970c4e5d554cc1.pdf",
+    "Hash": "3F6DE1DDA78DCDB15E3C9ACED8F42C87396E2AD1D9A5260EA524696737A1C9BB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-c1bd4c34dc81448d9c151cd912978664.pdf",
+    "Hash": "6A933096B9EE9B4096E5CABB032E8A56BA74E558EA577D615699C13889FA00A8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\UI-saved-e046087d78194880b9320336cf635cda.pdf",
+    "Hash": "40CB12C3A1026C9888B0E628095F2D1039E97B742008A98DD3854501BDF0CE1E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\window.png",
+    "Hash": "490555C345740D2EB398F06DFE241BEE1028482FAF8B792C8149076E9111478C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\controls\\wrapped-draft.png",
+    "Hash": "0B4A038D3F7EAFA3AE8296763B6921528DA10BEA7E78431D9B79B6F47C2B3762"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-before-image-cache-fix.json",
+    "Hash": "7ACDE86D2F60E343EED79B9EAE3E0F10C32108C333735169D80D89C0EE67AC9A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-fifth.json",
+    "Hash": "A3586A5D46463B58248E9BC9E3EB73CAF520BF573BC9EA69BD8442AC40B2C2FF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-fourth.json",
+    "Hash": "F5A0A04330FFA604AC39C7103AB8852C2CD36F45341A942B7EB851F14B3A6BB0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-initial.json",
+    "Hash": "021F91697531B5B2D03A7D0D459C42A8B4C2D321F881317FB7AAF0BC3D7FCB93"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-second.json",
+    "Hash": "105D8AB3DCE404015A4062CA840751F2012F952BA1D534056C6C27CA274CFD7B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-seventh.json",
+    "Hash": "2826B94C94DAC67B2830C0867B8E4EA802FC3E46A9D6049B50284D2234891000"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-sixth.json",
+    "Hash": "D6414D69615633744F8AB357F4D5804606F975B9917B51C7FF70558E1EC792FA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\control-third.json",
+    "Hash": "D0E5AA6728F25566F4C3C87DDA92DFB55256C5D09E351918243080733F679C19"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pdftotext-unavailable.log",
+    "Hash": "D28EDD4432A0050B4A9F47038E53D983C45EFC9E899DBA3898D6FC085318A468"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\Core.dll",
+    "Hash": "703D2A29F5C4DE4B3B3878D787112E6295F7FF6E4610473BE1ACCABB8B3BA031"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\Core.pdb",
+    "Hash": "69D6166BF28F86F74286FD3A5DF14A3D16477CD35E8ED1E6175F476ECD8E2353"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\native-version.json",
+    "Hash": "9F48A7C1E4A3C49C4A01302F11A848ECC4CD6E3F8262322F6F0C536F0DE9245D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfEditorPrototype.deps.json",
+    "Hash": "F6FD3B529C998FF4506EB091A68570D446F070D7C20045FBA4C9F5651FCC0B9A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfEditorPrototype.dll",
+    "Hash": "DD60C836E5680EDD5854FF710617310D0B392D168429ABFC3B997655A1EC5635"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfEditorPrototype.exe",
+    "Hash": "B0D821F304A87C80F1180B00F05D5400DBD08645CD206518ED1EA7C00B49240A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfEditorPrototype.pdb",
+    "Hash": "F5ED30DF2C3F1DAA4BC0A80C7DA520FA6F02E748AAE55F730249EC068D5B7888"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfEditorPrototype.runtimeconfig.json",
+    "Hash": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\pdfium.dll",
+    "Hash": "BEDE3932CE96A2E1ED9A7E6CAE71AEC8914EFD2907D37AB44B1B81F9C8A6D04E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfWorker.deps.json",
+    "Hash": "3BAF9CD87E2A823E82FDA3F86DB8DEC694CF359680752916E362711628D20CBB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfWorker.dll",
+    "Hash": "06D707E08022CAF01D8027EF49AB2D8FAA18BFB9793767724109172AB12D47EE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfWorker.exe",
+    "Hash": "D5DDD730C04C1FEA82B5C8CC33E31A829A88BDFA0B03C820852DAADA66ADD7DA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfWorker.pdb",
+    "Hash": "24B1DA4F54DACC90CFBCD5920462C35E70BF6B414F7DE001D252669378008D2F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\PdfWorker.runtimeconfig.json",
+    "Hash": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\assets\\FONT-LICENSE.txt",
+    "Hash": "3361D054759A2FC686A2C058BE82DEAF9C2E6FE549BE9004D7935A6C1736315D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\assets\\VeraAscii.ttf",
+    "Hash": "74C506DD2DD75832E1B193AF37737AE71D4B33EA2DE24ADDDB42FE771B254EFC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\abseil.txt",
+    "Hash": "F54FFF0B905DF5B3464527C652A30E903B172D6DCAB4D89B5E6F105D5E4A4603"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\agg23.txt",
+    "Hash": "C110D3EA2AD77467CE0DCFF7D3337E6C8BE8049A5103F4B9BD5FD911A77972E5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\fast_float.txt",
+    "Hash": "BF1B57355FECA8FCE77EE95F48002F8D4789FB71B30EC7599C06CDA4901FBB2B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\freetype.txt",
+    "Hash": "F4B133E25DF1F86AD3FFEA453AA0E613F0474F34778DBBB3E437E7B2724937D8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\icu.txt",
+    "Hash": "93679F4389D53B6835D89843F251844FB9BC455B35BAB036D3C8E7ABE497A47A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\lcms.txt",
+    "Hash": "7312B68C5B25E9BF2B828706FB4E29588F22705112F411FD42E1F7D84C3D139A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\libjpeg_turbo.ijg",
+    "Hash": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\libjpeg_turbo.md",
+    "Hash": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\libopenjpeg.txt",
+    "Hash": "C5AB0890A737C2DFA7BA675036554F6D17741D98629B0C2A145354D00617E6B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\libpng.txt",
+    "Hash": "452390433BA0F88AA3E2B122C647741B72A0C117CD6ED7A329B49785AECB5511"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\llvm-libc.txt",
+    "Hash": "3B6226C32E168C83B891D8D6F0D3C29C2116DC3EF93DC93C307B54F279ECF383"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\pdfium-binaries.txt",
+    "Hash": "8854F4388F1CA13B3AD9BAA42E95F5546B4C0B17109C159256D3ECA7BE39B09B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\pdfium.txt",
+    "Hash": "961EACD9633FFF6D051DB7208B755E9210E30EFAC7ADEC3E6A6D52798F0CCF0E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\simdutf.txt",
+    "Hash": "C172A0BA936FF31230FEBB5DAD869E25CB7C1A07480C7A381BE8CF011BB52719"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\licenses\\PDFium\\zlib.txt",
+    "Hash": "33FD641C9F3B0E0BE64BC78FEA9E94807674CDD70C48477599226CB8956565FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\A-Simple.pdf",
+    "Hash": "309A0ED11E471A52DDFD8F9AD5852AC4D0EB0DE9A5863D812CA15D30F3D01D06"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\A-Simple.pdf.region.json",
+    "Hash": "733FF0A067D40712EDA466B461BA1C2D3F0A284BD40B7B70BD736F75D60B217F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\B-Longer.pdf",
+    "Hash": "D8F88E7B10A5E94748E9F4E5D370C9FFE0D7480EE6D3D468FB6D00FFF19FF4CA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\B-Longer.pdf.region.json",
+    "Hash": "3DFFA5AEF112D35054A4274DB1B5AD695096828716B659F3FBFFCF3CB682287B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\C-Restricted.pdf",
+    "Hash": "5C3E75D23C143F4ECD254E505A29DF112F18250C866050B34EC446329E68F83A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\C-Restricted.pdf.region.json",
+    "Hash": "E2A307DDB6C59ED00721BA3A5AFCB5C7632BAB9151CCABAC58FAA766D383311C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\D-Font.pdf",
+    "Hash": "9EDAEB0CBBCC3EAA9EE3B9473699AA727349A4E2CFF4576BE0CAEEE7D47882BC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\development\\pre-font-rename-run\\samples\\D-Font.pdf.region.json",
+    "Hash": "F4CFF67EC785D23A81C2E7947B001DF684B6B852020264C550C2DB023051E1E3"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\A-Simple-144-after.png",
+    "Hash": "97167D1904C4B9679389F2CDD93F0A06D7B02EED78209D0153B2989EC2D1AE51"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\A-Simple-144-before.png",
+    "Hash": "08D54069E16F23EB935A1FAA1E4F353BA5CE6ED282827EF5301172851B61FD68"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\A-Simple-72-after.png",
+    "Hash": "7929CCB80CBBEF9A65AAE04E96A014CC73DAEEC58AA468D8D797F5B3EF48E139"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\A-Simple-72-before.png",
+    "Hash": "7E159D755489AEA8F14DE284297CE4EC3D5520F9515599F5B083D9E01226E48A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\B-Longer-144-after.png",
+    "Hash": "66C92870678727A38C31A6E605701AD04BA59DB78BD9D26529DA83E9970E512C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\B-Longer-144-before.png",
+    "Hash": "3EC7BF5F79022F98CECA765907CD3B1553BFC0CB0A0D1AC59DACC8A1FF92D376"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\B-Longer-72-after.png",
+    "Hash": "7D421B004EFDE5083ABBA618DF00288D195443D328BD10DA367322E3883DD185"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\independent\\B-Longer-72-before.png",
+    "Hash": "E7EA2477922662EC8EA06640418CC594AABF7F9DCD7946365DD7CCB2436CB9F1"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\A-Simple-edited.pdf",
+    "Hash": "518BD2F515675E2746A3D38085FEBE0E09429D3C801E268A0724B72DCCF58C5A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\A-Simple.pdf",
+    "Hash": "A73B8F84D6A95960EFECC659E77E08C2A50CAFAD288E9F3DE2AC45C54ADC0391"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\A-Simple.pdf.region.json",
+    "Hash": "ED7666864644C8E7972C71EDDAC6C4C70D960B6D84E1A40EF5DD03F06ADAA714"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\B-Longer-edited.pdf",
+    "Hash": "221D156EB3592C7C8BABF5C7974D1194D678B41A80ED91A3A7FC85E3AB25653D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\B-Longer.pdf",
+    "Hash": "A91D761A8724582E795D024587F888F0F3BC9C14EA9BA83C2083FB0D0579FF0A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\B-Longer.pdf.region.json",
+    "Hash": "65116E37E87025957818D967ACAD429C36B5077ED281D00AF8515B5FD9075614"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\C-Restricted.pdf",
+    "Hash": "963898BB98F004723D671D3E64F564E895153AC3DA06BFAE54FD2BE14133520D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\C-Restricted.pdf.region.json",
+    "Hash": "F6E5DAB803D681865DD18E36B8D4C2F561F227EDF0ACC6DBF4C1D282C81B6446"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\D-Font.pdf",
+    "Hash": "3DA995B030CF87F169DCB5FF0F36E4857A3F594DF0553785703AB29FC7AE3862"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\pdf\\D-Font.pdf.region.json",
+    "Hash": "44B50706ADBC19B287B38F3C9E0E963B564959343BA8EB4A351BFA290CA95BF4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\ui\\state.json",
+    "Hash": "DE2BAE5D37013B80E9AF37819A9DE8B64C9B583350B283FFF62104C66314DE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\evidence\\ui\\window.png",
+    "Hash": "A464BEDFEF3AB7D9A06E4F31D2DA0CB9759AC90333CDF3043146941D8D52A41B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\Core.dll",
+    "Hash": "4FC1C6223F49DB80E657BEA7410315E5C7CFD62B6687D8B3399296F51693C2F5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\Core.pdb",
+    "Hash": "4A7C3BA249BD92C1B62E0ECCD63FCF63ABDD307DB178C7E62C7FA2E534317F06"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\native-version.json",
+    "Hash": "5BE5E8D927BEB34EBF011372747CDECC3B35AAB5B909AB44C11E2DFBAD91E3D0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfEditorPrototype.deps.json",
+    "Hash": "F6FD3B529C998FF4506EB091A68570D446F070D7C20045FBA4C9F5651FCC0B9A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfEditorPrototype.dll",
+    "Hash": "C260E328C8793861F20582C6F6ADC72DC55BF601F7D19385A6A09F867B10D2D4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfEditorPrototype.exe",
+    "Hash": "B0D821F304A87C80F1180B00F05D5400DBD08645CD206518ED1EA7C00B49240A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfEditorPrototype.pdb",
+    "Hash": "F105485D446000DDD2B955742DF240E28ACC3B8E266D2342BA881FE23D8DF4A1"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfEditorPrototype.runtimeconfig.json",
+    "Hash": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\pdfium.dll",
+    "Hash": "BEDE3932CE96A2E1ED9A7E6CAE71AEC8914EFD2907D37AB44B1B81F9C8A6D04E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfWorker.deps.json",
+    "Hash": "3BAF9CD87E2A823E82FDA3F86DB8DEC694CF359680752916E362711628D20CBB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfWorker.dll",
+    "Hash": "06D707E08022CAF01D8027EF49AB2D8FAA18BFB9793767724109172AB12D47EE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfWorker.exe",
+    "Hash": "D5DDD730C04C1FEA82B5C8CC33E31A829A88BDFA0B03C820852DAADA66ADD7DA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfWorker.pdb",
+    "Hash": "24B1DA4F54DACC90CFBCD5920462C35E70BF6B414F7DE001D252669378008D2F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\PdfWorker.runtimeconfig.json",
+    "Hash": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\assets\\FONT-LICENSE.txt",
+    "Hash": "3361D054759A2FC686A2C058BE82DEAF9C2E6FE549BE9004D7935A6C1736315D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\assets\\PrototypeSansAscii.ttf",
+    "Hash": "CED1B2CB9D52BC4373EE3178AF5BDD2CD8853BC49C5D06420DC3114F336EF398"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\abseil.txt",
+    "Hash": "F54FFF0B905DF5B3464527C652A30E903B172D6DCAB4D89B5E6F105D5E4A4603"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\agg23.txt",
+    "Hash": "C110D3EA2AD77467CE0DCFF7D3337E6C8BE8049A5103F4B9BD5FD911A77972E5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\fast_float.txt",
+    "Hash": "BF1B57355FECA8FCE77EE95F48002F8D4789FB71B30EC7599C06CDA4901FBB2B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\freetype.txt",
+    "Hash": "F4B133E25DF1F86AD3FFEA453AA0E613F0474F34778DBBB3E437E7B2724937D8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\icu.txt",
+    "Hash": "93679F4389D53B6835D89843F251844FB9BC455B35BAB036D3C8E7ABE497A47A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\lcms.txt",
+    "Hash": "7312B68C5B25E9BF2B828706FB4E29588F22705112F411FD42E1F7D84C3D139A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\libjpeg_turbo.ijg",
+    "Hash": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\libjpeg_turbo.md",
+    "Hash": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\libopenjpeg.txt",
+    "Hash": "C5AB0890A737C2DFA7BA675036554F6D17741D98629B0C2A145354D00617E6B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\libpng.txt",
+    "Hash": "452390433BA0F88AA3E2B122C647741B72A0C117CD6ED7A329B49785AECB5511"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\llvm-libc.txt",
+    "Hash": "3B6226C32E168C83B891D8D6F0D3C29C2116DC3EF93DC93C307B54F279ECF383"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\pdfium-binaries.txt",
+    "Hash": "8854F4388F1CA13B3AD9BAA42E95F5546B4C0B17109C159256D3ECA7BE39B09B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\pdfium.txt",
+    "Hash": "961EACD9633FFF6D051DB7208B755E9210E30EFAC7ADEC3E6A6D52798F0CCF0E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\simdutf.txt",
+    "Hash": "C172A0BA936FF31230FEBB5DAD869E25CB7C1A07480C7A381BE8CF011BB52719"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\licenses\\PDFium\\zlib.txt",
+    "Hash": "33FD641C9F3B0E0BE64BC78FEA9E94807674CDD70C48477599226CB8956565FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\A-Simple.pdf",
+    "Hash": "A73B8F84D6A95960EFECC659E77E08C2A50CAFAD288E9F3DE2AC45C54ADC0391"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\A-Simple.pdf.region.json",
+    "Hash": "ED7666864644C8E7972C71EDDAC6C4C70D960B6D84E1A40EF5DD03F06ADAA714"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\B-Longer.pdf",
+    "Hash": "A91D761A8724582E795D024587F888F0F3BC9C14EA9BA83C2083FB0D0579FF0A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\B-Longer.pdf.region.json",
+    "Hash": "65116E37E87025957818D967ACAD429C36B5077ED281D00AF8515B5FD9075614"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\C-Restricted.pdf",
+    "Hash": "963898BB98F004723D671D3E64F564E895153AC3DA06BFAE54FD2BE14133520D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\C-Restricted.pdf.region.json",
+    "Hash": "F6E5DAB803D681865DD18E36B8D4C2F561F227EDF0ACC6DBF4C1D282C81B6446"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\D-Font.pdf",
+    "Hash": "3DA995B030CF87F169DCB5FF0F36E4857A3F594DF0553785703AB29FC7AE3862"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\run\\samples\\D-Font.pdf.region.json",
+    "Hash": "44B50706ADBC19B287B38F3C9E0E963B564959343BA8EB4A351BFA290CA95BF4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\native-version.json",
+    "Hash": "5BE5E8D927BEB34EBF011372747CDECC3B35AAB5B909AB44C11E2DFBAD91E3D0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\pdfium.dll",
+    "Hash": "BEDE3932CE96A2E1ED9A7E6CAE71AEC8914EFD2907D37AB44B1B81F9C8A6D04E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\assets\\FONT-LICENSE.txt",
+    "Hash": "3361D054759A2FC686A2C058BE82DEAF9C2E6FE549BE9004D7935A6C1736315D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\assets\\PrototypeSansAscii.ttf",
+    "Hash": "CED1B2CB9D52BC4373EE3178AF5BDD2CD8853BC49C5D06420DC3114F336EF398"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\abseil.txt",
+    "Hash": "F54FFF0B905DF5B3464527C652A30E903B172D6DCAB4D89B5E6F105D5E4A4603"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\agg23.txt",
+    "Hash": "C110D3EA2AD77467CE0DCFF7D3337E6C8BE8049A5103F4B9BD5FD911A77972E5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\fast_float.txt",
+    "Hash": "BF1B57355FECA8FCE77EE95F48002F8D4789FB71B30EC7599C06CDA4901FBB2B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\freetype.txt",
+    "Hash": "F4B133E25DF1F86AD3FFEA453AA0E613F0474F34778DBBB3E437E7B2724937D8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\icu.txt",
+    "Hash": "93679F4389D53B6835D89843F251844FB9BC455B35BAB036D3C8E7ABE497A47A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\lcms.txt",
+    "Hash": "7312B68C5B25E9BF2B828706FB4E29588F22705112F411FD42E1F7D84C3D139A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\libjpeg_turbo.ijg",
+    "Hash": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\libjpeg_turbo.md",
+    "Hash": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\libopenjpeg.txt",
+    "Hash": "C5AB0890A737C2DFA7BA675036554F6D17741D98629B0C2A145354D00617E6B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\libpng.txt",
+    "Hash": "452390433BA0F88AA3E2B122C647741B72A0C117CD6ED7A329B49785AECB5511"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\llvm-libc.txt",
+    "Hash": "3B6226C32E168C83B891D8D6F0D3C29C2116DC3EF93DC93C307B54F279ECF383"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\pdfium-binaries.txt",
+    "Hash": "8854F4388F1CA13B3AD9BAA42E95F5546B4C0B17109C159256D3ECA7BE39B09B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\pdfium.txt",
+    "Hash": "961EACD9633FFF6D051DB7208B755E9210E30EFAC7ADEC3E6A6D52798F0CCF0E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\simdutf.txt",
+    "Hash": "C172A0BA936FF31230FEBB5DAD869E25CB7C1A07480C7A381BE8CF011BB52719"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\runtime\\licenses\\PDFium\\zlib.txt",
+    "Hash": "33FD641C9F3B0E0BE64BC78FEA9E94807674CDD70C48477599226CB8956565FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\tools\\prepare_assets.py",
+    "Hash": "9DEBC587B226EED18062E2AEF46E6E73C7836581E336FCC733A3054B026BB026"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\tools\\test_engine.py",
+    "Hash": "ED6E91766B04D6B33CD6ED5F26036E1A1167D9DFF6B8C24735224BEB20D1E87C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\tools\\verify_visuals.py",
+    "Hash": "142998E2FAAFDA1973ECE3DC6EDBC79523F555B79ACB4D1FABA256BDBED7B649"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Worker\\Program.cs",
+    "Hash": "10AE501150FD1BBFF89E3B38D7A8A2137AD3C34FF7999DB322C658D6975140A4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase2\\Worker\\Worker.csproj",
+    "Hash": "7B2E86F4A1FC79EF0572C3A9B50A9DE9ECE149F01A7ED985A269C5A32E813ED4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\build.ps1",
+    "Hash": "5BB16D98B58EE47FB5E86136E77744D814CB092349583BCDAB326D2B166FD29D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Directory.Build.props",
+    "Hash": "0DBAE1B9289BA7EA8509CDFA436E58AF35E87B7F7146E611EE96999045E16795"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Launch.ps1",
+    "Hash": "8BFD50CA559955E4818A6773F2B06FEC317D8AAA7DA50C1F6FC1FE54EA22617C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\README.md",
+    "Hash": "734A7A76249A64857E9B10829B0BD8B2829FB000B1841F26D0050EF94D0D1306"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\App.csproj",
+    "Hash": "AE16ECF1BA26985F4A516EA01E41FB00620884C5A2014D8533FF228B8DDA6673"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\ControlTests.cs",
+    "Hash": "B90888FD58682B515AAA00556C72F0BBCF45623AF26C86D99D65D9A96076A890"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\DiscoveryControlTests.cs",
+    "Hash": "5BB12E39C4BE140FAEBB7AC01564896D96A51E47DDEEB0BABD6A42B61987079D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\EditorWindow.cs",
+    "Hash": "DF71C846894CC87BDCF49A944C98F775256194A3FEE6DB0EE68254ED7EA1A81D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\Global.cs",
+    "Hash": "9EB56B713F4BD450C169F140E74FF7B6D5E456F3742A30188B947223D01628E4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\Program.cs",
+    "Hash": "F9EA12D0E03CFAA29198E766741147C54E03BF7D92116C58F33F85450422A28E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\UnicodeClipboard.cs",
+    "Hash": "D37803278FEB7A0E90E93B1B2CCABE753F6D371A2E59C970CEC5095F9570FDBF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\App\\WorkerClient.cs",
+    "Hash": "DBE992A62C398968985967A18036E3160DD37569EB68F08AA55F9C98295512B3"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Core\\Core.csproj",
+    "Hash": "66009F809C782CF25EBF0EE2F4F7ED6A97C15B36EB77807BE8D1C71904C45D72"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Core\\Discovery.cs",
+    "Hash": "C205C1597676D01964153CEE4661E693BAD5A370D8EF76BBA8BA00107E9B081D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Core\\Global.cs",
+    "Hash": "9EB56B713F4BD450C169F140E74FF7B6D5E456F3742A30188B947223D01628E4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Core\\Models.cs",
+    "Hash": "5CB80C70CA52CACD8C930A6408A2BF49ABDB42F5B26EA59300827178709D15F7"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Core\\Native.cs",
+    "Hash": "039B331D09D300F90ACFBE0EDA95AD64F898B653842B6B785F1AD309D261B3E1"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Core\\PdfEngine.cs",
+    "Hash": "C842549706FF4430CB740FC69BC8B16FBEBCA34008C979610648BE62645C54D2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\bold-edited-1793177551237119600.pdf",
+    "Hash": "3428D2B8DF61F4E7A682281D46212CC6F6DD7A03F3C5097C722A8D9C7012BAEB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\bold-edited-1793177586363262200.pdf",
+    "Hash": "61F72F0C2E03A79806467D43C79F346F6A422942A22C187AEA7343AFF2B6F979"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\bold-edited-1793177752675783100.pdf",
+    "Hash": "CD66287DA45A97ACD613296FE0E5A5AEC5B8AC680F9ED4E6476FBC9A59EB341E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\bold-edited-1793178241835683200.pdf",
+    "Hash": "F12B02777185A3635D6F4C764B67B026A74A631CCEBDD9F736476F5F70EE0A93"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\bold-edited.pdf",
+    "Hash": "F57C095494AD27708E184FA3B5D6E386178CAA95153FC5B751A0A9E0C57AD6F5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\colour-edited-1793177551383645000.pdf",
+    "Hash": "3AC7188942BD2C0FA234C6EC4E5035A04878D1D21C65396936190FAAF4294131"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\colour-edited-1793177586504977000.pdf",
+    "Hash": "4E95091FC0796A9D63191FCB956AF65CC82B6D33D39CE288C606DA50BB751921"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\colour-edited-1793177752784393900.pdf",
+    "Hash": "12BD5FC144F9F19E6075D64605EF44A5ECD6AF54081FBCFA3537A43364172F7C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\colour-edited-1793178241961282300.pdf",
+    "Hash": "60728CD5C61A05D0AD01721604D7E4855A66C8EDAC17AEBCD5BD47B1E6CE922C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\colour-edited.pdf",
+    "Hash": "AB6C33003A1379E18A92EA94AB8C62D793CD1D5E9906AEE10C491DDE416BC79B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\corpus-classification.json",
+    "Hash": "98CAC9871FBCC0A888420D9C1FF7B434C20D13EBE911A6DB239CE97EA5CCAF07"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\corpus-generation.log",
+    "Hash": "303C913E030B901E6D25C0403D6D349B2DD2C18AE857A81D280BA2B5FBF8299D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-initial.json",
+    "Hash": "1275FB6F9D491E73B194FAE8BFE52A9D07F1104030157D2F9FE0E5161307CC06"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-run.log",
+    "Hash": "8E94E85A86E8FBA3F9F3E8A6F9976D5DBAB822E0869071E6382C5C2C8578E380"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-tests.json",
+    "Hash": "4C816409D23CD3047DF7B9E792974B08D8E60A713E65C66CA36776910E097463"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-tests.log",
+    "Hash": "50023AA055B3748095379B1B32067A494002915DA4EA973913A334A323D66682"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-one-1793177551670867700.pdf",
+    "Hash": "089BF2E9201C3A3CFD2F1C10024C9F62BA5EB42905F6BD554BB1EEF157AAEFF2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-one-1793177586798371200.pdf",
+    "Hash": "E6BF7E274918EC32474DA622D517EF2C5D1F241BAE8AC700059F4D0BC33057A6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-one-1793177753038331900.pdf",
+    "Hash": "0437820BA002BADCE9CCEACB21220C182463BD5A1260F8918A6EB71F73EE849C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-one-1793178242265146300.pdf",
+    "Hash": "A6ACF0A65D1FCC6E5D8BDC46564E494418982C5C289ECC50CC74B59A03787C40"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-one.pdf",
+    "Hash": "27AEE5670CCB6EDB2D74B9E5AE442AEEE5AFA036269B77171A0F000D14F3EC53"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-two-1793178242416143500.pdf",
+    "Hash": "488D463BDC42D2BF9B5615B733B8DB95D518C1224DAAABB521972F9327962F12"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\generation-two.pdf",
+    "Hash": "8576396927E4C5518582EF65CDFCBFE9D6ACD8AA1C1793D6403E408AB59FBC2E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\independent-verification.json",
+    "Hash": "010FE89B70119A881D5050B5E4825ABEABDF76DF73EBE96719D9B1D5CF964039"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\letter-edited-1793177551095716600.pdf",
+    "Hash": "7D49E5BD49320A362391E60ACE0329C0ECEFB79431D48CF4E2CCF3FAE2A3C032"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\letter-edited-1793177586224555600.pdf",
+    "Hash": "1CA2053BE6F77ABA94987BDDE79BF1F36C213757E7A3F1BCF8B37E4721168565"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\letter-edited-1793177752568821900.pdf",
+    "Hash": "EA6801A804042B87D49BE76B97DB2540FC473A6216D33EEF2B0AD7B97A1A73AF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\letter-edited-1793178241714153600.pdf",
+    "Hash": "45EE6B527C311FDC5E0B8F8D404CE22043B8D947A9798B76E40206D82F5615B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\letter-edited.pdf",
+    "Hash": "3C9FF3281C4F73272AB98444611339F661DD8C406D18D34F6C3D55643A6AF58B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\mupdf-edited-1793177551534308900.pdf",
+    "Hash": "4227F8370F7BA19D7B3FB3BF8FCB6D8876AFF5C952AE7C927D459D6960E2FC4C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\mupdf-edited-1793177586661074700.pdf",
+    "Hash": "56C7DFE5B3557309B8A7F655798C3768BE9ED70E0F4AEF438D64F4909065192F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\mupdf-edited-1793177752932447100.pdf",
+    "Hash": "87F20B473A3647B5B117B0CB1AFBD07666FB6201C9CDF2B324C287E3B61E2ADE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\mupdf-edited-1793178242121361700.pdf",
+    "Hash": "FCF0BB0A971DE424610BD330E7D7B07EE7581D1CDF29028B1E6E88F04B0A3F4A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\mupdf-edited.pdf",
+    "Hash": "C41581B9CF8794EA06F735138FDD95027D17220ACAF3353E77E97D7B091188A4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\office-generation.json",
+    "Hash": "1AC0DDD673E0CD52897DAEB7413DA8A03228F510ABED1F9E6CF218C2DCDBCF99"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase1-preservation.json",
+    "Hash": "C5BA4B60F262884425BA4E3570BAF617A9F8956C188601FF9DE6AB07DD9BBE27"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-regression.json",
+    "Hash": "8746D82B082DF7C59D5413D37D718D43B012D67E224ACD2431C6DD02C5CE52CC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-regression.log",
+    "Hash": "1AFEAD8EF620425DB2E928B1BF30C3E7A8190A28B3C25ACA1C98E85BD79B7E7E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-regression.json",
+    "Hash": "FAD09C8FF6532F7D6B4A303EF3A9272BDF61CC5F448F4C84189161A48ED04E8C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-regression.log",
+    "Hash": "2E8EC4E8F882730083A955FED4B1241ED7ED2A1CB957112815A9AA95CB7C2D5F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\prior-phase-baseline.json",
+    "Hash": "A61B1F26AA83500D3909085BF700B2780F996D39897A8195CADA1FB7943BEC3F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\prior-phase-preservation.json",
+    "Hash": "1392AEB5F1B1E93B7496CE9B1B21C5C2368BCA111B39BD6EC57F743A53E18BD5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-manifest.json",
+    "Hash": "3913BAB66072C600AE186775A22F12633C42F42F0F74B58B5D134C4A747AFF01"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\report-edited-1793177550929380600.pdf",
+    "Hash": "B8E28CA37E0A3FFE9ABF27950092ED377B944C9F05FE034EAB680CE1003876E4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\report-edited-1793177586052097300.pdf",
+    "Hash": "EFF1E533BE0BBBA71D89A3B1BF882AE8BAC670CE83E38E74F461D90F9477B0EA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\report-edited-1793177752429689400.pdf",
+    "Hash": "4B28816772DD59C245705D4C237C9AD8CCAB10E466A4E3D52C6841072C20D8DD"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\report-edited-1793178241569383500.pdf",
+    "Hash": "424B7B03501A02183736BCCCAFD51ED028D42EEDAEE5A11ECA551D515418B084"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\report-edited.pdf",
+    "Hash": "23CB6598805110528D97592AE8277779BCF49922383BAE9B5467122ED05D951A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\saved-output-contact-sheet.png",
+    "Hash": "25E1A7CD95EB7FC7E99EAB2F3AFF89F81F3D0E8886FBC74D1FF39FC5D3F29697"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\shuffled-edited-1793178243256748900.pdf",
+    "Hash": "E8740097B84921CD10DABA6F818ED5E488D1B114718E13406F637F49672A7D0A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\shuffled-edited.pdf",
+    "Hash": "39991ABC2F503741653FA956D29D12665CF031B02582C01C515CB9A5F1BD6EF3"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\ui-independent-extraction.json",
+    "Hash": "C5500762F48DCD9915087112F2D81E99183B071B68A32C1D84812776F302561A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\clipboard-probe\\clipboard-probe.json",
+    "Hash": "D441347A6BCDCB492CC24198AB3CC16295ABC325EF7150D2482B1275724A6CBC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\clipboard-probe\\state.json",
+    "Hash": "6302B4A6881E0FFF12F6F5351D35E0A38CC15D714AAEC4FE431A69610F89C00F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\clipboard-probe\\window.png",
+    "Hash": "98AB2B842B3435FD20144107EB5355F6C5B8FF8EFE9F92BA9F1D5EC6DCDE3676"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\01-letter-discovery.json",
+    "Hash": "B8BA042AC42BB886FFCC4A0910CF23924C86C8DCB46751D498FFDFA37FA7799A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\02-report-discovery.json",
+    "Hash": "F3CE312C0E9D6BC9F96C3E2137DD9DDEA1826512805A919CED04D1D2FE4628BB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\03-adjacent-discovery.json",
+    "Hash": "0086D23D9E41F28B75A3FA15D31E92658B8D14D0414DB47B0A673E7DDF212D7E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\04-two-columns-discovery.json",
+    "Hash": "1822B5302E70820833D913FFF852BEF6A9EA360342DEB1EFC3BADE565055FC0C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\05-table-discovery.json",
+    "Hash": "1CD1A1A23716990989C58DA2F242C4A35F47BBEDA374A969E73CB9C865206F68"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\06-ambiguous-discovery.json",
+    "Hash": "92AAD2C5F367D7958DB03D1D446E1372898BE4BEDB635E86E287EC82E05E9514"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\07-rotated-discovery.json",
+    "Hash": "25A2B55040F4BA1AF3A8E18501180F898E318A2DF554B9F3BBD0DDEF2DCE89A9"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\08-nonembedded-discovery.json",
+    "Hash": "5F03960F7C43E59FCA97DF56CD668EFD473F02CDAD60452826E186833DC21E80"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\09-mupdf-letter-discovery.json",
+    "Hash": "EBEE165AE31B80CB10AFB1989E3F29DC39FDEEBCE98F16085F49959A155A74F6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\10-mupdf-subset-discovery.json",
+    "Hash": "13E195A56D37990E7DD36B299FDD7FF1FF4D480CB041497817539213EBA9A36E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\development\\11-word-letter-discovery.json",
+    "Hash": "08A3FEDCDBE181B24650678A978B9DCAD85C17097AB6E2EC91E0E849D4670C70"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\colour-inline.png",
+    "Hash": "1E10D3450C1525F1447CE720410759BDAF220DDCB2A82E7058A942AA5CE63E9D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\discovered-inline.png",
+    "Hash": "D154F8FBD30B10AE41A88B6087D298E8DD18EE4BBA226C294F5634EBE91AAF69"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\discovery-control-tests.json",
+    "Hash": "A66E680CFFFEA22483CB5009C8AD32C6D0BDAD4542A6D02EC91FD3F36346F2C1"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\last-save.json",
+    "Hash": "A4346CF445091F4E396E781319480C2D906E3B27D21DD118F1AC544DE8E98E44"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\second-edit.png",
+    "Hash": "15AAFE90BA92BC5B7A883C737F78B1E7E677A2CF0AE7F808B55AD214059ADC42"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\state.json",
+    "Hash": "9477FE3AD70B673E5CE47CB8F185F6C1CCF6C486ED048775594CF5242F48521D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\UI-generation-one-24f2beda78124227aef5e0bd7561b462.pdf",
+    "Hash": "2BB72014DB6E9B9D3EE85728B59C602914882CF9638C1F5A4BBE2E29F3B26B0D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\UI-generation-two-433b740d132046d9858354b1aa5c78d7.pdf",
+    "Hash": "F7C40AF074558E1299B84D90D473B4B05BCE896D619867186035FC546F569D17"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\discovery-controls\\window.png",
+    "Hash": "1F1B5AEAB77152D73D1AB0205196F76ADE76DA891BE1A83728DAC45E882C1F1D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\control-tests.json",
+    "Hash": "D5A3FC6E44DB57FDE45EC848F63A5E6CA3B35D3FE0167C7FB3403C73ED293570"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\font-warning.png",
+    "Hash": "35707D9B408D84836FAFE0A62EAAC1B71836A5AD99594872DE65AAF518C7D7FF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\inline-caret.png",
+    "Hash": "6ACA26FE75542950368AF8241B1E5B49352F1CADEBADF1A4A2B31D28CEE790FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\last-save.json",
+    "Hash": "4038C8CF85F116D5763A9D0C3FC6D8364436B0EB160756D22C518D0CA22AEDC5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\overflow-warning.png",
+    "Hash": "2F923817BC5C2CE103BAFAEE7B942836EFDC0FDACE7EC534034A92C6E413BE38"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\state.json",
+    "Hash": "EE641A513F73E466426A5A6F152BDEB11E878E7E30ACC9A1980A748505235DEA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\UI-saved-f3f4c324351d4fd0b83656fa36de86b4.pdf",
+    "Hash": "E76111833FF521F0782B78F5D8A9C6441C2E2BFCF9269A6CC1901DA11DD71FF2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\window.png",
+    "Hash": "DE66A30FA5365B54D2D086A26E1A81E539B02D68971255E191E0BA2EE3F6A3DE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\final-controls\\wrapped-draft.png",
+    "Hash": "53AD16FC32B87DF61009DBA8D3F6154982D81E4F972CD70FE582B66604FDF401"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\control-tests.json",
+    "Hash": "29FA568A1A89E895A7317E1AC3F8894C68B8E20A42A143DF9F915B4201209489"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\font-warning.png",
+    "Hash": "35707D9B408D84836FAFE0A62EAAC1B71836A5AD99594872DE65AAF518C7D7FF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\inline-caret.png",
+    "Hash": "6ACA26FE75542950368AF8241B1E5B49352F1CADEBADF1A4A2B31D28CEE790FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\last-save.json",
+    "Hash": "79B8B6567A732BD145522D5F37B3350C6424D09C2C1B9B6BAB917D39D5D4803F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\overflow-warning.png",
+    "Hash": "2F923817BC5C2CE103BAFAEE7B942836EFDC0FDACE7EC534034A92C6E413BE38"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\state.json",
+    "Hash": "1CF0F2EF6E6A2D5DAC6567BD90D27764F52AFAB0912D453CCBF2805EE9CF2CD3"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\UI-saved-9d81c04ec98a46808afe36f0134ef0c3.pdf",
+    "Hash": "4D1434875796EFB24794BE90092CF52C0B2297D9B010B90429B4C0AC4D0082E7"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\window.png",
+    "Hash": "DE66A30FA5365B54D2D086A26E1A81E539B02D68971255E191E0BA2EE3F6A3DE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase2-controls\\wrapped-draft.png",
+    "Hash": "E5DA0884D96CCCDEE3D268A3FFE6E0C14FB7558204DCB87F548E8A553EB5A077"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\control-tests.json",
+    "Hash": "E99E82D7EC7D985F65F06909F60F0C190930FF5C3541CD5532F49587341F62E0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\font-warning.png",
+    "Hash": "D155B408FD1AEB8BA72E6D7523EE2EA107E965B66E9816F2D2F31F3588F3CBA2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\inline-caret.png",
+    "Hash": "6ACA26FE75542950368AF8241B1E5B49352F1CADEBADF1A4A2B31D28CEE790FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\last-save.json",
+    "Hash": "A13E0B28E1F9E62B7A805BDB46570C404348F527BC82659BA27C11C4CE4F879D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\overflow-warning.png",
+    "Hash": "03D8EFDEF412DAF16DBC60C4C8D40E1F5CD51060694BA431E132F0FE1A18BBA7"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\state.json",
+    "Hash": "B2906EA4E8ED0551A14CF94FE5D6E5AEC28BEBC6E2977D6CA9305441CEFBAEB1"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\UI-saved-4df247ead8854d8cb54c2f6dd1c6758f.pdf",
+    "Hash": "BF079E1EC5FA41EE13AA1C34F11446870AE58FA1164CC78F41D5AB5D2B6F4D5A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\window.png",
+    "Hash": "490555C345740D2EB398F06DFE241BEE1028482FAF8B792C8149076E9111478C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\phase3-controls\\wrapped-draft.png",
+    "Hash": "E5DA0884D96CCCDEE3D268A3FFE6E0C14FB7558204DCB87F548E8A553EB5A077"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\0-after-144.png",
+    "Hash": "DBFC19BB15EC918E742D50BDB182A1B228FF8834C0DE5325FAB6FCFCEE021C13"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\0-after-72.png",
+    "Hash": "DC6684BDB8F471406034E0045BE2BF8606E96A24EE1A2CD64F8EA2B685E149C7"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\0-before-144.png",
+    "Hash": "033EC6EF758D94829FECDA3C636099D49B8ED09277F30043437BD12F62E076DD"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\0-before-72.png",
+    "Hash": "74AA0DAED1987B2D0EDFE6C9049BF6D4242BBD65A13A49DD958BF584859CB0CC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\1-after-144.png",
+    "Hash": "A3AFCF203B902A2AD8C78486117E63F44096CEA7F51F89526366B52286C57829"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\1-after-72.png",
+    "Hash": "D232F12E55C3EFBBBDB93D9B1BE5AC06D6ED4163A77E08EE09031F6ACFF430F0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\1-before-144.png",
+    "Hash": "B707474A15589849FFFC5B153EFA2180342066CDF3F24C04B8CDFC22E190B788"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\1-before-72.png",
+    "Hash": "44F84E81242A334E0C6C06FA28CA961B9E2E961EF9570A868E411C37099514CE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\2-after-144.png",
+    "Hash": "559EDF210E0774ABFD20BB7F5760213DB8E5EFB7C57022FB7E94E2F7F725835D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\2-after-72.png",
+    "Hash": "7FB3C90423DB8DC521DB2C48BF0D4EFDBC48F92FFA2242CD7CFE2B553B0585A4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\2-before-144.png",
+    "Hash": "033EC6EF758D94829FECDA3C636099D49B8ED09277F30043437BD12F62E076DD"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\2-before-72.png",
+    "Hash": "74AA0DAED1987B2D0EDFE6C9049BF6D4242BBD65A13A49DD958BF584859CB0CC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\3-after-144.png",
+    "Hash": "B15DFFE85DC98CC8692E3ACF8B014BC269F7055720C2ABB546E94EC10C4E0286"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\3-after-72.png",
+    "Hash": "272E61E4F7B3114A1777EE574B392DD7E4A89D1E7C127D9548CF9EE8C4209A4B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\3-before-144.png",
+    "Hash": "033EC6EF758D94829FECDA3C636099D49B8ED09277F30043437BD12F62E076DD"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\3-before-72.png",
+    "Hash": "74AA0DAED1987B2D0EDFE6C9049BF6D4242BBD65A13A49DD958BF584859CB0CC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\4-after-144.png",
+    "Hash": "C136115155258A34B99117D4C288DA38C96BA606A051797903566149EF6F3E8D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\4-after-72.png",
+    "Hash": "1A951567CF6F108D8C6E7B4E143184A1F9F628F6C3BF3CA595F238D864A523A6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\4-before-144.png",
+    "Hash": "3A8FA69A88C9746D923C0F629F9D6F3B80F47ABD5508EE0CA423712C803A836C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\4-before-72.png",
+    "Hash": "34BEB5799DA1832E05E337BA5AA98FAA2336B3C9CB0556097A9AA92D91766A18"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\5-after-144.png",
+    "Hash": "32207DA6E0D2E0D5CEDFA6FA6A0051A6618F90480E2949AB4388948A9BDCF7A6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\5-after-72.png",
+    "Hash": "D6267E55E0111C880303D1BF6C0DFE84A6D8123F19EE995E609C98D407EC83A5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\5-before-144.png",
+    "Hash": "B707474A15589849FFFC5B153EFA2180342066CDF3F24C04B8CDFC22E190B788"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\5-before-72.png",
+    "Hash": "44F84E81242A334E0C6C06FA28CA961B9E2E961EF9570A868E411C37099514CE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\6-after-144.png",
+    "Hash": "170ACD7311F7B1FF9FC8D009E0EA86FDF0FC709BF51BC424F0F1FE8384DD1C75"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\6-after-72.png",
+    "Hash": "D4C3260B86483AC91F28AE2A25D6B5B0ACCE037404CF67246132E505E48CC0DF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\6-before-144.png",
+    "Hash": "32207DA6E0D2E0D5CEDFA6FA6A0051A6618F90480E2949AB4388948A9BDCF7A6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\6-before-72.png",
+    "Hash": "D6267E55E0111C880303D1BF6C0DFE84A6D8123F19EE995E609C98D407EC83A5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\7-after-144.png",
+    "Hash": "D8A839D75C33DA1711E1390534A5637FC010F196B686486457105B47D771CE20"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\7-after-72.png",
+    "Hash": "8C5FA1E9A9237428764761412C62DC02B51692C69ABC9F5F548E9ACF7F74C047"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\7-before-144.png",
+    "Hash": "645EFC5D7CE8963893D5A28EFC8E4084E8CC32C5C0C80147BAABC53ED8036277"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\poppler\\7-before-72.png",
+    "Hash": "A318B502A50465159765029F498B380DE7FBA401D858B8DCD678EE041813F83E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\clipboard-probe.json",
+    "Hash": "D441347A6BCDCB492CC24198AB3CC16295ABC325EF7150D2482B1275724A6CBC"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\colour-inline.png",
+    "Hash": "1E10D3450C1525F1447CE720410759BDAF220DDCB2A82E7058A942AA5CE63E9D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\control-tests.json",
+    "Hash": "D33CFB1EE4331C0F9E235DA3E55C39C6DDB0D6A635B8FB7AEFCC27FE69D621CF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\discovered-inline.png",
+    "Hash": "D154F8FBD30B10AE41A88B6087D298E8DD18EE4BBA226C294F5634EBE91AAF69"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\discovery-control-tests.json",
+    "Hash": "3E30A459DB6022FBD8DD819D6858C6BC0CF93B9EF524BBAC0F2C5AB93E004A7B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\font-warning.png",
+    "Hash": "35707D9B408D84836FAFE0A62EAAC1B71836A5AD99594872DE65AAF518C7D7FF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\inline-caret.png",
+    "Hash": "6ACA26FE75542950368AF8241B1E5B49352F1CADEBADF1A4A2B31D28CEE790FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\last-save.json",
+    "Hash": "84FC03361057983D5BECF7217EABB69C082E586B2B9123ADA8A17FAFCB8BB9E3"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\overflow-warning.png",
+    "Hash": "2F923817BC5C2CE103BAFAEE7B942836EFDC0FDACE7EC534034A92C6E413BE38"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\second-edit.png",
+    "Hash": "0D3FF2503F969A6AE3323B9D8794B0800D01180E7D66F1A4E400ABBD929809FD"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\state.json",
+    "Hash": "494580EC6F16D6676F1DDB3958A4460CCA5D142432A73CF316ABB4F2355E3FEA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\UI-generation-one-b0d4b85c643b44dbbf0cc37969d8c1c4.pdf",
+    "Hash": "371AA025DE71E56B3458CA5BDAEF5DA8562E3E84DEB1A13ED22FBBB6B5197434"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\UI-generation-two-3be887769eb447b2b0c1798d3d0f37a1.pdf",
+    "Hash": "96C2963C1B83F6530EB8D1456253B40C6059269E4F3207BA2EED038C97778DEB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\UI-saved-3796fa17aefe45a1ae6aed68b2eb6af7.pdf",
+    "Hash": "0786CF3B12CCE99E4916750142B13D33D9BDB994C2EA8FC783C243591E9BF425"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\window.png",
+    "Hash": "1F1B5AEAB77152D73D1AB0205196F76ADE76DA891BE1A83728DAC45E882C1F1D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\evidence\\release-controls\\wrapped-draft.png",
+    "Hash": "53AD16FC32B87DF61009DBA8D3F6154982D81E4F972CD70FE582B66604FDF401"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\Core.dll",
+    "Hash": "CF502B7A77AEAE4E63F61A348F91E632E3836D6402FAE1E14849A015CE15E01B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\Core.pdb",
+    "Hash": "0B7AD0A42436377502AF2B0C259692194DA1D668970145B3917E257E2A40FB58"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\native-version.json",
+    "Hash": "5BE5E8D927BEB34EBF011372747CDECC3B35AAB5B909AB44C11E2DFBAD91E3D0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfEditorPrototype.deps.json",
+    "Hash": "F6FD3B529C998FF4506EB091A68570D446F070D7C20045FBA4C9F5651FCC0B9A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfEditorPrototype.dll",
+    "Hash": "5830B56A4DAC71B456AC5335263BADA151729C793A13455000631EF7511ACAFE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfEditorPrototype.exe",
+    "Hash": "B0D821F304A87C80F1180B00F05D5400DBD08645CD206518ED1EA7C00B49240A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfEditorPrototype.pdb",
+    "Hash": "AF9DC3BA23B49EB825CE5AC4B25401CEA11A84F2F4D7C98DC2B3DC68677559D4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfEditorPrototype.runtimeconfig.json",
+    "Hash": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\pdfium.dll",
+    "Hash": "BEDE3932CE96A2E1ED9A7E6CAE71AEC8914EFD2907D37AB44B1B81F9C8A6D04E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfWorker.deps.json",
+    "Hash": "3BAF9CD87E2A823E82FDA3F86DB8DEC694CF359680752916E362711628D20CBB"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfWorker.dll",
+    "Hash": "92C60C363C0EEF9F4F80542A882FD0FEEF5D61B7979A2369F2CA963577E630BA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfWorker.exe",
+    "Hash": "D5DDD730C04C1FEA82B5C8CC33E31A829A88BDFA0B03C820852DAADA66ADD7DA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfWorker.pdb",
+    "Hash": "6AAF50F6EB61C721C124A49D3619863C5EF2CE6B2E202FB9ADF1791CB0272545"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\PdfWorker.runtimeconfig.json",
+    "Hash": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\assets\\FONT-LICENSE.txt",
+    "Hash": "3361D054759A2FC686A2C058BE82DEAF9C2E6FE549BE9004D7935A6C1736315D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\assets\\PrototypeSansAscii.ttf",
+    "Hash": "CED1B2CB9D52BC4373EE3178AF5BDD2CD8853BC49C5D06420DC3114F336EF398"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\01-letter.pdf",
+    "Hash": "F266FD28C6CA14E3EB6DCE3EE6E5289975CBA73AD49D7D83E322B18C631123F9"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\02-report.pdf",
+    "Hash": "6EDC3CA7169F79703CB0CC4FA892D7F3289E833BB77CAE0EA674FF436F00C4A6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\03-adjacent.pdf",
+    "Hash": "1D4E1AA60DE2DCC5F523238C1EC3C6045F308F54C1E8B24EA4B12CDCFADB5982"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\04-two-columns.pdf",
+    "Hash": "85239229AAE01337796792232135CEFC9B8A206CB444448D85D403F848DCBBB2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\05-table.pdf",
+    "Hash": "445EA58154B6C3B9CEB69D07F7EA2F09029EEC8BC356AB2AB8DB190F923ED43C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\06-ambiguous.pdf",
+    "Hash": "E5DAF1E6D1336D3057FD7A319A6C42F2ABDE53ACEB283BBD1AEDB1A3ED3541B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\07-rotated.pdf",
+    "Hash": "05CF424FB1C9DCA369F0968B9AE1EF431713C76233D8CEADDD17B806B36EC8C2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\08-nonembedded.pdf",
+    "Hash": "F7E75BA83EB2D0248794D5DDF35147F85899B2B594940BF3F918AE1005FDAC69"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\09-mupdf-letter.pdf",
+    "Hash": "756C3ED81A442C178581B1E7579EC7997FF1F3F3D4B5FAFA8A8C0C709716B398"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\10-mupdf-subset.pdf",
+    "Hash": "9E8F2359A5124A4D407B5FE56F0A455A7FBE91665AEFCE0306AB2AE56AD2AF69"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\11-word-letter.pdf",
+    "Hash": "D6201DDEFE84B6476804CDC022360313998C465D250207FAE02CD6EDE01F872F"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\12-image-overlap.pdf",
+    "Hash": "D1E00C90AE931B1625C004205718A91E050A325CEBD1A74F27DCB8A5EBBECDED"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\13-shuffled-order.pdf",
+    "Hash": "258C166FDCBE0CF50DEE8941FC41F22E2F269539502B13147A00DAB6AD9A986D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\14-annotation.pdf",
+    "Hash": "ADEF4648310E73FDE1A13E13DD93822F4CD29759F674519F47D32FA664CDD390"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\15-letter-spacing.pdf",
+    "Hash": "BF6921AEE1BBC0F2A92E432EF1932D86182409208E8283E727558E3BD3F33850"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\corpus\\corpus.json",
+    "Hash": "0718770B19C6494C838C6338FE0993526B1B2F0492CC9C1EDB328652F8C5E947"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\abseil.txt",
+    "Hash": "F54FFF0B905DF5B3464527C652A30E903B172D6DCAB4D89B5E6F105D5E4A4603"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\agg23.txt",
+    "Hash": "C110D3EA2AD77467CE0DCFF7D3337E6C8BE8049A5103F4B9BD5FD911A77972E5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\fast_float.txt",
+    "Hash": "BF1B57355FECA8FCE77EE95F48002F8D4789FB71B30EC7599C06CDA4901FBB2B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\freetype.txt",
+    "Hash": "F4B133E25DF1F86AD3FFEA453AA0E613F0474F34778DBBB3E437E7B2724937D8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\icu.txt",
+    "Hash": "93679F4389D53B6835D89843F251844FB9BC455B35BAB036D3C8E7ABE497A47A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\lcms.txt",
+    "Hash": "7312B68C5B25E9BF2B828706FB4E29588F22705112F411FD42E1F7D84C3D139A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\libjpeg_turbo.ijg",
+    "Hash": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\libjpeg_turbo.md",
+    "Hash": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\libopenjpeg.txt",
+    "Hash": "C5AB0890A737C2DFA7BA675036554F6D17741D98629B0C2A145354D00617E6B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\libpng.txt",
+    "Hash": "452390433BA0F88AA3E2B122C647741B72A0C117CD6ED7A329B49785AECB5511"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\llvm-libc.txt",
+    "Hash": "3B6226C32E168C83B891D8D6F0D3C29C2116DC3EF93DC93C307B54F279ECF383"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\pdfium-binaries.txt",
+    "Hash": "8854F4388F1CA13B3AD9BAA42E95F5546B4C0B17109C159256D3ECA7BE39B09B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\pdfium.txt",
+    "Hash": "961EACD9633FFF6D051DB7208B755E9210E30EFAC7ADEC3E6A6D52798F0CCF0E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\simdutf.txt",
+    "Hash": "C172A0BA936FF31230FEBB5DAD869E25CB7C1A07480C7A381BE8CF011BB52719"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\licenses\\PDFium\\zlib.txt",
+    "Hash": "33FD641C9F3B0E0BE64BC78FEA9E94807674CDD70C48477599226CB8956565FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\A-Simple.pdf",
+    "Hash": "F6015D3E7833C7B675F24EFE65C563AA3B2E53C19E05E9F1A71BAD464063FF18"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\A-Simple.pdf.region.json",
+    "Hash": "076099619F6247CFBA9A452459233601624A913F9F6276669498857E33A688DA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\B-Longer.pdf",
+    "Hash": "D40845E6F581E7C5CBEF80F6A5AE00A9056C1D773AE3D4E77982ECE5E8CC7AA2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\B-Longer.pdf.region.json",
+    "Hash": "423CFC91242BF05AE2B3AEDDB1B5C51C43994F06F6C73FAD6CC425BBE749D7CA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\C-Restricted.pdf",
+    "Hash": "0CD5AD8B9D910E678956DBED0BC83D0D25D6DB39E25BFFC70D4300C80EBDB08B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\C-Restricted.pdf.region.json",
+    "Hash": "D36A1CE9F1AB24760BC41C92D542EB3930CF0034E7F5867EE66C2D74C8098EA0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\D-Font.pdf",
+    "Hash": "9BDDE219D55CFA2E12E02FD5894A6CECA65141A7C3C64CA3FFE3EAC84D8C35E4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\run\\samples\\D-Font.pdf.region.json",
+    "Hash": "BC77DBCBCE70049B832EC5D4D970055A873CED30C7E0C3FBD684D88535D18CE2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\native-version.json",
+    "Hash": "5BE5E8D927BEB34EBF011372747CDECC3B35AAB5B909AB44C11E2DFBAD91E3D0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\pdfium.dll",
+    "Hash": "BEDE3932CE96A2E1ED9A7E6CAE71AEC8914EFD2907D37AB44B1B81F9C8A6D04E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\assets\\FONT-LICENSE.txt",
+    "Hash": "3361D054759A2FC686A2C058BE82DEAF9C2E6FE549BE9004D7935A6C1736315D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\assets\\PrototypeSansAscii.ttf",
+    "Hash": "CED1B2CB9D52BC4373EE3178AF5BDD2CD8853BC49C5D06420DC3114F336EF398"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\abseil.txt",
+    "Hash": "F54FFF0B905DF5B3464527C652A30E903B172D6DCAB4D89B5E6F105D5E4A4603"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\agg23.txt",
+    "Hash": "C110D3EA2AD77467CE0DCFF7D3337E6C8BE8049A5103F4B9BD5FD911A77972E5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\fast_float.txt",
+    "Hash": "BF1B57355FECA8FCE77EE95F48002F8D4789FB71B30EC7599C06CDA4901FBB2B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\freetype.txt",
+    "Hash": "F4B133E25DF1F86AD3FFEA453AA0E613F0474F34778DBBB3E437E7B2724937D8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\icu.txt",
+    "Hash": "93679F4389D53B6835D89843F251844FB9BC455B35BAB036D3C8E7ABE497A47A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\lcms.txt",
+    "Hash": "7312B68C5B25E9BF2B828706FB4E29588F22705112F411FD42E1F7D84C3D139A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\libjpeg_turbo.ijg",
+    "Hash": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\libjpeg_turbo.md",
+    "Hash": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\libopenjpeg.txt",
+    "Hash": "C5AB0890A737C2DFA7BA675036554F6D17741D98629B0C2A145354D00617E6B2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\libpng.txt",
+    "Hash": "452390433BA0F88AA3E2B122C647741B72A0C117CD6ED7A329B49785AECB5511"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\llvm-libc.txt",
+    "Hash": "3B6226C32E168C83B891D8D6F0D3C29C2116DC3EF93DC93C307B54F279ECF383"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\pdfium-binaries.txt",
+    "Hash": "8854F4388F1CA13B3AD9BAA42E95F5546B4C0B17109C159256D3ECA7BE39B09B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\pdfium.txt",
+    "Hash": "961EACD9633FFF6D051DB7208B755E9210E30EFAC7ADEC3E6A6D52798F0CCF0E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\simdutf.txt",
+    "Hash": "C172A0BA936FF31230FEBB5DAD869E25CB7C1A07480C7A381BE8CF011BB52719"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\runtime\\licenses\\PDFium\\zlib.txt",
+    "Hash": "33FD641C9F3B0E0BE64BC78FEA9E94807674CDD70C48477599226CB8956565FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\create_corpus.py",
+    "Hash": "4EE3F2126C337B73D191EE825D8BC94FC06A4C62DA1D7B514F56BF3E8F87F59D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\create_office_corpus.ps1",
+    "Hash": "550206E97B92FA307929FBC0A55EB3BF9AF498CBACDC6985F7E9C9D84B561AC0"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\run_regressions.py",
+    "Hash": "F6DB0D4EB18A1DADFA0309A7916BC29DFD43A3A6C9CC35294B5C51D07D839F49"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\test_discovery.py",
+    "Hash": "0D61CCE58CE0AAC5CE359C5CD569097FEE932FBAC52ED3D9AF21F80290933739"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\test_engine.py",
+    "Hash": "ED6E91766B04D6B33CD6ED5F26036E1A1167D9DFF6B8C24735224BEB20D1E87C"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\verify_independent.py",
+    "Hash": "056209FD47FB268D71D59AA8BF4CCA510911780B316B95C61C07D22AB0291677"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\tools\\verify_visuals.py",
+    "Hash": "142998E2FAAFDA1973ECE3DC6EDBC79523F555B79ACB4D1FABA256BDBED7B649"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Worker\\Program.cs",
+    "Hash": "10AE501150FD1BBFF89E3B38D7A8A2137AD3C34FF7999DB322C658D6975140A4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase3\\Worker\\Worker.csproj",
+    "Hash": "7B2E86F4A1FC79EF0572C3A9B50A9DE9ECE149F01A7ED985A269C5A32E813ED4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_1_HANDOVER\\PHASE_1_CONSOLIDATED_REPORT.md",
+    "Hash": "E35F37C5DB656F46F731232BE653787E246427A1D57D7C9B727A93E726793290"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_1_HANDOVER\\PHASE_1_EVIDENCE_INDEX.md",
+    "Hash": "295A868F356E9DF7AD70BA9C3D806D65FF3449D652600ABB68641F41E97EFFA5"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\PHASE_2_IMPLEMENTATION_REPORT.md",
+    "Hash": "83B7631D20CFFDE9502254584A5AB54429C0CEE8403BDF48193272AE7AA6CEEA"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\PHASE_2_OPEN_ISSUES.md",
+    "Hash": "41ADA34C39ABE88F53995FB9D9FBDE5C26E210BB34B1BE6BDB4283094BF6234E"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\PHASE_2_TEST_RESULTS.md",
+    "Hash": "7CBEA226EF823332BD064158ADE3E319D97A8265E48D7407365D865AD5B1CF43"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\PHASE_2_USER_TEST_GUIDE.md",
+    "Hash": "BA0752201092712BB9ADB1B55826C9F71333D32A2E32779B32CD412B93CAB762"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\A-Simple-edited.pdf",
+    "Hash": "518BD2F515675E2746A3D38085FEBE0E09429D3C801E268A0724B72DCCF58C5A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\A-Simple.pdf",
+    "Hash": "A73B8F84D6A95960EFECC659E77E08C2A50CAFAD288E9F3DE2AC45C54ADC0391"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\A-Simple.pdf.region.json",
+    "Hash": "ED7666864644C8E7972C71EDDAC6C4C70D960B6D84E1A40EF5DD03F06ADAA714"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\B-Longer-edited.pdf",
+    "Hash": "221D156EB3592C7C8BABF5C7974D1194D678B41A80ED91A3A7FC85E3AB25653D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\B-Longer.pdf",
+    "Hash": "A91D761A8724582E795D024587F888F0F3BC9C14EA9BA83C2083FB0D0579FF0A"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\B-Longer.pdf.region.json",
+    "Hash": "65116E37E87025957818D967ACAD429C36B5077ED281D00AF8515B5FD9075614"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\C-Restricted.pdf",
+    "Hash": "963898BB98F004723D671D3E64F564E895153AC3DA06BFAE54FD2BE14133520D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\C-Restricted.pdf.region.json",
+    "Hash": "F6E5DAB803D681865DD18E36B8D4C2F561F227EDF0ACC6DBF4C1D282C81B6446"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\control-tests.json",
+    "Hash": "860519BBF9C18256FCEE96FE606DD905FFB6A3D79E9B48F8819D87A68B5E722B"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\D-Font.pdf",
+    "Hash": "3DA995B030CF87F169DCB5FF0F36E4857A3F594DF0553785703AB29FC7AE3862"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\D-Font.pdf.region.json",
+    "Hash": "44B50706ADBC19B287B38F3C9E0E963B564959343BA8EB4A351BFA290CA95BF4"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\engine-tests.json",
+    "Hash": "FE04BDD9F588E89DD9771C1D4F52B5FA481B56A17B7F8327FA1E7AE150E55F02"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\FONT-LICENSE.txt",
+    "Hash": "3361D054759A2FC686A2C058BE82DEAF9C2E6FE549BE9004D7935A6C1736315D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\font-warning.png",
+    "Hash": "35707D9B408D84836FAFE0A62EAAC1B71836A5AD99594872DE65AAF518C7D7FF"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\G-UI-saved.pdf",
+    "Hash": "6A933096B9EE9B4096E5CABB032E8A56BA74E558EA577D615699C13889FA00A8"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\independent-verification.json",
+    "Hash": "2F6DF9618E32D4EED37328E1BCAFAA9147873A273BB0A80176CC20F257D40EE2"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\inline-caret.png",
+    "Hash": "6ACA26FE75542950368AF8241B1E5B49352F1CADEBADF1A4A2B31D28CEE790FE"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\overflow-warning.png",
+    "Hash": "2F923817BC5C2CE103BAFAEE7B942836EFDC0FDACE7EC534034A92C6E413BE38"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_2_HANDOVER\\evidence\\wrapped-draft.png",
+    "Hash": "0B4A038D3F7EAFA3AE8296763B6921528DA10BEA7E78431D9B79B6F47C2B3762"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_3_HANDOVER\\PHASE_3_ELIGIBILITY_ANALYSIS.md",
+    "Hash": "639DFFEF9289DB79DA0E87161DD6512D5C26F0DA014EBD1F44EC87FD4F085E8D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_3_HANDOVER\\PHASE_3_IMPLEMENTATION_REPORT.md",
+    "Hash": "6077D680A9D803B5CB893422287250062E339AAC8FCE582D98A9160E0C39AFC6"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_3_HANDOVER\\PHASE_3_OPEN_ISSUES.md",
+    "Hash": "E4C880198E3FA33C2065DBDFE10503904EDC283535909C5EAAD24BB5A9C3728D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_3_HANDOVER\\PHASE_3_TEST_RESULTS.md",
+    "Hash": "684F061883D59AAB4DD8D7C6040A5D5F5E9F9D952C5E3D6C937DD0F23F85919D"
+  },
+  {
+    "Path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\PHASE_3_HANDOVER\\PHASE_3_USER_TEST_GUIDE.md",
+    "Hash": "FDB53B51E3CF254355330A7112307B007BDD5DCED057704111022A02DF8B946B"
+  }
+]

@@ -1,0 +1,1986 @@
+{
+  "pinnedDllHash": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e",
+  "availability": {
+    "FPDFText_SetText": true,
+    "FPDFText_SetCharcodes": true,
+    "FPDFText_SetPositions": true,
+    "FPDFText_GetTextObject": true,
+    "FPDFFont_GetGlyphPath": true,
+    "FPDFFont_GetGlyphWidth": true
+  },
+  "wordMapping": {
+    "0": " ",
+    "1": "P",
+    "2": "h",
+    "3": "a",
+    "4": "s",
+    "5": "e",
+    "6": " ",
+    "7": "3",
+    "8": "O",
+    "9": "f",
+    "10": "i",
+    "11": "c",
+    "12": "l",
+    "13": "t",
+    "14": "r",
+    "15": "T",
+    "16": "o",
+    "17": "n",
+    "18": "w",
+    "19": "x",
+    "20": "p",
+    "21": "d",
+    "22": "b",
+    "23": "y",
+    "24": "M",
+    "25": "W",
+    "26": "D",
+    "27": "F",
+    "28": "v",
+    "29": "g",
+    "30": ".",
+    "31": "A",
+    "32": "u"
+  },
+  "wordCidToGid": {
+    "0": 0,
+    "1": 51,
+    "2": 75,
+    "3": 68,
+    "4": 86,
+    "5": 72,
+    "6": 3,
+    "7": 22,
+    "8": 50,
+    "9": 73,
+    "10": 76,
+    "11": 70,
+    "12": 79,
+    "13": 87,
+    "14": 85,
+    "15": 55,
+    "16": 82,
+    "17": 81,
+    "18": 90,
+    "19": 91,
+    "20": 83,
+    "21": 71,
+    "22": 69,
+    "23": 92,
+    "24": 48,
+    "25": 58,
+    "26": 39,
+    "27": 41,
+    "28": 89,
+    "29": 74,
+    "30": 17,
+    "31": 36,
+    "32": 88
+  },
+  "cases": [
+    {
+      "mechanism": "SetText-existing",
+      "apiReturn": 1,
+      "positionsReturn": null,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetText-existing.pdf",
+      "draft": "Office letter",
+      "codes": null,
+      "positions": null,
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Office letter",
+      "replacementExtracts": true,
+      "independentText": "Office letter  \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": null,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Office letter",
+        "glyphs": [
+          {
+            "unicode": 79,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 81.36000061035156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 84.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 88.0320053100586,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 90.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 96.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 103.36800384521484,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 106.7040023803711,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 109.36800384521484,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 116.04000854492188,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 119.37600708007812,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 122.71200561523438,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 129.38400268554688,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-existing",
+      "apiReturn": 1,
+      "positionsReturn": null,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetCharcodes-existing.pdf",
+      "draft": "Office letter",
+      "codes": [
+        8,
+        9,
+        9,
+        10,
+        11,
+        5,
+        6,
+        12,
+        5,
+        13,
+        13,
+        5,
+        14
+      ],
+      "positions": null,
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Office letter",
+      "replacementExtracts": true,
+      "independentText": "Office letter  \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": null,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Office letter",
+        "glyphs": [
+          {
+            "unicode": 79,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 81.36000061035156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 84.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 88.0320053100586,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 90.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 96.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 103.36800384521484,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 106.7040023803711,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 109.36800384521484,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 116.04000854492188,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 119.37600708007812,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 122.71200561523438,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 129.38400268554688,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetText-new-unmapped",
+      "apiReturn": 1,
+      "positionsReturn": null,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetText-new-unmapped.pdf",
+      "draft": "Office!",
+      "codes": null,
+      "positions": null,
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Office ",
+      "replacementExtracts": false,
+      "independentText": "Office  \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": null,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Office ",
+        "glyphs": [
+          {
+            "unicode": 79,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 81.36000061035156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 84.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 88.0320053100586,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 90.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 96.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 103.36800384521484,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetText-original-positions",
+      "apiReturn": 1,
+      "positionsReturn": 1,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetText-original-positions.pdf",
+      "draft": "Phase 3 Office letter",
+      "codes": null,
+      "positions": [
+        8.027999877929688,
+        14.736000061035156,
+        21.444000244140625,
+        27.444000244140625,
+        34.04400634765625,
+        37.3800048828125,
+        44.11199951171875,
+        47.447998046875,
+        56.82000732421875,
+        59.82000732421875,
+        63.156005859375,
+        65.81999206542969,
+        71.81999206542969,
+        78.52799987792969,
+        81.86399841308594,
+        84.52799987792969,
+        91.23600769042969,
+        94.47599792480469,
+        97.81199645996094,
+        104.54399108886719
+      ],
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Phase 3 Office letter",
+      "replacementExtracts": true,
+      "independentText": "Phase 3 Office letter \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": 0,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-original-positions",
+      "apiReturn": 1,
+      "positionsReturn": 1,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetCharcodes-original-positions.pdf",
+      "draft": "Phase 3 Office letter",
+      "codes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        6,
+        8,
+        9,
+        9,
+        10,
+        11,
+        5,
+        6,
+        12,
+        5,
+        13,
+        13,
+        5,
+        14
+      ],
+      "positions": [
+        8.027999877929688,
+        14.736000061035156,
+        21.444000244140625,
+        27.444000244140625,
+        34.04400634765625,
+        37.3800048828125,
+        44.11199951171875,
+        47.447998046875,
+        56.82000732421875,
+        59.82000732421875,
+        63.156005859375,
+        65.81999206542969,
+        71.81999206542969,
+        78.52799987792969,
+        81.86399841308594,
+        84.52799987792969,
+        91.23600769042969,
+        94.47599792480469,
+        97.81199645996094,
+        104.54399108886719
+      ],
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Phase 3 Office letter",
+      "replacementExtracts": true,
+      "independentText": "Phase 3 Office letter \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": 0,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-wrong-space",
+      "apiReturn": 1,
+      "positionsReturn": null,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetCharcodes-wrong-space.pdf",
+      "draft": "Office letter",
+      "codes": [
+        8,
+        9,
+        9,
+        10,
+        11,
+        5,
+        0,
+        12,
+        5,
+        13,
+        13,
+        5,
+        14
+      ],
+      "positions": null,
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Office letter",
+      "replacementExtracts": true,
+      "independentText": "Office letter  \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": null,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Office letter",
+        "glyphs": [
+          {
+            "unicode": 79,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 81.36000061035156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 84.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 88.0320053100586,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 90.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 96.69599914550781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 103.36800384521484,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 112.36800384521484,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 115.0320053100586,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 121.70401000976562,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 125.04000854492188,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 128.37600708007812,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 135.04800415039062,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetText-equal-width-positions",
+      "apiReturn": 1,
+      "positionsReturn": 1,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetText-equal-width-positions.pdf",
+      "draft": "Phace 3 Office letter",
+      "codes": null,
+      "positions": [
+        8.027999877929688,
+        14.736000061035156,
+        21.444000244140625,
+        27.444000244140625,
+        34.04400634765625,
+        37.3800048828125,
+        44.11199951171875,
+        47.447998046875,
+        56.82000732421875,
+        59.82000732421875,
+        63.156005859375,
+        65.81999206542969,
+        71.81999206542969,
+        78.52799987792969,
+        81.86399841308594,
+        84.52799987792969,
+        91.23600769042969,
+        94.47599792480469,
+        97.81199645996094,
+        104.54399108886719
+      ],
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Phace 3 Office letter",
+      "replacementExtracts": true,
+      "independentText": "Phace 3 Office letter \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": 0,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Phace 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-equal-width-positions",
+      "apiReturn": 1,
+      "positionsReturn": 1,
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\api-lab\\SetCharcodes-equal-width-positions.pdf",
+      "draft": "Phace 3 Office letter",
+      "codes": [
+        1,
+        2,
+        3,
+        11,
+        5,
+        6,
+        7,
+        6,
+        8,
+        9,
+        9,
+        10,
+        11,
+        5,
+        6,
+        12,
+        5,
+        13,
+        13,
+        5,
+        14
+      ],
+      "positions": [
+        8.027999877929688,
+        14.736000061035156,
+        21.444000244140625,
+        27.444000244140625,
+        34.04400634765625,
+        37.3800048828125,
+        44.11199951171875,
+        47.447998046875,
+        56.82000732421875,
+        59.82000732421875,
+        63.156005859375,
+        65.81999206542969,
+        71.81999206542969,
+        78.52799987792969,
+        81.86399841308594,
+        84.52799987792969,
+        91.23600769042969,
+        94.47599792480469,
+        97.81199645996094,
+        104.54399108886719
+      ],
+      "originalObjectIndex": 0,
+      "reopenedObjectText": "Phace 3 Office letter",
+      "replacementExtracts": true,
+      "independentText": "Phace 3 Office letter \n \nThis fictional letter was exported by Microsoft Word for PDF discovery testing. \n \nA separate paragraph should retain its own boundaries. ",
+      "neighbourGlyphsStable": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxOriginalTargetGlyphShiftPt": 0,
+      "original": {
+        "index": 0,
+        "type": 1,
+        "text": "Phase 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 115,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "after": {
+        "index": 0,
+        "type": 1,
+        "text": "Phace 3 Office letter",
+        "glyphs": [
+          {
+            "unicode": 80,
+            "x": 72.02400207519531,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 104,
+            "x": 80.052001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 97,
+            "x": 86.76000213623047,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 93.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 99.46800231933594,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 106.06800842285156,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 51,
+            "x": 109.40400695800781,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 116.13600158691406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 79,
+            "x": 119.47200012207031,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 128.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 102,
+            "x": 131.84400939941406,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 105,
+            "x": 135.1800079345703,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 99,
+            "x": 137.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 143.843994140625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 32,
+            "x": 150.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 108,
+            "x": 153.88800048828125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 156.552001953125,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 163.260009765625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 116,
+            "x": 166.5,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 101,
+            "x": 169.83599853515625,
+            "y": 758.6199951171875
+          },
+          {
+            "unicode": 114,
+            "x": 176.5679931640625,
+            "y": 758.6199951171875
+          }
+        ]
+      },
+      "productionApproved": false
+    }
+  ],
+  "sourcePreserved": true
+}

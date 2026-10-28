@@ -1,0 +1,65 @@
+{
+  "id": "e2_controlled_reflow",
+  "source": "expansion.pdf",
+  "output": "output\\pdf\\edited\\e2_controlled_reflow.pdf",
+  "old": "A brief note ends here.",
+  "new": "A a substantially longer replacement phrase which needs several lines ends here.",
+  "regions": [
+    [
+      49,
+      94,
+      356,
+      151
+    ]
+  ],
+  "edit_save_ms": 10.193,
+  "method": "physical removal plus new text insertion",
+  "api_return": 18.435999035835266,
+  "automatic_reflow": false,
+  "known_paragraph_box": true,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": false,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 7640,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 255
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 8310,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 255
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 7727,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 255
+      }
+    ]
+  },
+  "verification": {
+    "old_absent_mupdf": true,
+    "new_present_mupdf": true,
+    "old_absent_pdfium": true,
+    "new_present_pdfium": true,
+    "old_absent_text_operands": true,
+    "syntax_warnings": []
+  }
+}

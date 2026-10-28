@@ -1,0 +1,48 @@
+{
+  "id": "e5_scan_no_edit",
+  "source": "scanned.pdf",
+  "output": "output\\pdf\\edited\\e5_scan_no_edit.pdf",
+  "status": "refused",
+  "reason": "No extractable text; scan pixels are not native PDF text",
+  "evidence": {
+    "text_extractable": false
+  },
+  "byte_identical": true,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": true,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  }
+}

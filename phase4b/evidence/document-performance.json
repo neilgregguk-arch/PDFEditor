@@ -1,0 +1,104 @@
+{
+  "cases": [
+    {
+      "name": "two-natural",
+      "changedRegions": 2,
+      "medianMs": 104.78470000089146,
+      "times": [
+        147.94189998065121,
+        105.36839999258518,
+        104.78470000089146,
+        99.42379998392425,
+        100.68780000437982
+      ]
+    },
+    {
+      "name": "three-natural",
+      "changedRegions": 3,
+      "medianMs": 101.159900019411,
+      "times": [
+        105.25770002277568,
+        101.159900019411,
+        99.11310000461526,
+        101.81079999892972,
+        97.7689000137616
+      ]
+    },
+    {
+      "name": "four-two-pages",
+      "changedRegions": 4,
+      "medianMs": 150.55260001099668,
+      "times": [
+        146.95429999846965,
+        153.73770002042875,
+        158.3837000071071,
+        150.55260001099668,
+        137.70790002308786
+      ]
+    },
+    {
+      "name": "two-Word",
+      "changedRegions": 2,
+      "medianMs": 166.40419999021105,
+      "times": [
+        150.27539999573492,
+        166.40419999021105,
+        161.04659999837168,
+        197.03040001331829,
+        180.10600001434796
+      ]
+    },
+    {
+      "name": "mixed",
+      "changedRegions": 2,
+      "medianMs": 213.13469999586232,
+      "times": [
+        215.9805999835953,
+        203.08369997655973,
+        213.13469999586232,
+        215.3827000001911,
+        205.13350001419894
+      ]
+    }
+  ],
+  "repeatedPreviews": 24,
+  "afterWarmup": {
+    "handles": 266,
+    "memory": {
+      "rss": 232632320,
+      "vms": 130527232,
+      "num_page_faults": 684514,
+      "peak_wset": 274382848,
+      "wset": 232632320,
+      "peak_paged_pool": 439256,
+      "paged_pool": 438296,
+      "peak_nonpaged_pool": 52496,
+      "nonpaged_pool": 49520,
+      "pagefile": 130527232,
+      "peak_pagefile": 176484352,
+      "private": 130527232
+    }
+  },
+  "after": {
+    "handles": 264,
+    "memory": {
+      "rss": 160477184,
+      "vms": 56086528,
+      "num_page_faults": 1097757,
+      "peak_wset": 274382848,
+      "wset": 160477184,
+      "peak_paged_pool": 441480,
+      "paged_pool": 440040,
+      "peak_nonpaged_pool": 55128,
+      "nonpaged_pool": 50336,
+      "pagefile": 56086528,
+      "peak_pagefile": 176484352,
+      "private": 56086528
+    }
+  },
+  "handleGrowth": -2,
+  "retainedCandidatePdfs": 12,
+  "retainedCandidatePngs": 12,
+  "workerExited": true,
+  "limitations": "Small local fictional corpus; IPC/analysis/save/reopen/render included. Not a large-document or physical-input latency guarantee."
+}

@@ -1,0 +1,99 @@
+{
+  "id": "e4_integrity",
+  "source": "integrity.pdf",
+  "output": "output\\pdf\\edited\\e4_integrity.pdf",
+  "old": "125.00",
+  "new": "175.00",
+  "regions": [
+    [
+      210.0,
+      324.1000061035156,
+      246.69598388671875,
+      340.5880126953125
+    ]
+  ],
+  "edit_save_ms": 24.43,
+  "method": "content-operand rewrite",
+  "encoded_occurrences": 1,
+  "advance_compensated": false,
+  "fix_metadata_version": false,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": true,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 127,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 255
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 137,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 255
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 120,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 255
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  },
+  "verification": {
+    "old_absent_mupdf": true,
+    "new_present_mupdf": true,
+    "old_absent_pdfium": true,
+    "new_present_pdfium": true,
+    "old_absent_text_operands": true,
+    "syntax_warnings": [],
+    "style": {
+      "font_before": "Helvetica",
+      "font_after": "Helvetica",
+      "size_before": 12.0,
+      "size_after": 12.0,
+      "color_before": 0,
+      "color_after": 0,
+      "origin_before": [
+        210.0,
+        337.0
+      ],
+      "origin_after": [
+        210.0,
+        337.0
+      ]
+    }
+  }
+}

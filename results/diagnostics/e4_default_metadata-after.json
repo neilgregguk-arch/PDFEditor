@@ -1,0 +1,559 @@
+{
+  "file": "output\\pdf\\edited\\e4_default_metadata.pdf",
+  "sha256": "a43e1fcb2090e7128d7584c96ad52034e7417c285eb0c8a8d7c3398f7dc91e97",
+  "page_count": 2,
+  "metadata": {
+    "format": "PDF 1.3",
+    "title": "Save integrity control",
+    "author": "PDF Editor feasibility",
+    "subject": "unspecified",
+    "keywords": "",
+    "creator": "anonymous",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "creationDate": "D:20000101000000+00'00'",
+    "modDate": "D:20000101000000+00'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "xml_metadata": "<?xpacket begin=\"\ufeff\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>\n<x:xmpmeta xmlns:x=\"adobe:ns:meta/\">\n  <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n    <rdf:Description xmlns:dc=\"http://purl.org/dc/elements/1.1/\" rdf:about=\"\">\n      <dc:description>Integrity fixture XMP</dc:description>\n    </rdf:Description>\n  </rdf:RDF>\n</x:xmpmeta>\n\n<?xpacket end=\"w\"?>\n",
+  "toc": [
+    [
+      1,
+      "Edited page",
+      1
+    ],
+    [
+      1,
+      "Rotated untouched control",
+      2
+    ]
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "dimensions": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_extractable": true,
+      "text": "Complex formatting and integrity\nBOLD heading\nItalic sentence stays elegant.\nMonospaced reference: AB-123\nSubset cafe\nItem\nValue\nWidget\n175.00\nText sits below the table and beside a positioned image.\n",
+      "spans": [
+        {
+          "size": 20.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 1717069,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Complex formatting and integrity",
+          "origin": [
+            50.0,
+            50.0
+          ],
+          "bbox": [
+            50.0,
+            28.599998474121094,
+            364.47998046875,
+            56.13999938964844
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 15.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 1717145,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "BOLD heading",
+          "origin": [
+            50.0,
+            102.0
+          ],
+          "bbox": [
+            50.0,
+            85.94999694824219,
+            154.17498779296875,
+            106.6050033569336
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 13.0,
+          "flags": 6,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Times-Italic",
+          "color": 10885670,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Italic sentence stays elegant.",
+          "origin": [
+            50.0,
+            137.0
+          ],
+          "bbox": [
+            50.0,
+            124.63700103759766,
+            199.47402954101562,
+            140.50999450683594
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 10.0,
+          "flags": 8,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Courier",
+          "color": 1730099,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Monospaced reference: AB-123",
+          "origin": [
+            50.0,
+            167.0
+          ],
+          "bbox": [
+            50.0,
+            157.67999267578125,
+            218.0,
+            170.1699981689453
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 14.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "BitstreamVeraSans-Roman",
+          "color": 5053056,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Subset cafe",
+          "origin": [
+            50.0,
+            202.0
+          ],
+          "bbox": [
+            50.0,
+            191.36328125,
+            132.32000732421875,
+            205.36328125
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Item",
+          "origin": [
+            60.0,
+            297.0
+          ],
+          "bbox": [
+            60.0,
+            284.1000061035156,
+            83.33999633789062,
+            300.5880126953125
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Value",
+          "origin": [
+            210.0,
+            297.0
+          ],
+          "bbox": [
+            210.0,
+            284.1000061035156,
+            240.68399047851562,
+            300.5880126953125
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Widget",
+          "origin": [
+            60.0,
+            337.0
+          ],
+          "bbox": [
+            60.0,
+            324.1000061035156,
+            97.343994140625,
+            340.5880126953125
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 12.0,
+          "flags": 0,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Helvetica",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "175.00",
+          "origin": [
+            210.0,
+            337.0
+          ],
+          "bbox": [
+            210.0,
+            324.1000061035156,
+            246.69598388671875,
+            340.5880126953125
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "size": 11.0,
+          "flags": 4,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "Times-Roman",
+          "color": 0,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Text sits below the table and beside a positioned image.",
+          "origin": [
+            50.0,
+            387.0
+          ],
+          "bbox": [
+            50.0,
+            375.4169921875,
+            295.64105224609375,
+            390.09100341796875
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F2",
+          "basefont": "Helvetica-Bold",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F3",
+          "basefont": "Times-Italic",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F4",
+          "basefont": "Courier",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F5+0",
+          "basefont": "AAAAAA+BitstreamVeraSans-Roman",
+          "type": "TrueType",
+          "encoding": "",
+          "embedded": true,
+          "subset": true,
+          "program_sha256": "8b7a3d25ae9da1fca13d4e3fd75fe3c8086af9807dba2dc8000c3a015b916d25"
+        },
+        {
+          "resource": "F6",
+          "basefont": "Times-Roman",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [
+        {
+          "bbox": [
+            390.0,
+            256.0,
+            560.0,
+            352.0
+          ],
+          "width": 300,
+          "height": 170,
+          "digest": "dc185ec217922e1bbb2bc378acb2ab65"
+        }
+      ],
+      "classification": "digital-text",
+      "image_coverage_sum": 0.03367003367003367,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow",
+        "Subset font: new glyph coverage must be checked; font name alone is insufficient"
+      ],
+      "annotations": [
+        {
+          "type": "Text",
+          "rect": [
+            530.0,
+            82.0,
+            546.0,
+            98.0
+          ],
+          "info": {
+            "content": "Retain this note",
+            "name": "",
+            "title": "",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "",
+            "id": ""
+          }
+        }
+      ],
+      "links": [
+        {
+          "kind": 2,
+          "xref": 11,
+          "from": [
+            50.0,
+            397.0,
+            220.0,
+            412.0
+          ],
+          "uri": "https://example.invalid/fixture",
+          "id": ""
+        }
+      ],
+      "drawing_count": 8
+    },
+    {
+      "number": 2,
+      "dimensions": [
+        0.0,
+        0.0,
+        752.0,
+        572.0
+      ],
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "cropbox": [
+        20.0,
+        20.0,
+        592.0,
+        772.0
+      ],
+      "rotation": 90,
+      "text_extractable": true,
+      "text": "Integrity control page\n",
+      "spans": [
+        {
+          "size": 20.0,
+          "flags": 16,
+          "bidi": 0,
+          "char_flags": 24,
+          "font": "Helvetica-Bold",
+          "color": 1717069,
+          "alpha": 255,
+          "ascender": 0.800000011920929,
+          "descender": -0.20000000298023224,
+          "text": "Integrity control page",
+          "origin": [
+            30.0,
+            30.0
+          ],
+          "bbox": [
+            30.0,
+            8.599998474121094,
+            234.47998046875,
+            36.13999938964844
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "resource": "F1",
+          "basefont": "Helvetica",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F2",
+          "basefont": "Helvetica-Bold",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F3",
+          "basefont": "Times-Italic",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F4",
+          "basefont": "Courier",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        },
+        {
+          "resource": "F5+0",
+          "basefont": "AAAAAA+BitstreamVeraSans-Roman",
+          "type": "TrueType",
+          "encoding": "",
+          "embedded": true,
+          "subset": true,
+          "program_sha256": "8b7a3d25ae9da1fca13d4e3fd75fe3c8086af9807dba2dc8000c3a015b916d25"
+        },
+        {
+          "resource": "F6",
+          "basefont": "Times-Roman",
+          "type": "Type1",
+          "encoding": "WinAnsiEncoding",
+          "embedded": false,
+          "subset": false,
+          "program_sha256": null
+        }
+      ],
+      "images": [
+        {
+          "bbox": [
+            30.0,
+            102.0,
+            330.0,
+            272.0
+          ],
+          "width": 300,
+          "height": 170,
+          "digest": "dc185ec217922e1bbb2bc378acb2ab65"
+        }
+      ],
+      "classification": "digital-text",
+      "image_coverage_sum": 0.11856494569260527,
+      "limitations": [
+        "No inferred paragraph ownership or automatic safe reflow",
+        "Subset font: new glyph coverage must be checked; font name alone is insufficient"
+      ],
+      "annotations": [],
+      "links": [],
+      "drawing_count": 0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Generated development files; delivered run/ builds stay tracked.
+bin/
+obj/
+test-work/
+.vs/
+.idea/
+*.user
+*.suo

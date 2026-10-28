@@ -1,0 +1,49 @@
+{
+  "renderer": "Poppler 26.07.0",
+  "extractor": "pypdf 6.10.0",
+  "scope": "two representative saved PDFs, two resolutions; run baselines/style, not all glyph geometry",
+  "results": [
+    {
+      "case": "A-Simple",
+      "renders": [
+        {
+          "dpi": 72,
+          "outside_pixels": 0,
+          "changed_pixels": 1728
+        },
+        {
+          "dpi": 144,
+          "outside_pixels": 0,
+          "changed_pixels": 5639
+        }
+      ],
+      "pypdf_neighbour_run_origins_style_unchanged": true,
+      "neighbour_run_count": 4,
+      "embedded_font_program_sha256": [
+        "ced1b2cb9d52bc4373ee3178af5bdd2cd8853bc49c5d06420dc3114f336ef398"
+      ],
+      "pypdf_font_programs_match": true
+    },
+    {
+      "case": "B-Longer",
+      "renders": [
+        {
+          "dpi": 72,
+          "outside_pixels": 0,
+          "changed_pixels": 12668
+        },
+        {
+          "dpi": 144,
+          "outside_pixels": 0,
+          "changed_pixels": 39211
+        }
+      ],
+      "pypdf_neighbour_run_origins_style_unchanged": true,
+      "neighbour_run_count": 4,
+      "embedded_font_program_sha256": [
+        "ced1b2cb9d52bc4373ee3178af5bdd2cd8853bc49c5d06420dc3114f336ef398"
+      ],
+      "pypdf_font_programs_match": true
+    }
+  ]
+}

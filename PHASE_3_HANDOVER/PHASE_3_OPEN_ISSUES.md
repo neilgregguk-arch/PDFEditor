@@ -1,0 +1,23 @@
+# Phase 3 open issues
+
+28 October 2026. These limitations qualify the delivered working prototype.
+
+| Priority | Issue | Evidence / consequence |
+|---|---|---|
+| High | Clipboard access remains intermittent | Initial frozen/new WPF suites passed copy/cut/paste/history. Later original controls and five explicit probes returned Win32 5. Owner HWND is valid and no clipboard holder PID was identified. Root cause unresolved; physical cross-application testing needed. |
+| High | Physical input and file dialogs remain unverified | Actual native capture/accessibility worked, but an Open PDF click failed to activate the window twice, including a refreshed binding. No physical click, drag, typing, caret blink or picker pass is claimed. |
+| High scope limit | Semantic paragraph ownership is inferred | Matching long lines can still be unrelated; same-style tight headings can be ambiguous. Tests cover conservative examples, not a measured general false-positive rate. Editable is not proof of author intent. |
+| High scope limit | Many ordinary Office/subset PDFs are unsupported | The actual Word export and MuPDF subset corpus fail the current all-ASCII cmap/encoding probe. Per-proposed-glyph probing/subset-safe remapping remains unimplemented. No silent font substitution occurs. |
+| High scope limit | Narrow text/layout model | ASCII only, natural horizontal identity-scale runs, complete top-level line objects, opaque fill, 6-48 pt. Mixed styles within one paragraph, ligatures, bidi, IME/shaping, kerning/justification, fragmented lines, rotated/scaled text and arbitrary encodings are unsupported. |
+| Medium-High | Layout metrics are approximate across WPF and PDFium | Local/cumulative tolerances allow small PDF width rounding. Existing sampled Phase 2 caret checks pass, but every font/DPI/live-wrap scenario is not certified. No universal pixel-perfect claim. |
+| Medium-High | Original visual line breaks become hard draft breaks | PDF semantics do not reliably identify authored versus soft breaks. Full paragraph reflow across existing lines is not recovered. |
+| Medium | Consecutive-space extraction refusal | PDFium can collapse a repeated space in extracted text. Exact candidate verification rejects such edits even if another extractor sees the original spacing. The draft remains; verification is not normalised to conceal the difference. |
+| Medium | One active changed region per export | Save/reopen is required before editing another region. A dirty-region switch is refused; per-region recovery preserves drafts, but there is no multi-region transaction or retained native history across switches. |
+| High scope limit | Structure and preservation checks are bounded | Neighbour geometry/style/font, selected info metadata, annotation counts and raster checks remain. Full tagging, reading order, XMP/catalog equivalence, encryption/signatures/forms and every annotation dictionary are not certified. Automatic eligibility conservatively refuses those detected classes. Extraction order can change after reconstruction. |
+| Medium | Sparse/table/column layouts are often refused | Symmetric-margin inference deliberately rejects indented/right-column blocks. Complete objects containing generated spaces may fail exact ownership. There is no table or column editing model. |
+| Medium | No in-flight native cancellation | Page analysis is incremental/asynchronous and cached, with timeout/restart and stale-result guards. A new request can wait behind a current analysis. No hostile-document/large-document benchmark or OS sandbox. |
+| Medium | Session disk usage is not bounded | Eight cached page observations is a memory bound only. Candidate PDFs, renders and extracted fonts remain in session temp directories. Recovery writes/history retention and power-loss/disk-full injection remain limited as in Phase 2. |
+| Medium | Framework-dependent distribution | Delivered build requires .NET 8 Desktop x64. Optional self-contained publish remains unvalidated. No clean disconnected VM or installer test. |
+| Test migration | One original backend assertion is obsolete | The unchanged original suite records 17/18 on Phase 3 because manifestless PDFs are now discoverable. Raw failure retained; separate discovery tests assert the intended behaviour. Frozen Phase 2 remains 18/18. |
+
+Before broader use, prioritise physical desktop/clipboard reproduction, more independently authored PDFs, proposed-glyph subset mapping, adverse grouping examples, richer preservation checks and large-file cancellation/resource tests. These are recommendations only. No Phase 4 work was started.

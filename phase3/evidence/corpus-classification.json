@@ -1,0 +1,698 @@
+[
+  {
+    "file": "01-letter.pdf",
+    "hash": "f266fd28c6ca14e3eb6dce3ee6e5289975cba73ad49d7d83e322b18c631123f9",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "Editable",
+        "objects": [
+          0
+        ],
+        "text": "Northbank Research",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "Editable",
+        "objects": [
+          1
+        ],
+        "text": "Dear reader,",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o2",
+        "state": "Editable",
+        "objects": [
+          2,
+          3
+        ],
+        "text": "This ordinary digital letter contains an embedded font and plain Latin text.\nThe next visual line belongs to the same paragraph and keeps stable leading.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o4",
+        "state": "Editable",
+        "objects": [
+          4
+        ],
+        "text": "A separate paragraph remains a separate region after a clear vertical gap.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o5",
+        "state": "Editable",
+        "objects": [
+          5
+        ],
+        "text": "Kind regards,",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "02-report.pdf",
+    "hash": "6edc3ca7169f79703cb0cc4fa892d7f3289e833bb77cae0ea674ff436f00c4a6",
+    "pageCount": 2,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "Editable",
+        "objects": [
+          0
+        ],
+        "text": "Quarterly field report",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "Editable",
+        "objects": [
+          1,
+          2,
+          3
+        ],
+        "text": "A single column report demonstrates ordinary text with stable line spacing.\nThe paragraph continues with sufficient width to justify a conservative join.\nIts final line remains part of the same region.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o4",
+        "state": "Editable",
+        "objects": [
+          4
+        ],
+        "text": "A blue note uses a separate colour and smaller size.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o5",
+        "state": "Editable",
+        "objects": [
+          5
+        ],
+        "text": "Bold summary has its own original font.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "03-adjacent.pdf",
+    "hash": "1d4e1aa60de2dcc5f523238c1ec3c6045f308f54c1e8b24ea4b12cdcfadb5982",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "Account label ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "View Only",
+        "objects": [
+          1
+        ],
+        "text": "Value to the right",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+        ]
+      },
+      {
+        "id": "p0-o2",
+        "state": "Editable",
+        "objects": [
+          2
+        ],
+        "text": "An isolated body sentence remains identifiable.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "04-two-columns.pdf",
+    "hash": "85239229aae01337796792232135cefc9b8a206cb444448d85d403f848dcbbb2",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "Left column line 1 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "View Only",
+        "objects": [
+          1
+        ],
+        "text": "Right column line 1",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+        ]
+      },
+      {
+        "id": "p0-o2",
+        "state": "View Only",
+        "objects": [
+          2
+        ],
+        "text": "Left column line 2 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o3",
+        "state": "View Only",
+        "objects": [
+          3
+        ],
+        "text": "Right column line 2",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+        ]
+      },
+      {
+        "id": "p0-o4",
+        "state": "View Only",
+        "objects": [
+          4
+        ],
+        "text": "Left column line 3 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o5",
+        "state": "View Only",
+        "objects": [
+          5
+        ],
+        "text": "Right column line 3",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+        ]
+      },
+      {
+        "id": "p0-o6",
+        "state": "View Only",
+        "objects": [
+          6
+        ],
+        "text": "Left column line 4 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o7",
+        "state": "View Only",
+        "objects": [
+          7
+        ],
+        "text": "Right column line 4",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+        ]
+      },
+      {
+        "id": "p0-o8",
+        "state": "View Only",
+        "objects": [
+          8
+        ],
+        "text": "Left column line 5 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+        ]
+      },
+      {
+        "id": "p0-o9",
+        "state": "View Only",
+        "objects": [
+          9
+        ],
+        "text": "Right column line 5",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "05-table.pdf",
+    "hash": "445ea58154b6c3b9ceb69d07f7ea2f09029eec8bc356ab2ab8db190f923ed43c",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o7",
+        "state": "View Only",
+        "objects": [
+          7
+        ],
+        "text": "Row 1 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o8",
+        "state": "View Only",
+        "objects": [
+          8
+        ],
+        "text": "Amount 1",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o9",
+        "state": "View Only",
+        "objects": [
+          9
+        ],
+        "text": "Row 2 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o10",
+        "state": "View Only",
+        "objects": [
+          10
+        ],
+        "text": "Amount 2",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o11",
+        "state": "View Only",
+        "objects": [
+          11
+        ],
+        "text": "Row 3 ",
+        "reasons": [
+          "INCOMPLETE_GLYPH_OWNERSHIP",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o12",
+        "state": "View Only",
+        "objects": [
+          12
+        ],
+        "text": "Amount 3",
+        "reasons": [
+          "PAGE_BOUNDARY_OR_METRICS",
+          "AMBIGUOUS_COLUMNS_LABELS_OR_FRAGMENTED_LINE",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "06-ambiguous.pdf",
+    "hash": "e5daf1e6d1336d3057fd7a319a6c42f2abde53aceb283bbd1aedb1a3ed3541b2",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "Limited",
+        "objects": [
+          0
+        ],
+        "text": "Short sentence.",
+        "reasons": [
+          "AMBIGUOUS_SHORT_LINE_PARAGRAPH_BOUNDARY",
+          "INSUFFICIENT_VERTICAL_SPACE"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "Limited",
+        "objects": [
+          1
+        ],
+        "text": "Another unrelated short line.",
+        "reasons": [
+          "AMBIGUOUS_SHORT_LINE_PARAGRAPH_BOUNDARY"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "07-rotated.pdf",
+    "hash": "05cf424fb1c9dca369f0968b9ae1ef431713c76233d8ceaddd17b806b36ec8c2",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "Rotated text is not supported.",
+        "reasons": [
+          "UNSUPPORTED_TRANSFORM",
+          "NON_NATURAL_GLYPH_SPACING"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "08-nonembedded.pdf",
+    "hash": "f7e75ba83eb2d0248794d5ddf35147f85899b2b594940bf3f918ae1005fdac69",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "A nonembedded standard font is visible but cannot be substituted.",
+        "reasons": [
+          "FONT_NOT_EMBEDDED"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "09-mupdf-letter.pdf",
+    "hash": "756c3ed81a442c178581b1e7579ec7997ff1f3f3d4b5fafa8a8c0c709716b398",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "Editable",
+        "objects": [
+          0
+        ],
+        "text": "Independent generator letter",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "Editable",
+        "objects": [
+          1
+        ],
+        "text": "This paragraph was generated independently from the editing engine.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      },
+      {
+        "id": "p0-o2",
+        "state": "Editable",
+        "objects": [
+          2
+        ],
+        "text": "A second region remains unchanged during the first edit.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "10-mupdf-subset.pdf",
+    "hash": "9e8f2359a5124a4d407b5fe56f0a455a7fbe91665aefce0306ab2ae56ad2af69",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "Independent generator letter",
+        "reasons": [
+          "ORIGINAL_FONT_MAPPING_UNAVAILABLE",
+          "NON_NATURAL_GLYPH_SPACING"
+        ]
+      },
+      {
+        "id": "p0-o1",
+        "state": "View Only",
+        "objects": [
+          1
+        ],
+        "text": "This paragraph was generated independently from the editing engine.",
+        "reasons": [
+          "ORIGINAL_FONT_MAPPING_UNAVAILABLE",
+          "NON_NATURAL_GLYPH_SPACING"
+        ]
+      },
+      {
+        "id": "p0-o2",
+        "state": "View Only",
+        "objects": [
+          2
+        ],
+        "text": "A second region remains unchanged during the first edit.",
+        "reasons": [
+          "ORIGINAL_FONT_MAPPING_UNAVAILABLE",
+          "NON_NATURAL_GLYPH_SPACING"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "11-word-letter.pdf",
+    "hash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "Phase 3 Office letter",
+        "reasons": [
+          "ORIGINAL_FONT_MAPPING_UNAVAILABLE",
+          "NON_NATURAL_GLYPH_SPACING",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+        ]
+      },
+      {
+        "id": "p0-o3",
+        "state": "View Only",
+        "objects": [
+          3
+        ],
+        "text": "This fictional letter was exported by Microsoft Word for PDF discovery testing.",
+        "reasons": [
+          "ORIGINAL_FONT_MAPPING_UNAVAILABLE",
+          "NON_NATURAL_GLYPH_SPACING",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+        ]
+      },
+      {
+        "id": "p0-o6",
+        "state": "View Only",
+        "objects": [
+          6
+        ],
+        "text": "A separate paragraph should retain its own boundaries.",
+        "reasons": [
+          "ORIGINAL_FONT_MAPPING_UNAVAILABLE",
+          "NON_NATURAL_GLYPH_SPACING",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "12-image-overlap.pdf",
+    "hash": "d1e00c90ae931b1625c004205718a91e050a325cebd1a74f27dcb8a5ebbecded",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "Limited",
+        "objects": [
+          0
+        ],
+        "text": "An image overlaps this existing text region.",
+        "reasons": [
+          "GRAPHIC_IMAGE_OR_TABLE_INTERSECTION",
+          "OWNED_SPACE_INTERSECTS_NEIGHBOUR"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "13-shuffled-order.pdf",
+    "hash": "258c166fdcbe0cf50dee8941fc41f22e2f269539502b13147a00dab6ad9a986d",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o1",
+        "state": "Editable",
+        "objects": [
+          1,
+          2,
+          0
+        ],
+        "text": "A geometrically ordered paragraph can survive reversed object extraction order.\nIts second line has the same font and sufficient width for conservative grouping.\nThe final visual line belongs to this paragraph.",
+        "reasons": [
+          "COMPLETE_OBJECT_OWNERSHIP",
+          "EMBEDDED_FONT_CMAP_AND_ENCODING_PROBED",
+          "NATURAL_HORIZONTAL_GLYPH_GEOMETRY",
+          "CONSERVATIVE_SPACE_AVAILABLE"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "14-annotation.pdf",
+    "hash": "adef4648310e73fde1a13e13dd93822f4cd29759f674519f47d32fa664cdd390",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "This page has an annotation and remains conservatively view only.",
+        "reasons": [
+          "DOCUMENT_OR_PAGE_SIGNATURE_ENCRYPTION_ROTATION_ANNOTATION_OR_FORM"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "15-letter-spacing.pdf",
+    "hash": "bf6921aee1bbc0f2a92e432ef1932d86182409208e8283e727558e3bd3f33850",
+    "pageCount": 1,
+    "regions": [
+      {
+        "id": "p0-o0",
+        "state": "View Only",
+        "objects": [
+          0
+        ],
+        "text": "Explicit letter spacing requires a different layout model.",
+        "reasons": [
+          "NON_NATURAL_GLYPH_SPACING"
+        ]
+      }
+    ]
+  }
+]

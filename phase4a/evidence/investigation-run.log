@@ -1,0 +1,6 @@
+11-word-letter 0 'Phase 3 Office letter' mapped ADFMOPTWabcdefghilnoprstuvwxy3.
+11-word-letter 3 'This fictional letter was exported by Microsoft Word for PDF discovery testing.' mapped ADFMOPTWabcdefghilnoprstuvwxy3.
+11-word-letter 6 'A separate paragraph should retain its own boundaries.' mapped ADFMOPTWabcdefghilnoprstuvwxy3.
+10-mupdf-subset 0 'Independent generator letter' mapped AITacdefghilmnoprstuwy.
+10-mupdf-subset 1 'This paragraph was generated independently from the editing engine.' mapped AITacdefghilmnoprstuwy.
+10-mupdf-subset 2 'A second region remains unchanged during the first edit.' mapped AITacdefghilmnoprstuwy.

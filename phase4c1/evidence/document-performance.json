@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "name": "two-Word-insert-delete",
+      "changedRegions": 2,
+      "medianMs": 196.3374000042677,
+      "times": [
+        261.4430999965407,
+        183.19690000498667,
+        200.92180001665838,
+        196.3374000042677,
+        185.10209998930804
+      ],
+      "lastWorkerTimingsMs": {
+        "planning": 122.8169,
+        "candidateGeneration": 7.602,
+        "reopenVerification": 53.2
+      }
+    },
+    {
+      "name": "two-natural",
+      "changedRegions": 2,
+      "medianMs": 109.25479998695664,
+      "times": [
+        118.90830000629649,
+        109.25479998695664,
+        107.04339999938384,
+        110.91519999899901,
+        99.60620000492781
+      ],
+      "lastWorkerTimingsMs": {
+        "planning": 40.2496,
+        "candidateGeneration": 6.9646,
+        "reopenVerification": 51.5027
+      }
+    },
+    {
+      "name": "three-natural",
+      "changedRegions": 3,
+      "medianMs": 103.12590000103228,
+      "times": [
+        99.48160001658835,
+        114.12860002019443,
+        104.181399976369,
+        97.82029999769293,
+        103.12590000103228
+      ],
+      "lastWorkerTimingsMs": {
+        "planning": 39.58,
+        "candidateGeneration": 5.5466,
+        "reopenVerification": 56.5361
+      }
+    },
+    {
+      "name": "four-two-pages",
+      "changedRegions": 4,
+      "medianMs": 164.16419998859055,
+      "times": [
+        163.74980000546202,
+        186.896400002297,
+        172.2083000058774,
+        160.1669999945443,
+        164.16419998859055
+      ],
+      "lastWorkerTimingsMs": {
+        "planning": 84.2526,
+        "candidateGeneration": 6.8239,
+        "reopenVerification": 71.2795
+      }
+    },
+    {
+      "name": "two-Word",
+      "changedRegions": 2,
+      "medianMs": 234.91649999050424,
+      "times": [
+        223.2619000133127,
+        197.0296000072267,
+        281.4419999776874,
+        234.91649999050424,
+        236.9092000008095
+      ],
+      "lastWorkerTimingsMs": {
+        "planning": 151.2286,
+        "candidateGeneration": 8.2477,
+        "reopenVerification": 74.6577
+      }
+    },
+    {
+      "name": "mixed",
+      "changedRegions": 2,
+      "medianMs": 263.5574000014458,
+      "times": [
+        263.34309999947436,
+        263.5574000014458,
+        257.93500000145286,
+        288.54529999080114,
+        268.97949998965487
+      ],
+      "lastWorkerTimingsMs": {
+        "planning": 196.1015,
+        "candidateGeneration": 7.7195,
+        "reopenVerification": 62.8164
+      }
+    }
+  ],
+  "repeatedPreviews": 24,
+  "afterWarmup": {
+    "handles": 266,
+    "memory": {
+      "rss": 233299968,
+      "vms": 130678784,
+      "num_page_faults": 1005770,
+      "peak_wset": 258416640,
+      "wset": 233299968,
+      "peak_paged_pool": 441336,
+      "paged_pool": 439704,
+      "peak_nonpaged_pool": 55776,
+      "nonpaged_pool": 50336,
+      "pagefile": 130678784,
+      "peak_pagefile": 155820032,
+      "private": 130678784
+    }
+  },
+  "after": {
+    "handles": 264,
+    "memory": {
+      "rss": 240201728,
+      "vms": 136204288,
+      "num_page_faults": 2038759,
+      "peak_wset": 258813952,
+      "wset": 240201728,
+      "peak_paged_pool": 442056,
+      "paged_pool": 440424,
+      "peak_nonpaged_pool": 56456,
+      "nonpaged_pool": 51016,
+      "pagefile": 136204288,
+      "peak_pagefile": 155820032,
+      "private": 136204288
+    }
+  },
+  "handleGrowth": -2,
+  "retainedCandidatePdfs": 12,
+  "retainedCandidatePngs": 12,
+  "workerExited": true,
+  "limitations": "Small local fictional corpus; IPC/analysis/save/reopen/render included. Not a large-document or physical-input latency guarantee."
+}

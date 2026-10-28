@@ -1,0 +1,1623 @@
+{
+  "tests": 17,
+  "failures": 0,
+  "results": [
+    {
+      "name": "C-two-natural-single-save",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-natural-1793198266529253600.pdf"
+    },
+    {
+      "name": "C-two-expanding-natural-paragraphs",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-wrapped-paragraphs-1793198266742208900.pdf"
+    },
+    {
+      "name": "D-two-positioned-word-regions",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-word-1793198267060397400.pdf"
+    },
+    {
+      "name": "E-mixed-strategies-single-page",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\mixed-strategies-1793198267506365700.pdf"
+    },
+    {
+      "name": "H-different-pages",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-pages-1793198267894919400.pdf"
+    },
+    {
+      "name": "F-individually-valid-combined-collision",
+      "status": "pass",
+      "detail": {
+        "Revision": 15,
+        "Ok": true,
+        "Data": {
+          "Revision": 15,
+          "Safe": false,
+          "Diagnostic": "Changed areas conflict with each other or protected content. All drafts kept; nothing saved.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [
+            {
+              "Key": "0:p0-o0",
+              "State": "Blocked",
+              "Message": "These two changed text areas overlap. Both drafts have been kept."
+            },
+            {
+              "Key": "0:p0-o1",
+              "State": "Blocked",
+              "Message": "These two changed text areas overlap. Both drafts have been kept."
+            }
+          ],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "G-invalid-one-never-saves-valid-other",
+      "status": "pass",
+      "detail": {
+        "Revision": 17,
+        "Ok": true,
+        "Data": {
+          "Revision": 17,
+          "Safe": false,
+          "Diagnostic": "1 changed text area(s) need attention. All drafts kept; nothing saved.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [
+            {
+              "Key": "0:p0-o0",
+              "State": "Blocked",
+              "Message": "This editor cannot safely save U+2603 with the original PDF font and text layout. Your changes have been kept; you can keep typing or undo."
+            }
+          ],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "K-second-generation-combined",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\second-generation-1793198268640118100.pdf"
+    },
+    {
+      "name": "J-failed-final-move-rolls-back-stage",
+      "status": "pass",
+      "detail": {
+        "Revision": 21,
+        "Ok": false,
+        "Data": null,
+        "Error": "Cannot create a file when that file already exists."
+      }
+    },
+    {
+      "name": "duplicate-ownership-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 23,
+        "Ok": false,
+        "Data": null,
+        "Error": "Duplicate source region reference."
+      }
+    },
+    {
+      "name": "source-region-identity-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 25,
+        "Ok": false,
+        "Data": null,
+        "Error": "A changed text area no longer matches its original source identity. All drafts retained."
+      }
+    },
+    {
+      "name": "source-hash-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 27,
+        "Ok": false,
+        "Data": null,
+        "Error": "Source changed on disk. All drafts retained; reopen deliberately."
+      }
+    },
+    {
+      "name": "original-and-existing-destinations-protected",
+      "status": "pass",
+      "detail": {
+        "Revision": 30,
+        "Ok": false,
+        "Data": null,
+        "Error": "Original and existing destinations are protected. Choose a new filename."
+      }
+    },
+    {
+      "name": "complete-deletion-plus-other-edit",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\delete-and-replace-1793198269330677400.pdf"
+    },
+    {
+      "name": "no-change-not-reported-saved",
+      "status": "pass",
+      "detail": {
+        "Revision": 34,
+        "Ok": true,
+        "Data": {
+          "Revision": 34,
+          "Safe": false,
+          "Diagnostic": "No changed text areas to export.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "mixed-does-not-relax-position-count",
+      "status": "pass",
+      "detail": {
+        "Revision": 36,
+        "Ok": true,
+        "Data": {
+          "Revision": 36,
+          "Safe": false,
+          "Diagnostic": "1 changed text area(s) need attention. All drafts kept; nothing saved.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [
+            {
+              "Key": "0:p0-o0",
+              "State": "Blocked",
+              "Message": "This line needs the original number of characters. Longer or shorter text needs spacing or wrapping this version cannot preserve. Your changes have been kept; shorten, replace or undo before saving."
+            }
+          ],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "worker-restart-source-based-identities",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\after-worker-restart-1793198270011074000.pdf"
+    }
+  ],
+  "saved": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-natural-1793198266529253600.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+          "Text": "First changed working paragraph."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+          "Text": "Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 2,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-c56b0cf2fbab4ddd8a184228717022b6-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "7dcea475f678c3014f072ed2db270935967ef6389a32b9c98c07c36e3c57ef95",
+          "revision": 2,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+                  "Text": "First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 203.14453125,
+                        "Height": 18,
+                        "Right": 263.14453125,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+                  "Text": "Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 221.1796875,
+                        "Height": 18,
+                        "Right": 281.1796875,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 10052
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-natural-1793198266529253600.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-wrapped-paragraphs-1793198266742208900.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+          "Text": "First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+          "Text": "Second changed working paragraph. Second changed working paragraph. Second changed working paragraph. Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 4,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-7d7f007fd86549659443afab8b86b11e-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "42fc3377cd96ecb278267e0cecad42d250d588fff4f1c26b2c6e305ca8807113",
+          "revision": 4,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+                  "Text": "First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph. First changed working paragraph. First ",
+                      "changed working paragraph. First changed working paragraph. First changed ",
+                      "working paragraph."
+                    ],
+                    "Height": 54,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 443.859375,
+                        "Height": 18,
+                        "Right": 503.859375,
+                        "Bottom": 108.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 108.861328125,
+                        "Width": 469.51171875,
+                        "Height": 18,
+                        "Right": 529.51171875,
+                        "Bottom": 126.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 126.861328125,
+                        "Width": 117.609375,
+                        "Height": 18,
+                        "Right": 177.609375,
+                        "Bottom": 144.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 58,
+                    "Right": 554,
+                    "Bottom": 146.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 3
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+                  "Text": "Second changed working paragraph. Second changed working paragraph. Second changed working paragraph. Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph. Second changed working paragraph. ",
+                      "Second changed working paragraph. Second changed working paragraph."
+                    ],
+                    "Height": 36,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 449.98828125,
+                        "Height": 18,
+                        "Right": 509.98828125,
+                        "Bottom": 318.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 318.861328125,
+                        "Width": 446.173828125,
+                        "Height": 18,
+                        "Right": 506.173828125,
+                        "Bottom": 336.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 40,
+                    "Right": 554,
+                    "Bottom": 338.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 2
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 33116
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-wrapped-paragraphs-1793198266742208900.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-word-1793198267060397400.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "882def65e3b9abbd92a17225ba8163a42709960b426be42bd92e2dd2836f6f62",
+          "Text": "Phace 3 Office letter"
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o6",
+          "Identity": "4b5c88eb44b922e530f733f2ffa1f21e717193c91ae8b5056f79630245d01d10",
+          "Text": "A separate paragraph chould retain its own boundaries."
+        }
+      ],
+      "result": {
+        "Revision": 6,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-5d410fbfcdba42e98730830bd18bbf39-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+          "candidateHash": "6e41269bbfb7c97a38b66a47e792d2544a6f00f392a8215ebcbf214f7287a940",
+          "revision": 6,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "882def65e3b9abbd92a17225ba8163a42709960b426be42bd92e2dd2836f6f62",
+                  "Text": "Phace 3 Office letter",
+                  "strategy": "Positioned",
+                  "layout": {
+                    "Lines": [
+                      "Phace 3 Office letter"
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Original letter positions retained; checking the PDF candidate.",
+                    "LineBoxes": [
+                      {
+                        "X": 72.94800567626953,
+                        "Y": 74.41998291015625,
+                        "Width": 107.78398895263672,
+                        "Height": 9.02398681640625,
+                        "Right": 180.73199462890625,
+                        "Bottom": 83.4439697265625
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70.02400207519531,
+                    "Y": 70.43670654296875,
+                    "Width": 112.70799255371094,
+                    "Height": 22,
+                    "Right": 182.73199462890625,
+                    "Bottom": 92.43670654296875
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1
+                },
+                {
+                  "key": "0:p0-o6",
+                  "sourceIdentity": "4b5c88eb44b922e530f733f2ffa1f21e717193c91ae8b5056f79630245d01d10",
+                  "Text": "A separate paragraph chould retain its own boundaries.",
+                  "strategy": "Positioned",
+                  "layout": {
+                    "Lines": [
+                      "A separate paragraph chould retain its own boundaries."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Original letter positions retained; checking the PDF candidate.",
+                    "LineBoxes": [
+                      {
+                        "X": 72.02400207519531,
+                        "Y": 170.45599365234375,
+                        "Width": 293.052001953125,
+                        "Height": 11.23199462890625,
+                        "Right": 365.0760040283203,
+                        "Bottom": 181.68798828125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70.02400207519531,
+                    "Y": 166.31671142578125,
+                    "Width": 297.052001953125,
+                    "Height": 22,
+                    "Right": 367.0760040283203,
+                    "Bottom": 188.31671142578125
+                  },
+                  "originalObjects": [
+                    6
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 212
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-word-1793198267060397400.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o6",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\mixed-strategies-1793198267506365700.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "9e0eff470a5c4d9ade9d6f29307735668cbc4c7cd15f07b1e31a7c7621578998",
+          "Text": "Phace 3 Office letter"
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o8",
+          "Identity": "469f71f37e7f82c4d4bb29923991c051501d5d1e5adb85686e9b76fb70090475",
+          "Text": "Neutral paragraph retains its original font."
+        }
+      ],
+      "result": {
+        "Revision": 8,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-f783a921582f42c383e4aea31d2111bd-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "d9700765fbab24e078bfe861d502ee46dde6b4a88238339878306057c3a270c3",
+          "candidateHash": "a234539e8c011183344d052ee9bb7d8d250ecb6409e0fba6590c95d0634ae5a3",
+          "revision": 8,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "9e0eff470a5c4d9ade9d6f29307735668cbc4c7cd15f07b1e31a7c7621578998",
+                  "Text": "Phace 3 Office letter",
+                  "strategy": "Positioned",
+                  "layout": {
+                    "Lines": [
+                      "Phace 3 Office letter"
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Original letter positions retained; checking the PDF candidate.",
+                    "LineBoxes": [
+                      {
+                        "X": 72.94800567626953,
+                        "Y": 74.41998291015625,
+                        "Width": 107.78398895263672,
+                        "Height": 9.02398681640625,
+                        "Right": 180.73199462890625,
+                        "Bottom": 83.4439697265625
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70.02400207519531,
+                    "Y": 70.43670654296875,
+                    "Width": 112.70799255371094,
+                    "Height": 22,
+                    "Right": 182.73199462890625,
+                    "Bottom": 92.43670654296875
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1
+                },
+                {
+                  "key": "0:p0-o8",
+                  "sourceIdentity": "469f71f37e7f82c4d4bb29923991c051501d5d1e5adb85686e9b76fb70090475",
+                  "Text": "Neutral paragraph retains its original font.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Neutral paragraph retains its original font."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 72,
+                        "Y": 430.78131103515625,
+                        "Width": 254.150390625,
+                        "Height": 18,
+                        "Right": 326.150390625,
+                        "Bottom": 448.78131103515625
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70,
+                    "Y": 428.78131103515625,
+                    "Width": 455.32000732421875,
+                    "Height": 22,
+                    "Right": 525.3200073242188,
+                    "Bottom": 450.78131103515625
+                  },
+                  "originalObjects": [
+                    8
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 895
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\mixed-strategies-1793198267506365700.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o8",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-pages-1793198267894919400.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+          "Text": "First changed working paragraph."
+        },
+        {
+          "Page": 1,
+          "RegionId": "p1-o0",
+          "Identity": "aef68ec4ffc8337f44098d2ca269c6765e4fb58873ccc4514564a8471da743a6",
+          "Text": "Another page has changed text."
+        }
+      ],
+      "result": {
+        "Revision": 11,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-cc982ec3f71c4d34ba03aa31075ccfd7-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "736fcca7bc1891a949a60f533b4ec6685263ad8314f7c7cbf50451e2010e4642",
+          "revision": 11,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+                  "Text": "First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 203.14453125,
+                        "Height": 18,
+                        "Right": 263.14453125,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 5009
+            },
+            {
+              "page": 1,
+              "regions": [
+                {
+                  "key": "1:p1-o0",
+                  "sourceIdentity": "aef68ec4ffc8337f44098d2ca269c6765e4fb58873ccc4514564a8471da743a6",
+                  "Text": "Another page has changed text.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Another page has changed text."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 193.7109375,
+                        "Height": 18,
+                        "Right": 253.7109375,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 4097
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-pages-1793198267894919400.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "1:p1-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\collision-A-alone-1793198268194552100.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "993db6950e3f84e6840589dcba93cefdbe9ccb5e74433397367b3557013fb7ad",
+          "Text": "alpha area.\nalpha area.\nalpha area."
+        }
+      ],
+      "result": {
+        "Revision": 13,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-cdf65a1522994589be22ac4b657e6c12-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd",
+          "candidateHash": "f73eef3d098a91e1da1ae9a6d0a8a194e3da873498174e0e3a1a61cce1728789",
+          "revision": 13,
+          "changedRegions": 1,
+          "originalObjectsRemoved": 1,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "993db6950e3f84e6840589dcba93cefdbe9ccb5e74433397367b3557013fb7ad",
+                  "Text": "alpha area.\nalpha area.\nalpha area.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "alpha area.",
+                      "alpha area.",
+                      "alpha area."
+                    ],
+                    "Height": 54,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 88.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 106.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 106.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 124.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 124.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 142.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 86.861328125,
+                    "Width": 496,
+                    "Height": 58,
+                    "Right": 554,
+                    "Bottom": 144.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 3
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 2110
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\collision-A-alone-1793198268194552100.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\collision-B-alone-1793198268311417700.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "19409f4e6b058546fe5272b50ce08bc97b6f690c4d846ddf10d2f5bd7b9262ca",
+          "Text": "alpha area."
+        }
+      ],
+      "result": {
+        "Revision": 14,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-0f342927d0ea4f3296702c8808aae61c-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd",
+          "candidateHash": "2ba8919825bf28e8618dab47176fd09437b77091e1e7308ddbe45d6feeeac1cf",
+          "revision": 14,
+          "changedRegions": 1,
+          "originalObjectsRemoved": 1,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "19409f4e6b058546fe5272b50ce08bc97b6f690c4d846ddf10d2f5bd7b9262ca",
+                  "Text": "alpha area.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "alpha area."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 141.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 159.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 139.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 161.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 1054
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\collision-B-alone-1793198268311417700.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\two-natural-1793198266529253600.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\second-generation-1793198268640118100.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "5711618161aa574ab73908a153cf0bdf02dbe30170774c6da9ca6a625f7bf327",
+          "Text": "First changed working paragraph again."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o2",
+          "Identity": "2ce4722ce3e7870556618bbb9b039a6c75ef499630d8a049e4bef49165759be8",
+          "Text": "Second changed working paragraph again."
+        }
+      ],
+      "result": {
+        "Revision": 19,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-dd7101cc54e241ac9407c72b818cbdea-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "7dcea475f678c3014f072ed2db270935967ef6389a32b9c98c07c36e3c57ef95",
+          "candidateHash": "fcc6d3f87b01c3e3ea8a39958807a0ed7a0dea8e4d28855c6d334a66de84feaa",
+          "revision": 19,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "5711618161aa574ab73908a153cf0bdf02dbe30170774c6da9ca6a625f7bf327",
+                  "Text": "First changed working paragraph again.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph again."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 240.22265625,
+                        "Height": 18,
+                        "Right": 300.22265625,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1
+                },
+                {
+                  "key": "0:p0-o2",
+                  "sourceIdentity": "2ce4722ce3e7870556618bbb9b039a6c75ef499630d8a049e4bef49165759be8",
+                  "Text": "Second changed working paragraph again.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph again."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 258.2578125,
+                        "Height": 18,
+                        "Right": 318.2578125,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    2
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 1288
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\second-generation-1793198268640118100.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o2",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\delete-and-replace-1793198269330677400.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+          "Text": ""
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+          "Text": "Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 32,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-b13ef5d3322a477dbcdacb2b17b13d64-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "bac9a0cbbb165965981e6ce2529ff9ada7b31f8906eed31885e424207f0a6052",
+          "revision": 32,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+                  "Text": "",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      ""
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 0,
+                        "Height": 18,
+                        "Right": 60,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 0
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+                  "Text": "Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 221.1796875,
+                        "Height": 18,
+                        "Right": 281.1796875,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 9280
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\delete-and-replace-1793198269330677400.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\after-worker-restart-1793198270011074000.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+          "Text": "First changed working paragraph."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+          "Text": "Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 2,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\test-work\\suite-ad4478092ea047da85f44fff8fea5355\\candidate-b3472c5186ce4662ab00aefdee12ba83-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "ea1f01ee20700ef370243bf2fd4fee5dd5f171a0e7139b634e6184965239cf2e",
+          "revision": 2,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "1446a8aaf68524df11bab707ef576cc3fc72d1977054bc2c5eb4425ffd9a1e82",
+                  "Text": "First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 203.14453125,
+                        "Height": 18,
+                        "Right": 263.14453125,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "ff37bbb6847429d327e18dcb7ca74f081403f709a88e51245bee36422221bbcd",
+                  "Text": "Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 221.1796875,
+                        "Height": 18,
+                        "Right": 281.1796875,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 10052
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c1\\evidence\\frozen-phase4b-test_document\\after-worker-restart-1793198270011074000.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    }
+  ],
+  "times": [
+    {
+      "label": "two-natural",
+      "ms": 175.44859999907203
+    },
+    {
+      "label": "two-wrapped-paragraphs",
+      "ms": 116.31049998686649
+    },
+    {
+      "label": "two-word",
+      "ms": 215.13850000337698
+    },
+    {
+      "label": "mixed-strategies",
+      "ms": 243.8976000121329
+    },
+    {
+      "label": "two-pages",
+      "ms": 202.52970000728965
+    },
+    {
+      "label": "collision-A-alone",
+      "ms": 116.05459998827428
+    },
+    {
+      "label": "collision-B-alone",
+      "ms": 124.82050000107847
+    },
+    {
+      "label": "collision-combined",
+      "ms": 36.73640001215972
+    },
+    {
+      "label": "no-partial-export",
+      "ms": 39.187699992908165
+    },
+    {
+      "label": "second-generation",
+      "ms": 110.7334999833256
+    },
+    {
+      "label": "rollback",
+      "ms": 117.32479999773204
+    },
+    {
+      "label": "duplicate",
+      "ms": 0.41190002229996026
+    },
+    {
+      "label": "wrong-identity",
+      "ms": 39.23140000551939
+    },
+    {
+      "label": "stale",
+      "ms": 0.4231999919284135
+    },
+    {
+      "label": "delete-and-replace",
+      "ms": 118.99819999234751
+    },
+    {
+      "label": "no-changes",
+      "ms": 0.44579998939298093
+    },
+    {
+      "label": "no-position-expansion",
+      "ms": 155.93059998354875
+    },
+    {
+      "label": "after-worker-restart",
+      "ms": 174.05739999958314
+    }
+  ],
+  "sourceHashesPreserved": true
+}

@@ -1,0 +1,50 @@
+{
+  "id": "e2_rejected_expansion",
+  "source": "expansion.pdf",
+  "output": "output\\pdf\\edited\\e2_rejected_expansion.pdf",
+  "status": "refused",
+  "reason": "Long replacement exceeds original phrase width; no paragraph ownership known",
+  "evidence": {
+    "original_width_pt": 50.028000000000006,
+    "replacement_width_pt": 362.148,
+    "fits_original_width": false
+  },
+  "byte_identical": true,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": true,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  }
+}

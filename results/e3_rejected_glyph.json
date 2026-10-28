@@ -1,0 +1,67 @@
+{
+  "id": "e3_rejected_glyph",
+  "source": "complex.pdf",
+  "output": "output\\pdf\\edited\\e3_rejected_glyph.pdf",
+  "status": "refused",
+  "reason": "U+2603 is absent from embedded subset cmap; no silent fallback",
+  "evidence": {
+    "requested_codepoint": "U+2603",
+    "present_in_any_embedded_cmap": false
+  },
+  "byte_identical": true,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": true,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  }
+}

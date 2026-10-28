@@ -1,0 +1,8 @@
+SetText-existing API 1 text 'Office letter' neighbour shift 0 target shift None
+SetCharcodes-existing API 1 text 'Office letter' neighbour shift 0 target shift None
+SetText-new-unmapped API 1 text 'Office ' neighbour shift 0 target shift None
+SetText-original-positions API 1 text 'Phase 3 Office letter' neighbour shift 0 target shift 0
+SetCharcodes-original-positions API 1 text 'Phase 3 Office letter' neighbour shift 0 target shift 0
+SetCharcodes-wrong-space API 1 text 'Office letter' neighbour shift 0 target shift None
+SetText-equal-width-positions API 1 text 'Phace 3 Office letter' neighbour shift 0 target shift 0
+SetCharcodes-equal-width-positions API 1 text 'Phace 3 Office letter' neighbour shift 0 target shift 0

@@ -1,0 +1,303 @@
+{
+  "success": true,
+  "readers": "MuPDF, pypdf, Poppler, qpdf via pikepdf",
+  "cases": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-reconstructed-1793185741125625500.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 0,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 0,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-first-1793185741288553900.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 31,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 103,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-first-1793185741288553900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-second-narrower-1793185741544669500.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 3,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 0,
+      "maxUnchangedGlyphBoxShiftPt": 0,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 24,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 59,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "2ba652929f56aec36688f9c127320e613097f89443fd9f0e30eeda20c5fd8f08"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\Word-Arial-1793185742281328900.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 50,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 32,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 94,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "9afbf9a09ad70cfc9adefa5d48dcbe58f0879836229036e0b365cd38dacf9c1b"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\Word-Arial-1793185742281328900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\Word-Arial-second-1793185742510861600.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 3,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 50,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 32,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 94,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "25205b83c34ba4da3a7cae9d53579d601e6ff069dbcd3908ac9728d5a6cecc12"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\Word-Calibri-1793185742738349000.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 50,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 27,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 87,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "e836df4f2acee70b6857a44e1bececa02e81f10b86a58c79a03dc496effec8e8"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\Word-Calibri-1793185742738349000.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\Word-Calibri-second-1793185742970262200.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 3,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 50,
+      "maxAllGlyphOriginShiftPt": 3.0517578125e-05,
+      "maxUnchangedGlyphBoxShiftPt": 3.0517578125e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 27,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 81,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "76ec3bb61e7b6983416cc141c707dbcae4ba78af6d7edf68953aaca492d4bc47"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-discovery-edited-1793185747126543400.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 31,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 103,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\word-compatibility-edit-1793185750094564100.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 31,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 103,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\release-verified-controls\\word-ui-first.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 2,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 1.52587890625e-05,
+      "maxUnchangedGlyphBoxShiftPt": 1.52587890625e-05,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 31,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 103,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f"
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\release-verified-controls\\word-ui-first.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a1\\evidence\\release-verified-controls\\word-ui-second.pdf",
+      "fontProgramsEqual": true,
+      "fontEncodingWidthsAndMappingsEqual": true,
+      "fontResourceAliasesBefore": 2,
+      "fontResourceAliasesAfter": 3,
+      "metadataEqual": true,
+      "whitespaceRawBytesPreserved": {},
+      "independentGlyphs": 159,
+      "maxAllGlyphOriginShiftPt": 0,
+      "maxUnchangedGlyphBoxShiftPt": 0,
+      "targetExactlyExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changedPixels": 24,
+          "outsidePixels": 0
+        },
+        {
+          "dpi": 144,
+          "changedPixels": 59,
+          "outsidePixels": 0
+        }
+      ],
+      "sourceSha256": "d04a92365c223d1373e57f7e2163637d7daa8157696196a7adf3f2f34fab6b4d"
+    }
+  ]
+}

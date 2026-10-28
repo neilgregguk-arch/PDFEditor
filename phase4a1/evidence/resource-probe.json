@@ -1,0 +1,92 @@
+{
+  "inspections": 32,
+  "distinctFingerprints": true,
+  "observedObjectsAlways": 8,
+  "snapshots": [
+    {
+      "iteration": 1,
+      "handles": 244,
+      "memory": {
+        "rss": 108724224,
+        "vms": 71983104,
+        "num_page_faults": 47518,
+        "peak_wset": 108724224,
+        "wset": 108724224,
+        "peak_paged_pool": 417656,
+        "paged_pool": 416024,
+        "peak_nonpaged_pool": 44624,
+        "nonpaged_pool": 39184,
+        "pagefile": 71983104,
+        "peak_pagefile": 71983104,
+        "private": 71983104
+      }
+    },
+    {
+      "iteration": 8,
+      "handles": 245,
+      "memory": {
+        "rss": 76460032,
+        "vms": 36859904,
+        "num_page_faults": 286293,
+        "peak_wset": 195833856,
+        "wset": 76460032,
+        "peak_paged_pool": 422536,
+        "paged_pool": 420904,
+        "peak_nonpaged_pool": 48432,
+        "nonpaged_pool": 42992,
+        "pagefile": 36859904,
+        "peak_pagefile": 157155328,
+        "private": 36859904
+      }
+    },
+    {
+      "iteration": 16,
+      "handles": 245,
+      "memory": {
+        "rss": 183435264,
+        "vms": 84332544,
+        "num_page_faults": 572346,
+        "peak_wset": 255496192,
+        "wset": 183435264,
+        "peak_paged_pool": 424200,
+        "paged_pool": 422440,
+        "peak_nonpaged_pool": 50064,
+        "nonpaged_pool": 44624,
+        "pagefile": 84332544,
+        "peak_pagefile": 157171712,
+        "private": 84332544
+      }
+    },
+    {
+      "iteration": 32,
+      "handles": 245,
+      "memory": {
+        "rss": 138207232,
+        "vms": 37920768,
+        "num_page_faults": 1119717,
+        "peak_wset": 257507328,
+        "wset": 138207232,
+        "peak_paged_pool": 425992,
+        "paged_pool": 424360,
+        "peak_nonpaged_pool": 51152,
+        "nonpaged_pool": 45712,
+        "pagefile": 37920768,
+        "peak_pagefile": 157904896,
+        "private": 37920768
+      }
+    }
+  ],
+  "handlesGrowthAfterWarmup": 0,
+  "processExited": true,
+  "inspectMedianMs": 189.3380999972578,
+  "previewMedianMs": 83.30939999723341,
+  "previewMs": [
+    117.5513000052888,
+    80.31980000669137,
+    92.87200000835583,
+    77.11729998118244,
+    86.29899998777546,
+    69.19849998666905
+  ],
+  "limitations": "Small single-page test, no proof of leak freedom or hostile-document bounds; temp files retained as evidence"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "file": "A-subset-existing.pdf",
+    "generator": "ReportLab + fontTools subset",
+    "original": "cafe calm.",
+    "subsetCharacters": "cafe lm.",
+    "expected": "proposed-character eligibility",
+    "sha256": "56677259b913710543c4ceff307ea7ec2f9f009f966822aca8428a9985e40454"
+  },
+  {
+    "file": "B-original-only.pdf",
+    "generator": "ReportLab + fontTools subset",
+    "original": "cafe",
+    "subsetCharacters": "cafe",
+    "expected": "proposed-character eligibility",
+    "sha256": "083d35aeab9d29ebfa62f82c0ac6251c74d8131aeab5fabc6940ee9f43e7f2d5"
+  },
+  {
+    "file": "C-subset-bold.pdf",
+    "generator": "ReportLab + fontTools subset",
+    "original": "Bold calm.",
+    "subsetCharacters": "Bold cam.",
+    "expected": "proposed-character eligibility",
+    "sha256": "413b81e9e5cb04e2ae6e3662c218724a11eb9422ababae8293e561ae669ae2e1"
+  },
+  {
+    "file": "D-fragmented.pdf",
+    "generator": "ReportLab + fontTools subset",
+    "original": "cafe calm",
+    "subsetCharacters": "cafe lm.",
+    "expected": "structural refusal",
+    "sha256": "2a43475c35656d15f92561318c7bb6add8c25ea6cec61a5efef50c3eb16a3495"
+  },
+  {
+    "file": "E-character-spacing.pdf",
+    "generator": "ReportLab + fontTools subset",
+    "original": "cafe calm.",
+    "subsetCharacters": "cafe lm.",
+    "expected": "structural refusal",
+    "sha256": "9b812e1ed6ceee180e9c9e1738b39ede0981a2c1357926de76639ad599363af3"
+  },
+  {
+    "file": "F-kerning.pdf",
+    "generator": "ReportLab + fontTools subset",
+    "original": "cafe calm.",
+    "subsetCharacters": "cafe lm.",
+    "expected": "proposed-character eligibility",
+    "sha256": "caf4c0672cb001494b2967302870bfffa364a3be1b4fc104074030457f25c57d"
+  },
+  {
+    "file": "G-duplicate-unicode.pdf",
+    "generator": "ReportLab + pikepdf adversarial ToUnicode",
+    "expected": "verified glyph reuse or explicit mapping refusal",
+    "variant": "duplicate",
+    "sha256": "21055023c8464a5fe5f0d12f6d24c27447147e072a496b1382b76379dccd7630"
+  },
+  {
+    "file": "H-wrong-unicode.pdf",
+    "generator": "ReportLab + pikepdf adversarial ToUnicode",
+    "expected": "verified glyph reuse or explicit mapping refusal",
+    "variant": "wrong",
+    "sha256": "81ccbd0da37af22cc03203695e0957cf4ed8f131d1e13255c9c5f0d5de562452"
+  },
+  {
+    "file": "I-missing-unicode.pdf",
+    "generator": "ReportLab + pikepdf adversarial ToUnicode",
+    "expected": "verified glyph reuse or explicit mapping refusal",
+    "variant": "missing",
+    "sha256": "6c6b46f8bbed5da5b7981bc79435db8293f63978e32578302e77f81fce9346c5"
+  },
+  {
+    "file": "J-partial-encoding.pdf",
+    "generator": "MuPDF + fontTools subset; ToUnicode restricted to used glyphs",
+    "original": "cafe calm.",
+    "expected": "newly eligible existing glyphs; retained but unmapped Z refused",
+    "sha256": "b83da4b97c953087f9f5e5032a1f8c5810db5625f7c6cea4e83000046c07fc72"
+  }
+]

@@ -1,0 +1,845 @@
+{
+  "originals_unchanged": true,
+  "experiments": 16,
+  "total_seconds": 36.79,
+  "results": [
+    {
+      "id": "e1_operand",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 147,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 166,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 144,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1_pdfium",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": false,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 147,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 166,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 144,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1_remove_reinsert",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": false,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 148,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 166,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 145,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2_overflow",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 6463,
+            "outside_edit_pixels": 5356,
+            "max_channel_delta": 255
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 6954,
+            "outside_edit_pixels": 5829,
+            "max_channel_delta": 255
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 6430,
+            "outside_edit_pixels": 5350,
+            "max_channel_delta": 255
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2_controlled_reflow",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": false,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 7640,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 8310,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 7727,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3_bold",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 2040,
+            "outside_edit_pixels": 1204,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 2450,
+            "outside_edit_pixels": 1474,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 2042,
+            "outside_edit_pixels": 1222,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3_bold_compensated",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 836,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 976,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 820,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3_italic",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 835,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 942,
+            "outside_edit_pixels": 1,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 836,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3_table",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 127,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 137,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 120,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3_subset",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 514,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 563,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 229
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 519,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 230
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4_integrity",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 127,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 137,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 120,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4_default_metadata",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": false,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 127,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 137,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 120,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5_mixed_edit",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 149,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 167,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 146,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 255
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2_rejected_expansion",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3_rejected_glyph",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          },
+          {
+            "page": 2,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5_scan_no_edit",
+      "integrity": {
+        "page_count": true,
+        "dimensions": true,
+        "images": true,
+        "fonts_exact_inventory": true,
+        "annotations": true,
+        "metadata": true,
+        "xml_metadata": true,
+        "toc": true,
+        "links": true
+      },
+      "visual": {
+        "mupdf": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "pdfium": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ],
+        "poppler": [
+          {
+            "page": 1,
+            "changed_pixels": 0,
+            "outside_edit_pixels": 0,
+            "max_channel_delta": 0
+          }
+        ]
+      }
+    }
+  ]
+}

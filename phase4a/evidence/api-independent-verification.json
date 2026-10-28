@@ -1,0 +1,197 @@
+{
+  "cases": [
+    {
+      "mechanism": "SetText-existing",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": null,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 690,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 2157,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 0
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-existing",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": null,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 690,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 2157,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 0
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetText-new-unmapped",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Office ",
+      "expectedTextMatches": false,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": null,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 632,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 166
+        },
+        {
+          "dpi": 144,
+          "changed": 1956,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 502
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetText-original-positions",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Phase 3 Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": 0,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 0,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 690
+        },
+        {
+          "dpi": 144,
+          "changed": 0,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 2157
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-original-positions",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Phase 3 Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": 0,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 0,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 690
+        },
+        {
+          "dpi": 144,
+          "changed": 0,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 2157
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-wrong-space",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": null,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 670,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 235
+        },
+        {
+          "dpi": 144,
+          "changed": 2145,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 730
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetText-equal-width-positions",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Phace 3 Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": 0,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 31,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 691
+        },
+        {
+          "dpi": 144,
+          "changed": 103,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 2150
+        }
+      ],
+      "productionApproved": false
+    },
+    {
+      "mechanism": "SetCharcodes-equal-width-positions",
+      "fontProgramsPreserved": true,
+      "metadataEqual": true,
+      "reopenedText": "Phace 3 Office letter",
+      "expectedTextMatches": true,
+      "maxNeighbourGlyphShiftPt": 0,
+      "maxTargetOriginShiftPt": 0,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 31,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 691
+        },
+        {
+          "dpi": 144,
+          "changed": 103,
+          "outside": 0,
+          "differingPixelsVsCorrectExisting": 2150
+        }
+      ],
+      "productionApproved": false
+    }
+  ],
+  "scope": "experimental known-object mapping; not production-approved eligibility"
+}

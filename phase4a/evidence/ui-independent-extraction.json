@@ -1,0 +1,13 @@
+[
+  {
+    "path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\final-controls\\subset-UI-ad3ad227a8bf4e95b25ca69d163ce896.pdf",
+    "expected": "face calm.",
+    "extracted": true,
+    "oldTargetAbsent": true,
+    "syntaxWarnings": []
+  },
+  {
+    "path": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4a\\evidence\\final-controls\\UI-generation-two-34c908ddb04840faa2b602a89ca099d3.pdf",
+    "bothEditMarkersExtracted": true
+  }
+]

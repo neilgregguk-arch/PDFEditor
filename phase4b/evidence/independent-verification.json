@@ -1,0 +1,489 @@
+{
+  "success": true,
+  "engine": "Poppler + pypdf + qpdf via pikepdf (development only)",
+  "cases": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\02-report.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\report-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 3,
+      "untouchedGlyphs": 113,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 5919,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 18654,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\01-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\letter-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 4,
+      "untouchedGlyphs": 117,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 4791,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 15081,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\02-report.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\bold-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 5,
+      "untouchedGlyphs": 273,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 1918,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 6152,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\02-report.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\colour-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 5,
+      "untouchedGlyphs": 260,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 1332,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 4140,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\09-mupdf-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\mupdf-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 2,
+      "untouchedGlyphs": 84,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 2490,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 8045,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\01-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\generation-one.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 4,
+      "untouchedGlyphs": 117,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 7470,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 24047,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\generation-one.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\generation-two.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 4,
+      "untouchedGlyphs": 117,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 1019,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 3158,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\word-discovery-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 7,
+      "untouchedGlyphs": 137,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 31,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 103,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\13-shuffled-order.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\shuffled-edited.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 0,
+      "untouchedGlyphs": 0,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 6210,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 19480,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\A-subset-existing.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\subset-equal-width-1793189090385490600.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 119,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 408,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\A-subset-existing.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\subset-longer-1793189090526605000.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 3170,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 9795,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\B-original-only.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\original-only-reuse-1793189090699881400.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 370,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 1178,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\C-subset-bold.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\subset-bold-1793189090914478200.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 391,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 1218,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\G-duplicate-unicode.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\duplicate-mapping-safe-1793189091315739200.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 119,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 408,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\word-compatibility-edit-1793189091715122200.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 7,
+      "untouchedGlyphs": 137,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 31,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 103,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\A-subset-existing.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\subset-gen-one-1793189092408331900.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 119,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 408,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\subset-gen-one-1793189092408331900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\subset-gen-two-1793189092610157200.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 128,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 407,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\A-subset-existing.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\probe-object-count-1793189092838800700.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 119,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 408,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\J-partial-encoding.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\new-partial-encoding-edit-1793189093124727000.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 119,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 408,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\run\\font-corpus\\J-partial-encoding.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\new-partial-gen-one-1793189093254828300.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 119,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 408,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\new-partial-gen-one-1793189093254828300.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4b\\evidence\\new-partial-gen-two-1793189093438135400.pdf",
+      "syntaxWarnings": [],
+      "fontProgramsEqual": true,
+      "untouchedRuns": 1,
+      "untouchedGlyphs": 46,
+      "maxIndependentNeighbourGlyphShiftPt": 0,
+      "metadataEqual": true,
+      "replacementExtracted": true,
+      "comparisons": [
+        {
+          "dpi": 72,
+          "changed": 129,
+          "outside": 0
+        },
+        {
+          "dpi": 144,
+          "changed": 405,
+          "outside": 0
+        }
+      ]
+    }
+  ]
+}

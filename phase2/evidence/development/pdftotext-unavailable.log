@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase2\tools\verify_visuals.py", line 38, in <module>
+    wa=sorted(w for w in words(a) if outside(w));wb=sorted(w for w in words(b) if outside(w));assert wa==wb,(name,wa,wb)
+                         ^^^^^^^^
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase2\tools\verify_visuals.py", line 21, in words
+    xml=subprocess.run(['pdftotext','-bbox',str(path),'-'],capture_output=True,check=True).stdout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGregg\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGregg\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\NGregg\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified

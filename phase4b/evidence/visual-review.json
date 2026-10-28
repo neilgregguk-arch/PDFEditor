@@ -1,0 +1,10 @@
+{
+  "finalControls": "final-release-controls",
+  "images": [
+    "two-drafts.png",
+    "font-warning.png",
+    "word-refused.png",
+    "combined-exports-contact-sheet.png"
+  ],
+  "scope": "rendered WPF controls and Poppler output; no hardware input or file-picker automation"
+}

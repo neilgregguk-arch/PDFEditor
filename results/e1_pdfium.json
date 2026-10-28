@@ -1,0 +1,97 @@
+{
+  "id": "e1_pdfium",
+  "source": "basic.pdf",
+  "output": "output\\pdf\\edited\\e1_pdfium.pdf",
+  "old": "blue",
+  "new": "glue",
+  "regions": [
+    [
+      182.05996704101562,
+      99.0999984741211,
+      204.73995971679688,
+      115.58799743652344
+    ]
+  ],
+  "edit_save_ms": 13.908,
+  "method": "PDFium existing text object FPDFText_SetText",
+  "objects_changed": 1,
+  "integrity": {
+    "page_count": true,
+    "dimensions": true,
+    "images": true,
+    "fonts_exact_inventory": false,
+    "annotations": true,
+    "metadata": true,
+    "xml_metadata": true,
+    "toc": true,
+    "links": true
+  },
+  "visual": {
+    "mupdf": [
+      {
+        "page": 1,
+        "changed_pixels": 147,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 230
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "pdfium": [
+      {
+        "page": 1,
+        "changed_pixels": 166,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 229
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ],
+    "poppler": [
+      {
+        "page": 1,
+        "changed_pixels": 144,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 230
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "outside_edit_pixels": 0,
+        "max_channel_delta": 0
+      }
+    ]
+  },
+  "verification": {
+    "old_absent_mupdf": true,
+    "new_present_mupdf": true,
+    "old_absent_pdfium": true,
+    "new_present_pdfium": true,
+    "old_absent_text_operands": true,
+    "syntax_warnings": [],
+    "style": {
+      "font_before": "Helvetica",
+      "font_after": "Helvetica",
+      "size_before": 12.0,
+      "size_after": 12.0,
+      "color_before": 1720435,
+      "color_after": 1720435,
+      "origin_before": [
+        182.05996704101562,
+        112.0
+      ],
+      "origin_after": [
+        182.05996704101562,
+        112.0
+      ]
+    }
+  }
+}
