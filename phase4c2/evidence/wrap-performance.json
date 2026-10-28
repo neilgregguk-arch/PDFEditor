@@ -1,0 +1,199 @@
+{
+  "cases": [
+    {
+      "name": "two-lines",
+      "medianMs": 195.248600008199,
+      "timesMs": [
+        237.3336000018753,
+        195.248600008199,
+        190.59730001026765,
+        197.6184000086505,
+        190.64980000257492
+      ],
+      "stages": [
+        {
+          "planning": 132.0342,
+          "candidateGeneration": 15.3487,
+          "reopenVerification": 60.1667
+        },
+        {
+          "planning": 130.7301,
+          "candidateGeneration": 8.105,
+          "reopenVerification": 54.0291
+        },
+        {
+          "planning": 125.062,
+          "candidateGeneration": 9.7257,
+          "reopenVerification": 53.3343
+        },
+        {
+          "planning": 125.8564,
+          "candidateGeneration": 10.4886,
+          "reopenVerification": 58.1174
+        },
+        {
+          "planning": 127.3106,
+          "candidateGeneration": 8.0759,
+          "reopenVerification": 52.3757
+        }
+      ]
+    },
+    {
+      "name": "three-plus-lines",
+      "medianMs": 187.52089998451993,
+      "timesMs": [
+        204.42359999287874,
+        191.41110000782646,
+        187.52089998451993,
+        180.76870002551004,
+        184.28210000274703
+      ],
+      "stages": [
+        {
+          "planning": 123.9439,
+          "candidateGeneration": 9.5964,
+          "reopenVerification": 65.8446
+        },
+        {
+          "planning": 121.5489,
+          "candidateGeneration": 9.3055,
+          "reopenVerification": 56.8164
+        },
+        {
+          "planning": 120.6359,
+          "candidateGeneration": 9.4712,
+          "reopenVerification": 53.5772
+        },
+        {
+          "planning": 115.9702,
+          "candidateGeneration": 8.829,
+          "reopenVerification": 52.5459
+        },
+        {
+          "planning": 113.5851,
+          "candidateGeneration": 9.9345,
+          "reopenVerification": 57.2981
+        }
+      ]
+    },
+    {
+      "name": "long-word",
+      "medianMs": 183.45110001973808,
+      "timesMs": [
+        175.63610000070184,
+        183.45110001973808,
+        186.0436999995727,
+        198.78390000667423,
+        178.29989999881946
+      ],
+      "stages": [
+        {
+          "planning": 111.973,
+          "candidateGeneration": 8.7677,
+          "reopenVerification": 52.9741
+        },
+        {
+          "planning": 119.7245,
+          "candidateGeneration": 9.0622,
+          "reopenVerification": 52.887
+        },
+        {
+          "planning": 117.3316,
+          "candidateGeneration": 8.7892,
+          "reopenVerification": 53.9146
+        },
+        {
+          "planning": 116.6986,
+          "candidateGeneration": 9.1815,
+          "reopenVerification": 70.4022
+        },
+        {
+          "planning": 114.1823,
+          "candidateGeneration": 9.2716,
+          "reopenVerification": 52.5748
+        }
+      ]
+    },
+    {
+      "name": "combined-pages",
+      "medianMs": 288.11699998914264,
+      "timesMs": [
+        295.5147000029683,
+        286.68970000580885,
+        293.7660000170581,
+        288.11699998914264,
+        285.2122999902349
+      ],
+      "stages": [
+        {
+          "planning": 206.6158,
+          "candidateGeneration": 8.5577,
+          "reopenVerification": 75.8481
+        },
+        {
+          "planning": 196.1749,
+          "candidateGeneration": 10.8535,
+          "reopenVerification": 75.3141
+        },
+        {
+          "planning": 200.3572,
+          "candidateGeneration": 11.0655,
+          "reopenVerification": 77.7283
+        },
+        {
+          "planning": 197.2579,
+          "candidateGeneration": 10.2606,
+          "reopenVerification": 75.9855
+        },
+        {
+          "planning": 195.4609,
+          "candidateGeneration": 9.7797,
+          "reopenVerification": 75.9019
+        }
+      ]
+    }
+  ],
+  "repeatedWrapUnwrap": 30,
+  "before": {
+    "handles": 266,
+    "memory": {
+      "rss": 142622720,
+      "vms": 40828928,
+      "num_page_faults": 992783,
+      "peak_wset": 262565888,
+      "wset": 142622720,
+      "peak_paged_pool": 440352,
+      "paged_pool": 438720,
+      "peak_nonpaged_pool": 55096,
+      "nonpaged_pool": 49656,
+      "pagefile": 40828928,
+      "peak_pagefile": 161112064,
+      "private": 40828928
+    }
+  },
+  "after": {
+    "handles": 266,
+    "memory": {
+      "rss": 234618880,
+      "vms": 129826816,
+      "num_page_faults": 2284736,
+      "peak_wset": 263245824,
+      "wset": 234618880,
+      "peak_paged_pool": 442656,
+      "paged_pool": 441024,
+      "peak_nonpaged_pool": 56864,
+      "nonpaged_pool": 51424,
+      "pagefile": 129826816,
+      "peak_pagefile": 161112064,
+      "private": 129826816
+    }
+  },
+  "handleGrowth": 0,
+  "retainedPdfs": 12,
+  "retainedPngs": 12,
+  "workerExited": true,
+  "recoveryFileBytes": [
+    247456
+  ],
+  "scope": "Small local genuine Word/development fixtures; IPC+candidate generation+reopen verification included, not physical input or large-document certification."
+}

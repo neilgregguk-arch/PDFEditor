@@ -1,0 +1,19 @@
+test_core_save_integrity (test_feasibility.SavedEvidenceTests.test_core_save_integrity) ... ok
+test_font_size_color_and_anchor_preservation (test_feasibility.SavedEvidenceTests.test_font_size_color_and_anchor_preservation) ... ok
+test_known_overflow_and_advance_regressions_are_detected (test_feasibility.SavedEvidenceTests.test_known_overflow_and_advance_regressions_are_detected) ... ok
+test_nonempty_integrity_features (test_feasibility.SavedEvidenceTests.test_nonempty_integrity_features) ... ok
+test_original_font_programs_preserved_by_operand_edits (test_feasibility.SavedEvidenceTests.test_original_font_programs_preserved_by_operand_edits) ... ok
+test_originals_match_persistent_manifest (test_feasibility.SavedEvidenceTests.test_originals_match_persistent_manifest) ... ok
+test_overlay_cannot_pass_semantic_removal_check (test_feasibility.SavedEvidenceTests.test_overlay_cannot_pass_semantic_removal_check) ... ok
+test_reflow_is_multiline_and_inside_owned_box (test_feasibility.SavedEvidenceTests.test_reflow_is_multiline_and_inside_owned_box) ... ok
+test_refusals_are_byte_identical (test_feasibility.SavedEvidenceTests.test_refusals_are_byte_identical) ... ok
+test_reopen_semantics_and_no_old_operands (test_feasibility.SavedEvidenceTests.test_reopen_semantics_and_no_old_operands) ... ok
+test_safe_cases_have_no_outside_changes (test_feasibility.SavedEvidenceTests.test_safe_cases_have_no_outside_changes) ... ok
+test_scan_and_mixed_are_heuristics (test_feasibility.SavedEvidenceTests.test_scan_and_mixed_are_heuristics) ... ok
+test_untargeted_words_preserved (test_feasibility.SavedEvidenceTests.test_untargeted_words_preserved) ... ok
+test_untouched_second_pages_are_pixel_identical (test_feasibility.SavedEvidenceTests.test_untouched_second_pages_are_pixel_identical) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.809s
+
+OK

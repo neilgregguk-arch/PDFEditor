@@ -1,0 +1,13 @@
+{
+  "checked": 3689,
+  "allUnchanged": false,
+  "historicalPhaseFilesUnchanged": true,
+  "intentionalRepositoryGuideUpdate": {
+    "path": "START_HERE.md",
+    "beforeSha256": "21cc631dca30f5d9f343ff6960e2af85ba8b4d7f911711c9f17b3a702f1a29e3",
+    "afterSha256": "edc43c8ede5c52bf9d8e02dec71ec168d96a73940aad72c7d36b9055de5f137c",
+    "reason": "Intentional current-phase repository entry guide update"
+  },
+  "changed": [],
+  "scope": "Phase 1, 2, 3, 4A, 4A.1, 4B, 4C.1 source/runtime/evidence/handovers; excludes bin/obj/test-work"
+}
