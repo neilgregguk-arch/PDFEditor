@@ -49,7 +49,7 @@ public sealed partial class EditorWindow
   if(session==null)return;documentStatus.Text=session.Summary();
   var blocked=session.Modified.Where(s=>!s.Compatible||s.Validation=="Blocked"||!ParagraphLayout.Plan(s.Original,s.Text).Safe).ToArray();
   if(blocked.Length>0)documentStatus.Text+=" · Retained drafts in amber: "+string.Join(" ",blocked.Select(s=>DraftReason(s.Original,s.Text,ParagraphLayout.Plan(s.Original,s.Text))).Distinct());
-  if(saveButton!=null)saveButton.IsEnabled=!saving&&session.Modified.Length>0&&session.VerifiedRevision==session.Revision&&session.Modified.All(s=>s.Validation=="Verified"&&s.Compatible);
+  if(saveButton!=null)saveButton.IsEnabled=!opening&&!saving&&session.Modified.Length>0&&session.VerifiedRevision==session.Revision&&session.Modified.All(s=>s.Validation=="Verified"&&s.Compatible);
  }
  void PaintInactiveDrafts()
  {
@@ -59,7 +59,7 @@ public sealed partial class EditorWindow
   {
    if(active&&state.Key==ActiveKey)continue;
    Region r=state.Original;var layout=ParagraphLayout.Plan(r,state.Text);
-   if(IsRetainedDraft(r,state.Text,layout)){var retained=RetainedDraftPreview(r,state.Text);Canvas.SetLeft(retained,r.X*Dip);Canvas.SetTop(retained,r.Top*Dip);inactiveDrafts.Children.Add(retained);continue;}
+   if(IsRetainedDraft(r,state.Text,layout)){var retained=RetainedDraftPreview(r,state.Text);var bounds=RetainedDraftBounds(r);Canvas.SetLeft(retained,bounds.X*Dip);Canvas.SetTop(retained,bounds.Y*Dip);inactiveDrafts.Children.Add(retained);continue;}
    if(r.Positioned!=null&&layout.Positioned!=null)
    {
     var ink=new PositionedInk();ink.Set(r,state.Text);Canvas.SetLeft(ink,r.X*Dip);Canvas.SetTop(ink,r.Top*Dip);inactiveDrafts.Children.Add(ink);continue;

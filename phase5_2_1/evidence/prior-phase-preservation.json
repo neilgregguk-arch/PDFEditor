@@ -1,0 +1,10 @@
+{
+  "checked": 10868,
+  "historicalPhaseFilesUnchanged": true,
+  "intentionalEntryGuideUpdate": {
+    "path": "START_HERE.md",
+    "beforeSha256": "43fdeecc056620320b2efc32a873c26afe9738bed7965230538587c11470a4d2",
+    "afterSha256": "4624d83ad84ecb067462a0616e578c811aad16ea0ff0c9f09e9ea7c9842056a0",
+    "reason": "Intentional latest corrective-phase entry guide update"
+  }
+}

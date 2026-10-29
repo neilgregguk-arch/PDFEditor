@@ -1,0 +1,20 @@
+{
+  "previous": "phase5_2",
+  "coreSourceFiles": [
+    "Discovery.cs",
+    "DocumentSession.cs",
+    "DocumentTransaction.cs",
+    "Global.cs",
+    "GlyphAnalysis.cs",
+    "Models.cs",
+    "Native.cs",
+    "OriginalParagraphs.cs",
+    "OriginalStructureProof.cs",
+    "ParagraphMarks.cs",
+    "PdfEngine.cs",
+    "PositionLayout.cs"
+  ],
+  "allByteIdentical": true,
+  "pdfiumSha256": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e",
+  "scope": "Presentation correction only; no discovery, layout, ownership, envelope, transaction or fidelity relaxation"
+}

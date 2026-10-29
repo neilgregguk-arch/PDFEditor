@@ -1,0 +1,17 @@
+C-two-natural-single-save pass 
+C-two-expanding-natural-paragraphs pass 
+D-two-positioned-word-regions pass 
+E-mixed-strategies-single-page pass 
+H-different-pages pass 
+F-individually-valid-combined-collision pass 
+G-invalid-one-never-saves-valid-other pass 
+K-second-generation-combined pass 
+J-failed-final-move-rolls-back-stage pass 
+duplicate-ownership-refused pass 
+source-region-identity-refused pass 
+source-hash-refused pass 
+original-and-existing-destinations-protected pass 
+complete-deletion-plus-other-edit pass 
+no-change-not-reported-saved pass 
+mixed-does-not-relax-position-boundary pass 
+worker-restart-source-based-identities pass 

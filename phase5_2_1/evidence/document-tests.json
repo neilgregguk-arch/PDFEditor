@@ -1,0 +1,4058 @@
+{
+  "tests": 17,
+  "failures": 0,
+  "results": [
+    {
+      "name": "C-two-natural-single-save",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-natural-1793292795656201700.pdf"
+    },
+    {
+      "name": "C-two-expanding-natural-paragraphs",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-wrapped-paragraphs-1793292795877631500.pdf"
+    },
+    {
+      "name": "D-two-positioned-word-regions",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-word-1793292796214497600.pdf"
+    },
+    {
+      "name": "E-mixed-strategies-single-page",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\mixed-strategies-1793292796908749800.pdf"
+    },
+    {
+      "name": "H-different-pages",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-pages-1793292797521719400.pdf"
+    },
+    {
+      "name": "F-individually-valid-combined-collision",
+      "status": "pass",
+      "detail": {
+        "Revision": 15,
+        "Ok": true,
+        "Data": {
+          "Revision": 15,
+          "Safe": false,
+          "Diagnostic": "Changed areas conflict with each other or protected content. All drafts kept; nothing saved.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [
+            {
+              "Key": "0:p0-o0",
+              "State": "Blocked",
+              "Message": "These two changed text areas overlap. Both drafts have been kept."
+            },
+            {
+              "Key": "0:p0-o1",
+              "State": "Blocked",
+              "Message": "These two changed text areas overlap. Both drafts have been kept."
+            }
+          ],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "G-invalid-one-never-saves-valid-other",
+      "status": "pass",
+      "detail": {
+        "Revision": 17,
+        "Ok": true,
+        "Data": {
+          "Revision": 17,
+          "Safe": false,
+          "Diagnostic": "1 changed text area(s) need attention. All drafts kept; nothing saved.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [
+            {
+              "Key": "0:p0-o0",
+              "State": "Blocked",
+              "Message": "This editor cannot safely save U+2603 with the original PDF font and text layout. Your changes have been kept; you can keep typing or undo."
+            }
+          ],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "K-second-generation-combined",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\second-generation-1793292798247954800.pdf"
+    },
+    {
+      "name": "J-failed-final-move-rolls-back-stage",
+      "status": "pass",
+      "detail": {
+        "Revision": 21,
+        "Ok": false,
+        "Data": null,
+        "Error": "Cannot create a file when that file already exists."
+      }
+    },
+    {
+      "name": "duplicate-ownership-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 23,
+        "Ok": false,
+        "Data": null,
+        "Error": "Duplicate source region reference."
+      }
+    },
+    {
+      "name": "source-region-identity-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 25,
+        "Ok": false,
+        "Data": null,
+        "Error": "A changed text area no longer matches its original source identity. All drafts retained."
+      }
+    },
+    {
+      "name": "source-hash-refused",
+      "status": "pass",
+      "detail": {
+        "Revision": 27,
+        "Ok": false,
+        "Data": null,
+        "Error": "Source changed on disk. All drafts retained; reopen deliberately."
+      }
+    },
+    {
+      "name": "original-and-existing-destinations-protected",
+      "status": "pass",
+      "detail": {
+        "Revision": 30,
+        "Ok": false,
+        "Data": null,
+        "Error": "Original and existing destinations are protected. Choose a new filename."
+      }
+    },
+    {
+      "name": "complete-deletion-plus-other-edit",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-and-replace-1793292799266963600.pdf"
+    },
+    {
+      "name": "no-change-not-reported-saved",
+      "status": "pass",
+      "detail": {
+        "Revision": 34,
+        "Ok": true,
+        "Data": {
+          "Revision": 34,
+          "Safe": false,
+          "Diagnostic": "No changed text areas to export.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "mixed-does-not-relax-position-boundary",
+      "status": "pass",
+      "detail": {
+        "Revision": 36,
+        "Ok": true,
+        "Data": {
+          "Revision": 36,
+          "Safe": false,
+          "Diagnostic": "1 changed text area(s) need attention. All drafts kept; nothing saved.",
+          "Image": null,
+          "Verification": null,
+          "Destination": null,
+          "Regions": [
+            {
+              "Key": "0:p0-o0",
+              "State": "Blocked",
+              "Message": "Spacing recalculation supports up to 512 characters per line; the existing fixed-origin substitution path is retained. Your complete draft has been kept."
+            }
+          ],
+          "ProposedTextEligibility": "NotAssessed",
+          "ExportEligibility": "Blocked",
+          "GlyphIssues": []
+        },
+        "Error": null
+      }
+    },
+    {
+      "name": "worker-restart-source-based-identities",
+      "status": "pass",
+      "detail": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\after-worker-restart-1793292800131803900.pdf"
+    }
+  ],
+  "saved": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-natural-1793292795656201700.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+          "Text": "First changed working paragraph."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+          "Text": "Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 2,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-04ec0facde3847baa582922bb99c83ca-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "ab43e1699e099f7e5fecc72c38944cc9a4ba951ba5bd8e0d7704af439fec86ee",
+          "revision": 2,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 54.5673,
+            "candidateGeneration": 18.4771,
+            "reopenVerification": 72.2981
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+                  "Text": "First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 203.14453125,
+                        "Height": 18,
+                        "Right": 263.14453125,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": null
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+                  "Text": "Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 221.1796875,
+                        "Height": 18,
+                        "Right": 281.1796875,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    1
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 10052
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-natural-1793292795656201700.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-wrapped-paragraphs-1793292795877631500.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+          "Text": "First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+          "Text": "Second changed working paragraph. Second changed working paragraph. Second changed working paragraph. Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 4,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-b8593fcb4676435fb909e29e1f4e1863-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "ff426f876a095e6786d5f96e7bd0a515ddf57e1f755c1e4e41f64ff0c219396c",
+          "revision": 4,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 48.8276,
+            "candidateGeneration": 7.2676,
+            "reopenVerification": 65.9408
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+                  "Text": "First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph. First changed working paragraph. First ",
+                      "changed working paragraph. First changed working paragraph. First changed ",
+                      "working paragraph."
+                    ],
+                    "Height": 54,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 443.859375,
+                        "Height": 18,
+                        "Right": 503.859375,
+                        "Bottom": 108.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 108.861328125,
+                        "Width": 469.51171875,
+                        "Height": 18,
+                        "Right": 529.51171875,
+                        "Bottom": 126.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 126.861328125,
+                        "Width": 117.609375,
+                        "Height": 18,
+                        "Right": 177.609375,
+                        "Bottom": 144.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 58,
+                    "Right": 554,
+                    "Bottom": 146.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 3,
+                  "replacementIndices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "paragraphId": null
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+                  "Text": "Second changed working paragraph. Second changed working paragraph. Second changed working paragraph. Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph. Second changed working paragraph. ",
+                      "Second changed working paragraph. Second changed working paragraph."
+                    ],
+                    "Height": 36,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 449.98828125,
+                        "Height": 18,
+                        "Right": 509.98828125,
+                        "Bottom": 318.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 318.861328125,
+                        "Width": 446.173828125,
+                        "Height": 18,
+                        "Right": 506.173828125,
+                        "Bottom": 336.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 40,
+                    "Right": 554,
+                    "Bottom": 338.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 2,
+                  "replacementIndices": [
+                    3,
+                    4
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 33116
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-wrapped-paragraphs-1793292795877631500.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-word-1793292796214497600.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "eb6bf34ec8eda5c40169c0e8dcbfff2fc880ddbcc4d296740515f6d542d0e7c3",
+          "Text": "Phace 3 Office letter"
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o6",
+          "Identity": "f4565015b1d62be5ea9111c8ac6234e0ca2bf661a345a5440ab9aea2967bb3c9",
+          "Text": "A separate paragraph chould retain its own boundaries."
+        }
+      ],
+      "result": {
+        "Revision": 6,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-5ee15f4e6116450385487f6b5c6c2fc6-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f",
+          "candidateHash": "a459e0df62933babbbc51fd777aaf111b40718c9f4c40d9d2e483cfd1e974183",
+          "revision": 6,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 143.271,
+            "candidateGeneration": 17.6682,
+            "reopenVerification": 247.1016
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "eb6bf34ec8eda5c40169c0e8dcbfff2fc880ddbcc4d296740515f6d542d0e7c3",
+                  "Text": "Phace 3 Office letter",
+                  "strategy": "Positioned",
+                  "layout": {
+                    "Lines": [
+                      "Phace 3 Office letter"
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Single-line positions proposed; checking the complete PDF candidate.",
+                    "LineBoxes": [
+                      {
+                        "X": 72.02400207519531,
+                        "Y": 72.43670654296875,
+                        "Width": 108.70799255371094,
+                        "Height": 18,
+                        "Right": 180.73199462890625,
+                        "Bottom": 90.43670654296875
+                      }
+                    ],
+                    "Positioned": {
+                      "Origins": [
+                        72.02400207519531,
+                        80.052001953125,
+                        86.76000213623047,
+                        93.46800231933594,
+                        99.46800231933594,
+                        106.06800842285156,
+                        109.40400695800781,
+                        116.13600158691406,
+                        119.47200012207031,
+                        128.84400939941406,
+                        131.84400939941406,
+                        135.1800079345703,
+                        137.843994140625,
+                        143.843994140625,
+                        150.552001953125,
+                        153.88800048828125,
+                        156.552001953125,
+                        163.260009765625,
+                        166.5,
+                        169.83599853515625,
+                        176.5679931640625
+                      ],
+                      "RelativePositions": [
+                        8.028,
+                        14.736,
+                        21.444,
+                        27.444,
+                        34.044006,
+                        37.380005,
+                        44.112,
+                        47.447998,
+                        56.820007,
+                        59.820007,
+                        63.156006,
+                        65.81999,
+                        71.81999,
+                        78.528,
+                        81.864,
+                        84.528,
+                        91.23601,
+                        94.476,
+                        97.812,
+                        104.54399
+                      ],
+                      "OriginalIndices": [
+                        0,
+                        1,
+                        2,
+                        -1,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "Kinds": [
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Replaced",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving"
+                      ],
+                      "ReplacementOriginalIndices": [
+                        -1,
+                        -1,
+                        -1,
+                        3,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                      ],
+                      "DeletedOriginalIndices": [],
+                      "InkBounds": [
+                        {
+                          "X": 72.94800567626953,
+                          "Y": 74.57598876953125,
+                          "Width": 6.563995361328125,
+                          "Height": 8.7239990234375,
+                          "Right": 79.51200103759766,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 80.84400177001953,
+                          "Y": 74.57598876953125,
+                          "Width": 5.064002990722656,
+                          "Height": 8.7239990234375,
+                          "Right": 85.90800476074219,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 87.19200134277344,
+                          "Y": 76.843994140625,
+                          "Width": 5.736000061035156,
+                          "Height": 6.5880126953125,
+                          "Right": 92.9280014038086,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 93.93600273132324,
+                          "Y": 76.84398651123047,
+                          "Width": 5.423999786376953,
+                          "Height": 6.588001251220703,
+                          "Right": 99.3600025177002,
+                          "Bottom": 83.43198776245117
+                        },
+                        {
+                          "X": 99.91200256347656,
+                          "Y": 76.843994140625,
+                          "Width": 5.736000061035156,
+                          "Height": 6.5880126953125,
+                          "Right": 105.64800262451172,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 106.06800842285156,
+                          "Y": 83.29998779296875,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 106.06800842285156,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 109.90800476074219,
+                          "Y": 74.53997802734375,
+                          "Width": 5.627998352050781,
+                          "Height": 8.90399169921875,
+                          "Right": 115.53600311279297,
+                          "Bottom": 83.4439697265625
+                        },
+                        {
+                          "X": 116.13600158691406,
+                          "Y": 83.29998779296875,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 116.13600158691406,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 120.04800415039062,
+                          "Y": 74.41998291015625,
+                          "Width": 8.220001220703125,
+                          "Height": 9.01202392578125,
+                          "Right": 128.26800537109375,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 128.95201110839844,
+                          "Y": 74.4320068359375,
+                          "Width": 3.6479949951171875,
+                          "Height": 8.86798095703125,
+                          "Right": 132.60000610351562,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 131.95201110839844,
+                          "Y": 74.4320068359375,
+                          "Width": 3.6479949951171875,
+                          "Height": 8.86798095703125,
+                          "Right": 135.60000610351562,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 135.9720001220703,
+                          "Y": 74.57598876953125,
+                          "Width": 1.0560150146484375,
+                          "Height": 8.7239990234375,
+                          "Right": 137.02801513671875,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 138.31201171875,
+                          "Y": 76.843994140625,
+                          "Width": 5.423980712890625,
+                          "Height": 6.5880126953125,
+                          "Right": 143.73599243164062,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 144.28799438476562,
+                          "Y": 76.843994140625,
+                          "Width": 5.7360076904296875,
+                          "Height": 6.5880126953125,
+                          "Right": 150.0240020751953,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 150.552001953125,
+                          "Y": 83.29998779296875,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 150.552001953125,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 154.656005859375,
+                          "Y": 74.57598876953125,
+                          "Width": 1.055999755859375,
+                          "Height": 8.7239990234375,
+                          "Right": 155.71200561523438,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 156.99600219726562,
+                          "Y": 76.843994140625,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 162.73199462890625,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 163.47601318359375,
+                          "Y": 74.77996826171875,
+                          "Width": 3.035980224609375,
+                          "Height": 8.592041015625,
+                          "Right": 166.51199340820312,
+                          "Bottom": 83.37200927734375
+                        },
+                        {
+                          "X": 166.71600341796875,
+                          "Y": 74.77996826171875,
+                          "Width": 3.0359954833984375,
+                          "Height": 8.592041015625,
+                          "Right": 169.7519989013672,
+                          "Bottom": 83.37200927734375
+                        },
+                        {
+                          "X": 170.27999877929688,
+                          "Y": 76.843994140625,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 176.0159912109375,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 177.34799194335938,
+                          "Y": 76.843994140625,
+                          "Width": 3.384002685546875,
+                          "Height": 6.45599365234375,
+                          "Right": 180.73199462890625,
+                          "Bottom": 83.29998779296875
+                        }
+                      ],
+                      "Policy": "FixedOriginsEqualOrNarrowerSubstitution",
+                      "Ambiguous": false,
+                      "Lines": [
+                        {
+                          "Start": 0,
+                          "Text": "Phace 3 Office letter",
+                          "Baseline": 83.29998779296875,
+                          "Origins": [
+                            72.02400207519531,
+                            80.052001953125,
+                            86.76000213623047,
+                            93.46800231933594,
+                            99.46800231933594,
+                            106.06800842285156,
+                            109.40400695800781,
+                            116.13600158691406,
+                            119.47200012207031,
+                            128.84400939941406,
+                            131.84400939941406,
+                            135.1800079345703,
+                            137.843994140625,
+                            143.843994140625,
+                            150.552001953125,
+                            153.88800048828125,
+                            156.552001953125,
+                            163.260009765625,
+                            166.5,
+                            169.83599853515625,
+                            176.5679931640625
+                          ],
+                          "RelativePositions": [
+                            8.028,
+                            14.736,
+                            21.444,
+                            27.444,
+                            34.044006,
+                            37.380005,
+                            44.112,
+                            47.447998,
+                            56.820007,
+                            59.820007,
+                            63.156006,
+                            65.81999,
+                            71.81999,
+                            78.528,
+                            81.864,
+                            84.528,
+                            91.23601,
+                            94.476,
+                            97.812,
+                            104.54399
+                          ],
+                          "InkBounds": [
+                            {
+                              "X": 72.94800567626953,
+                              "Y": 74.57598876953125,
+                              "Width": 6.563995361328125,
+                              "Height": 8.7239990234375,
+                              "Right": 79.51200103759766,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 80.84400177001953,
+                              "Y": 74.57598876953125,
+                              "Width": 5.064002990722656,
+                              "Height": 8.7239990234375,
+                              "Right": 85.90800476074219,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 87.19200134277344,
+                              "Y": 76.843994140625,
+                              "Width": 5.736000061035156,
+                              "Height": 6.5880126953125,
+                              "Right": 92.9280014038086,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 93.93600273132324,
+                              "Y": 76.84398651123047,
+                              "Width": 5.423999786376953,
+                              "Height": 6.588001251220703,
+                              "Right": 99.3600025177002,
+                              "Bottom": 83.43198776245117
+                            },
+                            {
+                              "X": 99.91200256347656,
+                              "Y": 76.843994140625,
+                              "Width": 5.736000061035156,
+                              "Height": 6.5880126953125,
+                              "Right": 105.64800262451172,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 106.06800842285156,
+                              "Y": 83.29998779296875,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 106.06800842285156,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 109.90800476074219,
+                              "Y": 74.53997802734375,
+                              "Width": 5.627998352050781,
+                              "Height": 8.90399169921875,
+                              "Right": 115.53600311279297,
+                              "Bottom": 83.4439697265625
+                            },
+                            {
+                              "X": 116.13600158691406,
+                              "Y": 83.29998779296875,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 116.13600158691406,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 120.04800415039062,
+                              "Y": 74.41998291015625,
+                              "Width": 8.220001220703125,
+                              "Height": 9.01202392578125,
+                              "Right": 128.26800537109375,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 128.95201110839844,
+                              "Y": 74.4320068359375,
+                              "Width": 3.6479949951171875,
+                              "Height": 8.86798095703125,
+                              "Right": 132.60000610351562,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 131.95201110839844,
+                              "Y": 74.4320068359375,
+                              "Width": 3.6479949951171875,
+                              "Height": 8.86798095703125,
+                              "Right": 135.60000610351562,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 135.9720001220703,
+                              "Y": 74.57598876953125,
+                              "Width": 1.0560150146484375,
+                              "Height": 8.7239990234375,
+                              "Right": 137.02801513671875,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 138.31201171875,
+                              "Y": 76.843994140625,
+                              "Width": 5.423980712890625,
+                              "Height": 6.5880126953125,
+                              "Right": 143.73599243164062,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 144.28799438476562,
+                              "Y": 76.843994140625,
+                              "Width": 5.7360076904296875,
+                              "Height": 6.5880126953125,
+                              "Right": 150.0240020751953,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 150.552001953125,
+                              "Y": 83.29998779296875,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 150.552001953125,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 154.656005859375,
+                              "Y": 74.57598876953125,
+                              "Width": 1.055999755859375,
+                              "Height": 8.7239990234375,
+                              "Right": 155.71200561523438,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 156.99600219726562,
+                              "Y": 76.843994140625,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 162.73199462890625,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 163.47601318359375,
+                              "Y": 74.77996826171875,
+                              "Width": 3.035980224609375,
+                              "Height": 8.592041015625,
+                              "Right": 166.51199340820312,
+                              "Bottom": 83.37200927734375
+                            },
+                            {
+                              "X": 166.71600341796875,
+                              "Y": 74.77996826171875,
+                              "Width": 3.0359954833984375,
+                              "Height": 8.592041015625,
+                              "Right": 169.7519989013672,
+                              "Bottom": 83.37200927734375
+                            },
+                            {
+                              "X": 170.27999877929688,
+                              "Y": 76.843994140625,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 176.0159912109375,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 177.34799194335938,
+                              "Y": 76.843994140625,
+                              "Width": 3.384002685546875,
+                              "Height": 6.45599365234375,
+                              "Right": 180.73199462890625,
+                              "Bottom": 83.29998779296875
+                            }
+                          ]
+                        }
+                      ],
+                      "SafeArea": null
+                    },
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70.02400207519531,
+                    "Y": 70.43670654296875,
+                    "Width": 112.70799255371094,
+                    "Height": 22,
+                    "Right": 182.73199462890625,
+                    "Bottom": 92.43670654296875
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": "0455cda952b6426496dd4c3f3f6ef0e7"
+                },
+                {
+                  "key": "0:p0-o6",
+                  "sourceIdentity": "f4565015b1d62be5ea9111c8ac6234e0ca2bf661a345a5440ab9aea2967bb3c9",
+                  "Text": "A separate paragraph chould retain its own boundaries.",
+                  "strategy": "Positioned",
+                  "layout": {
+                    "Lines": [
+                      "A separate paragraph chould retain its own boundaries."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Single-line positions proposed; checking the complete PDF candidate.",
+                    "LineBoxes": [
+                      {
+                        "X": 72.02400207519531,
+                        "Y": 168.31671142578125,
+                        "Width": 294.09397888183594,
+                        "Height": 18,
+                        "Right": 366.11798095703125,
+                        "Bottom": 186.31671142578125
+                      }
+                    ],
+                    "Positioned": {
+                      "Origins": [
+                        72.02400207519531,
+                        79.34400177001953,
+                        82.68000030517578,
+                        88.68000030517578,
+                        95.41200256347656,
+                        102.1199951171875,
+                        108.8280029296875,
+                        112.8239974975586,
+                        119.49600219726562,
+                        122.74800109863281,
+                        129.45599365234375,
+                        132.7919921875,
+                        139.41600036621094,
+                        146.12399291992188,
+                        150.1199951171875,
+                        156.7919921875,
+                        163.51199340820312,
+                        167.50799560546875,
+                        174.07199096679688,
+                        180.77999877929688,
+                        187.4879913330078,
+                        190.72799682617188,
+                        196.72799682617188,
+                        203.4359893798828,
+                        210.14398193359375,
+                        216.8519744873047,
+                        219.51597595214844,
+                        226.09197998046875,
+                        229.427978515625,
+                        233.42398071289062,
+                        240.11997985839844,
+                        243.4559783935547,
+                        250.18797302246094,
+                        252.8519744873047,
+                        259.427978515625,
+                        262.76397705078125,
+                        265.427978515625,
+                        268.76397705078125,
+                        274.76397705078125,
+                        278.135986328125,
+                        284.8439636230469,
+                        293.5079650878906,
+                        300.083984375,
+                        303.41998291015625,
+                        310.0439453125,
+                        316.751953125,
+                        323.4599609375,
+                        330.0599365234375,
+                        336.7679443359375,
+                        343.4759521484375,
+                        347.47198486328125,
+                        350.07598876953125,
+                        356.78399658203125,
+                        362.78399658203125
+                      ],
+                      "RelativePositions": [
+                        7.3199997,
+                        10.655998,
+                        16.655998,
+                        23.388,
+                        30.095993,
+                        36.804,
+                        40.799995,
+                        47.472,
+                        50.724,
+                        57.43199,
+                        60.76799,
+                        67.392,
+                        74.09999,
+                        78.09599,
+                        84.76799,
+                        91.48799,
+                        95.48399,
+                        102.04799,
+                        108.756,
+                        115.46399,
+                        118.703995,
+                        124.703995,
+                        131.41199,
+                        138.11998,
+                        144.82797,
+                        147.49197,
+                        154.06798,
+                        157.40398,
+                        161.39998,
+                        168.09598,
+                        171.43198,
+                        178.16397,
+                        180.82797,
+                        187.40398,
+                        190.73997,
+                        193.40398,
+                        196.73997,
+                        202.73997,
+                        206.11198,
+                        212.81996,
+                        221.48396,
+                        228.05998,
+                        231.39598,
+                        238.01994,
+                        244.72795,
+                        251.43596,
+                        258.03595,
+                        264.74396,
+                        271.45197,
+                        275.448,
+                        278.052,
+                        284.76,
+                        290.76
+                      ],
+                      "OriginalIndices": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        -1,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "Kinds": [
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Replaced",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving"
+                      ],
+                      "ReplacementOriginalIndices": [
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        21,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                      ],
+                      "DeletedOriginalIndices": [],
+                      "InkBounds": [
+                        {
+                          "X": 72.02400207519531,
+                          "Y": 170.45599365234375,
+                          "Width": 8.015998840332031,
+                          "Height": 8.7239990234375,
+                          "Right": 80.04000091552734,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 79.34400177001953,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 79.34400177001953,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 83.052001953125,
+                          "Y": 172.7239990234375,
+                          "Width": 5.160003662109375,
+                          "Height": 6.5880126953125,
+                          "Right": 88.21200561523438,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 89.1240005493164,
+                          "Y": 172.7239990234375,
+                          "Width": 5.736000061035156,
+                          "Height": 6.5880126953125,
+                          "Right": 94.86000061035156,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 96.2040023803711,
+                          "Y": 172.7239990234375,
+                          "Width": 5.400001525878906,
+                          "Height": 8.83197021484375,
+                          "Right": 101.60400390625,
+                          "Bottom": 181.55596923828125
+                        },
+                        {
+                          "X": 102.552001953125,
+                          "Y": 172.7239990234375,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 108.28799438476562,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 109.60800170898438,
+                          "Y": 172.7239990234375,
+                          "Width": 3.384002685546875,
+                          "Height": 6.45599365234375,
+                          "Right": 112.99200439453125,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 113.25599670410156,
+                          "Y": 172.7239990234375,
+                          "Width": 5.736000061035156,
+                          "Height": 6.5880126953125,
+                          "Right": 118.99199676513672,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 119.71199798583984,
+                          "Y": 170.65997314453125,
+                          "Width": 3.0360031127929688,
+                          "Height": 8.592041015625,
+                          "Right": 122.74800109863281,
+                          "Bottom": 179.25201416015625
+                        },
+                        {
+                          "X": 123.19200134277344,
+                          "Y": 172.7239990234375,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 128.92799377441406,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 129.45599365234375,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 129.45599365234375,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 133.58399963378906,
+                          "Y": 172.7239990234375,
+                          "Width": 5.399993896484375,
+                          "Height": 8.83197021484375,
+                          "Right": 138.98399353027344,
+                          "Bottom": 181.55596923828125
+                        },
+                        {
+                          "X": 139.84799194335938,
+                          "Y": 172.7239990234375,
+                          "Width": 5.7360076904296875,
+                          "Height": 6.5880126953125,
+                          "Right": 145.58399963378906,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 146.90399169921875,
+                          "Y": 172.7239990234375,
+                          "Width": 3.384002685546875,
+                          "Height": 6.45599365234375,
+                          "Right": 150.28799438476562,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 150.552001953125,
+                          "Y": 172.7239990234375,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 156.28799438476562,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 157.17599487304688,
+                          "Y": 172.7239990234375,
+                          "Width": 5.4840087890625,
+                          "Height": 8.9639892578125,
+                          "Right": 162.66000366210938,
+                          "Bottom": 181.68798828125
+                        },
+                        {
+                          "X": 164.2919921875,
+                          "Y": 172.7239990234375,
+                          "Width": 3.384002685546875,
+                          "Height": 6.45599365234375,
+                          "Right": 167.67599487304688,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 167.94000244140625,
+                          "Y": 172.7239990234375,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 173.67599487304688,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 174.86398315429688,
+                          "Y": 172.7239990234375,
+                          "Width": 5.4000091552734375,
+                          "Height": 8.83197021484375,
+                          "Right": 180.2639923095703,
+                          "Bottom": 181.55596923828125
+                        },
+                        {
+                          "X": 181.57199096679688,
+                          "Y": 170.45599365234375,
+                          "Width": 5.063995361328125,
+                          "Height": 8.7239990234375,
+                          "Right": 186.635986328125,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 187.4879913330078,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 187.4879913330078,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 191.19599723815918,
+                          "Y": 172.72399139404297,
+                          "Width": 5.423999786376953,
+                          "Height": 6.588001251220703,
+                          "Right": 196.61999702453613,
+                          "Bottom": 179.31199264526367
+                        },
+                        {
+                          "X": 197.51998901367188,
+                          "Y": 170.45599365234375,
+                          "Width": 5.063995361328125,
+                          "Height": 8.7239990234375,
+                          "Right": 202.583984375,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 203.8319854736328,
+                          "Y": 172.7239990234375,
+                          "Width": 5.832000732421875,
+                          "Height": 6.5880126953125,
+                          "Right": 209.6639862060547,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 210.9119873046875,
+                          "Y": 172.85601806640625,
+                          "Width": 5.0399932861328125,
+                          "Height": 6.45599365234375,
+                          "Right": 215.9519805908203,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 217.61997985839844,
+                          "Y": 170.45599365234375,
+                          "Width": 1.055999755859375,
+                          "Height": 8.7239990234375,
+                          "Right": 218.6759796142578,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 219.92398071289062,
+                          "Y": 170.45599365234375,
+                          "Width": 5.399993896484375,
+                          "Height": 8.85601806640625,
+                          "Right": 225.323974609375,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 226.09197998046875,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 226.09197998046875,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 230.20797729492188,
+                          "Y": 172.7239990234375,
+                          "Width": 3.384002685546875,
+                          "Height": 6.45599365234375,
+                          "Right": 233.59197998046875,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 233.86798095703125,
+                          "Y": 172.7239990234375,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 239.60397338867188,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 240.3359832763672,
+                          "Y": 170.65997314453125,
+                          "Width": 3.0359954833984375,
+                          "Height": 8.592041015625,
+                          "Right": 243.37197875976562,
+                          "Bottom": 179.25201416015625
+                        },
+                        {
+                          "X": 243.8879852294922,
+                          "Y": 172.7239990234375,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 249.6239776611328,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 250.97998046875,
+                          "Y": 170.45599365234375,
+                          "Width": 1.055999755859375,
+                          "Height": 8.7239990234375,
+                          "Right": 252.03598022460938,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 253.64398193359375,
+                          "Y": 172.7239990234375,
+                          "Width": 5.052001953125,
+                          "Height": 6.45599365234375,
+                          "Right": 258.69598388671875,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 259.427978515625,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 259.427978515625,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 263.55596923828125,
+                          "Y": 170.45599365234375,
+                          "Width": 1.0560302734375,
+                          "Height": 8.7239990234375,
+                          "Right": 264.61199951171875,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 265.64398193359375,
+                          "Y": 170.65997314453125,
+                          "Width": 3.0360107421875,
+                          "Height": 8.592041015625,
+                          "Right": 268.67999267578125,
+                          "Bottom": 179.25201416015625
+                        },
+                        {
+                          "X": 269.135986328125,
+                          "Y": 172.7239990234375,
+                          "Width": 5.15997314453125,
+                          "Height": 6.5880126953125,
+                          "Right": 274.29595947265625,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 274.76397705078125,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 274.76397705078125,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 278.531982421875,
+                          "Y": 172.7239990234375,
+                          "Width": 5.83197021484375,
+                          "Height": 6.5880126953125,
+                          "Right": 284.36395263671875,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 284.87994384765625,
+                          "Y": 172.85601806640625,
+                          "Width": 8.532012939453125,
+                          "Height": 6.323974609375,
+                          "Right": 293.4119567871094,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 294.29998779296875,
+                          "Y": 172.7239990234375,
+                          "Width": 5.051971435546875,
+                          "Height": 6.45599365234375,
+                          "Right": 299.3519592285156,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 300.083984375,
+                          "Y": 179.17999267578125,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 300.083984375,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 304.199951171875,
+                          "Y": 170.45599365234375,
+                          "Width": 5.4000244140625,
+                          "Height": 8.85601806640625,
+                          "Right": 309.5999755859375,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 310.43994140625,
+                          "Y": 172.7239990234375,
+                          "Width": 5.83203125,
+                          "Height": 6.5880126953125,
+                          "Right": 316.27197265625,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 317.51995849609375,
+                          "Y": 172.85601806640625,
+                          "Width": 5.03997802734375,
+                          "Height": 6.45599365234375,
+                          "Right": 322.5599365234375,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 324.251953125,
+                          "Y": 172.7239990234375,
+                          "Width": 5.052001953125,
+                          "Height": 6.45599365234375,
+                          "Right": 329.303955078125,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 330.46795654296875,
+                          "Y": 170.45599365234375,
+                          "Width": 5.4000244140625,
+                          "Height": 8.85601806640625,
+                          "Right": 335.86798095703125,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 337.199951171875,
+                          "Y": 172.7239990234375,
+                          "Width": 5.73602294921875,
+                          "Height": 6.5880126953125,
+                          "Right": 342.93597412109375,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 344.2559814453125,
+                          "Y": 172.7239990234375,
+                          "Width": 3.38397216796875,
+                          "Height": 6.45599365234375,
+                          "Right": 347.63995361328125,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 348.26397705078125,
+                          "Y": 170.45599365234375,
+                          "Width": 1.05596923828125,
+                          "Height": 8.7239990234375,
+                          "Right": 349.3199462890625,
+                          "Bottom": 179.17999267578125
+                        },
+                        {
+                          "X": 350.51995849609375,
+                          "Y": 172.7239990234375,
+                          "Width": 5.73602294921875,
+                          "Height": 6.5880126953125,
+                          "Right": 356.2559814453125,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 357.156005859375,
+                          "Y": 172.7239990234375,
+                          "Width": 5.15997314453125,
+                          "Height": 6.5880126953125,
+                          "Right": 362.31597900390625,
+                          "Bottom": 179.31201171875
+                        },
+                        {
+                          "X": 363.8759765625,
+                          "Y": 177.968017578125,
+                          "Width": 1.20001220703125,
+                          "Height": 1.21197509765625,
+                          "Right": 365.07598876953125,
+                          "Bottom": 179.17999267578125
+                        }
+                      ],
+                      "Policy": "FixedOriginsEqualOrNarrowerSubstitution",
+                      "Ambiguous": false,
+                      "Lines": [
+                        {
+                          "Start": 0,
+                          "Text": "A separate paragraph chould retain its own boundaries.",
+                          "Baseline": 179.17999267578125,
+                          "Origins": [
+                            72.02400207519531,
+                            79.34400177001953,
+                            82.68000030517578,
+                            88.68000030517578,
+                            95.41200256347656,
+                            102.1199951171875,
+                            108.8280029296875,
+                            112.8239974975586,
+                            119.49600219726562,
+                            122.74800109863281,
+                            129.45599365234375,
+                            132.7919921875,
+                            139.41600036621094,
+                            146.12399291992188,
+                            150.1199951171875,
+                            156.7919921875,
+                            163.51199340820312,
+                            167.50799560546875,
+                            174.07199096679688,
+                            180.77999877929688,
+                            187.4879913330078,
+                            190.72799682617188,
+                            196.72799682617188,
+                            203.4359893798828,
+                            210.14398193359375,
+                            216.8519744873047,
+                            219.51597595214844,
+                            226.09197998046875,
+                            229.427978515625,
+                            233.42398071289062,
+                            240.11997985839844,
+                            243.4559783935547,
+                            250.18797302246094,
+                            252.8519744873047,
+                            259.427978515625,
+                            262.76397705078125,
+                            265.427978515625,
+                            268.76397705078125,
+                            274.76397705078125,
+                            278.135986328125,
+                            284.8439636230469,
+                            293.5079650878906,
+                            300.083984375,
+                            303.41998291015625,
+                            310.0439453125,
+                            316.751953125,
+                            323.4599609375,
+                            330.0599365234375,
+                            336.7679443359375,
+                            343.4759521484375,
+                            347.47198486328125,
+                            350.07598876953125,
+                            356.78399658203125,
+                            362.78399658203125
+                          ],
+                          "RelativePositions": [
+                            7.3199997,
+                            10.655998,
+                            16.655998,
+                            23.388,
+                            30.095993,
+                            36.804,
+                            40.799995,
+                            47.472,
+                            50.724,
+                            57.43199,
+                            60.76799,
+                            67.392,
+                            74.09999,
+                            78.09599,
+                            84.76799,
+                            91.48799,
+                            95.48399,
+                            102.04799,
+                            108.756,
+                            115.46399,
+                            118.703995,
+                            124.703995,
+                            131.41199,
+                            138.11998,
+                            144.82797,
+                            147.49197,
+                            154.06798,
+                            157.40398,
+                            161.39998,
+                            168.09598,
+                            171.43198,
+                            178.16397,
+                            180.82797,
+                            187.40398,
+                            190.73997,
+                            193.40398,
+                            196.73997,
+                            202.73997,
+                            206.11198,
+                            212.81996,
+                            221.48396,
+                            228.05998,
+                            231.39598,
+                            238.01994,
+                            244.72795,
+                            251.43596,
+                            258.03595,
+                            264.74396,
+                            271.45197,
+                            275.448,
+                            278.052,
+                            284.76,
+                            290.76
+                          ],
+                          "InkBounds": [
+                            {
+                              "X": 72.02400207519531,
+                              "Y": 170.45599365234375,
+                              "Width": 8.015998840332031,
+                              "Height": 8.7239990234375,
+                              "Right": 80.04000091552734,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 79.34400177001953,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 79.34400177001953,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 83.052001953125,
+                              "Y": 172.7239990234375,
+                              "Width": 5.160003662109375,
+                              "Height": 6.5880126953125,
+                              "Right": 88.21200561523438,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 89.1240005493164,
+                              "Y": 172.7239990234375,
+                              "Width": 5.736000061035156,
+                              "Height": 6.5880126953125,
+                              "Right": 94.86000061035156,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 96.2040023803711,
+                              "Y": 172.7239990234375,
+                              "Width": 5.400001525878906,
+                              "Height": 8.83197021484375,
+                              "Right": 101.60400390625,
+                              "Bottom": 181.55596923828125
+                            },
+                            {
+                              "X": 102.552001953125,
+                              "Y": 172.7239990234375,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 108.28799438476562,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 109.60800170898438,
+                              "Y": 172.7239990234375,
+                              "Width": 3.384002685546875,
+                              "Height": 6.45599365234375,
+                              "Right": 112.99200439453125,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 113.25599670410156,
+                              "Y": 172.7239990234375,
+                              "Width": 5.736000061035156,
+                              "Height": 6.5880126953125,
+                              "Right": 118.99199676513672,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 119.71199798583984,
+                              "Y": 170.65997314453125,
+                              "Width": 3.0360031127929688,
+                              "Height": 8.592041015625,
+                              "Right": 122.74800109863281,
+                              "Bottom": 179.25201416015625
+                            },
+                            {
+                              "X": 123.19200134277344,
+                              "Y": 172.7239990234375,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 128.92799377441406,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 129.45599365234375,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 129.45599365234375,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 133.58399963378906,
+                              "Y": 172.7239990234375,
+                              "Width": 5.399993896484375,
+                              "Height": 8.83197021484375,
+                              "Right": 138.98399353027344,
+                              "Bottom": 181.55596923828125
+                            },
+                            {
+                              "X": 139.84799194335938,
+                              "Y": 172.7239990234375,
+                              "Width": 5.7360076904296875,
+                              "Height": 6.5880126953125,
+                              "Right": 145.58399963378906,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 146.90399169921875,
+                              "Y": 172.7239990234375,
+                              "Width": 3.384002685546875,
+                              "Height": 6.45599365234375,
+                              "Right": 150.28799438476562,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 150.552001953125,
+                              "Y": 172.7239990234375,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 156.28799438476562,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 157.17599487304688,
+                              "Y": 172.7239990234375,
+                              "Width": 5.4840087890625,
+                              "Height": 8.9639892578125,
+                              "Right": 162.66000366210938,
+                              "Bottom": 181.68798828125
+                            },
+                            {
+                              "X": 164.2919921875,
+                              "Y": 172.7239990234375,
+                              "Width": 3.384002685546875,
+                              "Height": 6.45599365234375,
+                              "Right": 167.67599487304688,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 167.94000244140625,
+                              "Y": 172.7239990234375,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 173.67599487304688,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 174.86398315429688,
+                              "Y": 172.7239990234375,
+                              "Width": 5.4000091552734375,
+                              "Height": 8.83197021484375,
+                              "Right": 180.2639923095703,
+                              "Bottom": 181.55596923828125
+                            },
+                            {
+                              "X": 181.57199096679688,
+                              "Y": 170.45599365234375,
+                              "Width": 5.063995361328125,
+                              "Height": 8.7239990234375,
+                              "Right": 186.635986328125,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 187.4879913330078,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 187.4879913330078,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 191.19599723815918,
+                              "Y": 172.72399139404297,
+                              "Width": 5.423999786376953,
+                              "Height": 6.588001251220703,
+                              "Right": 196.61999702453613,
+                              "Bottom": 179.31199264526367
+                            },
+                            {
+                              "X": 197.51998901367188,
+                              "Y": 170.45599365234375,
+                              "Width": 5.063995361328125,
+                              "Height": 8.7239990234375,
+                              "Right": 202.583984375,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 203.8319854736328,
+                              "Y": 172.7239990234375,
+                              "Width": 5.832000732421875,
+                              "Height": 6.5880126953125,
+                              "Right": 209.6639862060547,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 210.9119873046875,
+                              "Y": 172.85601806640625,
+                              "Width": 5.0399932861328125,
+                              "Height": 6.45599365234375,
+                              "Right": 215.9519805908203,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 217.61997985839844,
+                              "Y": 170.45599365234375,
+                              "Width": 1.055999755859375,
+                              "Height": 8.7239990234375,
+                              "Right": 218.6759796142578,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 219.92398071289062,
+                              "Y": 170.45599365234375,
+                              "Width": 5.399993896484375,
+                              "Height": 8.85601806640625,
+                              "Right": 225.323974609375,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 226.09197998046875,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 226.09197998046875,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 230.20797729492188,
+                              "Y": 172.7239990234375,
+                              "Width": 3.384002685546875,
+                              "Height": 6.45599365234375,
+                              "Right": 233.59197998046875,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 233.86798095703125,
+                              "Y": 172.7239990234375,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 239.60397338867188,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 240.3359832763672,
+                              "Y": 170.65997314453125,
+                              "Width": 3.0359954833984375,
+                              "Height": 8.592041015625,
+                              "Right": 243.37197875976562,
+                              "Bottom": 179.25201416015625
+                            },
+                            {
+                              "X": 243.8879852294922,
+                              "Y": 172.7239990234375,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 249.6239776611328,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 250.97998046875,
+                              "Y": 170.45599365234375,
+                              "Width": 1.055999755859375,
+                              "Height": 8.7239990234375,
+                              "Right": 252.03598022460938,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 253.64398193359375,
+                              "Y": 172.7239990234375,
+                              "Width": 5.052001953125,
+                              "Height": 6.45599365234375,
+                              "Right": 258.69598388671875,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 259.427978515625,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 259.427978515625,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 263.55596923828125,
+                              "Y": 170.45599365234375,
+                              "Width": 1.0560302734375,
+                              "Height": 8.7239990234375,
+                              "Right": 264.61199951171875,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 265.64398193359375,
+                              "Y": 170.65997314453125,
+                              "Width": 3.0360107421875,
+                              "Height": 8.592041015625,
+                              "Right": 268.67999267578125,
+                              "Bottom": 179.25201416015625
+                            },
+                            {
+                              "X": 269.135986328125,
+                              "Y": 172.7239990234375,
+                              "Width": 5.15997314453125,
+                              "Height": 6.5880126953125,
+                              "Right": 274.29595947265625,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 274.76397705078125,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 274.76397705078125,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 278.531982421875,
+                              "Y": 172.7239990234375,
+                              "Width": 5.83197021484375,
+                              "Height": 6.5880126953125,
+                              "Right": 284.36395263671875,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 284.87994384765625,
+                              "Y": 172.85601806640625,
+                              "Width": 8.532012939453125,
+                              "Height": 6.323974609375,
+                              "Right": 293.4119567871094,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 294.29998779296875,
+                              "Y": 172.7239990234375,
+                              "Width": 5.051971435546875,
+                              "Height": 6.45599365234375,
+                              "Right": 299.3519592285156,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 300.083984375,
+                              "Y": 179.17999267578125,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 300.083984375,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 304.199951171875,
+                              "Y": 170.45599365234375,
+                              "Width": 5.4000244140625,
+                              "Height": 8.85601806640625,
+                              "Right": 309.5999755859375,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 310.43994140625,
+                              "Y": 172.7239990234375,
+                              "Width": 5.83203125,
+                              "Height": 6.5880126953125,
+                              "Right": 316.27197265625,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 317.51995849609375,
+                              "Y": 172.85601806640625,
+                              "Width": 5.03997802734375,
+                              "Height": 6.45599365234375,
+                              "Right": 322.5599365234375,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 324.251953125,
+                              "Y": 172.7239990234375,
+                              "Width": 5.052001953125,
+                              "Height": 6.45599365234375,
+                              "Right": 329.303955078125,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 330.46795654296875,
+                              "Y": 170.45599365234375,
+                              "Width": 5.4000244140625,
+                              "Height": 8.85601806640625,
+                              "Right": 335.86798095703125,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 337.199951171875,
+                              "Y": 172.7239990234375,
+                              "Width": 5.73602294921875,
+                              "Height": 6.5880126953125,
+                              "Right": 342.93597412109375,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 344.2559814453125,
+                              "Y": 172.7239990234375,
+                              "Width": 3.38397216796875,
+                              "Height": 6.45599365234375,
+                              "Right": 347.63995361328125,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 348.26397705078125,
+                              "Y": 170.45599365234375,
+                              "Width": 1.05596923828125,
+                              "Height": 8.7239990234375,
+                              "Right": 349.3199462890625,
+                              "Bottom": 179.17999267578125
+                            },
+                            {
+                              "X": 350.51995849609375,
+                              "Y": 172.7239990234375,
+                              "Width": 5.73602294921875,
+                              "Height": 6.5880126953125,
+                              "Right": 356.2559814453125,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 357.156005859375,
+                              "Y": 172.7239990234375,
+                              "Width": 5.15997314453125,
+                              "Height": 6.5880126953125,
+                              "Right": 362.31597900390625,
+                              "Bottom": 179.31201171875
+                            },
+                            {
+                              "X": 363.8759765625,
+                              "Y": 177.968017578125,
+                              "Width": 1.20001220703125,
+                              "Height": 1.21197509765625,
+                              "Right": 365.07598876953125,
+                              "Bottom": 179.17999267578125
+                            }
+                          ]
+                        }
+                      ],
+                      "SafeArea": null
+                    },
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70.02400207519531,
+                    "Y": 166.31671142578125,
+                    "Width": 298.09397888183594,
+                    "Height": 22,
+                    "Right": 368.11798095703125,
+                    "Bottom": 188.31671142578125
+                  },
+                  "originalObjects": [
+                    6
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    6
+                  ],
+                  "paragraphId": "baa93c78fff14f47b576949662494dd7"
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 212
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-word-1793292796214497600.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o6",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\mixed-strategies-1793292796908749800.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "b857a2a4257923c54a885ce71e2a9539a8b9722b3a5c73848d8f9430f1928131",
+          "Text": "Phace 3 Office letter"
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o8",
+          "Identity": "2176f0287c4425b4450ade2b2d356598b7b28c94aba1c4a2c234e55d9fa4c46a",
+          "Text": "Neutral paragraph retains its original font."
+        }
+      ],
+      "result": {
+        "Revision": 8,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-df57151c4b32462082b9f2e26232d70f-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "d9700765fbab24e078bfe861d502ee46dde6b4a88238339878306057c3a270c3",
+          "candidateHash": "b1d59d1f2482c3947e34b76dade92a48d5dadb0a849daf7103dfafc90623ef9a",
+          "revision": 8,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 172.8287,
+            "candidateGeneration": 11.5442,
+            "reopenVerification": 271.3842
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "b857a2a4257923c54a885ce71e2a9539a8b9722b3a5c73848d8f9430f1928131",
+                  "Text": "Phace 3 Office letter",
+                  "strategy": "Positioned",
+                  "layout": {
+                    "Lines": [
+                      "Phace 3 Office letter"
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Single-line positions proposed; checking the complete PDF candidate.",
+                    "LineBoxes": [
+                      {
+                        "X": 72.02400207519531,
+                        "Y": 72.43670654296875,
+                        "Width": 108.70799255371094,
+                        "Height": 18,
+                        "Right": 180.73199462890625,
+                        "Bottom": 90.43670654296875
+                      }
+                    ],
+                    "Positioned": {
+                      "Origins": [
+                        72.02400207519531,
+                        80.052001953125,
+                        86.76000213623047,
+                        93.46800231933594,
+                        99.46800231933594,
+                        106.06800842285156,
+                        109.40400695800781,
+                        116.13600158691406,
+                        119.47200012207031,
+                        128.84400939941406,
+                        131.84400939941406,
+                        135.1800079345703,
+                        137.843994140625,
+                        143.843994140625,
+                        150.552001953125,
+                        153.88800048828125,
+                        156.552001953125,
+                        163.260009765625,
+                        166.5,
+                        169.83599853515625,
+                        176.5679931640625
+                      ],
+                      "RelativePositions": [
+                        8.028,
+                        14.736,
+                        21.444,
+                        27.444,
+                        34.044006,
+                        37.380005,
+                        44.112,
+                        47.447998,
+                        56.820007,
+                        59.820007,
+                        63.156006,
+                        65.81999,
+                        71.81999,
+                        78.528,
+                        81.864,
+                        84.528,
+                        91.23601,
+                        94.476,
+                        97.812,
+                        104.54399
+                      ],
+                      "OriginalIndices": [
+                        0,
+                        1,
+                        2,
+                        -1,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "Kinds": [
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Replaced",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving",
+                        "Surviving"
+                      ],
+                      "ReplacementOriginalIndices": [
+                        -1,
+                        -1,
+                        -1,
+                        3,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                      ],
+                      "DeletedOriginalIndices": [],
+                      "InkBounds": [
+                        {
+                          "X": 72.94800567626953,
+                          "Y": 74.57598876953125,
+                          "Width": 6.563995361328125,
+                          "Height": 8.7239990234375,
+                          "Right": 79.51200103759766,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 80.84400177001953,
+                          "Y": 74.57598876953125,
+                          "Width": 5.064002990722656,
+                          "Height": 8.7239990234375,
+                          "Right": 85.90800476074219,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 87.19200134277344,
+                          "Y": 76.843994140625,
+                          "Width": 5.736000061035156,
+                          "Height": 6.5880126953125,
+                          "Right": 92.9280014038086,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 93.93600273132324,
+                          "Y": 76.84398651123047,
+                          "Width": 5.423999786376953,
+                          "Height": 6.588001251220703,
+                          "Right": 99.3600025177002,
+                          "Bottom": 83.43198776245117
+                        },
+                        {
+                          "X": 99.91200256347656,
+                          "Y": 76.843994140625,
+                          "Width": 5.736000061035156,
+                          "Height": 6.5880126953125,
+                          "Right": 105.64800262451172,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 106.06800842285156,
+                          "Y": 83.29998779296875,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 106.06800842285156,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 109.90800476074219,
+                          "Y": 74.53997802734375,
+                          "Width": 5.627998352050781,
+                          "Height": 8.90399169921875,
+                          "Right": 115.53600311279297,
+                          "Bottom": 83.4439697265625
+                        },
+                        {
+                          "X": 116.13600158691406,
+                          "Y": 83.29998779296875,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 116.13600158691406,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 120.04800415039062,
+                          "Y": 74.41998291015625,
+                          "Width": 8.220001220703125,
+                          "Height": 9.01202392578125,
+                          "Right": 128.26800537109375,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 128.95201110839844,
+                          "Y": 74.4320068359375,
+                          "Width": 3.6479949951171875,
+                          "Height": 8.86798095703125,
+                          "Right": 132.60000610351562,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 131.95201110839844,
+                          "Y": 74.4320068359375,
+                          "Width": 3.6479949951171875,
+                          "Height": 8.86798095703125,
+                          "Right": 135.60000610351562,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 135.9720001220703,
+                          "Y": 74.57598876953125,
+                          "Width": 1.0560150146484375,
+                          "Height": 8.7239990234375,
+                          "Right": 137.02801513671875,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 138.31201171875,
+                          "Y": 76.843994140625,
+                          "Width": 5.423980712890625,
+                          "Height": 6.5880126953125,
+                          "Right": 143.73599243164062,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 144.28799438476562,
+                          "Y": 76.843994140625,
+                          "Width": 5.7360076904296875,
+                          "Height": 6.5880126953125,
+                          "Right": 150.0240020751953,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 150.552001953125,
+                          "Y": 83.29998779296875,
+                          "Width": 0,
+                          "Height": 0,
+                          "Right": 150.552001953125,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 154.656005859375,
+                          "Y": 74.57598876953125,
+                          "Width": 1.055999755859375,
+                          "Height": 8.7239990234375,
+                          "Right": 155.71200561523438,
+                          "Bottom": 83.29998779296875
+                        },
+                        {
+                          "X": 156.99600219726562,
+                          "Y": 76.843994140625,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 162.73199462890625,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 163.47601318359375,
+                          "Y": 74.77996826171875,
+                          "Width": 3.035980224609375,
+                          "Height": 8.592041015625,
+                          "Right": 166.51199340820312,
+                          "Bottom": 83.37200927734375
+                        },
+                        {
+                          "X": 166.71600341796875,
+                          "Y": 74.77996826171875,
+                          "Width": 3.0359954833984375,
+                          "Height": 8.592041015625,
+                          "Right": 169.7519989013672,
+                          "Bottom": 83.37200927734375
+                        },
+                        {
+                          "X": 170.27999877929688,
+                          "Y": 76.843994140625,
+                          "Width": 5.735992431640625,
+                          "Height": 6.5880126953125,
+                          "Right": 176.0159912109375,
+                          "Bottom": 83.4320068359375
+                        },
+                        {
+                          "X": 177.34799194335938,
+                          "Y": 76.843994140625,
+                          "Width": 3.384002685546875,
+                          "Height": 6.45599365234375,
+                          "Right": 180.73199462890625,
+                          "Bottom": 83.29998779296875
+                        }
+                      ],
+                      "Policy": "FixedOriginsEqualOrNarrowerSubstitution",
+                      "Ambiguous": false,
+                      "Lines": [
+                        {
+                          "Start": 0,
+                          "Text": "Phace 3 Office letter",
+                          "Baseline": 83.29998779296875,
+                          "Origins": [
+                            72.02400207519531,
+                            80.052001953125,
+                            86.76000213623047,
+                            93.46800231933594,
+                            99.46800231933594,
+                            106.06800842285156,
+                            109.40400695800781,
+                            116.13600158691406,
+                            119.47200012207031,
+                            128.84400939941406,
+                            131.84400939941406,
+                            135.1800079345703,
+                            137.843994140625,
+                            143.843994140625,
+                            150.552001953125,
+                            153.88800048828125,
+                            156.552001953125,
+                            163.260009765625,
+                            166.5,
+                            169.83599853515625,
+                            176.5679931640625
+                          ],
+                          "RelativePositions": [
+                            8.028,
+                            14.736,
+                            21.444,
+                            27.444,
+                            34.044006,
+                            37.380005,
+                            44.112,
+                            47.447998,
+                            56.820007,
+                            59.820007,
+                            63.156006,
+                            65.81999,
+                            71.81999,
+                            78.528,
+                            81.864,
+                            84.528,
+                            91.23601,
+                            94.476,
+                            97.812,
+                            104.54399
+                          ],
+                          "InkBounds": [
+                            {
+                              "X": 72.94800567626953,
+                              "Y": 74.57598876953125,
+                              "Width": 6.563995361328125,
+                              "Height": 8.7239990234375,
+                              "Right": 79.51200103759766,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 80.84400177001953,
+                              "Y": 74.57598876953125,
+                              "Width": 5.064002990722656,
+                              "Height": 8.7239990234375,
+                              "Right": 85.90800476074219,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 87.19200134277344,
+                              "Y": 76.843994140625,
+                              "Width": 5.736000061035156,
+                              "Height": 6.5880126953125,
+                              "Right": 92.9280014038086,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 93.93600273132324,
+                              "Y": 76.84398651123047,
+                              "Width": 5.423999786376953,
+                              "Height": 6.588001251220703,
+                              "Right": 99.3600025177002,
+                              "Bottom": 83.43198776245117
+                            },
+                            {
+                              "X": 99.91200256347656,
+                              "Y": 76.843994140625,
+                              "Width": 5.736000061035156,
+                              "Height": 6.5880126953125,
+                              "Right": 105.64800262451172,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 106.06800842285156,
+                              "Y": 83.29998779296875,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 106.06800842285156,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 109.90800476074219,
+                              "Y": 74.53997802734375,
+                              "Width": 5.627998352050781,
+                              "Height": 8.90399169921875,
+                              "Right": 115.53600311279297,
+                              "Bottom": 83.4439697265625
+                            },
+                            {
+                              "X": 116.13600158691406,
+                              "Y": 83.29998779296875,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 116.13600158691406,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 120.04800415039062,
+                              "Y": 74.41998291015625,
+                              "Width": 8.220001220703125,
+                              "Height": 9.01202392578125,
+                              "Right": 128.26800537109375,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 128.95201110839844,
+                              "Y": 74.4320068359375,
+                              "Width": 3.6479949951171875,
+                              "Height": 8.86798095703125,
+                              "Right": 132.60000610351562,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 131.95201110839844,
+                              "Y": 74.4320068359375,
+                              "Width": 3.6479949951171875,
+                              "Height": 8.86798095703125,
+                              "Right": 135.60000610351562,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 135.9720001220703,
+                              "Y": 74.57598876953125,
+                              "Width": 1.0560150146484375,
+                              "Height": 8.7239990234375,
+                              "Right": 137.02801513671875,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 138.31201171875,
+                              "Y": 76.843994140625,
+                              "Width": 5.423980712890625,
+                              "Height": 6.5880126953125,
+                              "Right": 143.73599243164062,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 144.28799438476562,
+                              "Y": 76.843994140625,
+                              "Width": 5.7360076904296875,
+                              "Height": 6.5880126953125,
+                              "Right": 150.0240020751953,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 150.552001953125,
+                              "Y": 83.29998779296875,
+                              "Width": 0,
+                              "Height": 0,
+                              "Right": 150.552001953125,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 154.656005859375,
+                              "Y": 74.57598876953125,
+                              "Width": 1.055999755859375,
+                              "Height": 8.7239990234375,
+                              "Right": 155.71200561523438,
+                              "Bottom": 83.29998779296875
+                            },
+                            {
+                              "X": 156.99600219726562,
+                              "Y": 76.843994140625,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 162.73199462890625,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 163.47601318359375,
+                              "Y": 74.77996826171875,
+                              "Width": 3.035980224609375,
+                              "Height": 8.592041015625,
+                              "Right": 166.51199340820312,
+                              "Bottom": 83.37200927734375
+                            },
+                            {
+                              "X": 166.71600341796875,
+                              "Y": 74.77996826171875,
+                              "Width": 3.0359954833984375,
+                              "Height": 8.592041015625,
+                              "Right": 169.7519989013672,
+                              "Bottom": 83.37200927734375
+                            },
+                            {
+                              "X": 170.27999877929688,
+                              "Y": 76.843994140625,
+                              "Width": 5.735992431640625,
+                              "Height": 6.5880126953125,
+                              "Right": 176.0159912109375,
+                              "Bottom": 83.4320068359375
+                            },
+                            {
+                              "X": 177.34799194335938,
+                              "Y": 76.843994140625,
+                              "Width": 3.384002685546875,
+                              "Height": 6.45599365234375,
+                              "Right": 180.73199462890625,
+                              "Bottom": 83.29998779296875
+                            }
+                          ]
+                        }
+                      ],
+                      "SafeArea": null
+                    },
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70.02400207519531,
+                    "Y": 70.43670654296875,
+                    "Width": 112.70799255371094,
+                    "Height": 22,
+                    "Right": 182.73199462890625,
+                    "Bottom": 92.43670654296875
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": "f33223fc1acf446eac8c200c1459aa5a"
+                },
+                {
+                  "key": "0:p0-o8",
+                  "sourceIdentity": "2176f0287c4425b4450ade2b2d356598b7b28c94aba1c4a2c234e55d9fa4c46a",
+                  "Text": "Neutral paragraph retains its original font.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Neutral paragraph retains its original font."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 72,
+                        "Y": 430.78131103515625,
+                        "Width": 254.150390625,
+                        "Height": 18,
+                        "Right": 326.150390625,
+                        "Bottom": 448.78131103515625
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 70,
+                    "Y": 428.78131103515625,
+                    "Width": 455.32000732421875,
+                    "Height": 22,
+                    "Right": 525.3200073242188,
+                    "Bottom": 450.78131103515625
+                  },
+                  "originalObjects": [
+                    8
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    8
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 895
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\mixed-strategies-1793292796908749800.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o8",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-pages-1793292797521719400.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+          "Text": "First changed working paragraph."
+        },
+        {
+          "Page": 1,
+          "RegionId": "p1-o0",
+          "Identity": "0e915f321827bf3f9d1ceb9f2b686a1540d107334a371e0f9505a4d1dcfe16a9",
+          "Text": "Another page has changed text."
+        }
+      ],
+      "result": {
+        "Revision": 11,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-662b5bf7d947460fba96e8a24cd980f6-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "dc11135eb7a4b118000d759f83bc80e3504966402590e43f2c7bda90837232ce",
+          "revision": 11,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 82.5955,
+            "candidateGeneration": 8.5176,
+            "reopenVerification": 80.5662
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+                  "Text": "First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 203.14453125,
+                        "Height": 18,
+                        "Right": 263.14453125,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 5009
+            },
+            {
+              "page": 1,
+              "regions": [
+                {
+                  "key": "1:p1-o0",
+                  "sourceIdentity": "0e915f321827bf3f9d1ceb9f2b686a1540d107334a371e0f9505a4d1dcfe16a9",
+                  "Text": "Another page has changed text.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Another page has changed text."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 193.7109375,
+                        "Height": 18,
+                        "Right": 253.7109375,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 4097
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-pages-1793292797521719400.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "1:p1-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-A-alone-1793292797805120700.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "16ded7c96e7580df91e52234f73ce934341c061719d0fdf89300ddd835910fc8",
+          "Text": "alpha area.\nalpha area.\nalpha area."
+        }
+      ],
+      "result": {
+        "Revision": 13,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-1c36d15d34a94ddfacaec1d39ee64ae2-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd",
+          "candidateHash": "263ee82bedcb3f514b932e00c077e32a9ccdd5496edd0578ef8120b2712b5c4b",
+          "revision": 13,
+          "changedRegions": 1,
+          "originalObjectsRemoved": 1,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 36.3204,
+            "candidateGeneration": 6.4122,
+            "reopenVerification": 52.1474
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "16ded7c96e7580df91e52234f73ce934341c061719d0fdf89300ddd835910fc8",
+                  "Text": "alpha area.\nalpha area.\nalpha area.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "alpha area.",
+                      "alpha area.",
+                      "alpha area."
+                    ],
+                    "Height": 54,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 88.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 106.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 106.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 124.861328125
+                      },
+                      {
+                        "X": 60,
+                        "Y": 124.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 142.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 86.861328125,
+                    "Width": 496,
+                    "Height": 58,
+                    "Right": 554,
+                    "Bottom": 144.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 3,
+                  "replacementIndices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 2110
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-A-alone-1793292797805120700.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-B-alone-1793292797908893900.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "e6e2c7d16092b5d507f0387c2ca2067ef6526fa2eabb53fe92351a9ada97900d",
+          "Text": "alpha area."
+        }
+      ],
+      "result": {
+        "Revision": 14,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-ce7f96c4492d476794f81134da0c5a06-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd",
+          "candidateHash": "2eab6393361c72cd5f19aedabd3988cf001a2aeb4c2bcb99cbdd780631303d92",
+          "revision": 14,
+          "changedRegions": 1,
+          "originalObjectsRemoved": 1,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 37.5619,
+            "candidateGeneration": 6.8496,
+            "reopenVerification": 55.8459
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "e6e2c7d16092b5d507f0387c2ca2067ef6526fa2eabb53fe92351a9ada97900d",
+                  "Text": "alpha area.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "alpha area."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 141.861328125,
+                        "Width": 67.916015625,
+                        "Height": 18,
+                        "Right": 127.916015625,
+                        "Bottom": 159.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 139.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 161.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    1
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 1054
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-B-alone-1793292797908893900.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-natural-1793292795656201700.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\second-generation-1793292798247954800.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "8c74e7604956cc1efe5ddd8eb4bb9016da522376ee1876d89e54aef2737977d7",
+          "Text": "First changed working paragraph again."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "90123c185d41a24d9dc553e48284daf1352bbb2955bdff035a7237c25c18ea8d",
+          "Text": "Second changed working paragraph again."
+        }
+      ],
+      "result": {
+        "Revision": 19,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-470f15230d374d7985064757a0a1fcca-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "ab43e1699e099f7e5fecc72c38944cc9a4ba951ba5bd8e0d7704af439fec86ee",
+          "candidateHash": "293598455041ff867d7c3f6401f7fd6c25e811f61f40b268203bb166793a3d43",
+          "revision": 19,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 53.1702,
+            "candidateGeneration": 10.8698,
+            "reopenVerification": 96.17
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "8c74e7604956cc1efe5ddd8eb4bb9016da522376ee1876d89e54aef2737977d7",
+                  "Text": "First changed working paragraph again.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph again."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 240.22265625,
+                        "Height": 18,
+                        "Right": 300.22265625,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": null
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "90123c185d41a24d9dc553e48284daf1352bbb2955bdff035a7237c25c18ea8d",
+                  "Text": "Second changed working paragraph again.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph again."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 258.2578125,
+                        "Height": 18,
+                        "Right": 318.2578125,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    1
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 1288
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\second-generation-1793292798247954800.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-and-replace-1793292799266963600.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+          "Text": ""
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+          "Text": "Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 32,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-93f9aceabfae49d9a1a558e4be9dbf44-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "6b7383ebcf085e3556ef4bdb3b2473bcd6784c6f004173390066b04cd5dceb56",
+          "revision": 32,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 47.9806,
+            "candidateGeneration": 8.8395,
+            "reopenVerification": 96.7822
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+                  "Text": "",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      ""
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 0,
+                        "Height": 18,
+                        "Right": 60,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 0,
+                  "replacementIndices": [],
+                  "paragraphId": null
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+                  "Text": "Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 221.1796875,
+                        "Height": 18,
+                        "Right": 281.1796875,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 9280
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-and-replace-1793292799266963600.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\after-worker-restart-1793292800131803900.pdf",
+      "changes": [
+        {
+          "Page": 0,
+          "RegionId": "p0-o0",
+          "Identity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+          "Text": "First changed working paragraph."
+        },
+        {
+          "Page": 0,
+          "RegionId": "p0-o1",
+          "Identity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+          "Text": "Second changed working paragraph."
+        }
+      ],
+      "result": {
+        "Revision": 2,
+        "Safe": true,
+        "Diagnostic": "All changed text areas saved together. Source and working drafts retained.",
+        "Image": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\test-work\\suite-8596d7a5d0d24015a51cae2133c3e266\\candidate-c052a05284ef4ed4bebf19f6655ab425-p0.png",
+        "Verification": {
+          "method": "single source-bound multi-region transaction",
+          "sourceHash": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485",
+          "candidateHash": "21704f642e7186ccaa50c2ed01d5de307527c6243a777b907e02d122e5ca1acc",
+          "revision": 2,
+          "changedRegions": 2,
+          "originalObjectsRemoved": 2,
+          "singleCandidateSave": true,
+          "timingsMs": {
+            "planning": 56.8986,
+            "candidateGeneration": 13.4317,
+            "reopenVerification": 69.443
+          },
+          "allModificationsVerified": true,
+          "fontProgramsAndOutlinesVerified": true,
+          "pages": [
+            {
+              "page": 0,
+              "regions": [
+                {
+                  "key": "0:p0-o0",
+                  "sourceIdentity": "e42c41f983f860f697165d164d809163c19bdc6ea891a1064d39269bae049084",
+                  "Text": "First changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "First changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 90.861328125,
+                        "Width": 203.14453125,
+                        "Height": 18,
+                        "Right": 263.14453125,
+                        "Bottom": 108.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 88.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 110.861328125
+                  },
+                  "originalObjects": [
+                    0
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    0
+                  ],
+                  "paragraphId": null
+                },
+                {
+                  "key": "0:p0-o1",
+                  "sourceIdentity": "d247b2c2d13398f453969f00974524a3f6298ca6fd86c1f2a12025545ac6fea4",
+                  "Text": "Second changed working paragraph.",
+                  "strategy": "Natural",
+                  "layout": {
+                    "Lines": [
+                      "Second changed working paragraph."
+                    ],
+                    "Height": 18,
+                    "Safe": true,
+                    "Diagnostic": "Draft layout fits the owned paragraph region.",
+                    "LineBoxes": [
+                      {
+                        "X": 60,
+                        "Y": 300.861328125,
+                        "Width": 221.1796875,
+                        "Height": 18,
+                        "Right": 281.1796875,
+                        "Bottom": 318.861328125
+                      }
+                    ],
+                    "Positioned": null,
+                    "ReasonCodes": [],
+                    "GlyphIssues": [],
+                    "ProposedTextEligibility": "Supported"
+                  },
+                  "allowed": {
+                    "X": 58,
+                    "Y": 298.861328125,
+                    "Width": 496,
+                    "Height": 22,
+                    "Right": 554,
+                    "Bottom": 320.861328125
+                  },
+                  "originalObjects": [
+                    1
+                  ],
+                  "replacementObjects": 1,
+                  "replacementIndices": [
+                    1
+                  ],
+                  "paragraphId": null
+                }
+              ],
+              "maxNeighbourGeometryAndGlyphShiftPt": 0,
+              "outsidePixels144Dpi": 0,
+              "changedPixels144Dpi": 10052
+            }
+          ]
+        },
+        "Destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\after-worker-restart-1793292800131803900.pdf",
+        "Regions": [
+          {
+            "Key": "0:p0-o0",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          },
+          {
+            "Key": "0:p0-o1",
+            "State": "Verified",
+            "Message": "Combined candidate verified."
+          }
+        ],
+        "ProposedTextEligibility": "Supported",
+        "ExportEligibility": "Verified",
+        "GlyphIssues": []
+      }
+    }
+  ],
+  "times": [
+    {
+      "label": "two-natural",
+      "ms": 181.63810000987723
+    },
+    {
+      "label": "two-wrapped-paragraphs",
+      "ms": 129.84370003687218
+    },
+    {
+      "label": "two-word",
+      "ms": 418.8488000072539
+    },
+    {
+      "label": "mixed-strategies",
+      "ms": 466.1123999976553
+    },
+    {
+      "label": "two-pages",
+      "ms": 182.5195000274107
+    },
+    {
+      "label": "collision-A-alone",
+      "ms": 103.56970003340393
+    },
+    {
+      "label": "collision-B-alone",
+      "ms": 107.33870003605261
+    },
+    {
+      "label": "collision-combined",
+      "ms": 37.14990004664287
+    },
+    {
+      "label": "no-partial-export",
+      "ms": 41.14250000566244
+    },
+    {
+      "label": "second-generation",
+      "ms": 169.00799999712035
+    },
+    {
+      "label": "rollback",
+      "ms": 167.43830003542826
+    },
+    {
+      "label": "duplicate",
+      "ms": 0.5136000108905137
+    },
+    {
+      "label": "wrong-identity",
+      "ms": 52.13349999394268
+    },
+    {
+      "label": "stale",
+      "ms": 0.493900035507977
+    },
+    {
+      "label": "delete-and-replace",
+      "ms": 163.96069998154417
+    },
+    {
+      "label": "no-changes",
+      "ms": 0.4344999906606972
+    },
+    {
+      "label": "no-position-expansion",
+      "ms": 191.60129997180775
+    },
+    {
+      "label": "after-worker-restart",
+      "ms": 173.83179999887943
+    }
+  ],
+  "sourceHashesPreserved": true
+}

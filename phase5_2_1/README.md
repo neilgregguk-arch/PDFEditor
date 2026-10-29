@@ -1,11 +1,11 @@
-# PDFEditor V2 — Phase 5.2
+# PDFEditor V2 — Phase 5.2.1
 
-Evidence-based discovery of selected original Word multi-line paragraphs, exact source spaces, immutable observed rows, original-font editing and validated later generations.
+Corrects retained long-draft presentation without expanding PDF ownership, available space or export rights. Invalid text stays in one bounded amber scrollable surface; safe positioned previews retain original-font PDF geometry. Current whole-session verification controls Save As.
 
 ```powershell
 ./phase5_2_1/Launch.ps1 -Pdf './phase5_2_1/run/original-paragraphs/Word-cafe-paragraph.pdf'
 ```
 
-Windows x64 with .NET 8 Windows Desktop runtime. Build: `./phase5_2_1/build.ps1`. Start with the [user guide](../PHASE_5_2_HANDOVER/PHASE_5_2_USER_TEST_GUIDE.md), [ownership analysis](../PHASE_5_2_HANDOVER/PHASE_5_2_DISCOVERY_AND_OWNERSHIP_ANALYSIS.md), [test results](../PHASE_5_2_HANDOVER/PHASE_5_2_TEST_RESULTS.md) and [evidence index](evidence/README.md). Five authentic Word fixtures include supported/restricted cases; certified generations and mixed examples are in run/original-examples.
+Windows x64/.NET 8 Windows Desktop runtime. Build with ./phase5_2_1/build.ps1. See the [user guide](../PHASE_5_2_1_HANDOVER/PHASE_5_2_1_USER_TEST_GUIDE.md), [root cause](../PHASE_5_2_1_HANDOVER/PHASE_5_2_1_ROOT_CAUSE_ANALYSIS.md), [tests](../PHASE_5_2_1_HANDOVER/PHASE_5_2_1_TEST_RESULTS.md), [visual comparison](../PHASE_5_2_1_HANDOVER/PHASE_5_2_1_VISUAL_COMPARISON.md) and [evidence index](evidence/README.md).
 
-This is a bounded ASCII/original-font prototype. Unsupported structures, ambiguous separators, mixed styles, unsafe geometry, hard breaks and exact-extraction failures remain restricted. Clipboard error 5, physical accessibility/OS-scale testing, undo granularity and wider licensing review remain open. Earlier phases/private manual output are preserved. Stop after Phase 5.2.
+Core source is byte-identical to 5.2. Clipboard Win32 5 and physical input/OS-scale/accessibility testing remain open. Earlier releases/private manual PDF are preserved. No Phase 5.3.

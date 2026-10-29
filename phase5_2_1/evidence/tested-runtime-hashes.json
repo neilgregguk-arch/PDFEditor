@@ -1,0 +1,8 @@
+{
+  "Core.dll": "3bfef803d141a5e4f4f92742572a4854e3d037dec076f57f4687171406fb062f",
+  "PdfWorker.dll": "feee3a2cef01640e58cf1069f4bcf99dd38ead93893f8773234a23a4221e51b9",
+  "PdfWorker.exe": "d440214e8372a1133cd929b254b9fd087affed4b578c99d411064e7bbd0044f4",
+  "PdfEditorPrototype.dll": "3dcbf20c8325f55d13e01a61107b01bf325a01278e21772ad7bfe0f16b893b99",
+  "PdfEditorPrototype.exe": "1fd558c15f42605224de9dfd48fc5c75db7525a52327b3ad80f0d30106fbc88d",
+  "pdfium.dll": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e"
+}

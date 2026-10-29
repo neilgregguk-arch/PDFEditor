@@ -1,0 +1,2709 @@
+{
+  "success": true,
+  "cases": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\word-two-1793292801053603600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "9caa0847b50f4e618f8240969c448d24",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\word-multiline-1793292801513369400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "46170419925e45348655496aa5b24101",
+          "rows": 4,
+          "characters": 299,
+          "payloadBytes": 12861
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\long-word-1793292801928166300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "c66cf9077dc3465bb8ab66e638378414",
+          "rows": 2,
+          "characters": 110,
+          "payloadBytes": 5251
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Arial-wrap-1793292802449839700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "7057af070a3f40529f95b1c7fdd742db",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 6021
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Calibri-wrap-1793292802900598600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "fd7ce98997c0452c8359f102b0f13899",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 5935
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\punctuation-1793292803233397800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "34933089a6304a6ab099263ef6bd20e8",
+          "rows": 2,
+          "characters": 191,
+          "payloadBytes": 8434
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\descenders-1793292803657567900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "fb4b5c7866a244598f5481d19efc2c9b",
+          "rows": 3,
+          "characters": 209,
+          "payloadBytes": 9205
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\wrap-corpus\\combined-collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-wrap-A-1793292805431402900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1c9705cad7e14a10a8c074825460d729",
+          "rows": 2,
+          "characters": 139,
+          "payloadBytes": 6334
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\wrap-corpus\\combined-collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-wrap-B-1793292805878145700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "39a138f061cd478091b199401b656ca5",
+          "rows": 2,
+          "characters": 203,
+          "payloadBytes": 8735
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\mixed-pages-1793292806877385300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "0e2ebd126d0043c088c9ea4b5d71b6d4",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "543554aff3c2497588133cc6a5942c68",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6233
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\word-two-1793292801053603600.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\rediscovered-whole-paragraph-1793292807844210300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "9caa0847b50f4e618f8240969c448d24",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6124
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\wrap-corpus\\two-Word-pages.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-wrapped-pages-1793292808671824600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "803450e9ba0646c2890cf663aefe8376",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 1,
+          "id": "eb68a16a79154751af58a681c37b8fbd",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 6021
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\single-glyph-1793292809853513800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "df5c7659a05b482398f4fbbd5aca0bd3",
+          "rows": 1,
+          "characters": 1,
+          "payloadBytes": 928
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\single-tail-1793292810212374100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ce24b61da1b744ff9ac87c8f60dd99eb",
+          "rows": 2,
+          "characters": 68,
+          "payloadBytes": 3586
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\single-line-1793292810569474000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "74bf0fc88d644c9e86de2e9029c8c560",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\word-generation1-1793292812022467900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1533a02a6b834f858ef2224498b23f02",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6231
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\word-generation1-1793292812022467900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\word-generation2-1793292813849103100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1533a02a6b834f858ef2224498b23f02",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9843
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\word-generation2-1793292813849103100.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\word-generation3-1793292815731873000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1533a02a6b834f858ef2224498b23f02",
+          "rows": 1,
+          "characters": 18,
+          "payloadBytes": 1594
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Arial-generation1-1793292817368384900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "fe8c1277f8b64729b980404680a883cf",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 6021
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Arial-generation1-1793292817368384900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Arial-generation2-1793292818907066300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "fe8c1277f8b64729b980404680a883cf",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1266
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Arial-generation2-1793292818907066300.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Arial-generation3-1793292820401296500.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "fe8c1277f8b64729b980404680a883cf",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 6038
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Calibri-generation1-1793292821902963000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "4785e7cd59254131bb04243d794edaeb",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 5935
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Calibri-generation1-1793292821902963000.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Calibri-generation2-1793292823425132700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "4785e7cd59254131bb04243d794edaeb",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1260
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Calibri-generation2-1793292823425132700.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\Calibri-generation3-1793292824992488100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "4785e7cd59254131bb04243d794edaeb",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 5947
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\mixed-generation1-1793292827203389800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b1b5fa9efc34cc2b6424eebfd2efbf1",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "172b85afad204eb9912f8efee00d5bc3",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6233
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\mixed-generation1-1793292827203389800.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\mixed-generation2-1793292829233524800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b1b5fa9efc34cc2b6424eebfd2efbf1",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        },
+        {
+          "page": 0,
+          "id": "172b85afad204eb9912f8efee00d5bc3",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9845
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\word-generation3-1793292815731873000.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\delete-entire-paragraph-1793292830773332700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\wrap-corpus\\combined-collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\two-groups-baseline-1793292832285507100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1cca111254b84dce9310e23f418f9b34",
+          "rows": 1,
+          "characters": 18,
+          "payloadBytes": 1588
+        },
+        {
+          "page": 0,
+          "id": "04406f9d2a594540b562cb476893b55f",
+          "rows": 1,
+          "characters": 1,
+          "payloadBytes": 708
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\two-groups-baseline-1793292832285507100.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\group-A-alone-1793292833634029600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1cca111254b84dce9310e23f418f9b34",
+          "rows": 2,
+          "characters": 139,
+          "payloadBytes": 6334
+        },
+        {
+          "page": 0,
+          "id": "04406f9d2a594540b562cb476893b55f",
+          "rows": 1,
+          "characters": 1,
+          "payloadBytes": 708
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\two-groups-baseline-1793292832285507100.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\group-B-alone-1793292834473588100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1cca111254b84dce9310e23f418f9b34",
+          "rows": 1,
+          "characters": 18,
+          "payloadBytes": 1588
+        },
+        {
+          "page": 0,
+          "id": "04406f9d2a594540b562cb476893b55f",
+          "rows": 2,
+          "characters": 203,
+          "payloadBytes": 8735
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\title-group-1793292837720102200.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "8263195d75174b61bbab49d24e1406fc",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\adversarial\\external-pikepdf-preserve.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\external-preserved-generation-1793292854692612400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1533a02a6b834f858ef2224498b23f02",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9843
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\A-insert-middle-1793292784185038500.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "e70523eb08f341339911887218a63928",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\B-insert-many-1793292784596459600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "3e2606d180384df395d72821e91a9280",
+          "rows": 1,
+          "characters": 28,
+          "payloadBytes": 1955
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\insert-start-1793292785025395900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "591e0c5ffde8492c935688c189ca090e",
+          "rows": 1,
+          "characters": 27,
+          "payloadBytes": 1924
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\insert-within-word-1793292785370871400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "80a059992fbc4e66ade6cf758b078b84",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1726
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\insert-between-words-1793292785709502000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "0940f38270d54b349bf86d4e4eee3153",
+          "rows": 1,
+          "characters": 28,
+          "payloadBytes": 1955
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\insert-near-end-1793292786047915100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "b4545f0e204e40d1be47f95063783051",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1726
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\multiple-separate-insertions-1793292786383812400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "e2e7cbd57fca415cac8e1ed7d5e51d04",
+          "rows": 1,
+          "characters": 24,
+          "payloadBytes": 1800
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\C-delete-character-1793292786717790200.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "0d50d3f197724930a48207afecebee53",
+          "rows": 1,
+          "characters": 20,
+          "payloadBytes": 1648
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\D-delete-word-1793292787052722700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "183de52686af4d218b9ac6f724ed6f09",
+          "rows": 1,
+          "characters": 14,
+          "payloadBytes": 1418
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\E-replace-range-different-length-1793292787416957600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "4aebadab23be493f98a595a1c81ab898",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1688
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-start-1793292787747129300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "4133403e3e3044e3a783aeff893d2764",
+          "rows": 1,
+          "characters": 20,
+          "payloadBytes": 1645
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-end-1793292788070667300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "f15022f872ed4758b55e1cf53e854d99",
+          "rows": 1,
+          "characters": 20,
+          "payloadBytes": 1648
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-consecutive-1793292788430077700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "446bf3d0c5994b16901790fc40fa34cf",
+          "rows": 1,
+          "characters": 19,
+          "payloadBytes": 1612
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\K-empty-line-1793292788827249700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\word-horizontal-obstacle.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\horizontal-obstacle-1793292789637987300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "7f144ee14e2e48e9a48074a61cdb24b1",
+          "rows": 2,
+          "characters": 63,
+          "payloadBytes": 3377
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Arial-insert-1793292790433416000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ac9fe5a337d448599ed55c6470e15deb",
+          "rows": 1,
+          "characters": 26,
+          "payloadBytes": 1875
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Arial-delete-1793292790706077700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "5c8733294976447f95c70da072e1e39e",
+          "rows": 1,
+          "characters": 16,
+          "payloadBytes": 1495
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Arial-replace-1793292791038307600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "e95ecc9bf417446ca8ae2ae3cbf1a8fb",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1684
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Calibri-insert-1793292791481446200.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "992f87ca55db4339bbb4efa8e3caec29",
+          "rows": 1,
+          "characters": 26,
+          "payloadBytes": 1854
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Calibri-delete-1793292791755404700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "2bf0b92f23dc46479988110d21003e2c",
+          "rows": 1,
+          "characters": 16,
+          "payloadBytes": 1485
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\Calibri-replace-1793292792057747300.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "8b87f31c50a94a7badfddace7a95b14f",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1675
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\preserve-pairs-1793292792359789500.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "89c31651edf04658a858cbb4a44238bc",
+          "rows": 1,
+          "characters": 28,
+          "payloadBytes": 1955
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\A-insert-middle-1793292784185038500.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\second-generation-1793292792997253000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "e70523eb08f341339911887218a63928",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1685
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\mixed-multipage-1793292793836417400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "20a8c5df6ac44fa18279ad283b1cff9f",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "71adbe1c0266411c9250e4b578027934",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2730
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-natural-1793292795656201700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-wrapped-paragraphs-1793292795877631500.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-word-1793292796214497600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "0455cda952b6426496dd4c3f3f6ef0e7",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        },
+        {
+          "page": 0,
+          "id": "baa93c78fff14f47b576949662494dd7",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\mixed-strategies-1793292796908749800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "f33223fc1acf446eac8c200c1459aa5a",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-pages-1793292797521719400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-A-alone-1793292797805120700.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\collision-B-alone-1793292797908893900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\two-natural-1793292795656201700.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\second-generation-1793292798247954800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\delete-and-replace-1793292799266963600.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\after-worker-restart-1793292800131803900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\combined-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "01f4fdc027fe4cb98b233a97eeda520d",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\word-ui-first.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "79ac7a57cb364919a8719cd201be41e8",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\combined-word-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "92a986676bed4709b9490c583d1c6c10",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        },
+        {
+          "page": 0,
+          "id": "6205a3fb780344f59fde3a112d52f146",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\insertion-caret-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\insertion-second-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "d692285ac181403cb49759841ea69992",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "a588aba747304419b5261669f0ac30c3",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\word-ui-first.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\word-ui-second.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "79ac7a57cb364919a8719cd201be41e8",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\insertion-selection-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "9c452499b7df44e493d4586ea58cc6b0",
+          "rows": 1,
+          "characters": 14,
+          "payloadBytes": 1418
+        },
+        {
+          "page": 0,
+          "id": "24acff6dec0b433d95754f3825c34d13",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\J-partial-encoding.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\subset-UI-d399c6a8e8d442869f77993229af0a88.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\01-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\UI-generation-one-a9f962a3f7744058a142cde624358102.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\wrap-continuous-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "14021b0903e24fa69c4d2f4d0e23955a",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "a5492f4e28054e0696be649690eb0d29",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\wrap-many-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "f83cf374725049d9bae15fb23d2bec28",
+          "rows": 4,
+          "characters": 299,
+          "payloadBytes": 12861
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\insertion-empty-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "0cb154bc2d11466abebd6a8e8e341f30",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\wrap-two-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\wrap-second-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ffcb8ae35464401a847179c580874932",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6124
+        },
+        {
+          "page": 0,
+          "id": "6f191deb029746e1b1fc79eac320903e",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\Calibri-wrap-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "d4da6674202f4edf8fe63e425c241e43",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 5935
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\combined-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\insertion-caret-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "d692285ac181403cb49759841ea69992",
+          "rows": 1,
+          "characters": 29,
+          "payloadBytes": 1992
+        },
+        {
+          "page": 0,
+          "id": "a588aba747304419b5261669f0ac30c3",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\combined-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\combined-ui-second.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\wrap-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "e1f0b1b73a244b37b2923cb5695a84dd",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "b0d3135de80f4e2eb409db966c8d5878",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6233
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\insertion-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "256f7d50855d4752936751ba0ece405f",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "e15f86b96e3a46d089474dfec6511416",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2730
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\UI-generation-one-a9f962a3f7744058a142cde624358102.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\UI-generation-two-b1eaa1178c984eca82d61be893419eb4.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\UI-saved-0e10b9979e21482183db92565d8023dc.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294273809343500\\wrap-two-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ffcb8ae35464401a847179c580874932",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "6f191deb029746e1b1fc79eac320903e",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\combined-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "a8b2ba6f14dd428696b22bbb669e6020",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\J-partial-encoding.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\subset-UI-ca398cb92db14f119212684899d5177f.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\insertion-caret-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "27ccd728a91d40c3890e4f164dbe4a9e",
+          "rows": 1,
+          "characters": 29,
+          "payloadBytes": 1992
+        },
+        {
+          "page": 0,
+          "id": "5288ee556a284dc597753fbe7962d180",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\insertion-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ab24e4b6dd884b63ad087531743c8031",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "09c20f9358514c3791c25ec8e88915c9",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2730
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\wrap-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "930d63c86ef742cb921ac0146a6ee6f9",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "cdeab45b215045f58150947772e9fd66",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6233
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\UI-saved-aba29076b5324151a09a0a92097a99f2.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\combined-word-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "3721cf9e2b044edb9af619d7d71cc0fa",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        },
+        {
+          "page": 0,
+          "id": "452e79f6a7894ad280cb7ce7a71b933c",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\word-ui-first.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\word-ui-second.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "25eb33506a094082b8c75b6974e0da25",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\wrap-two-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "51687e93cb6d4e32a6c7ceaab7e965d4",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "c5c1d5a3e2074836ad92ffb0b81ddde6",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\UI-generation-one-16bca2b3ade9416cbf4a11e022db890b.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\UI-generation-two-e3be9bf409784186954773819aa7f30c.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\word-ui-first.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "25eb33506a094082b8c75b6974e0da25",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\insertion-empty-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "597f830a69d749ad93181c3d05f33349",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\wrap-continuous-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "47112f45f2aa4d5f97dc3da93f9c0bac",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "55cdae0bdae4442e854b3a4430c210f1",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\insertion-caret-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\insertion-second-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "27ccd728a91d40c3890e4f164dbe4a9e",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "5288ee556a284dc597753fbe7962d180",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\combined-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\combined-ui-second.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\Calibri-wrap-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "01a5b181fcff4229992eddb387699f60",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 5935
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\wrap-many-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "21da66cf0aa54f249184eda5f412968a",
+          "rows": 4,
+          "characters": 299,
+          "payloadBytes": 12861
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\01-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\UI-generation-one-16bca2b3ade9416cbf4a11e022db890b.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\wrap-two-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\wrap-second-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "51687e93cb6d4e32a6c7ceaab7e965d4",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6124
+        },
+        {
+          "page": 0,
+          "id": "c5c1d5a3e2074836ad92ffb0b81ddde6",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\combined-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-shipping-1793293855014156200\\insertion-selection-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "56c366a9419649598a5bc8eccfb047a6",
+          "rows": 1,
+          "characters": 14,
+          "payloadBytes": 1418
+        },
+        {
+          "page": 0,
+          "id": "7acd28f8cff547d4ae66f56268d908cc",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\insertion-empty-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "82b3af6f650443818f061e62b7df9460",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\wrap-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "c76fc0b303f745ffa26831c081f83aed",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "6fb339be0aca415b8f5b8588a9702dc4",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6233
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\insertion-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "72721f01ad3b49b6948c992f98b1825f",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "0cce844d79974aee9c7aaa9076c269a0",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2730
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\combined-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\combined-ui-second.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\word-ui-first.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1993f483948b41ff91a9965ce762ba84",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\insertion-selection-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "23a6fe6246294fd08fdbb936050a700d",
+          "rows": 1,
+          "characters": 14,
+          "payloadBytes": 1418
+        },
+        {
+          "page": 0,
+          "id": "a44478089cd24f2a9215a8e1fe5d332e",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\wrap-two-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1edaa26f885d4d4abbf080dec3ad4f8a",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "279a1901ab604005bb744ae491f805eb",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\combined-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\wrap-two-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\wrap-second-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1edaa26f885d4d4abbf080dec3ad4f8a",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6124
+        },
+        {
+          "page": 0,
+          "id": "279a1901ab604005bb744ae491f805eb",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\wrap-many-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "15d11239c3d9440fbdce44092bdd17b4",
+          "rows": 4,
+          "characters": 299,
+          "payloadBytes": 12861
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\samples\\A-Simple.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\UI-saved-63a06e724b4843128a36ebe641f91b3e.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\01-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\UI-generation-one-acb1599df6484ee893ebc108ec5bcdc8.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\combined-word-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "57058727d7c247d3aa8dfd08a04b0869",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        },
+        {
+          "page": 0,
+          "id": "f222aee626f3464f9be997561f4da98c",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\word-ui-first.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\word-ui-second.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1993f483948b41ff91a9965ce762ba84",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\wrap-continuous-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "26dacf13079e426495e99220dfc88942",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6122
+        },
+        {
+          "page": 0,
+          "id": "8b7cef178d6f42b2bbed47752d3b6060",
+          "rows": 1,
+          "characters": 47,
+          "payloadBytes": 2728
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\J-partial-encoding.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\subset-UI-fcaa3f72163b4a329b3c92b10ba83c52.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\Calibri-wrap-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "b038f72dc4544787b3248680ac7e10b8",
+          "rows": 2,
+          "characters": 131,
+          "payloadBytes": 5935
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\insertion-caret-ui.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\insertion-second-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "2e46222ae7764887a5da5f3c7bb78051",
+          "rows": 1,
+          "characters": 22,
+          "payloadBytes": 1724
+        },
+        {
+          "page": 0,
+          "id": "292d841de021431ea8ae682448e80fcd",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\insertion-caret-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "2e46222ae7764887a5da5f3c7bb78051",
+          "rows": 1,
+          "characters": 29,
+          "payloadBytes": 1992
+        },
+        {
+          "page": 0,
+          "id": "292d841de021431ea8ae682448e80fcd",
+          "rows": 1,
+          "characters": 54,
+          "payloadBytes": 2998
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\combined-mixed-ui.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "39533e5fd7c64447a3c8dce0937ee136",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1689
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\UI-generation-one-acb1599df6484ee893ebc108ec5bcdc8.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\controls-final-1793294820407966200\\UI-generation-two-c0e1e9a4689144ca9c5343f4a2d1f7e6.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": []
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\delete-boundary-1793292869346407000.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "afe154b2a8664277828da9e533d2ef48",
+          "rows": 2,
+          "characters": 108,
+          "payloadBytes": 5097
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\insert-boundary-1793292868639865400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "13026c66101a4d80acc7e70377962da4",
+          "rows": 2,
+          "characters": 114,
+          "payloadBytes": 5333
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-letter-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\letter-original-1793292871182583800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "8137894c79c249d096841170c93ae844",
+          "rows": 2,
+          "characters": 119,
+          "payloadBytes": 5530
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\mixed-original-marked-natural-other-page.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\mixed-establish-page1-marker-1793292885313691400.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 1,
+          "id": "dd381abb78514af6bee852162c4e5406",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5588
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\mixed-establish-page1-marker-1793292885313691400.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\mixed-four-regions-1793292887833767500.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "07a240e5fa9c49f69fdca40e2c535699",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5588
+        },
+        {
+          "page": 1,
+          "id": "dd381abb78514af6bee852162c4e5406",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1260
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\original-generation1-1793292863675460200.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "d35fdf1bd06d4b019f0a6131050cd4a0",
+          "rows": 2,
+          "characters": 109,
+          "payloadBytes": 5162
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\original-generation1-1793292863675460200.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\original-generation2-1793292865417049800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "d35fdf1bd06d4b019f0a6131050cd4a0",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5593
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\original-generation2-1793292865417049800.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\original-generation3-1793292867057378900.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "d35fdf1bd06d4b019f0a6131050cd4a0",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1270
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\replace-cross-row-1793292870016109500.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1f52d8619e2841e583c98479ed483173",
+          "rows": 2,
+          "characters": 104,
+          "payloadBytes": 4937
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793292724375026800\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "13b1220f339c43479bd5b5a411ae8f20",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793293024340631600\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "f302f35378b44a8ab0c18980f767564e",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793293340158442200\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "06751b8184a64885998408dc602311e5",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793293483816923500\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "5b0274ffe58d4d8a831585fd03744b83",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793294219264111500\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "b50a184bba76413883fa42c9dd80cc1d",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793294630723430800\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "6de4c528102845e39c5dbcc8c12d3fa3",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\mixed-establish-page1-marker-1793292885313691400.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793293627951327200\\original-ui-mixed-recovered.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "b73dcde9f76b4370a491fc81bcefa98c",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5588
+        },
+        {
+          "page": 1,
+          "id": "dd381abb78514af6bee852162c4e5406",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1260
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793293627951327200\\original-ui-generation1.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1da74a6d0de24627a294e189d4ff3e6c",
+          "rows": 2,
+          "characters": 109,
+          "payloadBytes": 5162
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793293627951327200\\original-ui-generation1.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793293627951327200\\original-ui-generation2.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1da74a6d0de24627a294e189d4ff3e6c",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5593
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793293627951327200\\original-ui-generation2.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793293627951327200\\original-ui-generation3.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1da74a6d0de24627a294e189d4ff3e6c",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1270
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-tests-1793292860517869400\\mixed-establish-page1-marker-1793292885313691400.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793294770206515800\\original-ui-mixed-recovered.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "b9d1d447865a47ccb11eb09c7cdc01b7",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5588
+        },
+        {
+          "page": 1,
+          "id": "dd381abb78514af6bee852162c4e5406",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1260
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793294770206515800\\original-ui-generation1.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "bdf6c9682e1945c2abd123715b8689c3",
+          "rows": 2,
+          "characters": 109,
+          "payloadBytes": 5162
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793294770206515800\\original-ui-generation1.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793294770206515800\\original-ui-generation2.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "bdf6c9682e1945c2abd123715b8689c3",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5593
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793294770206515800\\original-ui-generation2.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\original-controls-1793294770206515800\\original-ui-generation3.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "bdf6c9682e1945c2abd123715b8689c3",
+          "rows": 1,
+          "characters": 10,
+          "payloadBytes": 1270
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793293538226802200\\ui-generation1.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ed18bf72cd674cf2a404987875c68bbd",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6231
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793293538226802200\\ui-generation1.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793293538226802200\\ui-generation2.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ed18bf72cd674cf2a404987875c68bbd",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9843
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793293538226802200\\ui-generation2.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793293538226802200\\ui-generation3.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "ed18bf72cd674cf2a404987875c68bbd",
+          "rows": 1,
+          "characters": 18,
+          "payloadBytes": 1594
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\mixed-generation1-1793292827203389800.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793293538226802200\\ui-mixed-recovered.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b1b5fa9efc34cc2b6424eebfd2efbf1",
+          "rows": 1,
+          "characters": 14,
+          "payloadBytes": 1418
+        },
+        {
+          "page": 0,
+          "id": "172b85afad204eb9912f8efee00d5bc3",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9845
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793294686499692800\\ui-generation1.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b867764eb9f42e0ad34846dfce8f3ca",
+          "rows": 2,
+          "characters": 134,
+          "payloadBytes": 6231
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793294686499692800\\ui-generation1.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793294686499692800\\ui-generation2.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b867764eb9f42e0ad34846dfce8f3ca",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9843
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793294686499692800\\ui-generation2.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793294686499692800\\ui-generation3.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b867764eb9f42e0ad34846dfce8f3ca",
+          "rows": 1,
+          "characters": 18,
+          "payloadBytes": 1594
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\roundtrip\\mixed-generation1-1793292827203389800.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\paragraph-controls-1793294686499692800\\ui-mixed-recovered.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "1b1b5fa9efc34cc2b6424eebfd2efbf1",
+          "rows": 1,
+          "characters": 14,
+          "payloadBytes": 1418
+        },
+        {
+          "page": 0,
+          "id": "172b85afad204eb9912f8efee00d5bc3",
+          "rows": 3,
+          "characters": 224,
+          "payloadBytes": 9845
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\expectation-longer-1793292778891587800.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "b924c1605302405d923a719b463cc4d5",
+          "rows": 1,
+          "characters": 27,
+          "payloadBytes": 1920
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\expectation-shorter-1793292779376948100.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "cc8343e2dca7412ba37ccc0e601c6874",
+          "rows": 1,
+          "characters": 20,
+          "payloadBytes": 1648
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\expectation-wider-1793292779795853200.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "e874ec64c98541f99c37d36baa0090ac",
+          "rows": 1,
+          "characters": 21,
+          "payloadBytes": 1691
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793295555123700900\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "51fe631e7ee14e7a8cdb8fd324ce5798",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_1\\evidence\\presentation-release-1793297266531211300\\presentation-safe-export.pdf",
+      "balancedCustomMarks": true,
+      "existingAccessibilityGraphEqual": true,
+      "existingSemanticSequencesEqual": true,
+      "groups": [
+        {
+          "page": 0,
+          "id": "9d1ccd9db66d4f15b02025eb4de03dc2",
+          "rows": 2,
+          "characters": 120,
+          "payloadBytes": 5600
+        }
+      ]
+    }
+  ],
+  "readers": "pypdf + MuPDF + pikepdf; no production grouping code"
+}

@@ -28,7 +28,8 @@ public sealed partial class EditorWindow:Window
  readonly string work=Path.Combine(Path.GetTempPath(),"PdfEditorPrototype",Guid.NewGuid().ToString("N"));
  readonly string recovery=Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),"PdfEditorPrototype","phase5_2_1","sessions");
  readonly string? auditFolder;
- DocumentInfo? info;long revision=0,verifiedRevision=-1;bool suppress=false,active=false,saving=false;string draft="",initialFile="";double zoomFactor=1;Layout? layout;
+ bool suppressAuditPayloadForControlTest;
+ DocumentInfo? info;long revision=0,verifiedRevision=-1;bool suppress=false,active=false,saving=false,opening=false;string draft="",initialFile="";double zoomFactor=1;Layout? layout;
  Button? saveButton;
  readonly PositionedInk positionedInk=new(){Visibility=Visibility.Collapsed};
  public EditorWindow(string[] args)
@@ -79,7 +80,7 @@ public sealed partial class EditorWindow:Window
     if(e.Key>=Key.D1&&e.Key<=Key.D4){e.Handled=true;zoom.SelectedIndex=(int)e.Key-(int)Key.D1;}
    }
   };
-  Loaded+=async(s,e)=>{WindowState=WindowState.Normal;Activate();if(initialFile.Length>0)await Open(initialFile);else{string sample=Path.Combine(AppContext.BaseDirectory,args.Contains("--ui-test")?"samples":"document-corpus",args.Contains("--ui-test")?"A-Simple.pdf":"multi-natural.pdf");if(!File.Exists(sample))sample=Path.Combine(AppContext.BaseDirectory,"samples","A-Simple.pdf");if(File.Exists(sample))await Open(sample);}if(args.Contains("--presentation-ui-test"))await RunPresentationControlTests(args.Contains("--presentation-baseline"));if(args.Contains("--ui-test"))await RunControlTests();if(args.Contains("--discovery-ui-test"))await RunDiscoveryControlTests();if(args.Contains("--clipboard-probe"))await RunClipboardProbe();if(args.Contains("--font-ui-test"))await RunFontControlTests();if(args.Contains("--position-ui-test"))await RunPositionControlTests();if(args.Contains("--session-ui-test"))await RunSessionControlTests();if(args.Contains("--insertion-ui-test"))await RunInsertionControlTests();if(args.Contains("--wrap-ui-test"))await RunWrapControlTests();if(args.Contains("--paragraph-stage"))await RunParagraphControlTests(int.Parse(args[Array.IndexOf(args,"--paragraph-stage")+1]),Path.GetFullPath(args[Array.IndexOf(args,"--paragraph-shared")+1]));if(args.Contains("--recovery-stage1"))await RunProcessRecoveryTest(false);if(args.Contains("--recovery-stage2"))await RunProcessRecoveryTest(true);};
+  Loaded+=async(s,e)=>{WindowState=WindowState.Normal;Activate();if(initialFile.Length>0)await Open(initialFile);else{string sample=Path.Combine(AppContext.BaseDirectory,args.Contains("--ui-test")?"samples":"document-corpus",args.Contains("--ui-test")?"A-Simple.pdf":"multi-natural.pdf");if(!File.Exists(sample))sample=Path.Combine(AppContext.BaseDirectory,"samples","A-Simple.pdf");if(File.Exists(sample))await Open(sample);}if(args.Contains("--presentation-ui-test"))await RunPresentationControlTests(args.Contains("--presentation-baseline"),args.Contains("--reproduction-text")?args[Array.IndexOf(args,"--reproduction-text")+1]:null);if(args.Contains("--ui-test"))await RunControlTests();if(args.Contains("--discovery-ui-test"))await RunDiscoveryControlTests();if(args.Contains("--clipboard-probe"))await RunClipboardProbe();if(args.Contains("--font-ui-test"))await RunFontControlTests();if(args.Contains("--position-ui-test"))await RunPositionControlTests();if(args.Contains("--session-ui-test"))await RunSessionControlTests();if(args.Contains("--insertion-ui-test"))await RunInsertionControlTests();if(args.Contains("--wrap-ui-test"))await RunWrapControlTests();if(args.Contains("--paragraph-stage"))await RunParagraphControlTests(int.Parse(args[Array.IndexOf(args,"--paragraph-stage")+1]),Path.GetFullPath(args[Array.IndexOf(args,"--paragraph-shared")+1]));if(args.Contains("--recovery-stage1"))await RunProcessRecoveryTest(false);if(args.Contains("--recovery-stage2"))await RunProcessRecoveryTest(true);};
   Closing+=(s,e)=>PersistDraft();Closed+=(s,e)=>{worker.Dispose();CleanupWork();};
  }
  Button Button(string label,Action action,string id){var b=new Button{Content=label,Padding=new Thickness(12,6,12,6),Margin=new Thickness(0,0,8,0),MinHeight=32};b.Click+=(s,e)=>action();AutomationProperties.SetAutomationId(b,id);return b;}
@@ -88,7 +89,7 @@ public sealed partial class EditorWindow:Window
  async Task OpenDialog(){try{var dialog=new OpenFileDialog{Filter="PDF documents (*.pdf)|*.pdf",InitialDirectory=Path.Combine(AppContext.BaseDirectory,"samples")};if(dialog.ShowDialog(this)==true)await Open(dialog.FileName,deliberate:true);}catch(Exception e){Status("File picker unavailable. Draft retained. You can also launch the prototype with a PDF path: "+e.Message,true);}}
  async Task Open(string path,int pageIndex=0,string regionId="",bool deliberate=false)
  {
-  CaptureSelection();PersistDraft();long captured=++navigation;active=false;retainedDraftFrame.Visibility=Visibility.Collapsed;positionedInk.Visibility=Visibility.Collapsed;debounce.Stop();editor.Visibility=Visibility.Collapsed;inactiveDrafts.Children.Clear();Status("Opening PDF…");
+  CaptureSelection();PersistDraft();long captured=++navigation;opening=true;layout=null;if(saveButton!=null)saveButton.IsEnabled=false;active=false;retainedDraftFrame.Visibility=Visibility.Collapsed;positionedInk.Visibility=Visibility.Collapsed;debounce.Stop();editor.Visibility=Visibility.Collapsed;inactiveDrafts.Children.Clear();Status("Opening PDF…");
   try
   {
    bool same=session!=null&&string.Equals(Path.GetFullPath(path),session.Source,StringComparison.OrdinalIgnoreCase);
@@ -112,6 +113,7 @@ public sealed partial class EditorWindow:Window
    if(session.Modified.Length>0){Status("Working drafts retained · "+session.Summary());debounce.Start();}
   }
   catch(Exception ex){PaintInactiveDrafts();UpdateDocumentStatus();Status("Open failed; all session drafts retained: "+ex.Message,true);}
+  finally{if(captured==navigation){opening=false;UpdateDocumentStatus();}}
  }
  async Task ChangePage(int delta){if(info==null)return;int p=Math.Clamp(info.Page+delta,0,info.PageCount-1);if(p!=info.Page)await Open(info.Path,p);}
  void SetupEditor()
@@ -183,10 +185,12 @@ public sealed partial class EditorWindow:Window
   if(info?.Region is not Region r||active)return;
   // Blank page clicks never snap to an unrelated region.
   if(!new Box(r.X,r.Top,r.Width,Math.Max(r.LineHeight,r.OriginalLines.Length*r.LineHeight)).Contains(x,y)&&!(r.Positioned!=null&&ParagraphLayout.Plan(r,draft).LineBoxes.Any(b=>b.Contains(x,y)))){Status(info.Diagnostic);return;}
+  var retainedState=session?.Regions.GetValueOrDefault(ActiveKey);bool restoreRetained=retainedState!=null&&IsRetainedDraft(r,draft,ParagraphLayout.Plan(r,draft));int retainedStart=retainedState?.Caret??0,retainedEnd=retainedState?.SelectionEnd??0;
   int index=HitIndex(x,y);
   if(index<0){Status("No reliable glyph mapping at this location.",true);return;}
   if(session?.Regions.TryGetValue(ActiveKey,out var remembered)==true&&draft!=r.OriginalText&&(IsRetainedDraft(r,draft,ParagraphLayout.Plan(r,draft))||ParagraphLayout.Plan(r,draft).Positioned?.Lines.Length is not >1))index=Math.Clamp(remembered.Caret,0,draft.Length);
-  ActivateAt(index);if(UsesPositionedPresentation&&ParagraphLayout.Plan(r,draft).Positioned?.Lines.Length>1){positionCaretRow=ParagraphLayout.Hit(r,draft,x,y).Line;UpdatePositionedSelection();}PaintInactiveDrafts();
+  ActivateAt(index);if(restoreRetained){editor.Selection.Select(Position(Math.Clamp(retainedStart,0,draft.Length)),Position(Math.Clamp(retainedEnd,0,draft.Length)));}
+  if(UsesPositionedPresentation&&ParagraphLayout.Plan(r,draft).Positioned?.Lines.Length>1){positionCaretRow=ParagraphLayout.Hit(r,draft,x,y).Line;UpdatePositionedSelection();}PaintInactiveDrafts();
  }
  int HitIndex(double x,double y)
  {
@@ -221,12 +225,12 @@ public sealed partial class EditorWindow:Window
  }
  void TextChanged(object sender,TextChangedEventArgs e)
  {
-  if(suppress||info?.Region is not Region r||session==null)return;draft=Text();
+  if(suppress||info?.Region is not Region r||session==null)return;string currentText=Text();if(currentText==draft)return;draft=currentText;
   int caret=Math.Min(draft.Length,new TextRange(editor.Document.ContentStart,editor.CaretPosition).Text.Replace("\r\n","\n").Length);
   positionCaretRow=null;preferredCaretX=null;session.Change(ActiveKey,draft,caret);revision=session.Revision;verifiedRevision=-1;layout=ParagraphLayout.Plan(r,draft);
   var state=session.Regions[ActiveKey];state.Validation=state.Modified?(layout.Safe?"Pending":"Blocked"):"Unchanged";state.Message=layout.Diagnostic;
   ConfigureDraftPresentation();UpdatePositionedInk();recoveryTimer.Stop();recoveryTimer.Start();
-  Status(layout.Safe?"Pending verification · checking the complete document…":"Retained draft · not a PDF layout. Scroll within the amber area to correct all text. "+DraftReason(r,draft,layout),!layout.Safe);UpdateDocumentStatus();
+  Status(session.Modified.Length==0?"Original source text · no unsaved changes.":layout.Safe?"Pending verification · checking the complete document…":"Retained draft · not a PDF layout. Scroll within the amber area to correct all text. "+DraftReason(r,draft,layout),!layout.Safe);UpdateDocumentStatus();
   debounce.Stop();if(session.Modified.Length>0)debounce.Start();ScheduleAudit();
  }
  async Task ValidateDraft()
@@ -242,6 +246,7 @@ public sealed partial class EditorWindow:Window
  EditRequest Request(string command,long captured,string destination="")=>new(){Command=command,Revision=captured,Source=info!.Path,ExpectedHash=info.Hash,Page=info.Page,RegionId=info.Region?.Id??"",Text=draft,Changes=session?.Changes(),Work=work,Destination=destination};
  async Task SaveAs()
  {
+  if(opening){Status("Opening PDF · wait for the current document. All drafts retained.");return;}
   if(saving)return;if(info==null||session==null){Status("View-only PDF: no supported editable region to save.",true);return;}
   if(session==null||session.Modified.Length==0){Status("No text changes to export.");return;}
   if(session.VerifiedRevision!=session.Revision||session.Modified.Any(s=>s.Validation!="Verified"||!s.Compatible)){Status("Export unavailable: drafts are pending verification or require correction. All text is retained.",true);return;}
@@ -259,7 +264,7 @@ public sealed partial class EditorWindow:Window
    else if(current)Status(result.Diagnostic,true);
    return result;
   }
-  catch(Exception ex){if(session?.MatchesResponse(owner,captured,request.ExpectedHash)==true&&navigation==capturedNavigation){foreach(var state in session.Modified){state.Validation="Blocked";state.Message=ex.Message;}session.VerifiedRevision=-1;verifiedRevision=-1;RefreshDraftPresentation();Status("Save failed; all drafts retained. "+ex.Message,true);}return null;}
+  catch(Exception ex){if(session?.MatchesResponse(owner,captured,request.ExpectedHash)==true&&navigation==capturedNavigation){foreach(var state in session.Modified){state.Validation=!state.Compatible||!ParagraphLayout.Plan(state.Original,state.Text).Safe?"Blocked":"Pending";state.Message=ex.Message;}session.VerifiedRevision=-1;verifiedRevision=-1;RefreshDraftPresentation();Status("Save failed; all drafts retained. Verification will be retried. "+ex.Message,true);debounce.Stop();if(session.Modified.Length>0)debounce.Start();}return null;}
   finally{saving=false;UpdateDocumentStatus();PersistDraft();ScheduleAudit();}
  }
  void SetZoom(int index)
@@ -275,14 +280,14 @@ public sealed partial class EditorWindow:Window
  void ScheduleAudit(){if(auditFolder!=null){auditTimer.Stop();auditTimer.Start();}}
  void WriteAudit()
  {
-  if(auditFolder==null)return;
+  if(auditFolder==null||suppressAuditPayloadForControlTest)return;
   try
   {
    var caret=active?editor.CaretPosition.GetCharacterRect(LogicalDirection.Forward):Rect.Empty;int caretIndex=active?new TextRange(editor.Document.ContentStart,editor.CaretPosition).Text.Replace("\r\n","\n").Length:-1;
    var origin=PointToScreen(new Point(0,0));var pOrigin=page.PointToScreen(new Point(0,0));
    var carets=new List<object>();
-   if(active)for(int i=0;i<=Math.Min(draft.Length,200);i++){var rect=Position(i).GetCharacterRect(LogicalDirection.Forward);var screen=editor.PointToScreen(new Point(rect.X,rect.Y));carets.Add(new{index=i,x=screen.X-origin.X,y=screen.Y-origin.Y,height=rect.Height*zoomFactor});}
-   File.WriteAllText(Path.Combine(auditFolder,"state.json"),Wire.Write(new{revision,verifiedRevision,source=info?.Path,sourceHash=info?.Hash,active,draft,caretIndex,selection=editor.Selection.Text,zoom=zoomFactor,status=status.Text,safe=layout?.Safe,workerPid=(int?)null,pageOrigin=new{x=pOrigin.X-origin.X,y=pOrigin.Y-origin.Y},pageScale=Dip*zoomFactor,carets}));
+   if(active)for(int i=0;i<=Math.Min(draft.Length,UsesPositionedPresentation?200:32);i++){var rect=Position(i).GetCharacterRect(LogicalDirection.Forward);var screen=editor.PointToScreen(new Point(rect.X,rect.Y));carets.Add(new{index=i,x=screen.X-origin.X,y=screen.Y-origin.Y,height=rect.Height*zoomFactor});}
+   File.WriteAllText(Path.Combine(auditFolder,"state.json"),Wire.Write(new{revision,verifiedRevision,source=info?.Path,sourceHash=info?.Hash,active,draft,caretIndex,selection=editor.Selection.Text,zoom=zoomFactor,status=status.Text,safe=layout?.Safe,workerRequests=worker.Calls,workerPid=(int?)null,pageOrigin=new{x=pOrigin.X-origin.X,y=pOrigin.Y-origin.Y},pageScale=Dip*zoomFactor,carets}));
    var content=(FrameworkElement)Content;var bmp=new RenderTargetBitmap((int)content.ActualWidth,(int)content.ActualHeight,96,96,PixelFormats.Pbgra32);bmp.Render(content);var png=new PngBitmapEncoder();png.Frames.Add(BitmapFrame.Create(bmp));using var fs=File.Create(Path.Combine(auditFolder,"window.png"));png.Save(fs);
   }
   catch{/* Test diagnostics must never interrupt user input. */}

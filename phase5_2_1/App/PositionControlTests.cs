@@ -36,7 +36,7 @@ public sealed partial class EditorWindow
   });
   await Check("candidate-failure-retains-complete-draft",async()=>
   {
-   await Open(Path.Combine(AppContext.BaseDirectory,"font-corpus","Word-Arial.pdf"));var r=info!.Regions[0];await SelectRegionAt(r.X+3,r.Baseline-3);Replace("cafe call. cafe calm.");await Pump();Assert(layout?.Safe==true,"Candidate-stage negative did not reach verifier");var result=await ExportTo(Path.Combine(folder,"must-not-serialize-gap.pdf"));Assert(result==null&&draft=="cafe call. cafe calm."&&status.Text.Contains("draft retained",StringComparison.OrdinalIgnoreCase),"Failed candidate lost draft");PersistDraft();Assert(DocumentSession.Restore(SessionRecoveryPath(session!.SourceHash),session.SourceHash).Regions[ActiveKey].Text==draft,"Failed candidate recovery lost text");return new{draft,status=status.Text};
+   await Open(Path.Combine(AppContext.BaseDirectory,"font-corpus","Word-Arial.pdf"));var r=info!.Regions[0];await SelectRegionAt(r.X+3,r.Baseline-3);Replace("cafe call. cafe calm.");await Pump();Assert(layout?.Safe==true,"Candidate-stage negative did not reach verifier");var result=await ExportTo(Path.Combine(folder,"must-not-serialize-gap.pdf"));Assert(result==null&&draft=="cafe call. cafe calm."&&session!.Regions[ActiveKey].Text==draft&&session.VerifiedRevision==-1&&!File.Exists(Path.Combine(folder,"must-not-serialize-gap.pdf")),"Failed candidate lost draft");PersistDraft();Assert(DocumentSession.Restore(SessionRecoveryPath(session!.SourceHash),session.SourceHash).Regions[ActiveKey].Text==draft,"Failed candidate recovery lost text");return new{draft,status=status.Text};
   });
   await Check("shared-paste-retains-terminal-newlines-and-history",async()=>
   {

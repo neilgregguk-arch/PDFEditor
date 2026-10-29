@@ -15,7 +15,7 @@ public sealed partial class EditorWindow
  }
  double RememberedRetainedOffset(Region r,string text)
  {
-  return session==viewportOwner&&retainedViewports.TryGetValue(DocumentSession.Key(r.Page,r.Id),out var v)&&v.Source==session.SourceHash&&v.Identity==r.SourceIdentity&&v.Text==text?v.Offset:0;
+  return session==viewportOwner&&retainedViewports.TryGetValue(DocumentSession.Key(r.Page,r.Id),out var v)&&v.Source==session!.SourceHash&&v.Identity==r.SourceIdentity&&v.Text==text?v.Offset:0;
  }
  readonly Border retainedDraftFrame=new(){Visibility=Visibility.Collapsed,IsHitTestVisible=false,BorderThickness=new Thickness(1),BorderBrush=Brushes.DarkGoldenrod,Background=new SolidColorBrush(Color.FromArgb(34,255,192,64)),ClipToBounds=true};
  bool IsRetainedDraft(Region r,string text,Layout plan)
@@ -28,8 +28,15 @@ public sealed partial class EditorWindow
  {
   // An editing surface, never permission to paint a proposed PDF outside its
   // verified source envelope. No extra blank-page space or neighbour is owned.
-  double right=Math.Min(info?.Width??r.X+r.Width,r.Positioned?.SafeRight??r.X+r.Width);
-  return new(r.X,r.Top,Math.Max(1,right-r.X),Math.Max(1,r.SafeBottom-r.Top));
+  double right=Math.Min(info?.Width??r.X+r.Width,r.Positioned?.SafeRight??r.X+r.Width),bottom=r.SafeBottom,top=Math.Max(r.Top,r.ObservedBounds?.Y??r.Top);
+  var owned=r.Objects.ToHashSet();var observed=r.ObservedBounds??new Box(r.X,top,1,1);
+  foreach(var o in info?.PageObjects??[])
+  {
+   var b=o.Bounds;if(owned.Contains(o.Index)||b.Width<=0||b.Height<=0)continue;
+   if(b.Y<bottom&&b.Bottom>top&&b.X>observed.Right+.5)right=Math.Min(right,b.X-.5);
+   if(b.X<right&&b.Right>r.X&&b.Y>observed.Bottom+.5)bottom=Math.Min(bottom,b.Y-.5);
+  }
+  return new(r.X,top,Math.Max(1,right-r.X),Math.Max(1,bottom-top));
  }
  static void ConfigureRetainedText(RichTextBox view,Region r)
  {
@@ -42,7 +49,7 @@ public sealed partial class EditorWindow
  {
   string reason=plan.ReasonCodes.FirstOrDefault()??"";
   if(reason.Contains("VERTICAL")||reason.Contains("LINE_LIMIT"))return "Insufficient vertical space in this paragraph.";
-  if(reason.Contains("CHARACTER")||plan.GlyphIssues.Length>0)return "Unsupported character or hard line break for the original font.";
+  if(reason.Contains("CHARACTER")||plan.GlyphIssues.Length>0)return "Unsupported original-font character"+(plan.GlyphIssues.FirstOrDefault() is CharacterCompatibility issue?$" U+{issue.Unicode:X4}":"")+" or hard line break. "+plan.Diagnostic;
   if(reason.Contains("LENGTH"))return "Position recalculation exceeds the supported 512-character limit.";
   if(reason.Contains("HORIZONTAL")||reason.Contains("GLYPH_WIDTH"))return "Text exceeds the supported horizontal width.";
   if(reason.Contains("PROTECTED"))return "The proposed text collides with protected content.";
