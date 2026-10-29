@@ -1,0 +1,6 @@
+{
+  "Revision": 1,
+  "Ok": false,
+  "Data": null,
+  "Error": "Unable to find an entry point named 'FPDF_StructElement_GetRawType' in DLL 'pdfium.dll'."
+}

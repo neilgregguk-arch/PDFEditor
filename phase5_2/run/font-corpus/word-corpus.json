@@ -1,0 +1,23 @@
+[
+  {
+    "file": "Word-Arial.pdf",
+    "generator": "Microsoft Word",
+    "version": "16.0",
+    "font": "Arial",
+    "sha256": "9afbf9a09ad70cfc9adefa5d48dcbe58f0879836229036e0b365cd38dacf9c1b"
+  },
+  {
+    "file": "Word-Calibri.pdf",
+    "generator": "Microsoft Word",
+    "version": "16.0",
+    "font": "Calibri",
+    "sha256": "e836df4f2acee70b6857a44e1bececa02e81f10b86a58c79a03dc496effec8e8"
+  },
+  {
+    "file": "Word-Consolas.pdf",
+    "generator": "Microsoft Word",
+    "version": "16.0",
+    "font": "Consolas",
+    "sha256": "54070073170b3e4eb2d9d39c697ae3893cdf2ee3d5bc3d256c209a0ef46970f6"
+  }
+]
