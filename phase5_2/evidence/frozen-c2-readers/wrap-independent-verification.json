@@ -1,0 +1,2088 @@
+{
+  "success": true,
+  "readers": "MuPDF + pypdf + Poppler 72/144 DPI + qpdf via pikepdf",
+  "cases": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\word-two-1793278537235656900.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter",
+              "independentVisibleGlyphs": 134
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 3246,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 9998,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\word-multiline-1793278537467705600.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter",
+              "independentVisibleGlyphs": 299
+            }
+          ],
+          "unmodifiedGlyphs": 105,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 8025,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 25028,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\long-word-1793278537669625700.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "independentVisibleGlyphs": 110
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 4.57763671875e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 4183,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 13328,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\Arial-wrap-1793278538019225300.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm.",
+              "independentVisibleGlyphs": 131
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2566,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 7919,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\Calibri-wrap-1793278538326463100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm.",
+              "independentVisibleGlyphs": 131
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 6.103515625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2127,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 6322,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\punctuation-1793278538487092000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter. letter.",
+              "independentVisibleGlyphs": 191
+            }
+          ],
+          "unmodifiedGlyphs": 105,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 4321,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 13736,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\descenders-1793278538677242400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph. paragraph paragraph.",
+              "independentVisibleGlyphs": 209
+            }
+          ],
+          "unmodifiedGlyphs": 105,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.814697265625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 6677,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 20304,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\wrap-corpus\\combined-collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\collision-wrap-A-1793278539981307400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp gyp",
+              "independentVisibleGlyphs": 139
+            }
+          ],
+          "unmodifiedGlyphs": 107,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 4805,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 14411,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\wrap-corpus\\combined-collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\collision-wrap-B-1793278540269925700.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o8",
+              "strategy": "Positioned",
+              "text": "fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter fictional letter",
+              "independentVisibleGlyphs": 203
+            }
+          ],
+          "unmodifiedGlyphs": 159,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 4.57763671875e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 4518,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 13891,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\mixed-pages-1793278541267455100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter",
+              "independentVisibleGlyphs": 134
+            },
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter",
+              "independentVisibleGlyphs": 134
+            }
+          ],
+          "unmodifiedGlyphs": 128,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 7166,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 22385,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [
+            {
+              "key": "1:p1-o0",
+              "strategy": "Natural",
+              "text": "First changed working paragraph.",
+              "independentVisibleGlyphs": 32
+            }
+          ],
+          "unmodifiedGlyphs": 86,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 1411,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 4519,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\word-two-1793278537235656900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\rediscovered-first-line-1793278542232132500.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o7",
+              "strategy": "Positioned",
+              "text": "Phace 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 ",
+              "independentVisibleGlyphs": 83
+            }
+          ],
+          "unmodifiedGlyphs": 189,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 31,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 103,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\wrap-corpus\\two-Word-pages.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\two-wrapped-pages-1793278543127413000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter",
+              "independentVisibleGlyphs": 134
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 3246,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 9998,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [
+            {
+              "key": "1:p1-o0",
+              "strategy": "Positioned",
+              "text": "cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm. cafe calm.",
+              "independentVisibleGlyphs": 131
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2566,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 7919,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\single-glyph-1793278544090774000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "e",
+              "independentVisibleGlyphs": 1
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 572,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1754,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\single-tail-1793278544365796600.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "independentVisibleGlyphs": 68
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 4.57763671875e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2652,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 8460,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\wrap\\single-line-1793278544626425300.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phasse 3 Office letter",
+              "independentVisibleGlyphs": 22
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 536,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1765,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\A-insert-middle-1793278524962635900.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phasse 3 Office letter",
+              "independentVisibleGlyphs": 22
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 536,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1765,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\B-insert-many-1793278525190150500.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office letter letter",
+              "independentVisibleGlyphs": 28
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 146,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 480,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\insert-start-1793278525364821000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase Phase 3 Office letter",
+              "independentVisibleGlyphs": 27
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 700,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 2243,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\insert-within-word-1793278525543271600.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Offiice letter",
+              "independentVisibleGlyphs": 22
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 293,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 957,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\insert-between-words-1793278525719523900.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter Office letter",
+              "independentVisibleGlyphs": 28
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 595,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1920,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\insert-near-end-1793278525896079700.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office letterr",
+              "independentVisibleGlyphs": 22
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 18,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 54,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\multiple-separate-insertions-1793278526078697300.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phasse 33 Office letterr",
+              "independentVisibleGlyphs": 24
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 2.288818359375e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 612,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1907,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\C-delete-character-1793278526250612300.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Ofice letter",
+              "independentVisibleGlyphs": 20
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 286,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 969,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\D-delete-word-1793278526426949100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter",
+              "independentVisibleGlyphs": 14
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 363,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1142,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\E-replace-range-different-length-1793278526602183600.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 letter letter",
+              "independentVisibleGlyphs": 21
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 427,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1373,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\delete-start-1793278526792936100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "hase 3 Office letter",
+              "independentVisibleGlyphs": 20
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 769,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 2500,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\delete-end-1793278526962913200.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office lette",
+              "independentVisibleGlyphs": 20
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 18,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 54,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\delete-consecutive-1793278527136385300.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Oice letter",
+              "independentVisibleGlyphs": 19
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 345,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1036,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\K-empty-line-1793278527312976700.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "",
+              "independentVisibleGlyphs": 0
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 559,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1709,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\word-horizontal-obstacle.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\horizontal-obstacle-1793278528190515700.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office letter letter letter letter letter letter letter",
+              "independentVisibleGlyphs": 63
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 901,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 2846,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\Arial-insert-1793278528946356900.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "cafe calm. cafe calm. cafe",
+              "independentVisibleGlyphs": 26
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 124,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 389,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\Arial-delete-1793278529122227800.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "cafe. cafe calm.",
+              "independentVisibleGlyphs": 16
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 469,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1481,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Arial.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\Arial-replace-1793278529314020400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "calm calm. cafe calm.",
+              "independentVisibleGlyphs": 21
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 580,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1959,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\Calibri-insert-1793278529697852600.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "cafe calm. cafe calm. cafe",
+              "independentVisibleGlyphs": 26
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 105,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 310,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\Calibri-delete-1793278529904475300.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "cafe. cafe calm.",
+              "independentVisibleGlyphs": 16
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 2.288818359375e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 386,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1206,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\font-corpus\\Word-Calibri.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\Calibri-replace-1793278530110845000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "calm calm. cafe calm.",
+              "independentVisibleGlyphs": 21
+            }
+          ],
+          "unmodifiedGlyphs": 29,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 491,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1511,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\preserve-pairs-1793278530307234100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office letter letter",
+              "independentVisibleGlyphs": 28
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 146,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 480,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\A-insert-middle-1793278524962635900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\second-generation-1793278530784801400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o7",
+              "strategy": "Positioned",
+              "text": "Phasse 3 Ofice letter",
+              "independentVisibleGlyphs": 21
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 286,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 969,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\mixed-multipage.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\insertion\\mixed-multipage-1793278531511389800.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phasse 3 Office letter",
+              "independentVisibleGlyphs": 22
+            },
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "A separate paragraph retain its own boundaries.",
+              "independentVisibleGlyphs": 47
+            }
+          ],
+          "unmodifiedGlyphs": 128,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 4.57763671875e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 1612,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 5212,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [
+            {
+              "key": "1:p1-o0",
+              "strategy": "Natural",
+              "text": "First changed working paragraph.",
+              "independentVisibleGlyphs": 32
+            }
+          ],
+          "unmodifiedGlyphs": 86,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 1411,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 4519,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\two-natural-1793278532907159900.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Natural",
+              "text": "First changed working paragraph.",
+              "independentVisibleGlyphs": 32
+            },
+            {
+              "key": "0:p0-o1",
+              "strategy": "Natural",
+              "text": "Second changed working paragraph.",
+              "independentVisibleGlyphs": 33
+            }
+          ],
+          "unmodifiedGlyphs": 44,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2808,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 9076,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [],
+          "unmodifiedGlyphs": 87,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\two-wrapped-paragraphs-1793278533104765000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Natural",
+              "text": "First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph. First changed working paragraph.",
+              "independentVisibleGlyphs": 164
+            },
+            {
+              "key": "0:p0-o1",
+              "strategy": "Natural",
+              "text": "Second changed working paragraph. Second changed working paragraph. Second changed working paragraph. Second changed working paragraph.",
+              "independentVisibleGlyphs": 135
+            }
+          ],
+          "unmodifiedGlyphs": 44,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 9463,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 29855,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [],
+          "unmodifiedGlyphs": 87,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\two-word-1793278533397071400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phace 3 Office letter",
+              "independentVisibleGlyphs": 21
+            },
+            {
+              "key": "0:p0-o6",
+              "strategy": "Positioned",
+              "text": "A separate paragraph chould retain its own boundaries.",
+              "independentVisibleGlyphs": 54
+            }
+          ],
+          "unmodifiedGlyphs": 84,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 3.0517578125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 63,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 198,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\mixed.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\mixed-strategies-1793278533801454800.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phace 3 Office letter",
+              "independentVisibleGlyphs": 21
+            },
+            {
+              "key": "0:p0-o8",
+              "strategy": "Natural",
+              "text": "Neutral paragraph retains its original font.",
+              "independentVisibleGlyphs": 44
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 342,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1111,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\two-pages-1793278534165375000.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Natural",
+              "text": "First changed working paragraph.",
+              "independentVisibleGlyphs": 32
+            }
+          ],
+          "unmodifiedGlyphs": 86,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 1411,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 4519,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [
+            {
+              "key": "1:p1-o0",
+              "strategy": "Natural",
+              "text": "Another page has changed text.",
+              "independentVisibleGlyphs": 30
+            }
+          ],
+          "unmodifiedGlyphs": 39,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 1172,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 3739,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\collision-A-alone-1793278534425738100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Natural",
+              "text": "alpha area.\nalpha area.\nalpha area.",
+              "independentVisibleGlyphs": 33
+            }
+          ],
+          "unmodifiedGlyphs": 32,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 616,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1946,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\collision.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\collision-B-alone-1793278534528479500.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o1",
+              "strategy": "Natural",
+              "text": "alpha area.",
+              "independentVisibleGlyphs": 11
+            }
+          ],
+          "unmodifiedGlyphs": 42,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 309,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 972,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\two-natural-1793278532907159900.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\second-generation-1793278534849080900.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o1",
+              "strategy": "Natural",
+              "text": "First changed working paragraph again.",
+              "independentVisibleGlyphs": 38
+            },
+            {
+              "key": "0:p0-o2",
+              "strategy": "Natural",
+              "text": "Second changed working paragraph again.",
+              "independentVisibleGlyphs": 39
+            }
+          ],
+          "unmodifiedGlyphs": 44,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 369,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 1113,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [],
+          "unmodifiedGlyphs": 87,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\delete-and-replace-1793278535509003400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Natural",
+              "text": "",
+              "independentVisibleGlyphs": 0
+            },
+            {
+              "key": "0:p0-o1",
+              "strategy": "Natural",
+              "text": "Second changed working paragraph.",
+              "independentVisibleGlyphs": 33
+            }
+          ],
+          "unmodifiedGlyphs": 44,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2614,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 8311,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [],
+          "unmodifiedGlyphs": 87,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\document-corpus\\multi-natural.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\document\\after-worker-restart-1793278536294646600.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Natural",
+              "text": "First changed working paragraph.",
+              "independentVisibleGlyphs": 32
+            },
+            {
+              "key": "0:p0-o1",
+              "strategy": "Natural",
+              "text": "Second changed working paragraph.",
+              "independentVisibleGlyphs": 33
+            }
+          ],
+          "unmodifiedGlyphs": 44,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 2808,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 9076,
+              "outsidePixels": 0
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "replacements": [],
+          "unmodifiedGlyphs": 87,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 0,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 0,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\position\\expectation-longer-1793278520708657100.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office letter extra",
+              "independentVisibleGlyphs": 27
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 141,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 442,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\position\\expectation-shorter-1793278520968056400.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office lette",
+              "independentVisibleGlyphs": 20
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 18,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 54,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase4c2\\run\\corpus\\11-word-letter.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\frozen-phase4c2\\position\\expectation-wider-1793278521189390500.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-o0",
+              "strategy": "Positioned",
+              "text": "Phase 3 Office letWer",
+              "independentVisibleGlyphs": 21
+            }
+          ],
+          "unmodifiedGlyphs": 138,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 1.52587890625e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 146,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 471,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,8 +10,8 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 import pikepdf
 import pymupdf
-ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'phase4a/run/font-corpus';OUT.mkdir(parents=True,exist_ok=True)
-WORK=ROOT/'phase4a/test-work/font-generation';WORK.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'phase5_2/run/font-corpus';OUT.mkdir(parents=True,exist_ok=True)
+WORK=ROOT/'phase5_2/test-work/font-generation';WORK.mkdir(parents=True,exist_ok=True)
 records=[]
 def generate(name,original,fontfile,characters,spacing=0,fragment=False):
  font=Font(fontfile);font.recalcTimestamp=False;options=subset.Options();options.recalc_timestamp=False;options.notdef_glyph=True;options.notdef_outline=True;options.recommended_glyphs=False

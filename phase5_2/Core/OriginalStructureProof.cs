@@ -88,21 +88,21 @@ internal sealed class OriginalStructureProof
   while((read=zip.Read(block))>0){Check(output.Length+read<=8_388_608&&(inflatedBytes+=read)<=16_777_216,"INFLATE_BUDGET");output.Write(block,0,read);}
   return(dictionary,output.ToArray());
  }
- void Hybrid(int at,HashSet<int> local)
+ void Hybrid(int at,HashSet<int> protectedEntries)
  {
   var (d,bytes)=StreamAt(at);Check(Type(d,"Type")=="XRef","XREF_STREAM_TYPE");var widths=Array(d["W"]).Select(Integer).ToArray();Check(widths.Length==3&&widths.All(n=>n<=4)&&widths.Sum()>0,"XREF_WIDTHS");
-  var ranges=d.TryGetValue("Index",out var ix)?Array(ix).Select(Integer).ToArray():[0,Integer(d["Size"])];Check(ranges.Length%2==0&&ranges.Length<=8192,"XREF_RANGES");int cursor=0;
+  var ranges=d.TryGetValue("Index",out var ix)?Array(ix).Select(Integer).ToArray():[0,Integer(d["Size"])];Check(ranges.Length%2==0&&ranges.Length<=8192,"XREF_RANGES");int cursor=0;var streamIds=new HashSet<int>();
   uint Field(int width,uint absent){if(width==0)return absent;Check(cursor+width<=bytes.Length,"XREF_STREAM_LENGTH");uint v=0;for(int i=0;i<width;i++)v=(v<<8)|bytes[cursor++];return v;}
   for(int k=0;k<ranges.Length;k+=2)
   {
    Check((long)ranges[k]+ranges[k+1]<=65536,"XREF_STREAM_BUDGET");
    for(int j=0;j<ranges[k+1];j++)
    {
-    int id=ranges[k]+j;uint type=Field(widths[0],1),a=Field(widths[1],0),b=Field(widths[2],0);Check(a<=int.MaxValue&&b<=int.MaxValue&&type<=2,"XREF_STREAM_VALUE");
+    int id=ranges[k]+j;Check(streamIds.Add(id),"XREF_STREAM_DUPLICATE_ENTRY");uint type=Field(widths[0],1),a=Field(widths[1],0),b=Field(widths[2],0);Check(a<=int.MaxValue&&b<=int.MaxValue&&type<=2,"XREF_STREAM_VALUE");
     // The hybrid stream overrides this revision's classic free placeholders.
     // Earlier revisions never override a newer resolved entry.
-    if(type==1&&(local.Contains(id)||!offsets.ContainsKey(id)))offsets[id]=((int)a,(int)b,true);
-    if(type==2&&(local.Contains(id)||!offsets.ContainsKey(id)))
+    if(type==1&&!protectedEntries.Contains(id))offsets[id]=((int)a,(int)b,true);
+    if(type==2&&!protectedEntries.Contains(id))
     {compressed.TryAdd(id,((int)a,(int)b));offsets[id]=(0,0,false);}
    }
   }
@@ -115,14 +115,14 @@ internal sealed class OriginalStructureProof
   int at=int.Parse(match.Groups[1].Value,CultureInfo.InvariantCulture);var visited=new HashSet<int>();int entries=0;
   for(int revision=0;;revision++)
   {
-   Check(revision<8&&visited.Add(at)&&at>=0&&at<data.Length,"XREF_CHAIN_BUDGET");var reader=new Reader(data,at);reader.Expect("xref");var local=new HashSet<int>();
+   Check(revision<8&&visited.Add(at)&&at>=0&&at<data.Length,"XREF_CHAIN_BUDGET");var protectedEntries=offsets.Keys.ToHashSet();var reader=new Reader(data,at);reader.Expect("xref");var local=new HashSet<int>();
    while(true)
    {
     string t=reader.Token();if(t=="trailer")break;int first=Integer(int.Parse(t,CultureInfo.InvariantCulture)),count=Integer(int.Parse(reader.Token(),CultureInfo.InvariantCulture));Check((long)first+count<=65536&&(entries+=count)<=131072,"XREF_ENTRY_BUDGET");
     for(int j=0;j<count;j++){int offset=int.Parse(reader.Token(),CultureInfo.InvariantCulture),gen=int.Parse(reader.Token(),CultureInfo.InvariantCulture);string flag=reader.Token();Check(flag is "n" or "f"&&offset>=0&&gen>=0&&local.Add(first+j),"XREF_ENTRY");offsets.TryAdd(first+j,(offset,gen,flag=="n"));}
    }
    var tr=Dict(reader.Value());if(revision==0)trailer=tr;
-   if(tr.TryGetValue("XRefStm",out var hybrid))Hybrid(Integer(hybrid),local);
+   if(tr.TryGetValue("XRefStm",out var hybrid))Hybrid(Integer(hybrid),protectedEntries);
    // Only bounded hybrid Flate xref/object streams are supported; other syntax refuses.
    if(!tr.TryGetValue("Prev",out var prev))break;at=Integer(prev);
   }

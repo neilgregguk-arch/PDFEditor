@@ -1,0 +1,7 @@
+{
+  "startingCommit": "5f05af49d9720a628376b8fa7d0eb95293504232",
+  "trackedPaths": 8671,
+  "uniqueGitBlobs": 4119,
+  "allHashesVerifiedAgainstGitObjects": true,
+  "correction": "Initial phase-copy textual migration changed lowercase path prefixes in baseline JSON; hashes were unchanged. Restored exact starting tree keys and independently verified every Git blob. No historical source/evidence byte was changed."
+}

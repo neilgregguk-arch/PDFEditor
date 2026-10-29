@@ -2,37 +2,37 @@
   {
     "file": "Word-two-rows.pdf",
     "sha256": "22c1139b797a725b666f3e84631aaa15a014973ba259d92966a18990197ff44e",
-    "sourceEvidence": "phase5_2/evidence/roundtrip/word-generation1-1793271237414136100.pdf",
+    "sourceEvidence": "phase5_1/evidence/roundtrip/word-generation1-1793271237414136100.pdf",
     "certification": "Independent reader indexes reference sourceEvidence; this is a byte-identical convenience copy"
   },
   {
     "file": "Word-three-rows.pdf",
     "sha256": "7d173df466614005399dc8cc9dc69ee52d2f1cf31b0a54b56b46ac20dc5adc92",
-    "sourceEvidence": "phase5_2/evidence/roundtrip/word-generation2-1793271239338805100.pdf",
+    "sourceEvidence": "phase5_1/evidence/roundtrip/word-generation2-1793271239338805100.pdf",
     "certification": "Independent reader indexes reference sourceEvidence; this is a byte-identical convenience copy"
   },
   {
     "file": "Word-one-row.pdf",
     "sha256": "4702d3980ec9d8f198b579da33f48e89a303ab517e6190e001a8e05929f0f6c6",
-    "sourceEvidence": "phase5_2/evidence/roundtrip/word-generation3-1793271241263815700.pdf",
+    "sourceEvidence": "phase5_1/evidence/roundtrip/word-generation3-1793271241263815700.pdf",
     "certification": "Independent reader indexes reference sourceEvidence; this is a byte-identical convenience copy"
   },
   {
     "file": "Arial-two-rows.pdf",
     "sha256": "a78dd36e309e06f442669449690dfd4ca9a773301e0095f42a8f6b5b53eec6bf",
-    "sourceEvidence": "phase5_2/evidence/roundtrip/Arial-generation1-1793271243009842000.pdf",
+    "sourceEvidence": "phase5_1/evidence/roundtrip/Arial-generation1-1793271243009842000.pdf",
     "certification": "Independent reader indexes reference sourceEvidence; this is a byte-identical convenience copy"
   },
   {
     "file": "Calibri-two-rows.pdf",
     "sha256": "a93a1c0076cd0593697445175d997ede404467d64f2ea0f9e14f65623a6b14fb",
-    "sourceEvidence": "phase5_2/evidence/roundtrip/Calibri-generation1-1793271247815937600.pdf",
+    "sourceEvidence": "phase5_1/evidence/roundtrip/Calibri-generation1-1793271247815937600.pdf",
     "certification": "Independent reader indexes reference sourceEvidence; this is a byte-identical convenience copy"
   },
   {
     "file": "Mixed-two-pages.pdf",
     "sha256": "1b4fcbdb1e42647a5069d679d5c5f06da1cafee0ed8de9a804740ef3ef03275a",
-    "sourceEvidence": "phase5_2/evidence/roundtrip/mixed-generation1-1793271253596445400.pdf",
+    "sourceEvidence": "phase5_1/evidence/roundtrip/mixed-generation1-1793271253596445400.pdf",
     "certification": "Independent reader indexes reference sourceEvidence; this is a byte-identical convenience copy"
   }
 ]

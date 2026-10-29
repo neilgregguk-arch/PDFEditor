@@ -1,0 +1,698 @@
+{
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\corpus\\11-word-letter.pdf": {
+    "path": "phase5_2/run/corpus/11-word-letter.pdf",
+    "sha256": "d6201ddefe84b6476804cdc022360313998c465d250207fae02cd6ede01f872f"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-two-1793278769068646800.pdf": {
+    "path": "phase5_2/evidence/word-two-1793278769068646800.pdf",
+    "sha256": "ddda7ca7c4eecb486085781b70ab28e80d779d50e01effa5affe63f37ae4609c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-multiline-1793278769486130500.pdf": {
+    "path": "phase5_2/evidence/word-multiline-1793278769486130500.pdf",
+    "sha256": "f8a6122d9f358d625417d8094747421f785da19e750269ebbbe1dbfce1e19214"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\long-word-1793278769881621000.pdf": {
+    "path": "phase5_2/evidence/long-word-1793278769881621000.pdf",
+    "sha256": "c908093dd2445a0c9c2bc8c74f0881af2ca66e5ae16631ff7aac75a1a326592d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\Word-Arial.pdf": {
+    "path": "phase5_2/run/font-corpus/Word-Arial.pdf",
+    "sha256": "9afbf9a09ad70cfc9adefa5d48dcbe58f0879836229036e0b365cd38dacf9c1b"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Arial-wrap-1793278770358041100.pdf": {
+    "path": "phase5_2/evidence/Arial-wrap-1793278770358041100.pdf",
+    "sha256": "a86aef07e9b4468611189ac40fb7b3f3b41f53c5cc6e0fb5265dc290e8f9af44"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\Word-Calibri.pdf": {
+    "path": "phase5_2/run/font-corpus/Word-Calibri.pdf",
+    "sha256": "e836df4f2acee70b6857a44e1bececa02e81f10b86a58c79a03dc496effec8e8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Calibri-wrap-1793278770801993900.pdf": {
+    "path": "phase5_2/evidence/Calibri-wrap-1793278770801993900.pdf",
+    "sha256": "a6cdb28a7ffbeeed89c5b82d13432ae8bc8f7417ccde08c8f691437d2d87769f"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\punctuation-1793278771089964300.pdf": {
+    "path": "phase5_2/evidence/punctuation-1793278771089964300.pdf",
+    "sha256": "5d330c77480a7b0b832ed9461af48ddc01f371857d09b97c122fbd94cfd932cd"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\descenders-1793278771457459200.pdf": {
+    "path": "phase5_2/evidence/descenders-1793278771457459200.pdf",
+    "sha256": "9d3b529e017e83e0206fd752af8e18eb37ae33b0ee9cb16816817e3ebad2f658"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\wrap-corpus\\combined-collision.pdf": {
+    "path": "phase5_2/run/wrap-corpus/combined-collision.pdf",
+    "sha256": "3245e7a01f99e29d34a0bbf845ff3a90775e8417409d8b44ffaef2907eb80618"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\collision-wrap-A-1793278773334891800.pdf": {
+    "path": "phase5_2/evidence/collision-wrap-A-1793278773334891800.pdf",
+    "sha256": "2937153519698a0915353b78f2a0dfb6499a5db88117ec24a959abd5ab8bec7a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\collision-wrap-B-1793278773800318700.pdf": {
+    "path": "phase5_2/evidence/collision-wrap-B-1793278773800318700.pdf",
+    "sha256": "450e3f49a822004d63a4f41a2be4c640e07fc7d36444b9a0703456daad1b6320"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\document-corpus\\mixed-multipage.pdf": {
+    "path": "phase5_2/run/document-corpus/mixed-multipage.pdf",
+    "sha256": "ebc4529c4c808a088bc5aafdc558c3650a8bf70b2482e3a8aebbba2a2d4af642"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\mixed-pages-1793278775075700100.pdf": {
+    "path": "phase5_2/evidence/mixed-pages-1793278775075700100.pdf",
+    "sha256": "95fb639e34dfaa2460563ec8a57c8a45d4540c09dbcefcc4eafa147d64eb2509"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\rediscovered-whole-paragraph-1793278776261096000.pdf": {
+    "path": "phase5_2/evidence/rediscovered-whole-paragraph-1793278776261096000.pdf",
+    "sha256": "9a8f6eee8a1b3257724118cd3da901305761f15914ef987f721f4198b0dd5278"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\wrap-corpus\\two-Word-pages.pdf": {
+    "path": "phase5_2/run/wrap-corpus/two-Word-pages.pdf",
+    "sha256": "a044301aa3f909ebce3ebda3df4638969f53e1f9f3720188a8c7f084b7b4415f"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\two-wrapped-pages-1793278777397406100.pdf": {
+    "path": "phase5_2/evidence/two-wrapped-pages-1793278777397406100.pdf",
+    "sha256": "75682b4abe62fe23ad43ea1f3dadab1c89bd361e80408e360517e4dccebc0d6e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\single-glyph-1793278778875130500.pdf": {
+    "path": "phase5_2/evidence/single-glyph-1793278778875130500.pdf",
+    "sha256": "8163168d87a36c819a10bfe3b63befe6b7ec36272ac997ff023839619252865e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\single-tail-1793278779306734500.pdf": {
+    "path": "phase5_2/evidence/single-tail-1793278779306734500.pdf",
+    "sha256": "ec03c9007e6ae1f1fb839b20dfedd4f88ea88db2196b028417027f1dc4e98812"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\single-line-1793278779783359900.pdf": {
+    "path": "phase5_2/evidence/single-line-1793278779783359900.pdf",
+    "sha256": "2ab4d7186a751fa600f29f84aa198f9f61d69a31272542c5b8709ea0c0bb167a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\word-generation1-1793278496211512500.pdf": {
+    "path": "phase5_2/evidence/roundtrip/word-generation1-1793278496211512500.pdf",
+    "sha256": "7c2c1994e5362f49ed8adac6016aeedf1786b4afe3d4904e4911fdb3e8e796d6"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\word-generation2-1793278497810529600.pdf": {
+    "path": "phase5_2/evidence/roundtrip/word-generation2-1793278497810529600.pdf",
+    "sha256": "67980d91ad388babea3739eea82cc4fc8810a7aeac1b650b3f9f2bc77d721956"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\word-generation3-1793278499575398500.pdf": {
+    "path": "phase5_2/evidence/roundtrip/word-generation3-1793278499575398500.pdf",
+    "sha256": "da60bb587807dd5fdd1e1072c85d83f884387cbf0f9aa89fb03c0baa2bedbf32"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\Arial-generation1-1793278501185619900.pdf": {
+    "path": "phase5_2/evidence/roundtrip/Arial-generation1-1793278501185619900.pdf",
+    "sha256": "799329e0ed9b705840e7a09ad43344f5ad8116f7131d8bceab27cf397717cdd3"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\Arial-generation2-1793278502701995500.pdf": {
+    "path": "phase5_2/evidence/roundtrip/Arial-generation2-1793278502701995500.pdf",
+    "sha256": "c545d9d5fd2d1e282b04fa635db86fffaa63a7c043a6e93ba8edf8f986e35635"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\Arial-generation3-1793278504168333200.pdf": {
+    "path": "phase5_2/evidence/roundtrip/Arial-generation3-1793278504168333200.pdf",
+    "sha256": "4da6af25691bfddbdd336dfc5bed4508a65125ba45a6becdc65c7f0d97b45eff"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\Calibri-generation1-1793278505644227600.pdf": {
+    "path": "phase5_2/evidence/roundtrip/Calibri-generation1-1793278505644227600.pdf",
+    "sha256": "d5a0c8913c30479025ed62fbee62c4d54437eee897ef860cce6ec056a05e4d01"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\Calibri-generation2-1793278507182702900.pdf": {
+    "path": "phase5_2/evidence/roundtrip/Calibri-generation2-1793278507182702900.pdf",
+    "sha256": "c695092342406c04a47c2cb64de58b292930f1fb0e0d260781b4183888f4a2ad"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\Calibri-generation3-1793278508746012200.pdf": {
+    "path": "phase5_2/evidence/roundtrip/Calibri-generation3-1793278508746012200.pdf",
+    "sha256": "8a49fd88820c10976c6b37359d2a95ca104a1ea7f423d6fd1f90403e89d3404d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\mixed-generation1-1793278510814813200.pdf": {
+    "path": "phase5_2/evidence/roundtrip/mixed-generation1-1793278510814813200.pdf",
+    "sha256": "f163d2e59fb6c2510d7389fc9a5d7e118b2531da97dbd5657bf9c382fd80b4b0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\mixed-generation2-1793278512736487600.pdf": {
+    "path": "phase5_2/evidence/roundtrip/mixed-generation2-1793278512736487600.pdf",
+    "sha256": "e1e847abcfe4268d0c9c38372ad1d20fc8910703553986c39e8db3ce54a8a0d0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\delete-entire-paragraph-1793278514236310400.pdf": {
+    "path": "phase5_2/evidence/roundtrip/delete-entire-paragraph-1793278514236310400.pdf",
+    "sha256": "9057c073556792f6c145f885df1d8c708a38c85917206cb6d827ac4025ce6408"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\two-groups-baseline-1793278515692248100.pdf": {
+    "path": "phase5_2/evidence/roundtrip/two-groups-baseline-1793278515692248100.pdf",
+    "sha256": "2727c81399c08fd110bcabfd1544e0f22ca578553a1c15fbd60687f4621e2962"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\group-A-alone-1793278516971790000.pdf": {
+    "path": "phase5_2/evidence/roundtrip/group-A-alone-1793278516971790000.pdf",
+    "sha256": "b300058fa820aa2a89efdc7f4fcd86dc6ef487d0f100970a332efbca3cccff05"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\group-B-alone-1793278517807012000.pdf": {
+    "path": "phase5_2/evidence/roundtrip/group-B-alone-1793278517807012000.pdf",
+    "sha256": "ac66049f8d0078e9b6ef9c9cc6617f1fe5c9d20f9e1336a7039beeb005fa5fe2"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\title-group-1793278520978563400.pdf": {
+    "path": "phase5_2/evidence/roundtrip/title-group-1793278520978563400.pdf",
+    "sha256": "059770d3bb175d52d8b5cc5a2fc30d85924d1624c292eaa63bf9579555abdad7"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\adversarial\\external-pikepdf-preserve.pdf": {
+    "path": "phase5_2/evidence/adversarial/external-pikepdf-preserve.pdf",
+    "sha256": "410a88bc2ab79d1e0ac334b7c7b2bdb3bf5e63da354e7bc33256a08926c6679b"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\external-preserved-generation-1793278537592185900.pdf": {
+    "path": "phase5_2/evidence/roundtrip/external-preserved-generation-1793278537592185900.pdf",
+    "sha256": "2473fd2ee0e2a2c2b746336d8a67b39b53d81aa085d1eeb4fae600a87905dabc"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\A-insert-middle-1793278751873315600.pdf": {
+    "path": "phase5_2/evidence/A-insert-middle-1793278751873315600.pdf",
+    "sha256": "b42eb50ad11ea86504d4427d603c8647c68ab11643a17881542629c42069984a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\B-insert-many-1793278752281811400.pdf": {
+    "path": "phase5_2/evidence/B-insert-many-1793278752281811400.pdf",
+    "sha256": "b239604f973d3b21aa008f846c989e8e882881224d668f950dfa8633b9a99c8e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\insert-start-1793278752607012600.pdf": {
+    "path": "phase5_2/evidence/insert-start-1793278752607012600.pdf",
+    "sha256": "7e6a6353e8a3d1f58673d17d58453d3c4ff5552505c1fe219b1bc0f5d1107969"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\insert-within-word-1793278752903593400.pdf": {
+    "path": "phase5_2/evidence/insert-within-word-1793278752903593400.pdf",
+    "sha256": "34a8a96084e6e11e1d86374ab4d18c8103574d68c62c9ef161941e56c4f7a53e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\insert-between-words-1793278753219167700.pdf": {
+    "path": "phase5_2/evidence/insert-between-words-1793278753219167700.pdf",
+    "sha256": "905c071bfaa50b2150d36a44f8df866dcad852efc4d2e60fdc4c882b79b6b6d7"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\insert-near-end-1793278753543064200.pdf": {
+    "path": "phase5_2/evidence/insert-near-end-1793278753543064200.pdf",
+    "sha256": "1eca0ea4c86f82c25bee7690ad4a1316ef4e2c9ce2c1788feee31878b55d738a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\multiple-separate-insertions-1793278753870315100.pdf": {
+    "path": "phase5_2/evidence/multiple-separate-insertions-1793278753870315100.pdf",
+    "sha256": "df7e82540280f40789b4503a6f299f5bb8048025fc0b4d35ecaadcdfc1b2a50a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\C-delete-character-1793278754187634200.pdf": {
+    "path": "phase5_2/evidence/C-delete-character-1793278754187634200.pdf",
+    "sha256": "472fa37aab5d772cca63232b99f4577d7212fdc9fa1690846ab106c6b010b631"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\D-delete-word-1793278754490915800.pdf": {
+    "path": "phase5_2/evidence/D-delete-word-1793278754490915800.pdf",
+    "sha256": "e7f6cdf1d02216323c350b396b2544fe1bf6fa2f0b94009730070e135e7fcbe8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\E-replace-range-different-length-1793278754892950900.pdf": {
+    "path": "phase5_2/evidence/E-replace-range-different-length-1793278754892950900.pdf",
+    "sha256": "0f069b5244c78364e134c0a7ec821ffb10307d8aa6fa725ace7c40ab0b89fc32"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\delete-start-1793278755338010200.pdf": {
+    "path": "phase5_2/evidence/delete-start-1793278755338010200.pdf",
+    "sha256": "259fc4dfc43b6e04347303babb5b85836aad37a842370b88a4aff28ea90bb933"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\delete-end-1793278755760194300.pdf": {
+    "path": "phase5_2/evidence/delete-end-1793278755760194300.pdf",
+    "sha256": "87b900c7923c3e204fe897e172e85da24f8bca066b00d348bd7108d91ecc7628"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\delete-consecutive-1793278756162241300.pdf": {
+    "path": "phase5_2/evidence/delete-consecutive-1793278756162241300.pdf",
+    "sha256": "6d35c0951c822708e20d016d188e64ddf597b0b7e381d12934f71b14dc45e1d8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\K-empty-line-1793278756597433300.pdf": {
+    "path": "phase5_2/evidence/K-empty-line-1793278756597433300.pdf",
+    "sha256": "c7cc18a37520833aa190f421e3bb7eddbdccef2c651551c2fb38dcd03b600398"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\document-corpus\\word-horizontal-obstacle.pdf": {
+    "path": "phase5_2/run/document-corpus/word-horizontal-obstacle.pdf",
+    "sha256": "2a64b03e39d18233fc398c7ee39f57d357a6a6460fc038d40fdc3a281e4b5f72"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\horizontal-obstacle-1793278757545075400.pdf": {
+    "path": "phase5_2/evidence/horizontal-obstacle-1793278757545075400.pdf",
+    "sha256": "3fa111cc8415f72b2f5e1c437bec3d3caadd9442b6e23e09d81b72223ea7e108"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Arial-insert-1793278758428377300.pdf": {
+    "path": "phase5_2/evidence/Arial-insert-1793278758428377300.pdf",
+    "sha256": "fe91f3702f8ba44a2bc3e45074ed091741e636d7cb08f2d235420e35490cd3ee"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Arial-delete-1793278758728150300.pdf": {
+    "path": "phase5_2/evidence/Arial-delete-1793278758728150300.pdf",
+    "sha256": "459b7fa7fb4f67bcb8cddc1329e7f0bf57b0523f275764b20db0bbabd7326ce0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Arial-replace-1793278759035727400.pdf": {
+    "path": "phase5_2/evidence/Arial-replace-1793278759035727400.pdf",
+    "sha256": "537781c3d0d16b65067a1f517c3b692fdf20bddaf81559728c17eeba9c876466"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Calibri-insert-1793278759553018300.pdf": {
+    "path": "phase5_2/evidence/Calibri-insert-1793278759553018300.pdf",
+    "sha256": "900884af4a10a5032704bf2a84b1d02d26f58cff51c40f4caabcf6917f28d773"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Calibri-delete-1793278759873107400.pdf": {
+    "path": "phase5_2/evidence/Calibri-delete-1793278759873107400.pdf",
+    "sha256": "5b89c770dd2f8f9caa9e89a2ecdc3852d8d76381029562ae06b60ae7f0a2c94e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Calibri-replace-1793278760184744900.pdf": {
+    "path": "phase5_2/evidence/Calibri-replace-1793278760184744900.pdf",
+    "sha256": "c9bf0cce9903caae0eb78b341cfe80cbd4d638a2350c878cd8767ff1b30c3ba5"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\preserve-pairs-1793278760493914500.pdf": {
+    "path": "phase5_2/evidence/preserve-pairs-1793278760493914500.pdf",
+    "sha256": "36afcc419c1ea48d1ab795340c4d5d2003b52eea2270a52c639b4bd84ec69949"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\second-generation-1793278761152634500.pdf": {
+    "path": "phase5_2/evidence/second-generation-1793278761152634500.pdf",
+    "sha256": "6245ca0a0b0031e168f6f85585fa21b73c7f12e5aee6ec34a84eb7739fb527e9"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\mixed-multipage-1793278762021399200.pdf": {
+    "path": "phase5_2/evidence/mixed-multipage-1793278762021399200.pdf",
+    "sha256": "ad6e6e504403cef4bcf5125efd831dc1ea9fcbf956c7ae77276959a393b1a51c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\document-corpus\\multi-natural.pdf": {
+    "path": "phase5_2/run/document-corpus/multi-natural.pdf",
+    "sha256": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\two-natural-1793278763896675100.pdf": {
+    "path": "phase5_2/evidence/two-natural-1793278763896675100.pdf",
+    "sha256": "da2776b5d3a1f0d788bcfa5cbaeb58f46c8bba2901890fdac09279a4f665d9f0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\two-wrapped-paragraphs-1793278764101855000.pdf": {
+    "path": "phase5_2/evidence/two-wrapped-paragraphs-1793278764101855000.pdf",
+    "sha256": "cf163bc3cadf5626823ce37479804b92d888b633455e0b3867acd6705249e1d8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\two-word-1793278764406027700.pdf": {
+    "path": "phase5_2/evidence/two-word-1793278764406027700.pdf",
+    "sha256": "ffe6018d3ee5f16af970e1a0d49a913f87dc056ce3583df0e19e84b2a3184b25"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\document-corpus\\mixed.pdf": {
+    "path": "phase5_2/run/document-corpus/mixed.pdf",
+    "sha256": "d9700765fbab24e078bfe861d502ee46dde6b4a88238339878306057c3a270c3"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\mixed-strategies-1793278764983984900.pdf": {
+    "path": "phase5_2/evidence/mixed-strategies-1793278764983984900.pdf",
+    "sha256": "d42075cdb42685326b4b2a30c97515bf78849574c7fb5032a17024d5132c40b8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\two-pages-1793278765545283700.pdf": {
+    "path": "phase5_2/evidence/two-pages-1793278765545283700.pdf",
+    "sha256": "5d1cd7eb2e04bc5e18773d4b84df8cffc3a3f30100e2b91753426114d9e5989c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\document-corpus\\collision.pdf": {
+    "path": "phase5_2/run/document-corpus/collision.pdf",
+    "sha256": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\collision-A-alone-1793278765827383100.pdf": {
+    "path": "phase5_2/evidence/collision-A-alone-1793278765827383100.pdf",
+    "sha256": "8aa9dec451bc1413e12324d73f447e6d071244be8d5506ff82a43d64f824a4dd"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\collision-B-alone-1793278765942127400.pdf": {
+    "path": "phase5_2/evidence/collision-B-alone-1793278765942127400.pdf",
+    "sha256": "a909dd40f400373232f9c08a9ff9799a30fc2a9bd8d23b8ec8c059304b7f0d6b"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\second-generation-1793278766293574200.pdf": {
+    "path": "phase5_2/evidence/second-generation-1793278766293574200.pdf",
+    "sha256": "50e5245740b2724031e246b25b084711ecd85af065ffb1e52feecac645c7c57c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\delete-and-replace-1793278767236126300.pdf": {
+    "path": "phase5_2/evidence/delete-and-replace-1793278767236126300.pdf",
+    "sha256": "65efc2b540d05c0a34ed2b718224bb2ac06acd4effcb53890cd8566328918567"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\after-worker-restart-1793278768074917000.pdf": {
+    "path": "phase5_2/evidence/after-worker-restart-1793278768074917000.pdf",
+    "sha256": "26157bacc4af7e78f15e9e6c104002d70513bf920de2d1747eb9d0654b72e142"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\original-paragraphs\\Word-cafe-paragraph.pdf": {
+    "path": "phase5_2/run/original-paragraphs/Word-cafe-paragraph.pdf",
+    "sha256": "efdafbcb1bc389ba553f1af904994518c7d66fc564590181fe22b7540a5f35b0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-performance-1793278507713484400.pdf": {
+    "path": "phase5_2/evidence/original-performance-1793278507713484400.pdf",
+    "sha256": "25af1765a4a0c954f1a9491469bd7ec5f222aaf9f4b045189446565a2380aa33"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\samples\\A-Simple.pdf": {
+    "path": "phase5_2/run/samples/A-Simple.pdf",
+    "sha256": "f6015d3e7833c7b675f24efe65c563aa3b2e53c19e05e9f1a71bad464063ff18"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\basic-retry-phase5_2-1793278900328995600\\UI-saved-d812b87d4ae44c8dbab4d52efc9aab0a.pdf": {
+    "path": "phase5_2/evidence/basic-retry-phase5_2-1793278900328995600/UI-saved-d812b87d4ae44c8dbab4d52efc9aab0a.pdf",
+    "sha256": "24799a77539816b1d401e55f99283c6641f63ad88eb8bfdedb6d80d0d02f9709"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\word-ui-first.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/word-ui-first.pdf",
+    "sha256": "98cb24cf4604b7f217b2fbd3e9195118a7b6b88c4d3b97a76e4fd60d3018aa79"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\wrap-continuous-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/wrap-continuous-ui.pdf",
+    "sha256": "a2776ec9c5c07941f23a68a69321d7eadff1997499b4d14ffeb5fac684680a5e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\insertion-mixed-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/insertion-mixed-ui.pdf",
+    "sha256": "842d565db2bb3340b4056c44c11d03f74c574edd1bef397c72672f870ef778af"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\wrap-two-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/wrap-two-ui.pdf",
+    "sha256": "060b411c7a4dee92d3e22f8d6ccb879139aca431aa393e9880ef255cbe7844ab"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\insertion-selection-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/insertion-selection-ui.pdf",
+    "sha256": "922b1ae6634d27a45ec5f6b9649c2af0e60ec53030b4bc0447286ad3907b999a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\combined-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/combined-ui.pdf",
+    "sha256": "4685addf9c92962a04cdfeedd06a1d6e97c8a784fe8b02a1d33dcba0c1816ed1"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\UI-saved-8cc3787c658e40168155888385db36de.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/UI-saved-8cc3787c658e40168155888385db36de.pdf",
+    "sha256": "bdfabcbad61944f159816fa7b16fab8d11b4124570c9dbefbd0172a9ca1f37dc"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\J-partial-encoding.pdf": {
+    "path": "phase5_2/run/font-corpus/J-partial-encoding.pdf",
+    "sha256": "b83da4b97c953087f9f5e5032a1f8c5810db5625f7c6cea4e83000046c07fc72"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\subset-UI-0d2108c4eb3b43c19e8f662c1c2e7e59.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/subset-UI-0d2108c4eb3b43c19e8f662c1c2e7e59.pdf",
+    "sha256": "3358e1e0f2e298e920daf08909a7bede1c76495075828f0575799a3ae57f6006"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\insertion-caret-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/insertion-caret-ui.pdf",
+    "sha256": "168d798329c8b43f87842ce3df025bbe0159a7b2e8705a5febbe59b81ddb69c5"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\wrap-many-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/wrap-many-ui.pdf",
+    "sha256": "fda842c4569d2f3031e39356c23e51e14468e52f55fe085db3f333d97efdb684"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\combined-mixed-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/combined-mixed-ui.pdf",
+    "sha256": "f638890e5762a63932f67f49cf0276efba98d065cad4d345c95ca3db1ac50b20"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\insertion-empty-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/insertion-empty-ui.pdf",
+    "sha256": "8e4361f743974bbbd878b7f774ef11073e8c0b6a5a5a32a08adff1f4ce692457"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\wrap-mixed-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/wrap-mixed-ui.pdf",
+    "sha256": "371183144fba7dfbaa12ae802a45660694797c6b72bcdba6909f801275ac4608"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\corpus\\01-letter.pdf": {
+    "path": "phase5_2/run/corpus/01-letter.pdf",
+    "sha256": "f266fd28c6ca14e3eb6dce3ee6e5289975cba73ad49d7d83e322b18c631123f9"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\UI-generation-one-15fedcf7fe1b48449ae1f4e451c84966.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/UI-generation-one-15fedcf7fe1b48449ae1f4e451c84966.pdf",
+    "sha256": "b2a2e7e5ea6dcc5a179ddfa0f8b42821aa73186405f4c6aae4a3ad834039c6dc"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\wrap-second-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/wrap-second-ui.pdf",
+    "sha256": "18d37e256ac962e0657fcaab680408f8df8045797496b4b5403efe0e80aa8001"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\combined-ui-second.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/combined-ui-second.pdf",
+    "sha256": "6f97b94fe0ea58895864976fe7e889e8d7c9ab492dee1fea7e412cc804865de7"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\Calibri-wrap-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/Calibri-wrap-ui.pdf",
+    "sha256": "33f78bf2ac7139f352c302dd4887609888e7205822fea60961ec693b8757622d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\combined-word-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/combined-word-ui.pdf",
+    "sha256": "5304518e3cac21e8be5d41d22e669764a05a3d9dabba7f7569900a126d13861f"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\word-ui-second.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/word-ui-second.pdf",
+    "sha256": "5266ab985623fc86008ccf61feee33af619eb90446b7d0733ac60d031e6cafd9"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\insertion-second-ui.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/insertion-second-ui.pdf",
+    "sha256": "76fc5bc61394cc2c93b2c844624ff3a2989983af5f1d8b60f52b62d0fb71fc7c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping-1793278666723427900\\UI-generation-two-eda42c38360f47b8a62781f4b4f10ed2.pdf": {
+    "path": "phase5_2/evidence/controls-shipping-1793278666723427900/UI-generation-two-eda42c38360f47b8a62781f4b4f10ed2.pdf",
+    "sha256": "58cb4e8109edbb30c2279b2f551c1d0671a2ff38393d6edf6e534590baefb1ba"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\delete-boundary-1793278475543480100.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/delete-boundary-1793278475543480100.pdf",
+    "sha256": "0caa8ac0f8b3a5f1f43b7fe8b68ef5a35937b09b65c07e7c2119f1f674450cb5"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\insert-boundary-1793278474834199500.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/insert-boundary-1793278474834199500.pdf",
+    "sha256": "3a5ed086794a72100dea99411d80e1f08c82deb418f93e6a448966d4ddc41c6c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\original-paragraphs\\Word-letter-paragraph.pdf": {
+    "path": "phase5_2/run/original-paragraphs/Word-letter-paragraph.pdf",
+    "sha256": "b604f723f749841843c76da75fee722e07b46627d56266afe6fcc1ac25871ab3"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\letter-original-1793278477441799100.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/letter-original-1793278477441799100.pdf",
+    "sha256": "dd7625cce43f7648c62b64d285a5fe4664d709db62e91921874a207bf03c3082"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\mixed-original-marked-natural-other-page.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/mixed-original-marked-natural-other-page.pdf",
+    "sha256": "3975f5fa0532791ab5672d22260ece3eb2a509da5b6088acb4bb72aa65cdd926"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\mixed-establish-page1-marker-1793278489525640900.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/mixed-establish-page1-marker-1793278489525640900.pdf",
+    "sha256": "8a5dcfaf37abb153cd87c1aa3ffbe0d317081d76de8ee7b3fc004d98a30a1a6d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\mixed-four-regions-1793278491849059000.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/mixed-four-regions-1793278491849059000.pdf",
+    "sha256": "9d8090462beff98959ef93399d5660e08d824edf29c5c726f2d9d3d56469050c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\original-generation1-1793278469707147500.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/original-generation1-1793278469707147500.pdf",
+    "sha256": "14b4b2d34c105f87822f3a61ec6604da48bd95f82618971771acf03c1ef4e49d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\original-generation2-1793278471461294100.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/original-generation2-1793278471461294100.pdf",
+    "sha256": "58df2861a46c8069c0e0ad3d771d81794d8ea7ecb3a5c37b9682aaa9ca799b72"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\original-generation3-1793278473144225900.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/original-generation3-1793278473144225900.pdf",
+    "sha256": "52342aa224d4232694c74b72035c4430a12bc737fdff3bb4e7ac7fe421deb377"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278466742528400\\replace-cross-row-1793278476246991200.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278466742528400/replace-cross-row-1793278476246991200.pdf",
+    "sha256": "4fad4f199f9ce615bba16f8221e045639d0d9029dc721351077f6701ff4452a8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\delete-boundary-1793278712659101800.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/delete-boundary-1793278712659101800.pdf",
+    "sha256": "49bb79b30a2113fb111a0917ff9446334dd5591a29a1b7af0c148383c14183f4"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\insert-boundary-1793278711958308600.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/insert-boundary-1793278711958308600.pdf",
+    "sha256": "3db61a0d1585cc42f1b5b5d8ea24e00ad704272eaec7ca2c2582017ccf29f60a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\letter-original-1793278714542214100.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/letter-original-1793278714542214100.pdf",
+    "sha256": "06ff748f906573c9cdbae55884c9af371403f968e17f4015344dfc5054a6e6df"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\mixed-original-marked-natural-other-page.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/mixed-original-marked-natural-other-page.pdf",
+    "sha256": "5acc4374e2f872f20517fc71f8a950fb877398120dc5b669e2f49f440043e695"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\mixed-establish-page1-marker-1793278728784257800.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/mixed-establish-page1-marker-1793278728784257800.pdf",
+    "sha256": "6d317e8e91ac909ee7cbc6e32996b805e1b6dc7a6efa68ee8f99864b5d89c8d2"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\mixed-four-regions-1793278731200425000.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/mixed-four-regions-1793278731200425000.pdf",
+    "sha256": "3f5bd0a2837bd94cc6d53feb70f2646b057831fc29346c0d05ae7962ef585b3c"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\original-generation1-1793278707061644800.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/original-generation1-1793278707061644800.pdf",
+    "sha256": "5a1f68149d858c07662e897318547ac4eee018945e7fb2572c32b94ae1b4b2c1"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\original-generation2-1793278708692601500.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/original-generation2-1793278708692601500.pdf",
+    "sha256": "513cc079548e0d45424967a4852bd51572cbd05ac3aee35bae413a37a0934130"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\original-generation3-1793278710344181700.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/original-generation3-1793278710344181700.pdf",
+    "sha256": "5c3128433cc3cf908fe452054dfddb368e25624793e8283fbf93e61ca94368b8"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\replace-cross-row-1793278713355600000.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278703964204600/replace-cross-row-1793278713355600000.pdf",
+    "sha256": "3ef6afb006878c5409ec27a30d51fff7bf9b07c0afca717fd0e95a409b82e8b1"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278254462187100\\mixed-establish-page1-marker-1793278273361811100.pdf": {
+    "path": "phase5_2/evidence/original-tests-1793278254462187100/mixed-establish-page1-marker-1793278273361811100.pdf",
+    "sha256": "35f1ccbe036fa27414743f8978f626dd76a2e5af2455a98241a82310112b2ce3"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-controls-1793278433141708900\\original-ui-mixed-recovered.pdf": {
+    "path": "phase5_2/evidence/original-controls-1793278433141708900/original-ui-mixed-recovered.pdf",
+    "sha256": "98f2e40243b9c9f407ea1cca846fd2ce197296b8484e51b77cc9d73cd4e54286"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-controls-1793278433141708900\\original-ui-generation1.pdf": {
+    "path": "phase5_2/evidence/original-controls-1793278433141708900/original-ui-generation1.pdf",
+    "sha256": "b8838b9c174c85184403314c1351fb40ddbf8891ddeea2dda31d0d1936cf47af"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-controls-1793278433141708900\\original-ui-generation2.pdf": {
+    "path": "phase5_2/evidence/original-controls-1793278433141708900/original-ui-generation2.pdf",
+    "sha256": "ccbf15b374cd464eca70913e4f1f85d4c5f5d7946ccc09bc13e174f67ed53d93"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-controls-1793278433141708900\\original-ui-generation3.pdf": {
+    "path": "phase5_2/evidence/original-controls-1793278433141708900/original-ui-generation3.pdf",
+    "sha256": "28d8c8faab678647d6bf3873fef4c0dc2316acf18bee273de2ab5d66bcd67ff2"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\paragraph-controls-1793278540778553900\\ui-generation1.pdf": {
+    "path": "phase5_2/evidence/paragraph-controls-1793278540778553900/ui-generation1.pdf",
+    "sha256": "eefa0d8a8cb6ff4e9b326700ee2a3f5348e6fb2f1780e6555855cebc35522835"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\paragraph-controls-1793278540778553900\\ui-generation2.pdf": {
+    "path": "phase5_2/evidence/paragraph-controls-1793278540778553900/ui-generation2.pdf",
+    "sha256": "e613c9771cf1299c02789e969159859bbe50fcca99020a6604d729a37292a553"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\paragraph-controls-1793278540778553900\\ui-generation3.pdf": {
+    "path": "phase5_2/evidence/paragraph-controls-1793278540778553900/ui-generation3.pdf",
+    "sha256": "155d56bd94caacc9514c6773bff1f7ae526b8e103fae02f6ceda84be349b423d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\paragraph-controls-1793278540778553900\\ui-mixed-recovered.pdf": {
+    "path": "phase5_2/evidence/paragraph-controls-1793278540778553900/ui-mixed-recovered.pdf",
+    "sha256": "36be8241402d92aafa2f4b8d0cd56202542f8734b8ba79bce520ca76e1260b7a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\expectation-longer-1793278746629851500.pdf": {
+    "path": "phase5_2/evidence/expectation-longer-1793278746629851500.pdf",
+    "sha256": "1b1be1eef4180b03a24bf46396ed97bb63aa3fed344ff6c81259b43a22031944"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\expectation-shorter-1793278747053275600.pdf": {
+    "path": "phase5_2/evidence/expectation-shorter-1793278747053275600.pdf",
+    "sha256": "8c3b82430826c14935c5adbdd10d256463532ca710a017634cfedd645f12abe0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\expectation-wider-1793278747438433500.pdf": {
+    "path": "phase5_2/evidence/expectation-wider-1793278747438433500.pdf",
+    "sha256": "eba8a1ae5c232e5ac0dfe8f893c12e07e85cf0552798640ee301f686611c5153"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\final-caption-smoke-1793290732861069100\\original-ui-generation1.pdf": {
+    "path": "phase5_2/evidence/final-caption-smoke-1793290732861069100/original-ui-generation1.pdf",
+    "sha256": "767d1609a4bd94b3d9c6676b322f96eafefc80d6df089d289443c1c6b741085b"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\corpus\\02-report.pdf": {
+    "path": "phase5_2/run/corpus/02-report.pdf",
+    "sha256": "6edc3ca7169f79703cb0cc4fa892d7f3289e833bb77cae0ea674ff436f00c4a6"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\report-edited-1793278737248773200.pdf": {
+    "path": "phase5_2/evidence/report-edited-1793278737248773200.pdf",
+    "sha256": "f67c55bbdd351862e38a4395752020b9122f09058072362fc20f4835768b7a49"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\letter-edited-1793278737388837000.pdf": {
+    "path": "phase5_2/evidence/letter-edited-1793278737388837000.pdf",
+    "sha256": "29b29ab4063d4281ace386ef7359c023910fc9201845e98d0ca19bc80b32ec2b"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\bold-edited-1793278737495910100.pdf": {
+    "path": "phase5_2/evidence/bold-edited-1793278737495910100.pdf",
+    "sha256": "581e8cae6bd33984e0478ade8e031a456d69b303097afc5bdd11f34bf4e9bdd7"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\colour-edited-1793278737603641300.pdf": {
+    "path": "phase5_2/evidence/colour-edited-1793278737603641300.pdf",
+    "sha256": "76ff3475bdc5671f4bccfd8ad7a4beb94572d0accd5188e1e0be7c794b276669"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\corpus\\09-mupdf-letter.pdf": {
+    "path": "phase5_2/run/corpus/09-mupdf-letter.pdf",
+    "sha256": "756c3ed81a442c178581b1e7579ec7997ff1f3f3d4b5fafa8a8c0c709716b398"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\mupdf-edited-1793278737806630700.pdf": {
+    "path": "phase5_2/evidence/mupdf-edited-1793278737806630700.pdf",
+    "sha256": "9b14196dd4763ce5b0b68b5d4badcb603a50487d330ace41b3e52fca850618a0"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\generation-one-1793278737905364200.pdf": {
+    "path": "phase5_2/evidence/generation-one-1793278737905364200.pdf",
+    "sha256": "6c72eb2dd45034b89c75fda2a4e693784893e59e304782c10e428a86571fc1f7"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\generation-two-1793278738139067800.pdf": {
+    "path": "phase5_2/evidence/generation-two-1793278738139067800.pdf",
+    "sha256": "dc721f4883f1df6ca90fefdbd1116ebb6691c25849c97009f9bf1343f39d715e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-discovery-edited-1793278739110546400.pdf": {
+    "path": "phase5_2/evidence/word-discovery-edited-1793278739110546400.pdf",
+    "sha256": "8fca81749c047a0a9cba1bc90c394302219f9863ee89821505c2f796686092a1"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\corpus\\13-shuffled-order.pdf": {
+    "path": "phase5_2/run/corpus/13-shuffled-order.pdf",
+    "sha256": "258c166fdcbe0cf50dee8941fc41f22e2f269539502b13147a00dab6ad9a986d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\shuffled-edited-1793278739735446200.pdf": {
+    "path": "phase5_2/evidence/shuffled-edited-1793278739735446200.pdf",
+    "sha256": "6a50f463112af8540de53a7a79ef9d3294314db72623a6ef67ae172ceddd42d5"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\A-subset-existing.pdf": {
+    "path": "phase5_2/run/font-corpus/A-subset-existing.pdf",
+    "sha256": "56677259b913710543c4ceff307ea7ec2f9f009f966822aca8428a9985e40454"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\subset-equal-width-1793278741139123700.pdf": {
+    "path": "phase5_2/evidence/subset-equal-width-1793278741139123700.pdf",
+    "sha256": "bed8e81e006b1f52b1104dee74ef0cdb2df8cb358300f35aa8fafb97677aa0fd"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\subset-longer-1793278741267349200.pdf": {
+    "path": "phase5_2/evidence/subset-longer-1793278741267349200.pdf",
+    "sha256": "275aedecdac812f7b793327f001d7cbfefe5b15b8480eff5292156687f19cd01"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\B-original-only.pdf": {
+    "path": "phase5_2/run/font-corpus/B-original-only.pdf",
+    "sha256": "083d35aeab9d29ebfa62f82c0ac6251c74d8131aeab5fabc6940ee9f43e7f2d5"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-only-reuse-1793278741426755000.pdf": {
+    "path": "phase5_2/evidence/original-only-reuse-1793278741426755000.pdf",
+    "sha256": "6f33269aa78cd93d1e80c5e56d10a921c8127d868193dadeadc0ede8e9b6421a"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\C-subset-bold.pdf": {
+    "path": "phase5_2/run/font-corpus/C-subset-bold.pdf",
+    "sha256": "413b81e9e5cb04e2ae6e3662c218724a11eb9422ababae8293e561ae669ae2e1"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\subset-bold-1793278741625357100.pdf": {
+    "path": "phase5_2/evidence/subset-bold-1793278741625357100.pdf",
+    "sha256": "d1010acae46a992077d64015b497efc775e0a9c0a1be998861280d09135b1e34"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\font-corpus\\G-duplicate-unicode.pdf": {
+    "path": "phase5_2/run/font-corpus/G-duplicate-unicode.pdf",
+    "sha256": "21055023c8464a5fe5f0d12f6d24c27447147e072a496b1382b76379dccd7630"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\duplicate-mapping-safe-1793278742034284400.pdf": {
+    "path": "phase5_2/evidence/duplicate-mapping-safe-1793278742034284400.pdf",
+    "sha256": "57159dd6980a7c5509b1f6608a9ac8bafa3e6fe81c9b05e42a10fe1658f80577"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-compatibility-edit-1793278742475552100.pdf": {
+    "path": "phase5_2/evidence/word-compatibility-edit-1793278742475552100.pdf",
+    "sha256": "10e4414300d2a2cb579feca123f6699883a58c2c3dd675a3dcaf6380c564fe46"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\subset-gen-one-1793278743053268300.pdf": {
+    "path": "phase5_2/evidence/subset-gen-one-1793278743053268300.pdf",
+    "sha256": "aaa1ebdff402d7e335556feda9225d267cdd627e3453ad78b235f9b600dda866"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\subset-gen-two-1793278743248556000.pdf": {
+    "path": "phase5_2/evidence/subset-gen-two-1793278743248556000.pdf",
+    "sha256": "329a096b14904827242243471b7f4fb010e4a57a7d30615096515dfd4b5b240e"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\probe-object-count-1793278743479844500.pdf": {
+    "path": "phase5_2/evidence/probe-object-count-1793278743479844500.pdf",
+    "sha256": "c281e0fc13ebd8dcbc0ac75e8caa8deb7c8ea4ab894721d66d757dc3af967e92"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\new-partial-encoding-edit-1793278743844677600.pdf": {
+    "path": "phase5_2/evidence/new-partial-encoding-edit-1793278743844677600.pdf",
+    "sha256": "775f152c8dc58806bac5814630eff8cc95ce484fba32f3fbd37de6363f27074d"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\new-partial-gen-one-1793278744162908600.pdf": {
+    "path": "phase5_2/evidence/new-partial-gen-one-1793278744162908600.pdf",
+    "sha256": "543b9798f8d500c85e40a4b3b6aa7cb0a0a6ba94bb7707e1f47c1ccf63d8a86f"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\new-partial-gen-two-1793278744401041300.pdf": {
+    "path": "phase5_2/evidence/new-partial-gen-two-1793278744401041300.pdf",
+    "sha256": "ff3183803ef203bb8b249e6bceff061a76eeaec82b57162186e0944a211aa338"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-reconstructed-1793278745860772400.pdf": {
+    "path": "phase5_2/evidence/word-reconstructed-1793278745860772400.pdf",
+    "sha256": "72a2afb8e296db35ac3b7ba95d50b43e9052a6d71d2e47f25382780340c8b362"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-first-1793278746049313700.pdf": {
+    "path": "phase5_2/evidence/word-first-1793278746049313700.pdf",
+    "sha256": "25c07f27611abb1afdcb9258c6f81b779df5877774711cf6b5b1e0f671864f38"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\word-second-narrower-1793278746319735400.pdf": {
+    "path": "phase5_2/evidence/word-second-narrower-1793278746319735400.pdf",
+    "sha256": "39f2bdff927766b729c71ecbd0e470b99443fb5bd0777fc1638a186ab3995dd7"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Word-Arial-1793278748380894500.pdf": {
+    "path": "phase5_2/evidence/Word-Arial-1793278748380894500.pdf",
+    "sha256": "9f0e91e64187ef39b94cc29f0bfee8624286bc247418ff24e7b932b7931d0bc5"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Word-Arial-second-1793278748687480100.pdf": {
+    "path": "phase5_2/evidence/Word-Arial-second-1793278748687480100.pdf",
+    "sha256": "41bb792a9bb4addcbd58c56ababf6b55fab71240e73b7721c0d9a27a459753ed"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Word-Calibri-1793278749007492900.pdf": {
+    "path": "phase5_2/evidence/Word-Calibri-1793278749007492900.pdf",
+    "sha256": "3fa4d2cbaa05bb66cb3cb1b370d811288f191e518847fa5e577ccd05df85ebaa"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\Word-Calibri-second-1793278749328672700.pdf": {
+    "path": "phase5_2/evidence/Word-Calibri-second-1793278749328672700.pdf",
+    "sha256": "7892d575bde2cf51f727750bc47780e2976d7bf5708994b4e5c70070915dcdb3"
+  },
+  "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\controls-shipping\\word-ui-first.pdf": {
+    "path": "phase5_2/evidence/controls-shipping/word-ui-first.pdf",
+    "sha256": "98cb24cf4604b7f217b2fbd3e9195118a7b6b88c4d3b97a76e4fd60d3018aa79"
+  }
+}

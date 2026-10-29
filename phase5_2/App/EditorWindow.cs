@@ -32,7 +32,7 @@ public sealed partial class EditorWindow:Window
  readonly PositionedInk positionedInk=new(){Visibility=Visibility.Collapsed};
  public EditorWindow(string[] args)
  {
-  Title="PDF Editor / Phase 5.1";Width=1120;Height=900;MinWidth=700;MinHeight=550;WindowStartupLocation=WindowStartupLocation.CenterScreen;Background=Brushes.White;FontFamily=new FontFamily("Segoe UI");FontSize=13;
+  Title="PDF Editor / Phase 5.2";Width=1120;Height=900;MinWidth=700;MinHeight=550;WindowStartupLocation=WindowStartupLocation.CenterScreen;Background=Brushes.White;FontFamily=new FontFamily("Segoe UI");FontSize=13;
   for(int i=0;i<args.Length;i++){if(args[i]=="--audit"&&i+1<args.Length)auditFolder=Path.GetFullPath(args[++i]);else if(File.Exists(args[i])&&args[i].EndsWith(".pdf",StringComparison.OrdinalIgnoreCase))initialFile=Path.GetFullPath(args[i]);}
   Directory.CreateDirectory(work);Directory.CreateDirectory(recovery);if(auditFolder!=null)Directory.CreateDirectory(auditFolder);
   if(args.Contains("--paragraph-stage")||args.Contains("--ui-test")||args.Contains("--discovery-ui-test")||args.Contains("--font-ui-test")||args.Contains("--position-ui-test")||args.Contains("--session-ui-test")||args.Contains("--insertion-ui-test")||args.Contains("--wrap-ui-test")){recovery=Path.Combine(work,"test-drafts");Directory.CreateDirectory(recovery);}

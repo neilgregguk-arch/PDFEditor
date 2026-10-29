@@ -1,0 +1,96 @@
+{
+  "tests": 18,
+  "success": true,
+  "results": [
+    {
+      "test": "test_engine.Tests.test_A_actual_pdf_and_glyph_mapping",
+      "status": "pass",
+      "ms": 274.25
+    },
+    {
+      "test": "test_engine.Tests.test_A_successful_region_edit",
+      "status": "pass",
+      "ms": 139.78
+    },
+    {
+      "test": "test_engine.Tests.test_B_longer_wraps",
+      "status": "pass",
+      "ms": 135.17
+    },
+    {
+      "test": "test_engine.Tests.test_C_actual_neighbour_collision_preflight",
+      "status": "pass",
+      "ms": 75.16
+    },
+    {
+      "test": "test_engine.Tests.test_C_unsafe_expansion_rejected",
+      "status": "pass",
+      "ms": 34.28
+    },
+    {
+      "test": "test_engine.Tests.test_D_missing_glyph_rejected",
+      "status": "pass",
+      "ms": 69.21
+    },
+    {
+      "test": "test_engine.Tests.test_G_append_preserves_legitimate_original_phrase_only_once",
+      "status": "pass",
+      "ms": 134.85
+    },
+    {
+      "test": "test_engine.Tests.test_G_empty_deletion_is_real",
+      "status": "pass",
+      "ms": 95.77
+    },
+    {
+      "test": "test_engine.Tests.test_G_existing_destination_unchanged",
+      "status": "pass",
+      "ms": 88.35
+    },
+    {
+      "test": "test_engine.Tests.test_G_explicit_linebreaks",
+      "status": "pass",
+      "ms": 96.25
+    },
+    {
+      "test": "test_engine.Tests.test_G_locked_destination_unchanged",
+      "status": "pass",
+      "ms": 85.92
+    },
+    {
+      "test": "test_engine.Tests.test_G_long_word_soft_wrap",
+      "status": "pass",
+      "ms": 94.36
+    },
+    {
+      "test": "test_engine.Tests.test_G_original_cannot_be_overwritten",
+      "status": "pass",
+      "ms": 82.44
+    },
+    {
+      "test": "test_engine.Tests.test_G_stale_source_hash_rejected",
+      "status": "pass",
+      "ms": 0.36
+    },
+    {
+      "test": "test_engine.Tests.test_cross_language_revision_roundtrip",
+      "status": "pass",
+      "ms": 31.16
+    },
+    {
+      "test": "test_engine.Tests.test_manifestless_supported_copy_is_discovered",
+      "status": "pass",
+      "ms": 149.55
+    },
+    {
+      "test": "test_engine.Tests.test_noop_is_not_reported_as_saved_edit",
+      "status": "pass",
+      "ms": 75.46
+    },
+    {
+      "test": "test_engine.Tests.test_tampered_manifest_view_only",
+      "status": "pass",
+      "ms": 6.57
+    }
+  ]
+}

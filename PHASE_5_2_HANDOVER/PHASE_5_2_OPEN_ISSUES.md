@@ -1,0 +1,14 @@
+# Phase 5.2 open issues
+
+- Only direct Document/P/single-MCID structure, 2–8 contiguous positioned rows and explicit source separators qualify. Untagged arbitrary Word paragraphs, multiple MCIDs per P, nested semantic graphs, custom roles, tables/columns/lists, mixed styles and cross-page flow remain restricted. Consistent tags are evidence, not authenticated intent.
+- The narrow raw reader deliberately supports a small grammar and explicit budgets. Xref-stream-only, predictors/other filters, escaped names and complex semantics can be harmless yet unsupported. Wider parser/native/font fuzzing and hostile-input review remain necessary. The separate worker is not an OS sandbox.
+- Two retained fresh Word originals still fail exact bitmap reconstruction on a member row. They remain restricted; no fidelity tolerance was widened.
+- Unchanged source presentation retains actual leading. Edited wrapping uses existing conservative leading/space. No general reflow, moving neighbours, font shrinking/substitution, subset rebuilding or arbitrary mixed-font reconstruction is added.
+- Hard newlines, unmapped glyphs and demonstrated adjacent-space extraction failures remain blocked with complete drafts retained. A completely deleted paragraph leaves no invisible tombstone or clickable text.
+- Clipboard Win32 5 remains reproducible on current and untouched 5.1. The first full UI run also had a transient diagnostic assertion with exact draft retained; retry passes it. Character-by-character undo remains unchanged. No unrelated fix is claimed.
+- WPF automation uses controls/routed input at 96 DPI and four app zooms. Physical typing/mouse selection, clipboard reliability, native dialogs, OS scales, IME, touch, screen readers/high contrast and broad accessibility certification need human testing. Supported semantics are preserved, not repaired or certified as PDF/UA.
+- Same-file resource samples show zero handle growth and nonzero RSS growth. They are not whole-session figures or leak proof. Larger/prolonged sessions, memory pressure and cancellation remain future work within inherited timeout/cache limits.
+- Fresh authentic fixtures use bundled renamed Bitstream-derived Prototype Sans, with actual embedded fonts/hashes, notice, provenance and fsType=4 recorded. Redistribution permission is documented for that corpus. This does not settle repository-wide licensing, inherited proprietary-font corpus rights or all development-tool licensing. No new project-wide licence is assigned.
+- Reports retain workstation paths for identity/evidence. The portable PDF index locates retained verified files; excluded transient font/candidate/cache paths can be regenerated. Earlier phases and the private manual test PDF remain unchanged.
+
+Phase 5.2 is the review stop point. Do not begin Phase 5.3 without separate user acceptance/instruction.

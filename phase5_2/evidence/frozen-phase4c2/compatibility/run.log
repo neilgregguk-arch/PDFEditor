@@ -1,0 +1,28 @@
+test_A_new_subset_activates_without_alphabet_coverage (frozen_suite.Tests.test_A_new_subset_activates_without_alphabet_coverage) ... ok
+test_B_equal_width_existing_glyph_reordering (frozen_suite.Tests.test_B_equal_width_existing_glyph_reordering) ... ok
+test_C_longer_existing_glyphs_wrap (frozen_suite.Tests.test_C_longer_existing_glyphs_wrap) ... ok
+test_D_only_original_chars_reused (frozen_suite.Tests.test_D_only_original_chars_reused) ... ok
+test_E_unavailable_glyph_rejected (frozen_suite.Tests.test_E_unavailable_glyph_rejected) ... ok
+test_F_bold_subset_reused (frozen_suite.Tests.test_F_bold_subset_reused) ... ok
+test_G_fragments_not_promoted (frozen_suite.Tests.test_G_fragments_not_promoted) ... ok
+test_H_character_spacing_refused (frozen_suite.Tests.test_H_character_spacing_refused) ... ok
+test_I_kerning_refused (frozen_suite.Tests.test_I_kerning_refused) ... ok
+test_J_duplicate_unicode_safe_selected_mapping (frozen_suite.Tests.test_J_duplicate_unicode_safe_selected_mapping) ... ok
+test_K_wrong_unicode_not_promoted (frozen_suite.Tests.test_K_wrong_unicode_not_promoted) ... ok
+test_L_missing_unicode_not_promoted (frozen_suite.Tests.test_L_missing_unicode_not_promoted) ... ok
+test_M_word_positions_and_separate_spaces (frozen_suite.Tests.test_M_word_positions_and_separate_spaces) ... ok
+test_N_word_fonts_assessed_individually (frozen_suite.Tests.test_N_word_fonts_assessed_individually) ... ok
+test_O_second_generation_subset_edit (frozen_suite.Tests.test_O_second_generation_subset_edit) ... ok
+test_P_probes_removed_and_cache_stable (frozen_suite.Tests.test_P_probes_removed_and_cache_stable) ... ok
+test_Q_unsafe_growth_not_weakened (frozen_suite.Tests.test_Q_unsafe_growth_not_weakened) ... ok
+test_R_no_cmap_is_distinct_from_missing_subset_character (frozen_suite.Tests.test_R_no_cmap_is_distinct_from_missing_subset_character) ... ok
+test_S_new_partial_encoding_scenario (frozen_suite.Tests.test_S_new_partial_encoding_scenario) ... ok
+test_T_unmapped_existing_font_glyph_refused (frozen_suite.Tests.test_T_unmapped_existing_font_glyph_refused) ... ok
+test_U_partial_encoding_second_generation (frozen_suite.Tests.test_U_partial_encoding_second_generation) ... ok
+test_V_frozen_phase3_refuses_new_scenario (frozen_suite.Tests.test_V_frozen_phase3_refuses_new_scenario) ... ok
+test_W_powerpoint_conservative_refusal (frozen_suite.Tests.test_W_powerpoint_conservative_refusal) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 3.905s
+
+OK

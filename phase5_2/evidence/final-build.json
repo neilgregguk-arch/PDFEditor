@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "testedEngineWorkerNativeHashesUnchanged": true,
+  "appChange": "Phase caption only; fresh original-control smoke follows",
+  "sha256": {
+    "Core.dll": "56e21f0ef94617517a3598706e27f2060db9156814962f91942331a6f13ab743",
+    "PdfWorker.dll": "695fd16f8f849a44fa80b13da4ad2d35cdb42b67c4169b7e21c33dd3688236d2",
+    "PdfEditorPrototype.dll": "b62bb6600c1d90d17a11c37896a349291f43c2cc5cff3e31ae15d234b236ae43",
+    "PdfWorker.exe": "7d1169d3132e50c8df724b03a02d8dcaebd638437887e50cef5a066f88b07576",
+    "PdfEditorPrototype.exe": "b58abe13ccba6caa045181a7c5cf8c4ccb8900ffd94962c71ca87223cc471cd7",
+    "pdfium.dll": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e"
+  }
+}

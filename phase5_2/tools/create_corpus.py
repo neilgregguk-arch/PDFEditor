@@ -5,7 +5,7 @@ from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 import pymupdf
-ROOT=Path(__file__).resolve().parents[2]; OUT=ROOT/'phase3/run/corpus';OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[2]; OUT=ROOT/'phase5_2/run/corpus';OUT.mkdir(parents=True,exist_ok=True)
 regular=ROOT/'assets/Vera.ttf';bold=Path('C:/Windows/Fonts/arialbd.ttf')
 pdfmetrics.registerFont(TTFont('CorpusRegular',str(regular)))
 pdfmetrics.registerFont(TTFont('CorpusBold',str(bold)))

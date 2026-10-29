@@ -87,6 +87,50 @@ public sealed partial class EditorWindow
    await Check("recovered-mixed-groups-combined-export",async()=>
    {var result=await ExportTo(Path.Combine(shared,"ui-mixed-recovered.pdf"));Assert(result?.Safe==true&&session!.Modified.Length==3,status.Text);return result!;});
   }
+  if(stage is 7 or 8 or 9)
+  {
+   var g=info!.Regions.Single(r=>r.Paragraph!=null);string original=g.OriginalText;
+   await Check("original-or-reopened-every-source-row-activation",async()=>
+   {
+    Assert(g.Eligibility=="Editable"&&session!.History.Count==0,"Source unsupported or old recovery attached");
+    Assert(g.Paragraph!.Evidence==(stage==7?"ExistingDocumentParagraphSingleMcid":"ValidatedEmbeddedParagraphDeclaration"),"Wrong ownership mechanism");
+    var timings=new List<double>();for(int row=0;row<g.OriginalLines.Length;row++){long start=Stopwatch.GetTimestamp();await Choose(g,row);timings.Add(Stopwatch.GetElapsedTime(start).TotalMilliseconds);Assert(draft==original&&positionedInk.CaretRow==row,"Constituent row activation failed");}
+    return new{g.Paragraph,g.Objects,activationMs=timings};
+   });
+   await Check("original-source-navigation-caret-and-cross-row-selection",async()=>
+   {
+    await Choose(g);var plan=PositionLayout.Plan(g,draft).Positioned!;double max=0;
+    foreach(int z in new[]{0,1,2,3}){zoom.SelectedIndex=z;await Pump();for(int i=0;i<=draft.Length;i++){positionCaretRow=null;editor.Selection.Select(Position(i),Position(i));UpdatePositionedSelection();var desired=PositionLayout.Caret(g,draft,i);var actual=positionedInk.TranslatePoint(new Point((positionedInk.CaretOriginPt-g.X)*Dip,(positionedInk.CaretTopPt-g.Top)*Dip),page);max=Math.Max(max,Math.Max(Math.Abs(actual.X/Dip-desired.X),Math.Abs(actual.Y/Dip-desired.Y)));Assert(max<=.01,"Original caret moved");Assert(PositionLayout.Hit(g,draft,desired.X+.001,desired.Y+g.LineHeight/2).Index==i,"Original logical hit differs");}}
+    zoom.SelectedIndex=1;await Pump();int boundary=plan.Lines[1].Start;editor.Selection.Select(Position(0),Position(0));EditingCommands.MoveDownByLine.Execute(null,editor);Assert(positionedInk.CaretRow==1,"Down row");EditingCommands.MoveToLineEnd.Execute(null,editor);EditingCommands.MoveToLineStart.Execute(null,editor);Assert(new TextRange(editor.Document.ContentStart,editor.CaretPosition).Text.Length==boundary,"Home offset");EditingCommands.SelectUpByLine.Execute(null,editor);Assert(editor.Selection.Text==draft[..boundary],"Shift selection");
+    var start=PositionLayout.Caret(g,draft,3);Assert(BeginPositionSelection(new Point(start.X*Dip,(start.Y+g.LineHeight/2)*Dip),1,false),"Drag start");var end=PositionLayout.Caret(g,draft,boundary+3);ExtendPositionSelection(new Point((end.X+.001)*Dip,(end.Y+g.LineHeight/2)*Dip));positionDragging=false;editor.ReleaseMouseCapture();Assert(editor.Selection.Text==draft[3..(boundary+3)],"Cross-row drag");
+    editor.Selection.Select(Position(boundary-5),Position(boundary+5));InsertDraftText("calm.");await Pump();Assert(draft==original[..(boundary-5)]+"calm."+original[(boundary+5)..],"Selected replacement differs");await UndoDocument(false);Assert(draft==original,"Cross-row replacement undo");
+    editor.Selection.Select(Position(boundary),Position(boundary));EditingCommands.Backspace.Execute(null,editor);await Pump();Assert(draft==original.Remove(boundary-1,1),"Boundary backspace");await UndoDocument(false);EditingCommands.Delete.Execute(null,editor);await Pump();Assert(draft==original.Remove(boundary,1),"Boundary Delete");await UndoDocument(false);Assert(draft==original,"Boundary restore");WriteAudit();File.Copy(Path.Combine(folder,"window.png"),Path.Combine(folder,"original-selection.png"),true);return new{maxVisibleCaretErrorPt=max,zooms=4,boundary};
+   });
+   await Check("original-generation-safe-rewrap-and-save",async()=>
+   {
+    await Choose(g);string text=stage==7?string.Join(" ",Enumerable.Repeat("calm cafe.",10)):stage==8?string.Join(" ",Enumerable.Repeat("cafe calm.",11)):"calm cafe.";
+    Replace(text);await Pump();Assert(layout!.Safe,"Proposed original edit unsafe");await UndoDocument(false);Assert(draft==original,"Generation undo");await UndoDocument(true);Assert(draft==text,"Generation redo");var result=await ExportTo(Path.Combine(shared,"original-ui-generation"+(stage-6)+".pdf"));Assert(result?.Safe==true,status.Text);return result!;
+   });
+  }
+  if(stage==10)
+  await Check("original-plus-marked-natural-other-page-persist-four-drafts",async()=>
+  {
+   var g=info!.Regions.Single(r=>r.Paragraph?.Evidence=="ExistingDocumentParagraphSingleMcid");await Choose(g,1);Replace("calm cafe. "+g.OriginalText);
+   await ChangePage(1);var m=info!.Regions.Single(r=>r.Paragraph!=null);await Choose(m);Replace("cafe calm.");
+   await ChangePage(1);await Choose(info!.Regions[0]);Replace("First changed working paragraph.");await ChangePage(1);await Choose(info!.Regions[0]);Replace("First working paragraph.");
+   Assert(session!.Modified.Length==4,"Four drafts missing");PersistDraft();var expected=new{hash=session.SourceHash,changes=session.Changes(),history=session.History.Count};File.WriteAllText(Path.Combine(shared,"original-mixed-expected.json"),Wire.Write(expected));return expected;
+  });
+  if(stage==11)
+  {
+   await Check("original-four-region-exited-process-recovery-global-history",async()=>
+   {
+    using var expected=System.Text.Json.JsonDocument.Parse(File.ReadAllText(Path.Combine(shared,"original-mixed-expected.json")));Assert(session!.SourceHash==expected.RootElement.GetProperty("hash").GetString()&&Wire.Write(session.Changes())==expected.RootElement.GetProperty("changes").GetRawText(),"Four-region recovery differs");Assert(session.Modified.Length==4,"Recovered draft count");for(int i=0;i<4;i++)await UndoDocument(false);Assert(session.Modified.Length==0,"Global undo four pages");for(int i=0;i<4;i++)await UndoDocument(true);Assert(session.Modified.Length==4,"Global redo four pages");await Open(session.Source,0,session.Regions.Values.Single(r=>r.Original.Paragraph?.Evidence=="ExistingDocumentParagraphSingleMcid").Original.Id);var g=info!.Region!;await Choose(g,1);Assert(draft=="calm cafe. "+g.OriginalText,"Inactive original draft lost");return new{session.History.Count,session.SourceHash,draft};
+   });
+   await Check("original-unsafe-draft-retained-no-subset-then-combined-save",async()=>
+   {
+    string before=draft;Replace("cafe\ncalm.");await Pump();Assert(!layout!.Safe&&session!.Modified.Length==4&&draft=="cafe\ncalm.","Unsafe draft not retained");string denied=Path.Combine(shared,"must-not-save-subset.pdf");var failed=await ExportTo(denied);Assert(failed?.Safe!=true&&!File.Exists(denied)&&draft=="cafe\ncalm.","Unsafe subset saved or draft lost");await UndoDocument(false);Assert(draft==before,"Unsafe undo lost prior draft");var result=await ExportTo(Path.Combine(shared,"original-ui-mixed-recovered.pdf"));Assert(result?.Safe==true&&session!.Modified.Length==4,status.Text);return result!;
+   });
+  }
   File.WriteAllText(Path.Combine(folder,"paragraph-control-tests.json"),Wire.Write(new{stage,tests=rows.Count,failures,rows,pid=Environment.ProcessId,source=info?.Path,scope="actual WPF controls/routed events/shared mouse mapping; no hardware/file-picker automation"}));WriteAudit();Close();
  }
 }

@@ -1,0 +1,47 @@
+{
+  "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\mixed-establish-page1-marker-1793278728784257800.pdf",
+  "pages": [
+    {
+      "page": 0,
+      "inspectIncludingRenderMs": 489.68619998777285,
+      "lastUncachedGroupingMs": 78.456,
+      "regions": 2,
+      "groups": 1
+    },
+    {
+      "page": 1,
+      "inspectIncludingRenderMs": 209.59980000043288,
+      "lastUncachedGroupingMs": 42.7636,
+      "regions": 2,
+      "groups": 1
+    },
+    {
+      "page": 2,
+      "inspectIncludingRenderMs": 129.6369000338018,
+      "lastUncachedGroupingMs": 0.0173,
+      "regions": 3,
+      "groups": 0
+    },
+    {
+      "page": 3,
+      "inspectIncludingRenderMs": 131.36900000972673,
+      "lastUncachedGroupingMs": 0.0296,
+      "regions": 3,
+      "groups": 0
+    }
+  ],
+  "repeatedPage0Inspections": 20,
+  "warmMedianMs": 40.127950021997094,
+  "before": {
+    "rss": 75276288,
+    "handles": 254
+  },
+  "after": {
+    "rss": 135622656,
+    "handles": 254
+  },
+  "rssDeltaBytes": 60346368,
+  "handleDelta": 0,
+  "workerExited": true,
+  "scope": "Four-page mixed document. Cache observations are source-hash/page bound. No source/native pointers cached; RSS sample is not a leak diagnosis."
+}

@@ -1,19 +1,11 @@
-# PDF Editor V2 — Phase 5.1
+# PDFEditor V2 — Phase 5.2
 
-Reliable, bounded rediscovery of newly exported original-font paragraphs through embedded declarations checked against actual PDF text objects. Whole-paragraph editing survives two → three → one row generations in fresh processes.
-
-## Run
-
-Windows x64 with .NET 8 Windows Desktop runtime; keep the complete run directory together.
+Evidence-based discovery of selected original Word multi-line paragraphs, exact source spaces, immutable observed rows, original-font editing and validated later generations.
 
 ```powershell
-./phase5_2/Launch.ps1 -Pdf './phase5_2/run/paragraph-examples/Word-two-rows.pdf'
-# To begin from the genuine original Word fixture:
-./phase5_2/Launch.ps1 -Pdf './phase5_2/run/corpus/11-word-letter.pdf'
+./phase5_2/Launch.ps1 -Pdf './phase5_2/run/original-paragraphs/Word-cafe-paragraph.pdf'
 ```
 
-Build with `./phase5_2/build.ps1` and the .NET 8 SDK. Python/Poppler are development-only. No production dependency was added; existing native/font notices remain in run/runtime.
+Windows x64 with .NET 8 Windows Desktop runtime. Build: `./phase5_2/build.ps1`. Start with the [user guide](../PHASE_5_2_HANDOVER/PHASE_5_2_USER_TEST_GUIDE.md), [ownership analysis](../PHASE_5_2_HANDOVER/PHASE_5_2_DISCOVERY_AND_OWNERSHIP_ANALYSIS.md), [test results](../PHASE_5_2_HANDOVER/PHASE_5_2_TEST_RESULTS.md) and [evidence index](evidence/README.md). Five authentic Word fixtures include supported/restricted cases; certified generations and mixed examples are in run/original-examples.
 
-Read [the user guide](../PHASE_5_1_HANDOVER/PHASE_5_1_USER_TEST_GUIDE.md), [ownership analysis](../PHASE_5_1_HANDOVER/PHASE_5_1_PARAGRAPH_OWNERSHIP_ANALYSIS.md), [results](../PHASE_5_1_HANDOVER/PHASE_5_1_ROUNDTRIP_TEST_RESULTS.md) and [evidence index](evidence/README.md).
-
-The private declaration is untrusted input, not an authenticity certificate. Actual member text/font/positions/reading order, page identity, bounds and neighbouring content must agree. Ambiguous/corrupted groups are restricted. Legacy unmarked C2 paragraphs are not retroactively grouped. Original font/mapping, hard-break and exact-space restrictions remain, and the historical clipboard error is still open. No general Word paragraph discovery, document reflow or Phase 5.2 work is included.
+This is a bounded ASCII/original-font prototype. Unsupported structures, ambiguous separators, mixed styles, unsafe geometry, hard breaks and exact-extraction failures remain restricted. Clipboard error 5, physical accessibility/OS-scale testing, undo granularity and wider licensing review remain open. Earlier phases/private manual output are preserved. Stop after Phase 5.2.

@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+  "coldIncludingRenderMs": 462.002600019332,
+  "groupingMs": 73.3385,
+  "repeatCount": 20,
+  "warmMedianIncludingRenderMs": 39.37474999111146,
+  "before": {
+    "rss": 111304704,
+    "handles": 253
+  },
+  "after": {
+    "rss": 135766016,
+    "handles": 253
+  },
+  "rssDeltaBytes": 24461312,
+  "handleDelta": 0,
+  "workerExited": true,
+  "candidateTotalMs": 374.16740000480786,
+  "candidateStages": {
+    "planning": 131.3413,
+    "candidateGeneration": 21.753,
+    "reopenVerification": 186.6059
+  },
+  "sameAuthenticSourceComparison": [
+    {
+      "phase": "phase5_1",
+      "coldWithRenderMs": 399.8896999983117,
+      "editableGroups": 0,
+      "groupingMs": 16.6484
+    },
+    {
+      "phase": "phase5_2",
+      "coldWithRenderMs": 427.01909999595955,
+      "editableGroups": 1,
+      "groupingMs": 81.3864
+    }
+  ],
+  "scope": "One original two-row paragraph; 20 cached same-document inspections. RSS change is this sample only and does not establish a leak. Grouping includes raw indexed structural proof, excludes preceding font analysis. No pages reanalysed by text-only local planner."
+}

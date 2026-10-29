@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\roundtrip\\word-generation1-1793278496211512500.pdf",
+  "draft": "Phase  3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter Phase 3 letter",
+  "normalised": false,
+  "outputCreated": false,
+  "result": {
+    "Revision": 2,
+    "Ok": false,
+    "Data": null,
+    "Error": "One of the saved changes differs from its complete draft."
+  },
+  "scope": "Complete reopened logical draft submitted exactly; inherited exact-extraction restriction remains, no successful export claimed"
+}

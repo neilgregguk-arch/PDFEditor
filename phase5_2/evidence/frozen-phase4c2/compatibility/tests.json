@@ -1,0 +1,121 @@
+{
+  "tests": 23,
+  "success": true,
+  "results": [
+    {
+      "test": "frozen_suite.Tests.test_A_new_subset_activates_without_alphabet_coverage",
+      "status": "pass",
+      "ms": 328.29
+    },
+    {
+      "test": "frozen_suite.Tests.test_B_equal_width_existing_glyph_reordering",
+      "status": "pass",
+      "ms": 133.65
+    },
+    {
+      "test": "frozen_suite.Tests.test_C_longer_existing_glyphs_wrap",
+      "status": "pass",
+      "ms": 109.06
+    },
+    {
+      "test": "frozen_suite.Tests.test_D_only_original_chars_reused",
+      "status": "pass",
+      "ms": 183.67
+    },
+    {
+      "test": "frozen_suite.Tests.test_E_unavailable_glyph_rejected",
+      "status": "pass",
+      "ms": 39.66
+    },
+    {
+      "test": "frozen_suite.Tests.test_F_bold_subset_reused",
+      "status": "pass",
+      "ms": 175.36
+    },
+    {
+      "test": "frozen_suite.Tests.test_G_fragments_not_promoted",
+      "status": "pass",
+      "ms": 81.31
+    },
+    {
+      "test": "frozen_suite.Tests.test_H_character_spacing_refused",
+      "status": "pass",
+      "ms": 74.08
+    },
+    {
+      "test": "frozen_suite.Tests.test_I_kerning_refused",
+      "status": "pass",
+      "ms": 75.76
+    },
+    {
+      "test": "frozen_suite.Tests.test_J_duplicate_unicode_safe_selected_mapping",
+      "status": "pass",
+      "ms": 159.84
+    },
+    {
+      "test": "frozen_suite.Tests.test_K_wrong_unicode_not_promoted",
+      "status": "pass",
+      "ms": 77.14
+    },
+    {
+      "test": "frozen_suite.Tests.test_L_missing_unicode_not_promoted",
+      "status": "pass",
+      "ms": 75.8
+    },
+    {
+      "test": "frozen_suite.Tests.test_M_word_positions_and_separate_spaces",
+      "status": "pass",
+      "ms": 266.64
+    },
+    {
+      "test": "frozen_suite.Tests.test_N_word_fonts_assessed_individually",
+      "status": "pass",
+      "ms": 390.81
+    },
+    {
+      "test": "frozen_suite.Tests.test_O_second_generation_subset_edit",
+      "status": "pass",
+      "ms": 422.23
+    },
+    {
+      "test": "frozen_suite.Tests.test_P_probes_removed_and_cache_stable",
+      "status": "pass",
+      "ms": 132.4
+    },
+    {
+      "test": "frozen_suite.Tests.test_Q_unsafe_growth_not_weakened",
+      "status": "pass",
+      "ms": 45.96
+    },
+    {
+      "test": "frozen_suite.Tests.test_R_no_cmap_is_distinct_from_missing_subset_character",
+      "status": "pass",
+      "ms": 84.97
+    },
+    {
+      "test": "frozen_suite.Tests.test_S_new_partial_encoding_scenario",
+      "status": "pass",
+      "ms": 213.54
+    },
+    {
+      "test": "frozen_suite.Tests.test_T_unmapped_existing_font_glyph_refused",
+      "status": "pass",
+      "ms": 58.94
+    },
+    {
+      "test": "frozen_suite.Tests.test_U_partial_encoding_second_generation",
+      "status": "pass",
+      "ms": 397.42
+    },
+    {
+      "test": "frozen_suite.Tests.test_V_frozen_phase3_refuses_new_scenario",
+      "status": "pass",
+      "ms": 188.43
+    },
+    {
+      "test": "frozen_suite.Tests.test_W_powerpoint_conservative_refusal",
+      "status": "pass",
+      "ms": 136.67
+    }
+  ]
+}

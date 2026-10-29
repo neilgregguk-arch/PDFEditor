@@ -128,7 +128,8 @@ public sealed partial class PdfEngine
             foreach(var entry in bounds.Select((box,i)=>(box,i)).Where(v=>!excluded.Contains(v.i)))
             {
                 var b=entry.box;
-                if(!(r.Positioned?.CoexistingWhitespace.Contains(entry.i)??false)&&b.Y>r.Baseline&&b.X<r.X+r.Width&&b.Right>r.X)r.SafeBottom=Math.Min(r.SafeBottom,b.Y-3);
+                bool sameParagraphSpace=r.Paragraph!=null&&(r.Positioned?.CoexistingWhitespace.Contains(entry.i)??false)&&SemanticHandles(objects[entry.i]).SequenceEqual(SemanticHandles(objects[r.Objects[0]]));
+                if(!sameParagraphSpace&&b.Y>r.Baseline&&b.X<r.X+r.Width&&b.Right>r.X)r.SafeBottom=Math.Min(r.SafeBottom,b.Y-3);
                 if(!(r.Positioned?.CoexistingWhitespace.Contains(entry.i)??false)&&b.Intersects(r.Positioned!=null?r.ObservedBounds!:new(r.X,r.Top,r.Width,r.OriginalLines.Length*r.LineHeight),.5))Limit(r,"OWNED_SPACE_INTERSECTS_NEIGHBOUR");
             }
             if(r.Top+(r.Paragraph!=null?PositionLayout.SourceLayout(r).Height:r.OriginalLines.Length*r.LineHeight)>r.SafeBottom)Limit(r,"INSUFFICIENT_VERTICAL_SPACE");

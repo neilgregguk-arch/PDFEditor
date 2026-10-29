@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "readers": "MuPDF + pypdf + Poppler 72/144 DPI + qpdf via pikepdf",
+  "cases": [
+    {
+      "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+      "destination": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\final-caption-smoke-1793290732861069100\\original-ui-generation1.pdf",
+      "allChangesVerified": true,
+      "originalFontsAndMappingRulesPreserved": true,
+      "pages": [
+        {
+          "page": 0,
+          "replacements": [
+            {
+              "key": "0:p0-original-0",
+              "strategy": "Positioned",
+              "text": "calm cafe. calm cafe. calm cafe. calm cafe. calm cafe. calm cafe. calm cafe. calm cafe. calm cafe. calm cafe.",
+              "independentVisibleGlyphs": 109
+            }
+          ],
+          "unmodifiedGlyphs": 46,
+          "maxUntouchedGlyphShiftPt": 0,
+          "maxPositionedTargetOriginShiftPt": 6.866455078125e-05,
+          "whitespaceBytes": {},
+          "comparisons": [
+            {
+              "dpi": 72,
+              "changedPixels": 3669,
+              "outsidePixels": 0
+            },
+            {
+              "dpi": 144,
+              "changedPixels": 11593,
+              "outsidePixels": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@ if (E/'development-generations.json').exists():records+=[r for r in json.loads((
 for file in ['insertion-tests.json','document-tests.json']:
  if (E/file).exists():records+=json.loads((E/file).read_text(encoding='utf-8'))['saved']
 for p in E.rglob('export-record-*.json'):
- if not any(part.startswith('frozen') for part in p.relative_to(E).parts):records.append(json.loads(p.read_text(encoding='utf-8')))
+ if not any((part.startswith('frozen') or part.startswith('basic-retry-phase5_1')) for part in p.relative_to(E).parts):records.append(json.loads(p.read_text(encoding='utf-8')))
 for p in E.glob('probe-wrap-*.json'):records.append(json.loads(p.read_text(encoding='utf-8')))
 if (E/'process-recovery.json').exists():
  recovery=json.loads((E/'process-recovery.json').read_text(encoding='utf-8'))['second'];records.append(dict(source=recovery['source'],destination=recovery['result']['Destination'],changes=recovery['changes'],result=recovery['result']))
