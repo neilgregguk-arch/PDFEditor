@@ -1,0 +1,2 @@
+import test_engine as b
+w=b.Worker();d=w.call(Source=str(b.RUN/'wrap-corpus/combined-collision.pdf'))['Data'];a=next(r for r in d['Regions'] if r['OriginalText'].startswith('A separate'));q=next(r for r in d['Regions'] if r['OriginalText']=='..');print('A',a['FontSize'],a['Top'],a['Baseline'],a['LineHeight'],a['SafeBottom']);print('B',q['ObservedBounds'],q['Top']);print('paragraph width',sum(a['Advances'][ord(c)-32] for c in 'paragraph '));w.close()

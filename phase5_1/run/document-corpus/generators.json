@@ -1,0 +1,13 @@
+{
+  "generators": [
+    "ReportLab independent natural/collision pages",
+    "pypdf development fixture composition, original genuine Word page plus natural stream"
+  ],
+  "fictional": true,
+  "ownershipHints": false,
+  "sources": {
+    "collision.pdf": "1a4e268ac2907515d56355e6d5eab0dcc9fde92284312e9a6df9421668e367dd",
+    "mixed.pdf": "d9700765fbab24e078bfe861d502ee46dde6b4a88238339878306057c3a270c3",
+    "multi-natural.pdf": "fda79c25543861d93bef5b737a188043c119a44ff1d9328f219511894a011485"
+  }
+}

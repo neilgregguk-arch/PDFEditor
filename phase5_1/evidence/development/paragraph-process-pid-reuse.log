@@ -1,0 +1,11 @@
+Stage 1 1 checks; 0 failures
+Stage 2 4 checks; 0 failures
+Stage 3 4 checks; 0 failures
+Stage 4 2 checks; 0 failures
+Stage 5 1 checks; 0 failures
+Stage 6 2 checks; 0 failures
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase5_1\tools\paragraph_process.py", line 13, in <module>
+    assert len({r['pid'] for r in runs})==len(runs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

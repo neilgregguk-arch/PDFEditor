@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "fixture": {
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_1\\evidence\\performance\\32-positioned-lines.pdf",
+    "sourceSha256": "19acd800b4978fdf4efbf4d3e4f16198be8b6db1f837786d053608725f6ad57d",
+    "provenance": "Development-only 32-line page using existing fictional Word title TJ and original F1 font resource; new untagged page, not claimed to be an untouched Word export",
+    "groups": 32,
+    "pageSize": [
+      595.32,
+      3400
+    ]
+  },
+  "initialUnmarkedInspectionMs": 776.0931000229903,
+  "firstSaveMs": 3190.0958999758586,
+  "firstSaveStages": {
+    "planning": 564.0055,
+    "candidateGeneration": 52.3953,
+    "reopenVerification": 2505.5897
+  },
+  "markedColdRediscoveryMs": 3174.173899984453,
+  "groupValidationMs": 152.0283,
+  "warmRediscoveryMedianMs": 246.43990001641214,
+  "secondSaveMs": 4058.5317999939434,
+  "secondSaveStages": {
+    "planning": 3394.7479,
+    "candidateGeneration": 26.0135,
+    "reopenVerification": 589.8076
+  },
+  "repeatedInspections": 20,
+  "before": {
+    "handles": 252,
+    "rss": 205070336
+  },
+  "after": {
+    "handles": 252,
+    "rss": 317792256
+  },
+  "handleGrowth": 0,
+  "rssGrowth": 112721920,
+  "workerExited": true,
+  "sameFileEngineComparison": [
+    {
+      "engine": "phase4c2",
+      "coldMs": 404.32699996745214,
+      "warmMedianMs": 38.76334996311925,
+      "regions": 4,
+      "groups": 0,
+      "lastUncachedParagraphValidationMs": null
+    },
+    {
+      "engine": "phase5_1",
+      "coldMs": 435.8778999885544,
+      "warmMedianMs": 40.08224999415688,
+      "regions": 3,
+      "groups": 1,
+      "lastUncachedParagraphValidationMs": 82.9941
+    }
+  ],
+  "scope": "Small local synthetic/genuine-derived fixtures; warm time includes page render. LastUncachedParagraphValidationMs excludes earlier font analysis; bounded document mark index may be cached."
+}

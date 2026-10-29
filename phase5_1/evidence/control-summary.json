@@ -1,0 +1,289 @@
+{
+  "scope": "Shipping run is authoritative; prior attempts and unchanged-C2 clipboard comparison retained without relabelling failures as passes.",
+  "results": [
+    {
+      "folder": "controls-shipping",
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 1,
+      "failed": [
+        {
+          "name": "native-copy-cut-paste-undo-redo",
+          "status": "fail",
+          "error": "System clipboard unavailable (Win32 5; owner window valid: True; clipboard holder PID: 0, process: unknown). Draft retained; retry on an interactive desktop.",
+          "draft": "ONE two",
+          "controlText": "ONE two"
+        }
+      ]
+    },
+    {
+      "folder": "controls-shipping",
+      "suite": "discovery-control-tests.json",
+      "tests": 5,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-shipping",
+      "suite": "font-control-tests.json",
+      "tests": 4,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-shipping",
+      "suite": "insertion-control-tests.json",
+      "tests": 8,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-shipping",
+      "suite": "position-control-tests.json",
+      "tests": 6,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-shipping",
+      "suite": "session-control-tests.json",
+      "tests": 12,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-shipping",
+      "suite": "wrap-control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "discovery-control-tests.json",
+      "tests": 5,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "font-control-tests.json",
+      "tests": 4,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "insertion-control-tests.json",
+      "tests": 8,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "position-control-tests.json",
+      "tests": 6,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "session-control-tests.json",
+      "tests": 12,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-delivery",
+      "suite": "wrap-control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "discovery-control-tests.json",
+      "tests": 5,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "font-control-tests.json",
+      "tests": 4,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "insertion-control-tests.json",
+      "tests": 8,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "position-control-tests.json",
+      "tests": 6,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "session-control-tests.json",
+      "tests": 12,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-release",
+      "suite": "wrap-control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-final",
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 1,
+      "failed": [
+        {
+          "name": "native-copy-cut-paste-undo-redo",
+          "status": "fail",
+          "error": "System clipboard unavailable (Win32 5; owner window valid: True; clipboard holder PID: 0, process: unknown). Draft retained; retry on an interactive desktop.",
+          "draft": "ONE two",
+          "controlText": "ONE two"
+        }
+      ]
+    },
+    {
+      "folder": "controls-final",
+      "suite": "discovery-control-tests.json",
+      "tests": 5,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-final",
+      "suite": "font-control-tests.json",
+      "tests": 4,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-final",
+      "suite": "insertion-control-tests.json",
+      "tests": 8,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-final",
+      "suite": "position-control-tests.json",
+      "tests": 6,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-final",
+      "suite": "session-control-tests.json",
+      "tests": 12,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-final",
+      "suite": "wrap-control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 1,
+      "failed": [
+        {
+          "name": "native-copy-cut-paste-undo-redo",
+          "status": "fail",
+          "error": "System clipboard unavailable (Win32 5; owner window valid: True; clipboard holder PID: 0, process: unknown). Draft retained; retry on an interactive desktop.",
+          "draft": "ONE two",
+          "controlText": "ONE two"
+        }
+      ]
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "discovery-control-tests.json",
+      "tests": 5,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "font-control-tests.json",
+      "tests": 4,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "insertion-control-tests.json",
+      "tests": 8,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "position-control-tests.json",
+      "tests": 6,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "session-control-tests.json",
+      "tests": 12,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "frozen-c2-controls",
+      "suite": "wrap-control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "folder": "controls-basic-retry",
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 1,
+      "failed": [
+        {
+          "name": "native-copy-cut-paste-undo-redo",
+          "status": "fail",
+          "error": "System clipboard unavailable (Win32 5; owner window valid: True; clipboard holder PID: 0, process: unknown). Draft retained; retry on an interactive desktop.",
+          "draft": "ONE two",
+          "controlText": "ONE two"
+        }
+      ]
+    }
+  ]
+}

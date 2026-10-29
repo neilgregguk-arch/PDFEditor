@@ -1,0 +1,12 @@
+{
+  "checked": 5453,
+  "historicalPhaseFilesUnchanged": true,
+  "allUnchanged": false,
+  "intentionalRepositoryGuideUpdate": {
+    "path": "START_HERE.md",
+    "beforeSha256": "edc43c8ede5c52bf9d8e02dec71ec168d96a73940aad72c7d36b9055de5f137c",
+    "afterSha256": "a75a23250423ff79e7da06aeb3a2c7c964d87ff04dd9005608f9c6eff4e1be71",
+    "reason": "Intentional current-phase repository entry guide update"
+  },
+  "changed": []
+}

@@ -1,0 +1,22 @@
+Verified word-two-1793267438359872000.pdf
+Verified word-multiline-1793267438782728100.pdf
+Verified long-word-1793267439217866400.pdf
+Verified Arial-wrap-1793267439727583500.pdf
+Verified Calibri-wrap-1793267440153107300.pdf
+Verified punctuation-1793267440462963400.pdf
+Verified descenders-1793267440848798300.pdf
+Verified collision-wrap-A-1793267442499726200.pdf
+Verified collision-wrap-B-1793267442887901900.pdf
+Verified mixed-pages-1793267443805500400.pdf
+Verified rediscovered-whole-paragraph-1793267444811400900.pdf
+Verified two-wrapped-pages-1793267445670356200.pdf
+Verified single-glyph-1793267446832870100.pdf
+Verified single-tail-1793267447209998900.pdf
+Traceback (most recent call last):
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase5_1\tools\verify_wrap.py", line 93, in <module>
+    for i,line in enumerate(p['layout']['Lines']):after_indices+=select_line(b,line,region['X'],p['layout']['Positioned']['Lines'][i]['Baseline'] if p['layout'].get('Positioned') else region['Baseline']+i*region['LineHeight'])
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGregg\OneDrive - ARK-H Handling Ltd\Documents\ChatGPT\PDF Editor V2\phase5_1\tools\verify_wrap.py", line 77, in select_line
+    if not starts:raise AssertionError(('Independent line missing',text,line))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Independent line missing', 'Phasse 3 Office letter', 'Phasse 3 Office lette r')

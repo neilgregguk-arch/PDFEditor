@@ -1,0 +1,116 @@
+{
+  "tests": 22,
+  "success": true,
+  "results": [
+    {
+      "test": "frozen_suite.Tests.test_01_letter_grouping",
+      "status": "pass",
+      "ms": 394.55
+    },
+    {
+      "test": "frozen_suite.Tests.test_02_report_multiline_and_page_two",
+      "status": "pass",
+      "ms": 343.56
+    },
+    {
+      "test": "frozen_suite.Tests.test_03_regular_original_font_save",
+      "status": "pass",
+      "ms": 123.37
+    },
+    {
+      "test": "frozen_suite.Tests.test_04_bold_original_font_save",
+      "status": "pass",
+      "ms": 111.43
+    },
+    {
+      "test": "frozen_suite.Tests.test_05_colour_and_size_save",
+      "status": "pass",
+      "ms": 112.8
+    },
+    {
+      "test": "frozen_suite.Tests.test_06_independent_generator_save",
+      "status": "pass",
+      "ms": 162.94
+    },
+    {
+      "test": "frozen_suite.Tests.test_07_second_generation_same_paragraph",
+      "status": "pass",
+      "ms": 552.04
+    },
+    {
+      "test": "frozen_suite.Tests.test_08_adjacent_labels_not_joined",
+      "status": "pass",
+      "ms": 82.79
+    },
+    {
+      "test": "frozen_suite.Tests.test_09_columns_not_joined",
+      "status": "pass",
+      "ms": 55.71
+    },
+    {
+      "test": "frozen_suite.Tests.test_10_table_refused",
+      "status": "pass",
+      "ms": 46.99
+    },
+    {
+      "test": "frozen_suite.Tests.test_11_ambiguous_short_lines_limited",
+      "status": "pass",
+      "ms": 45.0
+    },
+    {
+      "test": "frozen_suite.Tests.test_12_transform_refused",
+      "status": "pass",
+      "ms": 43.96
+    },
+    {
+      "test": "frozen_suite.Tests.test_13_font_substitution_refused",
+      "status": "pass",
+      "ms": 14.73
+    },
+    {
+      "test": "frozen_suite.Tests.test_14_subset_refused_word_positioned",
+      "status": "pass",
+      "ms": 276.37
+    },
+    {
+      "test": "frozen_suite.Tests.test_15_overflow_no_destination",
+      "status": "pass",
+      "ms": 143.11
+    },
+    {
+      "test": "frozen_suite.Tests.test_16_missing_glyph_no_destination",
+      "status": "pass",
+      "ms": 42.61
+    },
+    {
+      "test": "frozen_suite.Tests.test_17_unsupported_or_unknown_region_cannot_commit",
+      "status": "pass",
+      "ms": 46.69
+    },
+    {
+      "test": "frozen_suite.Tests.test_18_cache_and_fingerprint",
+      "status": "pass",
+      "ms": 83.94
+    },
+    {
+      "test": "frozen_suite.Tests.test_19_images_are_observed_and_block_overlap",
+      "status": "pass",
+      "ms": 47.31
+    },
+    {
+      "test": "frozen_suite.Tests.test_20_visual_order_beats_object_order",
+      "status": "pass",
+      "ms": 172.11
+    },
+    {
+      "test": "frozen_suite.Tests.test_21_annotations_block_commit",
+      "status": "pass",
+      "ms": 45.26
+    },
+    {
+      "test": "frozen_suite.Tests.test_22_spacing_metric_rounding_refused",
+      "status": "pass",
+      "ms": 48.01
+    }
+  ]
+}
