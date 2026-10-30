@@ -20,13 +20,13 @@ Only after separate explicit approval, the same command **without -WhatIf** opts
 After an approved cleanup, save the before/after object, build into a new ignored directory and rerun critical checks:
 
 ```powershell
-pwsh -NoProfile -File ./REPOSITORY_MAINTENANCE_R1/tools/Build-Current.ps1
-# Use the R1_OUTPUT printed above; do not reuse/overwrite a prior stage.
-.venv/Scripts/python.exe REPOSITORY_MAINTENANCE_R1/tools/validate_r1.py --stage <R1_OUTPUT>
-dotnet run --project phase5_2_2/Checks/Checks.csproj -c Release -- <R1_OUTPUT>/evidence/model phase4c1/evidence/word-spacing-analysis.json phase5_2/evidence/development-generations.json phase5_2/evidence/original-source-observations.json
+$r1Output='.local-generated/cleanup-verification-'+(Get-Date -Format 'yyyyMMdd-HHmmss')
+pwsh -NoProfile -File ./REPOSITORY_MAINTENANCE_R1/tools/Build-Current.ps1 -OutputRelative $r1Output
+.venv/Scripts/python.exe REPOSITORY_MAINTENANCE_R1/tools/validate_r1.py --stage $r1Output
+dotnet run --project phase5_2_2/Checks/Checks.csproj -c Release -- "$r1Output/evidence/model" phase4c1/evidence/word-spacing-analysis.json phase5_2/evidence/development-generations.json phase5_2/evidence/original-source-observations.json
 ```
 
-These launch the actual WPF app and verify Phase5.1/5.2/5.2.1/5.2.2 behaviour plus independent PDF export checks. Do not claim cleanup success if a rebuild/launch fails. Restore an exact accidentally removed *planned* host from its pinned Git backup via binary-safe tools or regenerate after verifying the recipe. No other user file is intended to be removed. No post-cleanup build claim is made by this R1 because cleanup was not approved.
+These launch the actual WPF app and verify Phase 5.1/5.2/5.2.1/5.2.2 behaviour plus independent PDF export checks. Do not claim cleanup success if a rebuild/launch fails. Restore an exact accidentally removed *planned* host from its pinned Git backup via binary-safe tools or regenerate after verifying the recipe. No other user file is intended to be removed. No post-cleanup build claim is made by this R1 because cleanup was not approved.
 
 For a fresh plan, run tools/audit_workspace.py to an external private folder, build to a new local stage, then tools/create_retention_plan.py with --local-inventory <new-name-files.csv.gz> and --build-manifest <stage>/build-manifest.json. The current planner is deliberately scoped to phase5_2_2 known products and the verified starting source inventory; later phases must explicitly review/update producer/backup/validation scope. Never add whole test-work, venv or render trees based only on their names. Keep the unique user PDF and all recovery data outside every plan.
 

@@ -1,0 +1,154 @@
+{
+  "before": {
+    "packFiles": [
+      {
+        "path": ".git/objects/pack/multi-pack-index",
+        "bytes": 267928
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.idx",
+        "bytes": 1380
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.mtimes",
+        "bytes": 96
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.pack",
+        "bytes": 57803
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.rev",
+        "bytes": 96
+      },
+      {
+        "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.idx",
+        "bytes": 170640
+      },
+      {
+        "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.pack",
+        "bytes": 44267533
+      },
+      {
+        "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.rev",
+        "bytes": 24276
+      },
+      {
+        "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.idx",
+        "bytes": 72500
+      },
+      {
+        "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.pack",
+        "bytes": 27519402
+      },
+      {
+        "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.rev",
+        "bytes": 10256
+      },
+      {
+        "path": ".git/objects/pack/pack-96290a30bbe1a507021a80bc1d3774eb8bed9722.idx",
+        "bytes": 4404
+      },
+      {
+        "path": ".git/objects/pack/pack-96290a30bbe1a507021a80bc1d3774eb8bed9722.pack",
+        "bytes": 1655435
+      },
+      {
+        "path": ".git/objects/pack/pack-96290a30bbe1a507021a80bc1d3774eb8bed9722.rev",
+        "bytes": 528
+      },
+      {
+        "path": ".git/objects/pack/pack-d1adcbb342e5a253f1969716724d2cfaa5852d07.idx",
+        "bytes": 23108
+      },
+      {
+        "path": ".git/objects/pack/pack-d1adcbb342e5a253f1969716724d2cfaa5852d07.pack",
+        "bytes": 5718800
+      },
+      {
+        "path": ".git/objects/pack/pack-d1adcbb342e5a253f1969716724d2cfaa5852d07.rev",
+        "bytes": 3200
+      }
+    ],
+    "packPayloadBytes": 79218973,
+    "packIndexBytes": 272032,
+    "packReverseIndexBytes": 38356,
+    "gitMetadataBytes": 82031546
+  },
+  "afterCheckpoint": {
+    "packFiles": [
+      {
+        "path": ".git/objects/pack/multi-pack-index",
+        "bytes": 267928
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.idx",
+        "bytes": 1380
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.mtimes",
+        "bytes": 96
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.pack",
+        "bytes": 57803
+      },
+      {
+        "path": ".git/objects/pack/pack-0d9ab426c6fd62d39d95c11d9ebd7d5c4a0d2194.rev",
+        "bytes": 96
+      },
+      {
+        "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.idx",
+        "bytes": 170640
+      },
+      {
+        "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.pack",
+        "bytes": 44267533
+      },
+      {
+        "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.rev",
+        "bytes": 24276
+      },
+      {
+        "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.idx",
+        "bytes": 72500
+      },
+      {
+        "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.pack",
+        "bytes": 27519402
+      },
+      {
+        "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.rev",
+        "bytes": 10256
+      },
+      {
+        "path": ".git/objects/pack/pack-96290a30bbe1a507021a80bc1d3774eb8bed9722.idx",
+        "bytes": 4404
+      },
+      {
+        "path": ".git/objects/pack/pack-96290a30bbe1a507021a80bc1d3774eb8bed9722.pack",
+        "bytes": 1655435
+      },
+      {
+        "path": ".git/objects/pack/pack-96290a30bbe1a507021a80bc1d3774eb8bed9722.rev",
+        "bytes": 528
+      },
+      {
+        "path": ".git/objects/pack/pack-d1adcbb342e5a253f1969716724d2cfaa5852d07.idx",
+        "bytes": 23108
+      },
+      {
+        "path": ".git/objects/pack/pack-d1adcbb342e5a253f1969716724d2cfaa5852d07.pack",
+        "bytes": 5718800
+      },
+      {
+        "path": ".git/objects/pack/pack-d1adcbb342e5a253f1969716724d2cfaa5852d07.rev",
+        "bytes": 3200
+      }
+    ],
+    "packPayloadBytes": 79218973,
+    "packIndexBytes": 272032,
+    "packReverseIndexBytes": 38356,
+    "gitMetadataBytes": 84951711
+  }
+}

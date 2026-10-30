@@ -76,5 +76,7 @@
       "installed": "13.0.0"
     }
   ],
-  "note": "Package names/versions only; no installer credential URLs or local secrets. Environment restoration was not executed."
+  "note": "Package names/versions only; no installer credential URLs or local secrets. Environment restoration was not executed.",
+  "pythonVersion": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26300-SP0"
 }

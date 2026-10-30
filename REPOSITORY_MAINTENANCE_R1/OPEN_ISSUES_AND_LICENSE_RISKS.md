@@ -11,6 +11,6 @@
 | Historical reproducibility | Managed DLL/PDB bit equivalence unproven even with original informational stamp; keep historical binaries. Native SHA and2host executables match; default build passes functional tests. |
 | Archive storage | No approved versioned destination or release assets exists. All14,850E/F candidate paths remain in place. Independent upload/download verification and user authorisation are required before migration. |
 | Local-only state | Many ignored files have no verified independent backup. Some are reproducible in principle, others may be unique evidence. Recovery/live temp outside checkout is excluded from cleanup. OneDrive path membership does not prove backup. |
-| Existing platform limits | Clipboard Win32 5 intermittency, user manual/DPI/accessibility acceptance and historical frozen Phase3 expectation mismatch remain open. R1 fixes none of these application behaviours. |
+| Existing platform limits | Clipboard Win32 5 intermittency, user manual/DPI/accessibility acceptance and historical frozen Phase 3 expectation mismatch remain open. R1 fixes none of these application behaviours. |
 
-This register flags issues for a later legal/licensing/provenance audit; it does not silently resolve them, remove evidence, upload archives or choose a new project licence. No Phase5.3 work.
+This register flags issues for a later legal/licensing/provenance audit; it does not silently resolve them, remove evidence, upload archives or choose a new project licence. No Phase 5.3 work.

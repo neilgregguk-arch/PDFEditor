@@ -9,4 +9,4 @@
 7. Record before/after tracked, workspace, build/evidence and Git object sizes. Distinguish logical duplicates, archived proposals and actual achieved savings; do not claim historical pack shrinkage without measurement.
 8. No automatic archive upload or irreversible migration. Get explicit approval for remote storage changes and verify immutable retrieval/hash/test before removing current copies.
 9. Local cleanup defaults to Audit, then DryRun. Real cleanup needs explicit user approval, a fresh reviewed per-file plan, current source/build/hash checks and post-cleanup build/run validation. Never git clean -fdx, delete by unknown Git status, or recursively sweep a directory.
-10. Follow the requested branch/delivery gate; maintenance work is not automatic permission to merge main or start Phase5.3. Retain progress/checkpoints and stop for review when required.
+10. Follow the requested branch/delivery gate; maintenance work is not automatic permission to merge main or start Phase 5.3. Retain progress/checkpoints and stop for review when required.

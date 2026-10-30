@@ -1,0 +1,4106 @@
+{
+  "schema": 2,
+  "label": "after-r1",
+  "root": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2",
+  "startedUtc": "2026-10-30T12:11:04.973259+00:00",
+  "finishedUtc": "2026-10-30T12:12:32.324489+00:00",
+  "head": "643ceb4c794e55578647db809ac33a6d2a700d05",
+  "branch": "maintenance/R1",
+  "status": "?? REPOSITORY_MAINTENANCE_R1/tools/verify_preservation.py\n?? phase5_1/run/paragraph-examples/Word-two-rows-edited-manual-test.pdf\n",
+  "remoteMain": "058cd3df42199c2c39af80519d3a14c0e009201b\trefs/heads/main",
+  "logicalBytes": 2490639782,
+  "files": 48074,
+  "statusTotals": {
+    "tracked": {
+      "files": 17086,
+      "bytes": 1054374637
+    },
+    "git-metadata": {
+      "files": 111,
+      "bytes": 84951711
+    },
+    "ignored": {
+      "files": 30875,
+      "bytes": 1351268005
+    },
+    "untracked": {
+      "files": 2,
+      "bytes": 45429
+    }
+  },
+  "categoryTotals": {
+    "A": {
+      "files": 819,
+      "bytes": 4822228
+    },
+    "B": {
+      "files": 102,
+      "bytes": 598089
+    },
+    "F": {
+      "files": 30333,
+      "bytes": 1402888734
+    },
+    "Git metadata": {
+      "files": 111,
+      "bytes": 84951711
+    },
+    "Local generated - review": {
+      "files": 8121,
+      "bytes": 577273234
+    },
+    "D": {
+      "files": 1823,
+      "bytes": 269694786
+    },
+    "G": {
+      "files": 5747,
+      "bytes": 117402631
+    },
+    "C": {
+      "files": 883,
+      "bytes": 20760817
+    },
+    "E": {
+      "files": 132,
+      "bytes": 9443031
+    },
+    "Uncertain - preserve": {
+      "files": 3,
+      "bytes": 2804521
+    }
+  },
+  "phases": [
+    {
+      "path": ".git",
+      "files": 111,
+      "bytes": 84951711
+    },
+    {
+      "path": ".gitattributes",
+      "files": 1,
+      "bytes": 76
+    },
+    {
+      "path": ".gitignore",
+      "files": 1,
+      "bytes": 308
+    },
+    {
+      "path": ".local-generated",
+      "files": 2054,
+      "bytes": 119321672
+    },
+    {
+      "path": ".venv",
+      "files": 4152,
+      "bytes": 221367538
+    },
+    {
+      "path": ".venv-clean",
+      "files": 6604,
+      "bytes": 323417529
+    },
+    {
+      "path": "ARCHITECTURE_RECOMMENDATION.md",
+      "files": 1,
+      "bytes": 7483
+    },
+    {
+      "path": "PDF_ENGINE_COMPARISON.md",
+      "files": 1,
+      "bytes": 9704
+    },
+    {
+      "path": "PHASE_1_HANDOVER",
+      "files": 2,
+      "bytes": 81697
+    },
+    {
+      "path": "PHASE_2_HANDOVER",
+      "files": 23,
+      "bytes": 434351
+    },
+    {
+      "path": "PHASE_2_PROPOSAL.md",
+      "files": 1,
+      "bytes": 6177
+    },
+    {
+      "path": "PHASE_3_HANDOVER",
+      "files": 5,
+      "bytes": 31994
+    },
+    {
+      "path": "PHASE_4A1_HANDOVER",
+      "files": 6,
+      "bytes": 33482
+    },
+    {
+      "path": "PHASE_4A_HANDOVER",
+      "files": 6,
+      "bytes": 48010
+    },
+    {
+      "path": "PHASE_4B_HANDOVER",
+      "files": 6,
+      "bytes": 36106
+    },
+    {
+      "path": "PHASE_4C1_HANDOVER",
+      "files": 6,
+      "bytes": 44092
+    },
+    {
+      "path": "PHASE_4C2_HANDOVER",
+      "files": 6,
+      "bytes": 25098
+    },
+    {
+      "path": "PHASE_5_1_HANDOVER",
+      "files": 6,
+      "bytes": 33072
+    },
+    {
+      "path": "PHASE_5_2_1_HANDOVER",
+      "files": 6,
+      "bytes": 26079
+    },
+    {
+      "path": "PHASE_5_2_1_PROGRESS.md",
+      "files": 1,
+      "bytes": 11243
+    },
+    {
+      "path": "PHASE_5_2_2_HANDOVER",
+      "files": 6,
+      "bytes": 19427
+    },
+    {
+      "path": "PHASE_5_2_2_PROGRESS.md",
+      "files": 1,
+      "bytes": 9152
+    },
+    {
+      "path": "PHASE_5_2_HANDOVER",
+      "files": 6,
+      "bytes": 30396
+    },
+    {
+      "path": "PHASE_5_2_PROGRESS.md",
+      "files": 1,
+      "bytes": 11962
+    },
+    {
+      "path": "README.md",
+      "files": 1,
+      "bytes": 3745
+    },
+    {
+      "path": "REPOSITORY_MAINTENANCE_R1",
+      "files": 47,
+      "bytes": 3275103
+    },
+    {
+      "path": "REPOSITORY_MAINTENANCE_R1_PROGRESS.md",
+      "files": 1,
+      "bytes": 3376
+    },
+    {
+      "path": "START_HERE.md",
+      "files": 1,
+      "bytes": 4830
+    },
+    {
+      "path": "TECHNICAL_FEASIBILITY_REPORT.md",
+      "files": 1,
+      "bytes": 14103
+    },
+    {
+      "path": "__pycache__",
+      "files": 2,
+      "bytes": 61819
+    },
+    {
+      "path": "assets",
+      "files": 4,
+      "bytes": 97693
+    },
+    {
+      "path": "clean-install.log",
+      "files": 1,
+      "bytes": 5078
+    },
+    {
+      "path": "clean-test-results.log",
+      "files": 1,
+      "bytes": 1908
+    },
+    {
+      "path": "feasibility.py",
+      "files": 1,
+      "bytes": 23238
+    },
+    {
+      "path": "offline_check.py",
+      "files": 1,
+      "bytes": 399
+    },
+    {
+      "path": "output",
+      "files": 23,
+      "bytes": 351425
+    },
+    {
+      "path": "phase2",
+      "files": 459,
+      "bytes": 32811734
+    },
+    {
+      "path": "phase3",
+      "files": 949,
+      "bytes": 54737308
+    },
+    {
+      "path": "phase4a",
+      "files": 1406,
+      "bytes": 66479990
+    },
+    {
+      "path": "phase4a1",
+      "files": 2163,
+      "bytes": 108677137
+    },
+    {
+      "path": "phase4b",
+      "files": 1708,
+      "bytes": 72695538
+    },
+    {
+      "path": "phase4c1",
+      "files": 2373,
+      "bytes": 111682840
+    },
+    {
+      "path": "phase4c2",
+      "files": 3716,
+      "bytes": 171695247
+    },
+    {
+      "path": "phase5_1",
+      "files": 7197,
+      "bytes": 387419447
+    },
+    {
+      "path": "phase5_2",
+      "files": 4862,
+      "bytes": 248973336
+    },
+    {
+      "path": "phase5_2_1",
+      "files": 4749,
+      "bytes": 223833097
+    },
+    {
+      "path": "phase5_2_2",
+      "files": 5081,
+      "bytes": 250051521
+    },
+    {
+      "path": "requirements.txt",
+      "files": 1,
+      "bytes": 354
+    },
+    {
+      "path": "results",
+      "files": 307,
+      "bytes": 7745644
+    },
+    {
+      "path": "review_evidence.py",
+      "files": 1,
+      "bytes": 5327
+    },
+    {
+      "path": "run.log",
+      "files": 1,
+      "bytes": 20559
+    },
+    {
+      "path": "run.ps1",
+      "files": 1,
+      "bytes": 607
+    },
+    {
+      "path": "run_tests.py",
+      "files": 1,
+      "bytes": 573
+    },
+    {
+      "path": "test-results.log",
+      "files": 1,
+      "bytes": 1908
+    },
+    {
+      "path": "test_feasibility.py",
+      "files": 1,
+      "bytes": 6539
+    }
+  ],
+  "largestDirectories": [
+    {
+      "path": "phase5_1",
+      "files": 7197,
+      "bytes": 387419447
+    },
+    {
+      "path": ".venv-clean",
+      "files": 6604,
+      "bytes": 323417529
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages",
+      "files": 6581,
+      "bytes": 321214974
+    },
+    {
+      "path": ".venv-clean/Lib",
+      "files": 6581,
+      "bytes": 321214974
+    },
+    {
+      "path": "phase5_2_2",
+      "files": 5081,
+      "bytes": 250051521
+    },
+    {
+      "path": "phase5_2",
+      "files": 4862,
+      "bytes": 248973336
+    },
+    {
+      "path": "phase5_2_1",
+      "files": 4749,
+      "bytes": 223833097
+    },
+    {
+      "path": ".venv",
+      "files": 4152,
+      "bytes": 221367538
+    },
+    {
+      "path": ".venv/Lib/site-packages",
+      "files": 4133,
+      "bytes": 219612319
+    },
+    {
+      "path": ".venv/Lib",
+      "files": 4133,
+      "bytes": 219612319
+    },
+    {
+      "path": "phase5_1/evidence",
+      "files": 3014,
+      "bytes": 189719704
+    },
+    {
+      "path": "phase5_1/test-work",
+      "files": 3873,
+      "bytes": 175867926
+    },
+    {
+      "path": "phase4c2",
+      "files": 3716,
+      "bytes": 171695247
+    },
+    {
+      "path": "phase5_2_2/evidence",
+      "files": 2903,
+      "bytes": 159062894
+    },
+    {
+      "path": "phase5_2_1/evidence",
+      "files": 2774,
+      "bytes": 141130225
+    },
+    {
+      "path": "phase5_2/evidence",
+      "files": 1960,
+      "bytes": 133786124
+    },
+    {
+      "path": ".local-generated",
+      "files": 2054,
+      "bytes": 119321672
+    },
+    {
+      "path": "phase4c1",
+      "files": 2373,
+      "bytes": 111682840
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf",
+      "files": 225,
+      "bytes": 109181582
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf",
+      "files": 225,
+      "bytes": 109181264
+    },
+    {
+      "path": "phase4a1",
+      "files": 2163,
+      "bytes": 108677137
+    },
+    {
+      "path": ".local-generated/R1-validation",
+      "files": 1912,
+      "bytes": 101034265
+    },
+    {
+      "path": "phase5_2/test-work",
+      "files": 2561,
+      "bytes": 92782120
+    },
+    {
+      "path": ".git",
+      "files": 111,
+      "bytes": 84951711
+    },
+    {
+      "path": ".git/objects",
+      "files": 78,
+      "bytes": 82712128
+    },
+    {
+      "path": ".git/objects/pack",
+      "files": 17,
+      "bytes": 79797385
+    },
+    {
+      "path": "phase4c2/evidence",
+      "files": 1571,
+      "bytes": 77781635
+    },
+    {
+      "path": "phase4c2/test-work",
+      "files": 1841,
+      "bytes": 72894402
+    },
+    {
+      "path": "phase4b",
+      "files": 1708,
+      "bytes": 72695538
+    },
+    {
+      "path": "phase5_2_2/test-work",
+      "files": 1819,
+      "bytes": 67864579
+    },
+    {
+      "path": "phase4a",
+      "files": 1406,
+      "bytes": 66479990
+    },
+    {
+      "path": ".local-generated/R1-validation/evidence",
+      "files": 1036,
+      "bytes": 62315286
+    },
+    {
+      "path": "phase5_2_1/test-work",
+      "files": 1627,
+      "bytes": 59930668
+    },
+    {
+      "path": "phase3",
+      "files": 949,
+      "bytes": 54737308
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout",
+      "files": 90,
+      "bytes": 52553953
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout",
+      "files": 90,
+      "bytes": 52553743
+    },
+    {
+      "path": "phase4a1/test-work",
+      "files": 1496,
+      "bytes": 51351491
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout/resources/onnx",
+      "files": 19,
+      "bytes": 51307028
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout/resources",
+      "files": 19,
+      "bytes": 51307028
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout/resources/onnx",
+      "files": 19,
+      "bytes": 51307028
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout/resources",
+      "files": 19,
+      "bytes": 51307028
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime",
+      "files": 624,
+      "bytes": 47753532
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime",
+      "files": 624,
+      "bytes": 47751696
+    },
+    {
+      "path": "phase4c1/test-work",
+      "files": 1205,
+      "bytes": 46487037
+    },
+    {
+      "path": "phase4c1/evidence",
+      "files": 889,
+      "bytes": 44771112
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/capi",
+      "files": 21,
+      "bytes": 39517182
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/capi",
+      "files": 21,
+      "bytes": 39517128
+    },
+    {
+      "path": "phase4a1/evidence",
+      "files": 442,
+      "bytes": 38608101
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy",
+      "files": 1320,
+      "bytes": 33319686
+    },
+    {
+      "path": "phase2",
+      "files": 459,
+      "bytes": 32811734
+    },
+    {
+      "path": "phase4a/test-work",
+      "files": 884,
+      "bytes": 29235502
+    },
+    {
+      "path": "phase4b/test-work",
+      "files": 834,
+      "bytes": 28514739
+    },
+    {
+      "path": ".local-generated/R1-validation/test-work",
+      "files": 741,
+      "bytes": 27961409
+    },
+    {
+      "path": "phase5_1/evidence/document-poppler",
+      "files": 1004,
+      "bytes": 26261446
+    },
+    {
+      "path": "phase3/test-work",
+      "files": 617,
+      "bytes": 24214340
+    },
+    {
+      "path": "phase4b/evidence",
+      "files": 605,
+      "bytes": 24158518
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy.libs",
+      "files": 2,
+      "bytes": 20978768
+    },
+    {
+      "path": "phase5_2/evidence/development-before-scope-fix-1793278464033293000",
+      "files": 9,
+      "bytes": 19765136
+    },
+    {
+      "path": "phase4a/evidence",
+      "files": 313,
+      "bytes": 18841986
+    },
+    {
+      "path": "phase5_2_1/evidence/document-poppler",
+      "files": 800,
+      "bytes": 17959221
+    }
+  ],
+  "largestFiles": [
+    {
+      "path": ".git/objects/pack/pack-85d6c794e21f42a05bbb77d1573bf394f61aff68.pack",
+      "bytes": 44267533,
+      "status": "git-metadata",
+      "category": "Git metadata"
+    },
+    {
+      "path": ".git/objects/pack/pack-8be5fce035a0fa16be18d385487dd1a31f700f2f.pack",
+      "bytes": 27519402,
+      "status": "git-metadata",
+      "category": "Git metadata"
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/mupdfcpp64.dll",
+      "bytes": 26321408,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/mupdfcpp64.dll",
+      "bytes": 26321408,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": "phase5_1/evidence/verified-export-records.json",
+      "bytes": 24974225,
+      "status": "tracked",
+      "category": "F"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy.libs/libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "bytes": 20403712,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.pyd",
+      "bytes": 19997496,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.pyd",
+      "bytes": 19997496,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/capi/onnxruntime.dll",
+      "bytes": 19288376,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/capi/onnxruntime.dll",
+      "bytes": 19288376,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": "phase5_2_2/evidence/verified-export-records.json",
+      "bytes": 17157405,
+      "status": "tracked",
+      "category": "F"
+    },
+    {
+      "path": "phase5_2_1/evidence/verified-export-records.json",
+      "bytes": 14770507,
+      "status": "tracked",
+      "category": "F"
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/_mupdf.pyd",
+      "bytes": 13037056,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/_mupdf.pyd",
+      "bytes": 13037056,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": "phase5_2/evidence/verified-export-records.json",
+      "bytes": 10466085,
+      "status": "tracked",
+      "category": "F"
+    },
+    {
+      "path": ".local-generated/R1-validation/evidence/verified-export-records.json",
+      "bytes": 9418718,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout/resources/onnx/layout_rf2.4.1+imf1.onnx",
+      "bytes": 8195105,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout/resources/onnx/layout_rf2.4.1+imf1.onnx",
+      "bytes": 8195105,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/PIL/_avif.cp312-win_amd64.pyd",
+      "bytes": 7893504,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv/Lib/site-packages/pikepdf.libs/qpdf30-14efc7eef6c9cae2095b94960308fa11.dll",
+      "bytes": 7448064,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pikepdf.libs/qpdf30-14efc7eef6c9cae2095b94960308fa11.dll",
+      "bytes": 7448064,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".local-generated/dependencies/pdfium-156.0.8076.0-win-x64-bede3932ce96/pdfium.dll",
+      "bytes": 7397168,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".local-generated/R1-reproduce-shipping/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": ".local-generated/R1-validation/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "ignored",
+      "category": "Local generated - review"
+    },
+    {
+      "path": "phase2/evidence/development/pre-font-rename-run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase2/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase2/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase3/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase3/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4a/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4a/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4a1/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4a1/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4b/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4b/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4c1/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4c1/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4c2/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase4c2/runtime/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    },
+    {
+      "path": "phase5_1/run/pdfium.dll",
+      "bytes": 7397168,
+      "status": "tracked",
+      "category": "D"
+    }
+  ],
+  "artifactDirectories": [
+    {
+      "path": ".venv-clean",
+      "files": 6604,
+      "bytes": 323417529
+    },
+    {
+      "path": ".venv",
+      "files": 4152,
+      "bytes": 221367538
+    },
+    {
+      "path": "phase5_1/evidence",
+      "files": 3014,
+      "bytes": 189719704
+    },
+    {
+      "path": "phase5_1/test-work",
+      "files": 3873,
+      "bytes": 175867926
+    },
+    {
+      "path": "phase5_2_2/evidence",
+      "files": 2903,
+      "bytes": 159062894
+    },
+    {
+      "path": "phase5_2_1/evidence",
+      "files": 2774,
+      "bytes": 141130225
+    },
+    {
+      "path": "phase5_2/evidence",
+      "files": 1960,
+      "bytes": 133786124
+    },
+    {
+      "path": "phase5_2/test-work",
+      "files": 2561,
+      "bytes": 92782120
+    },
+    {
+      "path": ".git",
+      "files": 111,
+      "bytes": 84951711
+    },
+    {
+      "path": "phase4c2/evidence",
+      "files": 1571,
+      "bytes": 77781635
+    },
+    {
+      "path": "phase4c2/test-work",
+      "files": 1841,
+      "bytes": 72894402
+    },
+    {
+      "path": "phase5_2_2/test-work",
+      "files": 1819,
+      "bytes": 67864579
+    },
+    {
+      "path": "phase5_2_1/test-work",
+      "files": 1627,
+      "bytes": 59930668
+    },
+    {
+      "path": "phase4a1/test-work",
+      "files": 1496,
+      "bytes": 51351491
+    },
+    {
+      "path": "phase4c1/test-work",
+      "files": 1205,
+      "bytes": 46487037
+    },
+    {
+      "path": "phase4c1/evidence",
+      "files": 889,
+      "bytes": 44771112
+    },
+    {
+      "path": "phase4a1/evidence",
+      "files": 442,
+      "bytes": 38608101
+    },
+    {
+      "path": "phase4a/test-work",
+      "files": 884,
+      "bytes": 29235502
+    },
+    {
+      "path": "phase4b/test-work",
+      "files": 834,
+      "bytes": 28514739
+    },
+    {
+      "path": ".local-generated/R1-validation/test-work",
+      "files": 741,
+      "bytes": 27961409
+    },
+    {
+      "path": "phase5_1/evidence/document-poppler",
+      "files": 1004,
+      "bytes": 26261446
+    },
+    {
+      "path": "phase3/test-work",
+      "files": 617,
+      "bytes": 24214340
+    },
+    {
+      "path": "phase4b/evidence",
+      "files": 605,
+      "bytes": 24158518
+    },
+    {
+      "path": "phase4a/evidence",
+      "files": 313,
+      "bytes": 18841986
+    },
+    {
+      "path": "phase5_2_1/evidence/document-poppler",
+      "files": 800,
+      "bytes": 17959221
+    },
+    {
+      "path": "phase4c2/evidence/document-poppler",
+      "files": 712,
+      "bytes": 17147570
+    },
+    {
+      "path": "phase5_2_2/evidence/document-poppler",
+      "files": 676,
+      "bytes": 14450908
+    },
+    {
+      "path": "phase5_2/evidence/document-poppler",
+      "files": 652,
+      "bytes": 13882368
+    },
+    {
+      "path": "phase3/evidence",
+      "files": 150,
+      "bytes": 12605419
+    },
+    {
+      "path": ".local-generated/R1-validation/evidence/document-poppler",
+      "files": 540,
+      "bytes": 11705504
+    },
+    {
+      "path": "phase5_2_2/run",
+      "files": 119,
+      "bytes": 10711489
+    },
+    {
+      "path": "phase5_2_1/run",
+      "files": 119,
+      "bytes": 10613621
+    },
+    {
+      "path": "phase5_2/run",
+      "files": 117,
+      "bytes": 10498082
+    },
+    {
+      "path": "phase5_1/run",
+      "files": 95,
+      "bytes": 10213168
+    },
+    {
+      "path": "phase4c2/run",
+      "files": 87,
+      "bytes": 9752994
+    },
+    {
+      "path": "phase4c1/run",
+      "files": 83,
+      "bytes": 9499363
+    },
+    {
+      "path": "phase4b/run",
+      "files": 81,
+      "bytes": 9329601
+    },
+    {
+      "path": "phase2/evidence",
+      "files": 92,
+      "bytes": 9180898
+    },
+    {
+      "path": "phase4a1/run",
+      "files": 77,
+      "bytes": 9107539
+    },
+    {
+      "path": "phase4a/run",
+      "files": 72,
+      "bytes": 8940507
+    },
+    {
+      "path": "phase3/run",
+      "files": 55,
+      "bytes": 8652993
+    },
+    {
+      "path": "phase2/run",
+      "files": 39,
+      "bytes": 8151191
+    },
+    {
+      "path": "phase5_1/evidence/frozen-c2-readers/document-poppler",
+      "files": 344,
+      "bytes": 7753714
+    },
+    {
+      "path": "phase2/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase3/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase4a/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase4a1/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase4b/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase4c1/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase4c2/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase5_1/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase5_2/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase5_2_1/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase5_2_2/runtime",
+      "files": 19,
+      "bytes": 7535368
+    },
+    {
+      "path": "phase2/test-work",
+      "files": 207,
+      "bytes": 6467160
+    },
+    {
+      "path": "phase4c1/evidence/document-poppler",
+      "files": 284,
+      "bytes": 6197109
+    },
+    {
+      "path": "phase5_2/evidence/frozen-c2-readers/document-poppler",
+      "files": 244,
+      "bytes": 5277540
+    },
+    {
+      "path": "phase5_2_1/evidence/frozen-c2-readers/document-poppler",
+      "files": 244,
+      "bytes": 5277540
+    },
+    {
+      "path": "phase5_2_2/evidence/frozen-c2-readers/document-poppler",
+      "files": 244,
+      "bytes": 5277540
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/__pycache__",
+      "files": 18,
+      "bytes": 5263137
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/__pycache__",
+      "files": 18,
+      "bytes": 5263029
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_core/tests/__pycache__",
+      "files": 67,
+      "bytes": 3738653
+    },
+    {
+      "path": "phase4b/evidence/document-poppler",
+      "files": 140,
+      "bytes": 2835844
+    },
+    {
+      "path": "phase4a1/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase4b/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase4c1/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase4c2/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase5_1/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase5_2/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase5_2_1/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase5_2_2/evidence/poppler",
+      "files": 84,
+      "bytes": 1910692
+    },
+    {
+      "path": "phase4a/evidence/poppler",
+      "files": 76,
+      "bytes": 1717978
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/PIL/__pycache__",
+      "files": 97,
+      "bytes": 1385669
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/__pycache__",
+      "files": 83,
+      "bytes": 1332652
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/__pycache__",
+      "files": 83,
+      "bytes": 1332154
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/ttLib/tables/__pycache__",
+      "files": 103,
+      "bytes": 1246209
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/lib/tests/__pycache__",
+      "files": 26,
+      "bytes": 1245898
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/ttLib/tables/__pycache__",
+      "files": 103,
+      "bytes": 1245591
+    },
+    {
+      "path": "phase3/evidence/poppler",
+      "files": 32,
+      "bytes": 1194794
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/rich/__pycache__",
+      "files": 77,
+      "bytes": 1133458
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/rich/__pycache__",
+      "files": 77,
+      "bytes": 1132996
+    },
+    {
+      "path": "phase5_2_2/App/bin",
+      "files": 7,
+      "bytes": 1084694
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_core/__pycache__",
+      "files": 30,
+      "bytes": 1023373
+    },
+    {
+      "path": "phase5_2_1/App/bin",
+      "files": 7,
+      "bytes": 986822
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/lib/__pycache__",
+      "files": 32,
+      "bytes": 972984
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/__pycache__",
+      "files": 57,
+      "bytes": 917588
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/__pycache__",
+      "files": 57,
+      "bytes": 917246
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/tests/__pycache__",
+      "files": 58,
+      "bytes": 896432
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/tests/__pycache__",
+      "files": 58,
+      "bytes": 896084
+    },
+    {
+      "path": "phase5_2/App/bin",
+      "files": 7,
+      "bytes": 887142
+    },
+    {
+      "path": "phase5_2_2/App/obj",
+      "files": 25,
+      "bytes": 874169
+    },
+    {
+      "path": "phase4a1/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase4c1/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase4c2/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase5_1/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase5_2/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase5_2_1/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase5_2_2/evidence/position-poppler",
+      "files": 44,
+      "bytes": 843246
+    },
+    {
+      "path": "phase5_1/App/bin",
+      "files": 7,
+      "bytes": 832438
+    },
+    {
+      "path": "phase5_2_2/evidence/visual-qa",
+      "files": 5,
+      "bytes": 818818
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/_codecs/__pycache__",
+      "files": 8,
+      "bytes": 812681
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/platypus/__pycache__",
+      "files": 12,
+      "bytes": 776487
+    },
+    {
+      "path": "phase5_2_1/App/obj",
+      "files": 23,
+      "bytes": 756929
+    },
+    {
+      "path": "phase4c2/App/bin",
+      "files": 7,
+      "bytes": 736322
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/pdfbase/__pycache__",
+      "files": 35,
+      "bytes": 718553
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/google/protobuf/__pycache__",
+      "files": 34,
+      "bytes": 717778
+    },
+    {
+      "path": ".venv/Lib/site-packages/google/protobuf/__pycache__",
+      "files": 34,
+      "bytes": 717574
+    },
+    {
+      "path": "phase4c1/App/bin",
+      "files": 7,
+      "bytes": 673202
+    },
+    {
+      "path": "phase5_2/App/obj",
+      "files": 23,
+      "bytes": 642818
+    },
+    {
+      "path": "phase5_1/App/obj",
+      "files": 23,
+      "bytes": 618835
+    },
+    {
+      "path": "phase4b/App/bin",
+      "files": 7,
+      "bytes": 618726
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/ma/tests/__pycache__",
+      "files": 9,
+      "bytes": 614575
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/__pycache__",
+      "files": 19,
+      "bytes": 602171
+    },
+    {
+      "path": "phase4c2/App/obj",
+      "files": 23,
+      "bytes": 573082
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/quantization/__pycache__",
+      "files": 17,
+      "bytes": 567585
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/quantization/__pycache__",
+      "files": 17,
+      "bytes": 567483
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/random/tests/__pycache__",
+      "files": 11,
+      "bytes": 563368
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/graphics/charts/__pycache__",
+      "files": 16,
+      "bytes": 549398
+    },
+    {
+      "path": "phase5_2/Checks/bin",
+      "files": 7,
+      "bytes": 536514
+    },
+    {
+      "path": "phase5_2_1/Checks/bin",
+      "files": 7,
+      "bytes": 536514
+    },
+    {
+      "path": "phase5_2_2/Checks/bin",
+      "files": 7,
+      "bytes": 536514
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/lib/__pycache__",
+      "files": 33,
+      "bytes": 517313
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/f2py/__pycache__",
+      "files": 18,
+      "bytes": 514216
+    },
+    {
+      "path": "phase4c1/App/obj",
+      "files": 22,
+      "bytes": 514212
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/generators/__pycache__",
+      "files": 30,
+      "bytes": 511182
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/generators/__pycache__",
+      "files": 30,
+      "bytes": 511002
+    },
+    {
+      "path": "phase5_2/Worker/bin",
+      "files": 7,
+      "bytes": 504899
+    },
+    {
+      "path": "phase5_2_1/Worker/bin",
+      "files": 7,
+      "bytes": 504899
+    },
+    {
+      "path": "phase5_2_2/Worker/bin",
+      "files": 7,
+      "bytes": 504895
+    },
+    {
+      "path": "phase5_1/Checks/bin",
+      "files": 7,
+      "bytes": 498202
+    },
+    {
+      "path": "phase4a1/App/bin",
+      "files": 7,
+      "bytes": 495178
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/varLib/__pycache__",
+      "files": 23,
+      "bytes": 494292
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/varLib/__pycache__",
+      "files": 23,
+      "bytes": 494154
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pikepdf/pdfa/__pycache__",
+      "files": 32,
+      "bytes": 492169
+    },
+    {
+      "path": ".venv/Lib/site-packages/pikepdf/pdfa/__pycache__",
+      "files": 32,
+      "bytes": 491977
+    },
+    {
+      "path": "phase5_1/Worker/bin",
+      "files": 7,
+      "bytes": 470923
+    },
+    {
+      "path": "phase4b/App/obj",
+      "files": 22,
+      "bytes": 470724
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/distlib/__pycache__",
+      "files": 13,
+      "bytes": 469417
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/distlib/__pycache__",
+      "files": 13,
+      "bytes": 469339
+    },
+    {
+      "path": "phase5_2_1/Core/obj",
+      "files": 18,
+      "bytes": 463730
+    },
+    {
+      "path": "phase5_2_2/Core/obj",
+      "files": 18,
+      "bytes": 463730
+    },
+    {
+      "path": "phase5_2/Core/obj",
+      "files": 18,
+      "bytes": 463690
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/polynomial/__pycache__",
+      "files": 9,
+      "bytes": 455420
+    },
+    {
+      "path": "phase4a/App/bin",
+      "files": 7,
+      "bytes": 454474
+    },
+    {
+      "path": "phase5_2_1/evidence/visual-qa",
+      "files": 3,
+      "bytes": 446191
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/ma/__pycache__",
+      "files": 5,
+      "bytes": 443351
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/packaging/__pycache__",
+      "files": 20,
+      "bytes": 440229
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/classes/tests/__pycache__",
+      "files": 16,
+      "bytes": 439754
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/classes/tests/__pycache__",
+      "files": 16,
+      "bytes": 439658
+    },
+    {
+      "path": "phase4c2/Checks/bin",
+      "files": 7,
+      "bytes": 432002
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/misc/__pycache__",
+      "files": 37,
+      "bytes": 424537
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/misc/__pycache__",
+      "files": 37,
+      "bytes": 424315
+    },
+    {
+      "path": "phase5_1/Core/obj",
+      "files": 18,
+      "bytes": 422546
+    },
+    {
+      "path": "phase3/App/bin",
+      "files": 7,
+      "bytes": 415310
+    },
+    {
+      "path": "phase4c1/Checks/bin",
+      "files": 7,
+      "bytes": 414506
+    },
+    {
+      "path": "phase4c2/Worker/bin",
+      "files": 7,
+      "bytes": 414315
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout/onnx/__pycache__",
+      "files": 19,
+      "bytes": 414117
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout/onnx/__pycache__",
+      "files": 19,
+      "bytes": 414003
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/classes/__pycache__",
+      "files": 10,
+      "bytes": 401651
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/classes/__pycache__",
+      "files": 10,
+      "bytes": 401591
+    },
+    {
+      "path": "phase4c1/Worker/bin",
+      "files": 7,
+      "bytes": 400443
+    },
+    {
+      "path": "phase4a1/App/obj",
+      "files": 22,
+      "bytes": 400272
+    },
+    {
+      "path": "PHASE_2_HANDOVER/evidence",
+      "files": 19,
+      "bytes": 395316
+    },
+    {
+      "path": "phase4b/Checks/bin",
+      "files": 7,
+      "bytes": 394194
+    },
+    {
+      "path": "phase4b/Worker/bin",
+      "files": 7,
+      "bytes": 384287
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/psutil/__pycache__",
+      "files": 10,
+      "bytes": 383350
+    },
+    {
+      "path": ".venv/Lib/site-packages/psutil/__pycache__",
+      "files": 10,
+      "bytes": 383290
+    },
+    {
+      "path": "phase4a/App/obj",
+      "files": 22,
+      "bytes": 369816
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/graphics/__pycache__",
+      "files": 13,
+      "bytes": 362793
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/feaLib/__pycache__",
+      "files": 10,
+      "bytes": 361582
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/feaLib/__pycache__",
+      "files": 10,
+      "bytes": 361522
+    },
+    {
+      "path": "phase2/App/bin",
+      "files": 7,
+      "bytes": 358758
+    },
+    {
+      "path": "phase4c2/Core/obj",
+      "files": 18,
+      "bytes": 348538
+    },
+    {
+      "path": "phase3/App/obj",
+      "files": 22,
+      "bytes": 347612
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/stable_diffusion/__pycache__",
+      "files": 17,
+      "bytes": 337299
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/stable_diffusion/__pycache__",
+      "files": 17,
+      "bytes": 337197
+    },
+    {
+      "path": "phase5_2/Core/bin",
+      "files": 3,
+      "bytes": 332008
+    },
+    {
+      "path": "phase5_2_1/Core/bin",
+      "files": 3,
+      "bytes": 332004
+    },
+    {
+      "path": "phase5_2_2/Core/bin",
+      "files": 3,
+      "bytes": 332004
+    },
+    {
+      "path": "phase4c1/Core/obj",
+      "files": 17,
+      "bytes": 331214
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pikepdf/__pycache__",
+      "files": 22,
+      "bytes": 326292
+    },
+    {
+      "path": ".venv/Lib/site-packages/pikepdf/__pycache__",
+      "files": 22,
+      "bytes": 326160
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/generators/tests/__pycache__",
+      "files": 29,
+      "bytes": 323830
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/generators/tests/__pycache__",
+      "files": 29,
+      "bytes": 323656
+    },
+    {
+      "path": "phase4a1/Worker/bin",
+      "files": 7,
+      "bytes": 323047
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/readwrite/tests/__pycache__",
+      "files": 12,
+      "bytes": 316287
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/readwrite/tests/__pycache__",
+      "files": 12,
+      "bytes": 316215
+    },
+    {
+      "path": "phase2/App/obj",
+      "files": 22,
+      "bytes": 313984
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/google/protobuf/internal/__pycache__",
+      "files": 18,
+      "bytes": 311100
+    },
+    {
+      "path": ".venv/Lib/site-packages/google/protobuf/internal/__pycache__",
+      "files": 18,
+      "bytes": 310992
+    },
+    {
+      "path": "phase4b/Core/obj",
+      "files": 17,
+      "bytes": 309921
+    },
+    {
+      "path": "phase4a/Worker/bin",
+      "files": 7,
+      "bytes": 308655
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/f2py/tests/__pycache__",
+      "files": 33,
+      "bytes": 306550
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/ort_format_model/ort_flatbuffers_py/fbs/__pycache__",
+      "files": 46,
+      "bytes": 302358
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/ort_format_model/ort_flatbuffers_py/fbs/__pycache__",
+      "files": 46,
+      "bytes": 302082
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/polynomial/tests/__pycache__",
+      "files": 11,
+      "bytes": 300555
+    },
+    {
+      "path": "phase5_1/Core/bin",
+      "files": 3,
+      "bytes": 298032
+    },
+    {
+      "path": "phase3/Worker/bin",
+      "files": 7,
+      "bytes": 288579
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/ttLib/__pycache__",
+      "files": 13,
+      "bytes": 286999
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/ttLib/__pycache__",
+      "files": 13,
+      "bytes": 286921
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/__pycache__",
+      "files": 17,
+      "bytes": 285266
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/__pycache__",
+      "files": 17,
+      "bytes": 285164
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/idna/__pycache__",
+      "files": 8,
+      "bytes": 284405
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/idna/__pycache__",
+      "files": 8,
+      "bytes": 284357
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/graphics/barcode/__pycache__",
+      "files": 16,
+      "bytes": 283251
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/isomorphism/tests/__pycache__",
+      "files": 11,
+      "bytes": 277699
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/isomorphism/tests/__pycache__",
+      "files": 11,
+      "bytes": 277633
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/pens/__pycache__",
+      "files": 29,
+      "bytes": 270115
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/pens/__pycache__",
+      "files": 29,
+      "bytes": 269941
+    },
+    {
+      "path": "phase2/Worker/bin",
+      "files": 7,
+      "bytes": 260535
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/html/__pycache__",
+      "files": 14,
+      "bytes": 251557
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/readwrite/__pycache__",
+      "files": 13,
+      "bytes": 250975
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/readwrite/__pycache__",
+      "files": 13,
+      "bytes": 250897
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/yaml/__pycache__",
+      "files": 17,
+      "bytes": 250852
+    },
+    {
+      "path": ".venv/Lib/site-packages/yaml/__pycache__",
+      "files": 17,
+      "bytes": 250750
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/ufoLib/__pycache__",
+      "files": 11,
+      "bytes": 250179
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/ufoLib/__pycache__",
+      "files": 11,
+      "bytes": 250113
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/centrality/tests/__pycache__",
+      "files": 21,
+      "bytes": 247686
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/centrality/tests/__pycache__",
+      "files": 21,
+      "bytes": 247560
+    },
+    {
+      "path": "phase4c2/Core/bin",
+      "files": 3,
+      "bytes": 241432
+    },
+    {
+      "path": "phase5_2_1/Checks/obj",
+      "files": 22,
+      "bytes": 241300
+    },
+    {
+      "path": "phase5_2_2/Checks/obj",
+      "files": 22,
+      "bytes": 241300
+    },
+    {
+      "path": "phase5_2/Checks/obj",
+      "files": 22,
+      "bytes": 241219
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/drawing/__pycache__",
+      "files": 6,
+      "bytes": 240904
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/drawing/__pycache__",
+      "files": 6,
+      "bytes": 240868
+    },
+    {
+      "path": "phase5_1/Checks/obj",
+      "files": 22,
+      "bytes": 236764
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/generic/__pycache__",
+      "files": 13,
+      "bytes": 234635
+    },
+    {
+      "path": "phase4c1/Core/bin",
+      "files": 3,
+      "bytes": 228596
+    },
+    {
+      "path": "phase4a1/Core/obj",
+      "files": 17,
+      "bytes": 228218
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/subset/__pycache__",
+      "files": 5,
+      "bytes": 226053
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/subset/__pycache__",
+      "files": 5,
+      "bytes": 226023
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/typing/tests/data/pass/__pycache__",
+      "files": 36,
+      "bytes": 222866
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/isomorphism/__pycache__",
+      "files": 9,
+      "bytes": 219325
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/isomorphism/__pycache__",
+      "files": 9,
+      "bytes": 219271
+    },
+    {
+      "path": "phase4c2/Checks/obj",
+      "files": 22,
+      "bytes": 218811
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout/__pycache__",
+      "files": 14,
+      "bytes": 215996
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout/__pycache__",
+      "files": 14,
+      "bytes": 215912
+    },
+    {
+      "path": "phase4c1/Checks/obj",
+      "files": 21,
+      "bytes": 213755
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/__pycache__",
+      "files": 10,
+      "bytes": 212749
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/__pycache__",
+      "files": 10,
+      "bytes": 212689
+    },
+    {
+      "path": "phase4b/Core/bin",
+      "files": 3,
+      "bytes": 212444
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/centrality/__pycache__",
+      "files": 22,
+      "bytes": 212170
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/centrality/__pycache__",
+      "files": 22,
+      "bytes": 212038
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/utils/__pycache__",
+      "files": 10,
+      "bytes": 211816
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/utils/__pycache__",
+      "files": 10,
+      "bytes": 211756
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/requests/__pycache__",
+      "files": 18,
+      "bytes": 211214
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/requests/__pycache__",
+      "files": 18,
+      "bytes": 211106
+    },
+    {
+      "path": "phase4a/Core/obj",
+      "files": 17,
+      "bytes": 210737
+    },
+    {
+      "path": "phase4b/Checks/obj",
+      "files": 21,
+      "bytes": 208534
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/cffLib/__pycache__",
+      "files": 6,
+      "bytes": 205185
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/cffLib/__pycache__",
+      "files": 6,
+      "bytes": 205149
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf4llm/helpers/__pycache__",
+      "files": 6,
+      "bytes": 205008
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf4llm/helpers/__pycache__",
+      "files": 6,
+      "bytes": 204972
+    },
+    {
+      "path": "phase5_2_2/Worker/obj",
+      "files": 25,
+      "bytes": 203135
+    },
+    {
+      "path": "phase5_2_1/Worker/obj",
+      "files": 23,
+      "bytes": 201269
+    },
+    {
+      "path": "phase5_2/Worker/obj",
+      "files": 23,
+      "bytes": 201174
+    },
+    {
+      "path": "phase5_1/Worker/obj",
+      "files": 23,
+      "bytes": 200991
+    },
+    {
+      "path": "phase4c2/Worker/obj",
+      "files": 23,
+      "bytes": 200890
+    },
+    {
+      "path": "phase4a1/Worker/obj",
+      "files": 22,
+      "bytes": 198430
+    },
+    {
+      "path": "phase4c1/Worker/obj",
+      "files": 22,
+      "bytes": 198430
+    },
+    {
+      "path": "phase4a/Worker/obj",
+      "files": 22,
+      "bytes": 198382
+    },
+    {
+      "path": "phase4b/Worker/obj",
+      "files": 22,
+      "bytes": 198382
+    },
+    {
+      "path": "phase2/Worker/obj",
+      "files": 22,
+      "bytes": 198338
+    },
+    {
+      "path": "phase3/Worker/obj",
+      "files": 22,
+      "bytes": 198338
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/whisper/__pycache__",
+      "files": 11,
+      "bytes": 191247
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/whisper/__pycache__",
+      "files": 11,
+      "bytes": 191181
+    },
+    {
+      "path": "phase3/Core/obj",
+      "files": 17,
+      "bytes": 183472
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/drawing/tests/__pycache__",
+      "files": 7,
+      "bytes": 180545
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/drawing/tests/__pycache__",
+      "files": 7,
+      "bytes": 180503
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/packaging/__pycache__",
+      "files": 14,
+      "bytes": 177781
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/packaging/__pycache__",
+      "files": 14,
+      "bytes": 177697
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/community/__pycache__",
+      "files": 14,
+      "bytes": 176412
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/community/__pycache__",
+      "files": 14,
+      "bytes": 176328
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2/_helpers/__pycache__",
+      "files": 11,
+      "bytes": 174261
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/connectivity/__pycache__",
+      "files": 10,
+      "bytes": 173760
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/connectivity/__pycache__",
+      "files": 10,
+      "bytes": 173700
+    },
+    {
+      "path": "results/renders/e4_default_metadata/poppler",
+      "files": 6,
+      "bytes": 172831
+    },
+    {
+      "path": "results/renders/e4_integrity/poppler",
+      "files": 6,
+      "bytes": 172831
+    },
+    {
+      "path": "results/renders/e1_remove_reinsert/poppler",
+      "files": 6,
+      "bytes": 172827
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pygments/formatters/__pycache__",
+      "files": 14,
+      "bytes": 172714
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pygments/formatters/__pycache__",
+      "files": 14,
+      "bytes": 172630
+    },
+    {
+      "path": "results/renders/e1_operand/poppler",
+      "files": 6,
+      "bytes": 172553
+    },
+    {
+      "path": "results/renders/e1_pdfium/poppler",
+      "files": 6,
+      "bytes": 172553
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/bipartite/__pycache__",
+      "files": 15,
+      "bytes": 172506
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/bipartite/__pycache__",
+      "files": 15,
+      "bytes": 172416
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/bipartite/tests/__pycache__",
+      "files": 15,
+      "bytes": 171703
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/bipartite/tests/__pycache__",
+      "files": 15,
+      "bytes": 171613
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/designspaceLib/__pycache__",
+      "files": 5,
+      "bytes": 169624
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/designspaceLib/__pycache__",
+      "files": 5,
+      "bytes": 169594
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/flow/__pycache__",
+      "files": 12,
+      "bytes": 167686
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/flow/__pycache__",
+      "files": 12,
+      "bytes": 167614
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/pdfgen/__pycache__",
+      "files": 6,
+      "bytes": 167535
+    },
+    {
+      "path": "results/renders/e3_bold/poppler",
+      "files": 6,
+      "bytes": 167530
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pygments/__pycache__",
+      "files": 16,
+      "bytes": 167493
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pygments/__pycache__",
+      "files": 16,
+      "bytes": 167397
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/urllib3/__pycache__",
+      "files": 11,
+      "bytes": 167007
+    },
+    {
+      "path": "results/renders/e3_italic/poppler",
+      "files": 6,
+      "bytes": 166975
+    },
+    {
+      "path": "results/renders/e3_bold_compensated/poppler",
+      "files": 6,
+      "bytes": 166960
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/__pycache__",
+      "files": 11,
+      "bytes": 166941
+    },
+    {
+      "path": "results/renders/e3_subset/poppler",
+      "files": 6,
+      "bytes": 166594
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/approximation/__pycache__",
+      "files": 15,
+      "bytes": 166461
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/approximation/__pycache__",
+      "files": 15,
+      "bytes": 166371
+    },
+    {
+      "path": "results/renders/e3_rejected_glyph/poppler",
+      "files": 6,
+      "bytes": 166296
+    },
+    {
+      "path": "results/renders/e3_table/poppler",
+      "files": 6,
+      "bytes": 166276
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/charset_normalizer/__pycache__",
+      "files": 10,
+      "bytes": 163444
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/varLib/instancer/__pycache__",
+      "files": 6,
+      "bytes": 161649
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/varLib/instancer/__pycache__",
+      "files": 6,
+      "bytes": 161613
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pkg_resources/__pycache__",
+      "files": 1,
+      "bytes": 161306
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pkg_resources/__pycache__",
+      "files": 1,
+      "bytes": 161300
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/otlLib/__pycache__",
+      "files": 4,
+      "bytes": 160516
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/otlLib/__pycache__",
+      "files": 4,
+      "bytes": 160492
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/linalg/tests/__pycache__",
+      "files": 4,
+      "bytes": 157576
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/shortest_paths/__pycache__",
+      "files": 6,
+      "bytes": 157071
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/shortest_paths/__pycache__",
+      "files": 6,
+      "bytes": 157035
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/llama/__pycache__",
+      "files": 10,
+      "bytes": 156676
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/llama/__pycache__",
+      "files": 10,
+      "bytes": 156616
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/utils/__pycache__",
+      "files": 26,
+      "bytes": 156491
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/utils/__pycache__",
+      "files": 26,
+      "bytes": 156335
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/graphics/widgets/__pycache__",
+      "files": 8,
+      "bytes": 155881
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/tests/__pycache__",
+      "files": 11,
+      "bytes": 153402
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/tests/__pycache__",
+      "files": 11,
+      "bytes": 153336
+    },
+    {
+      "path": "phase4a1/Core/bin",
+      "files": 3,
+      "bytes": 151200
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/commands/__pycache__",
+      "files": 18,
+      "bytes": 149796
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/commands/__pycache__",
+      "files": 18,
+      "bytes": 149688
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/connectivity/tests/__pycache__",
+      "files": 9,
+      "bytes": 145544
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/connectivity/tests/__pycache__",
+      "files": 9,
+      "bytes": 145490
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/approximation/tests/__pycache__",
+      "files": 15,
+      "bytes": 145059
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/approximation/tests/__pycache__",
+      "files": 15,
+      "bytes": 144969
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/community/tests/__pycache__",
+      "files": 14,
+      "bytes": 144353
+    },
+    {
+      "path": "phase4c2/tools/__pycache__",
+      "files": 7,
+      "bytes": 144336
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/community/tests/__pycache__",
+      "files": 14,
+      "bytes": 144269
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/__pycache__",
+      "files": 2,
+      "bytes": 144090
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/__pycache__",
+      "files": 2,
+      "bytes": 144078
+    },
+    {
+      "path": "phase2/Core/obj",
+      "files": 17,
+      "bytes": 142116
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/shortest_paths/tests/__pycache__",
+      "files": 7,
+      "bytes": 140414
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/shortest_paths/tests/__pycache__",
+      "files": 7,
+      "bytes": 140372
+    },
+    {
+      "path": "phase4a/Core/bin",
+      "files": 3,
+      "bytes": 136812
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/flatbuffers/__pycache__",
+      "files": 10,
+      "bytes": 132314
+    },
+    {
+      "path": ".venv/Lib/site-packages/flatbuffers/__pycache__",
+      "files": 10,
+      "bytes": 132254
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/gpt2/__pycache__",
+      "files": 7,
+      "bytes": 131215
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/gpt2/__pycache__",
+      "files": 7,
+      "bytes": 131173
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/linalg/__pycache__",
+      "files": 3,
+      "bytes": 129422
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pygments/lexers/__pycache__",
+      "files": 3,
+      "bytes": 125989
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pygments/lexers/__pycache__",
+      "files": 3,
+      "bytes": 125971
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/tree/__pycache__",
+      "files": 8,
+      "bytes": 125563
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/tree/__pycache__",
+      "files": 8,
+      "bytes": 125515
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/req/__pycache__",
+      "files": 6,
+      "bytes": 125249
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/req/__pycache__",
+      "files": 6,
+      "bytes": 125213
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf4llm/helpers/chunking/__pycache__",
+      "files": 9,
+      "bytes": 123679
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf4llm/helpers/chunking/__pycache__",
+      "files": 9,
+      "bytes": 123625
+    },
+    {
+      "path": "phase5_2/evidence/visual-qa",
+      "files": 6,
+      "bytes": 123242
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/resolution/resolvelib/__pycache__",
+      "files": 9,
+      "bytes": 120673
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/resolution/resolvelib/__pycache__",
+      "files": 9,
+      "bytes": 120619
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/voltLib/__pycache__",
+      "files": 7,
+      "bytes": 120408
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/voltLib/__pycache__",
+      "files": 7,
+      "bytes": 120366
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/utils/tests/__pycache__",
+      "files": 11,
+      "bytes": 120173
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/utils/tests/__pycache__",
+      "files": 11,
+      "bytes": 120107
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/testing/tests/__pycache__",
+      "files": 2,
+      "bytes": 118367
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/sam2/__pycache__",
+      "files": 11,
+      "bytes": 118018
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/sam2/__pycache__",
+      "files": 11,
+      "bytes": 117952
+    },
+    {
+      "path": "phase3/Core/bin",
+      "files": 3,
+      "bytes": 116736
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/testing/_private/__pycache__",
+      "files": 3,
+      "bytes": 116094
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2_raw/__pycache__",
+      "files": 3,
+      "bytes": 114198
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/__pycache__",
+      "files": 9,
+      "bytes": 112903
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/__pycache__",
+      "files": 9,
+      "bytes": 112849
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/capi/__pycache__",
+      "files": 9,
+      "bytes": 109290
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/capi/__pycache__",
+      "files": 9,
+      "bytes": 109236
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/__pycache__",
+      "files": 7,
+      "bytes": 109187
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/__pycache__",
+      "files": 7,
+      "bytes": 109145
+    },
+    {
+      "path": "results/renders/e5_mixed_edit/poppler",
+      "files": 3,
+      "bytes": 108372
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/quantization/neural_compressor/__pycache__",
+      "files": 4,
+      "bytes": 107072
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/quantization/neural_compressor/__pycache__",
+      "files": 4,
+      "bytes": 107048
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/tree/tests/__pycache__",
+      "files": 8,
+      "bytes": 106912
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/tree/tests/__pycache__",
+      "files": 8,
+      "bytes": 106864
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/cli/__pycache__",
+      "files": 13,
+      "bytes": 105867
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/cli/__pycache__",
+      "files": 13,
+      "bytes": 105119
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/quantization/operators/__pycache__",
+      "files": 24,
+      "bytes": 103945
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/quantization/operators/__pycache__",
+      "files": 24,
+      "bytes": 103801
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pikepdf/models/image/__pycache__",
+      "files": 7,
+      "bytes": 102844
+    },
+    {
+      "path": ".venv/Lib/site-packages/pikepdf/models/image/__pycache__",
+      "files": 7,
+      "bytes": 102802
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/tabulate/__pycache__",
+      "files": 1,
+      "bytes": 102048
+    },
+    {
+      "path": ".venv/Lib/site-packages/tabulate/__pycache__",
+      "files": 1,
+      "bytes": 102042
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/urllib3/util/__pycache__",
+      "files": 13,
+      "bytes": 100787
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/util/__pycache__",
+      "files": 13,
+      "bytes": 100709
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pikepdf/models/__pycache__",
+      "files": 9,
+      "bytes": 99241
+    },
+    {
+      "path": ".venv/Lib/site-packages/pikepdf/models/__pycache__",
+      "files": 9,
+      "bytes": 99187
+    },
+    {
+      "path": "results/renders/e5_scan_no_edit/poppler",
+      "files": 3,
+      "bytes": 97008
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/__pycache__",
+      "files": 13,
+      "bytes": 96389
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/flow/tests/__pycache__",
+      "files": 6,
+      "bytes": 95651
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pikepdf/models/metadata/__pycache__",
+      "files": 7,
+      "bytes": 95635
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/flow/tests/__pycache__",
+      "files": 6,
+      "bytes": 95615
+    },
+    {
+      "path": ".venv/Lib/site-packages/pikepdf/models/metadata/__pycache__",
+      "files": 7,
+      "bytes": 95593
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/linalg/__pycache__",
+      "files": 8,
+      "bytes": 94969
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/linalg/__pycache__",
+      "files": 8,
+      "bytes": 94921
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/graphics/samples/__pycache__",
+      "files": 17,
+      "bytes": 90474
+    },
+    {
+      "path": "results/renders/e2_controlled_reflow/poppler",
+      "files": 3,
+      "bytes": 88761
+    },
+    {
+      "path": "phase2/Core/bin",
+      "files": 3,
+      "bytes": 88692
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/urllib3/contrib/__pycache__",
+      "files": 7,
+      "bytes": 87106
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/contrib/__pycache__",
+      "files": 7,
+      "bytes": 87064
+    },
+    {
+      "path": "results/renders/e2_overflow/poppler",
+      "files": 3,
+      "bytes": 86584
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/linalg/tests/__pycache__",
+      "files": 8,
+      "bytes": 86465
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/linalg/tests/__pycache__",
+      "files": 8,
+      "bytes": 86417
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2_cli/__pycache__",
+      "files": 17,
+      "bytes": 83951
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/platformdirs/__pycache__",
+      "files": 8,
+      "bytes": 83941
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/platformdirs/__pycache__",
+      "files": 8,
+      "bytes": 83893
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/fft/__pycache__",
+      "files": 4,
+      "bytes": 82323
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/matrixlib/tests/__pycache__",
+      "files": 8,
+      "bytes": 81656
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/operators/tests/__pycache__",
+      "files": 5,
+      "bytes": 81554
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/operators/tests/__pycache__",
+      "files": 5,
+      "bytes": 81524
+    },
+    {
+      "path": "results/renders/e2_rejected_expansion/poppler",
+      "files": 3,
+      "bytes": 77706
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/index/__pycache__",
+      "files": 4,
+      "bytes": 75914
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/index/__pycache__",
+      "files": 4,
+      "bytes": 75890
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/vcs/__pycache__",
+      "files": 6,
+      "bytes": 73990
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/vcs/__pycache__",
+      "files": 6,
+      "bytes": 73954
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/network/__pycache__",
+      "files": 8,
+      "bytes": 73947
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/network/__pycache__",
+      "files": 8,
+      "bytes": 73899
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/tests/__pycache__",
+      "files": 12,
+      "bytes": 73626
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/merge/__pycache__",
+      "files": 9,
+      "bytes": 73260
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/merge/__pycache__",
+      "files": 9,
+      "bytes": 73206
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/mtiLib/__pycache__",
+      "files": 2,
+      "bytes": 72776
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/mtiLib/__pycache__",
+      "files": 2,
+      "bytes": 72764
+    },
+    {
+      "path": "phase4a/tools/__pycache__",
+      "files": 3,
+      "bytes": 69113
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/__pycache__",
+      "files": 9,
+      "bytes": 68398
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/quantization/execution_providers/qnn/__pycache__",
+      "files": 6,
+      "bytes": 67926
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/quantization/execution_providers/qnn/__pycache__",
+      "files": 6,
+      "bytes": 67890
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/models/__pycache__",
+      "files": 12,
+      "bytes": 67785
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/models/__pycache__",
+      "files": 12,
+      "bytes": 67713
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/unicodedata/__pycache__",
+      "files": 6,
+      "bytes": 65831
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/unicodedata/__pycache__",
+      "files": 6,
+      "bytes": 65795
+    },
+    {
+      "path": "__pycache__",
+      "files": 2,
+      "bytes": 61819
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/metadata/__pycache__",
+      "files": 4,
+      "bytes": 60292
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/metadata/__pycache__",
+      "files": 4,
+      "bytes": 60268
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/t5/__pycache__",
+      "files": 6,
+      "bytes": 59949
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/t5/__pycache__",
+      "files": 6,
+      "bytes": 59913
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/misc/filesystem/__pycache__",
+      "files": 12,
+      "bytes": 57079
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/misc/filesystem/__pycache__",
+      "files": 12,
+      "bytes": 57007
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/traversal/__pycache__",
+      "files": 6,
+      "bytes": 56719
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/traversal/__pycache__",
+      "files": 6,
+      "bytes": 56683
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/fft/tests/__pycache__",
+      "files": 3,
+      "bytes": 56647
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/truststore/__pycache__",
+      "files": 6,
+      "bytes": 56449
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/truststore/__pycache__",
+      "files": 6,
+      "bytes": 56413
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/cu2qu/__pycache__",
+      "files": 7,
+      "bytes": 56385
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/cu2qu/__pycache__",
+      "files": 7,
+      "bytes": 56343
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/longformer/__pycache__",
+      "files": 5,
+      "bytes": 55775
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/longformer/__pycache__",
+      "files": 5,
+      "bytes": 55745
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/packaging/licenses/__pycache__",
+      "files": 2,
+      "bytes": 55710
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/operators/__pycache__",
+      "files": 5,
+      "bytes": 55692
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/operators/__pycache__",
+      "files": 5,
+      "bytes": 55662
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/distro/__pycache__",
+      "files": 3,
+      "bytes": 55179
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/distro/__pycache__",
+      "files": 3,
+      "bytes": 55161
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/msgpack/__pycache__",
+      "files": 4,
+      "bytes": 53727
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/msgpack/__pycache__",
+      "files": 4,
+      "bytes": 53703
+    },
+    {
+      "path": "phase3/tools/__pycache__",
+      "files": 2,
+      "bytes": 53578
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/varLib/avar/__pycache__",
+      "files": 6,
+      "bytes": 53289
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/varLib/avar/__pycache__",
+      "files": 6,
+      "bytes": 53253
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf4llm/ocr/__pycache__",
+      "files": 13,
+      "bytes": 53228
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf4llm/ocr/__pycache__",
+      "files": 13,
+      "bytes": 53150
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/colorLib/__pycache__",
+      "files": 6,
+      "bytes": 51678
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/colorLib/__pycache__",
+      "files": 6,
+      "bytes": 51642
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__",
+      "files": 2,
+      "bytes": 51574
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__",
+      "files": 2,
+      "bytes": 51562
+    },
+    {
+      "path": "phase5_2_2/tools/__pycache__",
+      "files": 2,
+      "bytes": 50763
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/assortativity/tests/__pycache__",
+      "files": 7,
+      "bytes": 50417
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/assortativity/tests/__pycache__",
+      "files": 7,
+      "bytes": 50375
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__",
+      "files": 9,
+      "bytes": 48407
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__",
+      "files": 9,
+      "bytes": 48353
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/components/tests/__pycache__",
+      "files": 7,
+      "bytes": 48251
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/components/tests/__pycache__",
+      "files": 7,
+      "bytes": 48209
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/components/__pycache__",
+      "files": 7,
+      "bytes": 47257
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/components/__pycache__",
+      "files": 7,
+      "bytes": 47215
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/traversal/tests/__pycache__",
+      "files": 6,
+      "bytes": 47154
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/traversal/tests/__pycache__",
+      "files": 6,
+      "bytes": 47118
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/resolvelib/__pycache__",
+      "files": 5,
+      "bytes": 46749
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/resolvelib/__pycache__",
+      "files": 5,
+      "bytes": 46719
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/ort_format_model/__pycache__",
+      "files": 5,
+      "bytes": 45460
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/ort_format_model/__pycache__",
+      "files": 5,
+      "bytes": 45430
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/operations/__pycache__",
+      "files": 4,
+      "bytes": 43497
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/operations/__pycache__",
+      "files": 4,
+      "bytes": 43473
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/phi2/__pycache__",
+      "files": 3,
+      "bytes": 43357
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/phi2/__pycache__",
+      "files": 3,
+      "bytes": 43339
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/urllib3/packages/__pycache__",
+      "files": 2,
+      "bytes": 41546
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/packages/__pycache__",
+      "files": 2,
+      "bytes": 41534
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_typing/__pycache__",
+      "files": 12,
+      "bytes": 38548
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/coloring/__pycache__",
+      "files": 3,
+      "bytes": 38019
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/coloring/__pycache__",
+      "files": 3,
+      "bytes": 38001
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/_text_extraction/_layout_mode/__pycache__",
+      "files": 4,
+      "bytes": 37988
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pygments/filters/__pycache__",
+      "files": 1,
+      "bytes": 37957
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pygments/filters/__pycache__",
+      "files": 1,
+      "bytes": 37951
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/matrixlib/__pycache__",
+      "files": 2,
+      "bytes": 36649
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/assortativity/__pycache__",
+      "files": 6,
+      "bytes": 36432
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf4llm/__pycache__",
+      "files": 5,
+      "bytes": 36415
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/assortativity/__pycache__",
+      "files": 6,
+      "bytes": 36396
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf4llm/__pycache__",
+      "files": 5,
+      "bytes": 36385
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/operations/install/__pycache__",
+      "files": 3,
+      "bytes": 36299
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/operations/install/__pycache__",
+      "files": 3,
+      "bytes": 36281
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/quantization/fusions/__pycache__",
+      "files": 5,
+      "bytes": 35309
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/quantization/fusions/__pycache__",
+      "files": 5,
+      "bytes": 35279
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/locations/__pycache__",
+      "files": 4,
+      "bytes": 35216
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/locations/__pycache__",
+      "files": 4,
+      "bytes": 35192
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf/layout/presidio/__pycache__",
+      "files": 2,
+      "bytes": 34737
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf/layout/presidio/__pycache__",
+      "files": 2,
+      "bytes": 34725
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/tomli/__pycache__",
+      "files": 4,
+      "bytes": 34279
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/qnn/__pycache__",
+      "files": 3,
+      "bytes": 34275
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/qnn/__pycache__",
+      "files": 3,
+      "bytes": 34257
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/tomli/__pycache__",
+      "files": 4,
+      "bytes": 34255
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_utils/__pycache__",
+      "files": 4,
+      "bytes": 33332
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/link_analysis/__pycache__",
+      "files": 3,
+      "bytes": 33028
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/link_analysis/__pycache__",
+      "files": 3,
+      "bytes": 33010
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__",
+      "files": 3,
+      "bytes": 32543
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__",
+      "files": 3,
+      "bytes": 32525
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/mobile_helpers/__pycache__",
+      "files": 2,
+      "bytes": 31240
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/mobile_helpers/__pycache__",
+      "files": 2,
+      "bytes": 31228
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/svgLib/path/__pycache__",
+      "files": 4,
+      "bytes": 30666
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/svgLib/path/__pycache__",
+      "files": 4,
+      "bytes": 30642
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/diff/__pycache__",
+      "files": 5,
+      "bytes": 29208
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/diff/__pycache__",
+      "files": 5,
+      "bytes": 29178
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/readwrite/json_graph/__pycache__",
+      "files": 5,
+      "bytes": 29006
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/metadata/importlib/__pycache__",
+      "files": 4,
+      "bytes": 28983
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/readwrite/json_graph/__pycache__",
+      "files": 5,
+      "bytes": 28976
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/metadata/importlib/__pycache__",
+      "files": 4,
+      "bytes": 28959
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/minors/__pycache__",
+      "files": 2,
+      "bytes": 28528
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/minors/__pycache__",
+      "files": 2,
+      "bytes": 28516
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/coloring/tests/__pycache__",
+      "files": 2,
+      "bytes": 28392
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/coloring/tests/__pycache__",
+      "files": 2,
+      "bytes": 28380
+    },
+    {
+      "path": "phase5_2_1/tools/__pycache__",
+      "files": 1,
+      "bytes": 27871
+    },
+    {
+      "path": "phase4c1/tools/__pycache__",
+      "files": 1,
+      "bytes": 27869
+    },
+    {
+      "path": "phase5_1/tools/__pycache__",
+      "files": 1,
+      "bytes": 27869
+    },
+    {
+      "path": "phase5_2/tools/__pycache__",
+      "files": 1,
+      "bytes": 27869
+    },
+    {
+      "path": "phase4a1/tools/__pycache__",
+      "files": 1,
+      "bytes": 27843
+    },
+    {
+      "path": "phase4b/tools/__pycache__",
+      "files": 1,
+      "bytes": 27842
+    },
+    {
+      "path": "phase2/tools/__pycache__",
+      "files": 1,
+      "bytes": 27774
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/minors/tests/__pycache__",
+      "files": 1,
+      "bytes": 27503
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/minors/tests/__pycache__",
+      "files": 1,
+      "bytes": 27497
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/misc/plistlib/__pycache__",
+      "files": 1,
+      "bytes": 26682
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/misc/plistlib/__pycache__",
+      "files": 1,
+      "bytes": 26676
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/t1Lib/__pycache__",
+      "files": 1,
+      "bytes": 26631
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/t1Lib/__pycache__",
+      "files": 1,
+      "bytes": 26625
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/_text_extraction/__pycache__",
+      "files": 2,
+      "bytes": 25653
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/qu2cu/__pycache__",
+      "files": 5,
+      "bytes": 24755
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/qu2cu/__pycache__",
+      "files": 5,
+      "bytes": 24725
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2/internal/__pycache__",
+      "files": 4,
+      "bytes": 23650
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/ctypeslib/__pycache__",
+      "files": 2,
+      "bytes": 22908
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/resolution/legacy/__pycache__",
+      "files": 2,
+      "bytes": 22871
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/resolution/legacy/__pycache__",
+      "files": 2,
+      "bytes": 22859
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/operations/build/__pycache__",
+      "files": 8,
+      "bytes": 22540
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/operations/build/__pycache__",
+      "files": 8,
+      "bytes": 22492
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/annotations/__pycache__",
+      "files": 4,
+      "bytes": 22195
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/otlLib/optimize/__pycache__",
+      "files": 3,
+      "bytes": 21301
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/otlLib/optimize/__pycache__",
+      "files": 3,
+      "bytes": 21283
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/algorithms/link_analysis/tests/__pycache__",
+      "files": 3,
+      "bytes": 20830
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/algorithms/link_analysis/tests/__pycache__",
+      "files": 3,
+      "bytes": 20812
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/networkx/readwrite/json_graph/tests/__pycache__",
+      "files": 5,
+      "bytes": 20585
+    },
+    {
+      "path": ".venv/Lib/site-packages/networkx/readwrite/json_graph/tests/__pycache__",
+      "files": 5,
+      "bytes": 20555
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/__pycache__",
+      "files": 1,
+      "bytes": 19886
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/__pycache__",
+      "files": 1,
+      "bytes": 19880
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/f2py/_backends/__pycache__",
+      "files": 4,
+      "bytes": 19073
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pyproject_hooks/__pycache__",
+      "files": 2,
+      "bytes": 18885
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pyproject_hooks/__pycache__",
+      "files": 2,
+      "bytes": 18873
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/typing/tests/__pycache__",
+      "files": 4,
+      "bytes": 17288
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/reportlab/__pycache__",
+      "files": 3,
+      "bytes": 16784
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__",
+      "files": 2,
+      "bytes": 16482
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__",
+      "files": 2,
+      "bytes": 16470
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/distributions/__pycache__",
+      "files": 5,
+      "bytes": 16462
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/distributions/__pycache__",
+      "files": 5,
+      "bytes": 16432
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdf/_crypt_providers/__pycache__",
+      "files": 5,
+      "bytes": 16388
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/core/__pycache__",
+      "files": 19,
+      "bytes": 15916
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/typing/__pycache__",
+      "files": 2,
+      "bytes": 15081
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/isoschematron/__pycache__",
+      "files": 1,
+      "bytes": 14243
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/charset_normalizer/cli/__pycache__",
+      "files": 2,
+      "bytes": 14081
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/backend/__pycache__",
+      "files": 3,
+      "bytes": 13593
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/backend/__pycache__",
+      "files": 3,
+      "bytes": 13575
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/bert/__pycache__",
+      "files": 2,
+      "bytes": 12990
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/bert/__pycache__",
+      "files": 2,
+      "bytes": 12978
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/testing/__pycache__",
+      "files": 3,
+      "bytes": 11785
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/cachecontrol/caches/__pycache__",
+      "files": 3,
+      "bytes": 11047
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__pycache__",
+      "files": 3,
+      "bytes": 11029
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/random/__pycache__",
+      "files": 2,
+      "bytes": 10510
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/encodings/__pycache__",
+      "files": 4,
+      "bytes": 10269
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/encodings/__pycache__",
+      "files": 4,
+      "bytes": 10245
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__",
+      "files": 3,
+      "bytes": 9508
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__",
+      "files": 3,
+      "bytes": 9490
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/quantization/CalTableFlatBuffers/__pycache__",
+      "files": 3,
+      "bytes": 9240
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/quantization/CalTableFlatBuffers/__pycache__",
+      "files": 3,
+      "bytes": 9222
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2/__pycache__",
+      "files": 6,
+      "bytes": 8089
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf4llm/helpers/table_html/__pycache__",
+      "files": 3,
+      "bytes": 7505
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf4llm/helpers/table_html/__pycache__",
+      "files": 3,
+      "bytes": 7487
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2_cfg/_shared/__pycache__",
+      "files": 2,
+      "bytes": 6757
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/random/_examples/numba/__pycache__",
+      "files": 2,
+      "bytes": 6678
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/pygments/styles/__pycache__",
+      "files": 2,
+      "bytes": 6404
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/pygments/styles/__pycache__",
+      "files": 2,
+      "bytes": 6392
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/transformers/models/bart/__pycache__",
+      "files": 2,
+      "bytes": 6254
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/transformers/models/bart/__pycache__",
+      "files": 2,
+      "bytes": 6242
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/doc/__pycache__",
+      "files": 1,
+      "bytes": 5650
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_pyinstaller/tests/__pycache__",
+      "files": 3,
+      "bytes": 5264
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pymupdf4llm/llama/__pycache__",
+      "files": 1,
+      "bytes": 4529
+    },
+    {
+      "path": ".venv/Lib/site-packages/pymupdf4llm/llama/__pycache__",
+      "files": 1,
+      "bytes": 4523
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/certifi/__pycache__",
+      "files": 3,
+      "bytes": 4309
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/certifi/__pycache__",
+      "files": 3,
+      "bytes": 4291
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/random/_examples/cffi/__pycache__",
+      "files": 2,
+      "bytes": 4018
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/__pycache__",
+      "files": 3,
+      "bytes": 3865
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/__pycache__",
+      "files": 3,
+      "bytes": 3847
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/config/__pycache__",
+      "files": 1,
+      "bytes": 3765
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/config/__pycache__",
+      "files": 1,
+      "bytes": 3759
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/google/protobuf/compiler/__pycache__",
+      "files": 2,
+      "bytes": 3627
+    },
+    {
+      "path": ".venv/Lib/site-packages/google/protobuf/compiler/__pycache__",
+      "files": 2,
+      "bytes": 3615
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/qdq_helpers/__pycache__",
+      "files": 2,
+      "bytes": 1978
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/qdq_helpers/__pycache__",
+      "files": 2,
+      "bytes": 1966
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/google/protobuf/pyext/__pycache__",
+      "files": 2,
+      "bytes": 1958
+    },
+    {
+      "path": ".venv/Lib/site-packages/google/protobuf/pyext/__pycache__",
+      "files": 2,
+      "bytes": 1946
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pypdfium2_cfg/__pycache__",
+      "files": 2,
+      "bytes": 1715
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_internal/resolution/__pycache__",
+      "files": 2,
+      "bytes": 1470
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_internal/resolution/__pycache__",
+      "files": 2,
+      "bytes": 1458
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fitz/__pycache__",
+      "files": 3,
+      "bytes": 1350
+    },
+    {
+      "path": ".venv/Lib/site-packages/fitz/__pycache__",
+      "files": 3,
+      "bytes": 1332
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_core/tests/examples/cython/__pycache__",
+      "files": 1,
+      "bytes": 1313
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_pyinstaller/__pycache__",
+      "files": 2,
+      "bytes": 1213
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/datasets/__pycache__",
+      "files": 1,
+      "bytes": 977
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/datasets/__pycache__",
+      "files": 1,
+      "bytes": 971
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/_yaml/__pycache__",
+      "files": 1,
+      "bytes": 904
+    },
+    {
+      "path": ".venv/Lib/site-packages/_yaml/__pycache__",
+      "files": 1,
+      "bytes": 898
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/_core/tests/examples/limited_api/__pycache__",
+      "files": 1,
+      "bytes": 853
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/pip/_vendor/resolvelib/compat/__pycache__",
+      "files": 2,
+      "bytes": 712
+    },
+    {
+      "path": ".venv/Lib/site-packages/pip/_vendor/resolvelib/compat/__pycache__",
+      "files": 2,
+      "bytes": 700
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/fontTools/svgLib/__pycache__",
+      "files": 1,
+      "bytes": 330
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/char/__pycache__",
+      "files": 1,
+      "bytes": 325
+    },
+    {
+      "path": ".venv/Lib/site-packages/fontTools/svgLib/__pycache__",
+      "files": 1,
+      "bytes": 324
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/strings/__pycache__",
+      "files": 1,
+      "bytes": 323
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/rec/__pycache__",
+      "files": 1,
+      "bytes": 319
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/onnxruntime/tools/ort_format_model/ort_flatbuffers_py/__pycache__",
+      "files": 1,
+      "bytes": 270
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/tools/ort_format_model/ort_flatbuffers_py/__pycache__",
+      "files": 1,
+      "bytes": 264
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/google/protobuf/testdata/__pycache__",
+      "files": 1,
+      "bytes": 241
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/numpy/random/tests/data/__pycache__",
+      "files": 1,
+      "bytes": 240
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/includes/libexslt/__pycache__",
+      "files": 1,
+      "bytes": 239
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/includes/extlibs/__pycache__",
+      "files": 1,
+      "bytes": 238
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/includes/libxslt/__pycache__",
+      "files": 1,
+      "bytes": 238
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/google/protobuf/util/__pycache__",
+      "files": 1,
+      "bytes": 237
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/includes/libxml/__pycache__",
+      "files": 1,
+      "bytes": 237
+    },
+    {
+      "path": ".venv/Lib/site-packages/google/protobuf/testdata/__pycache__",
+      "files": 1,
+      "bytes": 235
+    },
+    {
+      "path": ".venv/Lib/site-packages/google/protobuf/util/__pycache__",
+      "files": 1,
+      "bytes": 231
+    },
+    {
+      "path": ".venv-clean/Lib/site-packages/lxml/includes/__pycache__",
+      "files": 1,
+      "bytes": 230
+    }
+  ],
+  "trackedDuplicateGroups": 1394,
+  "trackedDuplicateBytes": 434833408,
+  "trackedUniqueContentBytes": 619541229,
+  "workspaceDuplicateBytes": 1341228159,
+  "localWithoutVerifiedBackupFiles": 27356,
+  "localWithoutVerifiedBackupBytes": 1207950393,
+  "gitCountObjects": "count: 60\nsize: 2846\nin-pack: 9524\npacks: 5\nsize-pack: 77627\nprune-packable: 0\ngarbage: 0\nsize-garbage: 0\n",
+  "errors": [],
+  "skippedReparsePaths": [],
+  "limitations": "Logical byte counts, not allocated disk usage. Duplicate logical path bytes are not independent Git blob storage. OneDrive folder membership is not a verified off-machine backup. .git is measured but never a cleanup candidate. Live filesystem is a time-bounded scan, not a volume snapshot."
+}

@@ -37,6 +37,22 @@ for name,v in sorted(localDirs.items(),key=lambda kv:kv[1]['bytes'],reverse=True
  else:classification='Requiring preservation';rule='Unique local outputs/environment or evidence not verified in external archive; no blanket removal.'
  directoryRecords.append(dict(path=name,**v,classification=classification,retention=rule))
 (I/'local-directory-classification.json').write_text(json.dumps(directoryRecords,indent=2),encoding='utf-8',newline='\n')
+# Also classify identified tracked/mixed render/evidence/dependency directories.
+allDirs=collections.defaultdict(lambda:dict(bytes=0,files=0,tracked=0,localDocumentFiles=0))
+for row in allfiles:
+ for parent in Path(row['path']).parents:
+  if parent.as_posix()=='.':continue
+  d=allDirs[parent.as_posix()];d['bytes']+=int(row['bytes']);d['files']+=1;d['tracked']+=row['status']=='tracked';d['localDocumentFiles']+=row['status'] in ['ignored','untracked'] and Path(row['path']).suffix.lower() in ['.pdf','.docx','.xlsx','.pptx']
+identified=[]
+for name,d in allDirs.items():
+ parts=name.split('/');leaf=parts[-1].lower()
+ if d['bytes']<1048576 and leaf not in ['bin','obj','test-work','__pycache__']:continue
+ if parts[0]=='.git' or (not any(t in parts for t in ['run','evidence','test-work','.venv','.venv-clean','.local-generated']) and d['tracked']==d['files']):kind='Essential';why='Source/fixture/notice or Git administration: retain'
+ elif any(t in parts for t in ['bin','obj','__pycache__']) and not d['localDocumentFiles']:kind='Reproducible';why='Compiler/Python intermediates; file-level review and approval required, never a directory sweep'
+ else:kind='Requiring preservation';why='Historical artifacts, unverified environment or unique local documents/evidence'
+ identified.append(dict(path=name,**d,classification=kind,reason=why,cleanupApproved=False))
+(I/'directory-retention.json').write_text(json.dumps(sorted(identified,key=lambda d:d['bytes'],reverse=True),indent=2),encoding='utf-8',newline='\n')
+
 files=[]
 for row in allfiles:
  rel=row['path'];sha=row['sha256']

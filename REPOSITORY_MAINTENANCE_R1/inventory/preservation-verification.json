@@ -1,0 +1,202 @@
+{
+  "preexistingNonGitMissing": [],
+  "startingTrackedFiles": 17039,
+  "allStartingTrackedPreservedExceptIgnore": true,
+  "intentionalChanges": [
+    {
+      "path": ".gitignore",
+      "before": "0e0effc8394ff9a23f7b70ec5ffb77b7fa63d3abdea6659e17721fd06de46355",
+      "after": "f01414a48e5f01f0b571fba28b8f99ad7550139fec2dd54198a26692d6ecd864"
+    }
+  ],
+  "preexistingLocalNonBuildUnchanged": 28783,
+  "regeneratedCacheFiles": [
+    {
+      "path": "phase5_2_2/App/bin/Release/net8.0-windows/Core.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/bin/Release/net8.0-windows/Core.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/bin/Release/net8.0-windows/PdfEditorPrototype.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/bin/Release/net8.0-windows/PdfEditorPrototype.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/obj/Release/net8.0-windows/App.csproj.AssemblyReference.cache",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/obj/Release/net8.0-windows/App.sourcelink.json",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/obj/Release/net8.0-windows/PdfEditorPrototype.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/App/obj/Release/net8.0-windows/PdfEditorPrototype.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/bin/Release/net8.0-windows/Checks.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/bin/Release/net8.0-windows/Checks.exe",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/bin/Release/net8.0-windows/Checks.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/bin/Release/net8.0-windows/Core.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/bin/Release/net8.0-windows/Core.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/apphost.exe",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/Checks.AssemblyInfo.cs",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/Checks.AssemblyInfoInputs.cache",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/Checks.csproj.AssemblyReference.cache",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/Checks.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/Checks.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/Checks.sourcelink.json",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/ref/Checks.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Checks/obj/Release/net8.0-windows/refint/Checks.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Core/bin/Release/net8.0-windows/Core.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Core/bin/Release/net8.0-windows/Core.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Core/obj/Release/net8.0-windows/Core.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Core/obj/Release/net8.0-windows/Core.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Core/obj/Release/net8.0-windows/Core.sourcelink.json",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/bin/Release/net8.0-windows/Core.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/bin/Release/net8.0-windows/Core.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/bin/Release/net8.0-windows/PdfWorker.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/bin/Release/net8.0-windows/PdfWorker.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/obj/Release/net8.0-windows/PdfWorker.dll",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/obj/Release/net8.0-windows/PdfWorker.pdb",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/obj/Release/net8.0-windows/Worker.csproj.AssemblyReference.cache",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    },
+    {
+      "path": "phase5_2_2/Worker/obj/Release/net8.0-windows/Worker.sourcelink.json",
+      "reason": "Compiler/model/Python build cache regenerated during authorised build; not maintenance cleanup",
+      "existedAfter": true
+    }
+  ],
+  "preexistingUntracked": [
+    {
+      "path": "phase5_1/run/paragraph-examples/Word-two-rows-edited-manual-test.pdf",
+      "bytes": 43149,
+      "hashUnchanged": true,
+      "preserved": true,
+      "cleanupExcluded": true
+    }
+  ],
+  "unexpectedChanges": [],
+  "cleanupExecuted": false,
+  "note": "New R1 outputs/metadata are additive. Compiler caches may change when rebuilding. No user/private document, fixture, evidence, licence or old source removal is permitted."
+}

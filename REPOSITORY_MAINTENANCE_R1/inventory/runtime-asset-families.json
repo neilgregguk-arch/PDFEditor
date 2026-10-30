@@ -1,0 +1,871 @@
+{
+  "families": [
+    {
+      "name": "Core.dll",
+      "distinctHashes": 11,
+      "families": [
+        {
+          "sha256": "3bfef803d141a5e4f4f92742572a4854e3d037dec076f57f4687171406fb062f",
+          "paths": [
+            "phase5_2_1/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "4fc1c6223f49db80e657bea7410315e5c7cfd62b6687d8b3399296f51693c2f5",
+          "paths": [
+            "phase2/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "56e21f0ef94617517a3598706e27f2060db9156814962f91942331a6f13ab743",
+          "paths": [
+            "phase5_2/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "5865272fedaa43a6b996593be471501bf73cfb774e246cf0da617e84911e5535",
+          "paths": [
+            "phase5_1/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "8ddc413f8bb293d20d1bf63c42d532420d96830fdfa17b66ec71d2106c03b7fd",
+          "paths": [
+            "phase5_2_2/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "a4b200c4503e311405d693ae306820406299258181d8551e42535a482525fe77",
+          "paths": [
+            "phase4a/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "a9e563248390b69659ad0268480487adac7f58196408bb8c04d93017f3f5afc5",
+          "paths": [
+            "phase4a1/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "b2bf66b47dccfe7355614e10ba4bd711833acf54b4c46b6558b30b2c0cf9184b",
+          "paths": [
+            "phase4c2/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "c8a87d65a26df4ef241fcf56e54641432662140ec6f2d0d00e8824fd680561ff",
+          "paths": [
+            "phase4b/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "cf502b7a77aeae4e63f61a348f91e632e3836d6402fae1e14849a015ce15e01b",
+          "paths": [
+            "phase3/run/Core.dll"
+          ]
+        },
+        {
+          "sha256": "e01363dae76836bf0acfe6fd67b0519526729bb533d69d19d27aa78c9e5e8163",
+          "paths": [
+            "phase4c1/run/Core.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FONT-LICENSE.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+          "paths": [
+            "phase2/run/assets/FONT-LICENSE.txt",
+            "phase2/runtime/assets/FONT-LICENSE.txt",
+            "phase3/run/assets/FONT-LICENSE.txt",
+            "phase3/runtime/assets/FONT-LICENSE.txt",
+            "phase4a/run/assets/FONT-LICENSE.txt",
+            "phase4a/run/font-corpus/FONT-LICENSE.txt",
+            "phase4a/runtime/assets/FONT-LICENSE.txt",
+            "phase4a1/run/assets/FONT-LICENSE.txt",
+            "phase4a1/run/font-corpus/FONT-LICENSE.txt",
+            "phase4a1/runtime/assets/FONT-LICENSE.txt",
+            "phase4b/run/assets/FONT-LICENSE.txt",
+            "phase4b/run/font-corpus/FONT-LICENSE.txt",
+            "phase4b/runtime/assets/FONT-LICENSE.txt",
+            "phase4c1/run/assets/FONT-LICENSE.txt",
+            "phase4c1/run/font-corpus/FONT-LICENSE.txt",
+            "phase4c1/runtime/assets/FONT-LICENSE.txt",
+            "phase4c2/run/assets/FONT-LICENSE.txt",
+            "phase4c2/run/font-corpus/FONT-LICENSE.txt",
+            "phase4c2/runtime/assets/FONT-LICENSE.txt",
+            "phase5_1/run/assets/FONT-LICENSE.txt",
+            "phase5_1/run/font-corpus/FONT-LICENSE.txt",
+            "phase5_1/runtime/assets/FONT-LICENSE.txt",
+            "phase5_2/run/assets/FONT-LICENSE.txt",
+            "phase5_2/run/font-corpus/FONT-LICENSE.txt",
+            "phase5_2/runtime/assets/FONT-LICENSE.txt",
+            "phase5_2_1/run/assets/FONT-LICENSE.txt",
+            "phase5_2_1/run/font-corpus/FONT-LICENSE.txt",
+            "phase5_2_1/runtime/assets/FONT-LICENSE.txt",
+            "phase5_2_2/run/assets/FONT-LICENSE.txt",
+            "phase5_2_2/run/font-corpus/FONT-LICENSE.txt",
+            "phase5_2_2/runtime/assets/FONT-LICENSE.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LICENSE.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+          "paths": [
+            "phase5_2/run/original-paragraphs/LICENSE.txt",
+            "phase5_2_1/run/original-paragraphs/LICENSE.txt",
+            "phase5_2_2/run/original-paragraphs/LICENSE.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PdfEditorPrototype.dll",
+      "distinctHashes": 11,
+      "families": [
+        {
+          "sha256": "1e36a04fe9805605ac9a1da8b37a1cbd8d9f108bbf2b4f9684954d8a1874075d",
+          "paths": [
+            "phase4c1/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "2c371670f504c589dda12b5581f538e57ad5aa59790fe11306aadd9b6086228f",
+          "paths": [
+            "phase4a1/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "3dcbf20c8325f55d13e01a61107b01bf325a01278e21772ad7bfe0f16b893b99",
+          "paths": [
+            "phase5_2_1/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "4f5fb77d771842075cbb023500e1bffba65c2d7b7fa0639376ab9e605ada80fe",
+          "paths": [
+            "phase5_1/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "5830b56a4dac71b456ac5335263bada151729c793a13455000631ef7511acafe",
+          "paths": [
+            "phase3/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "5b06c148ad4e719d1f9fb547c25213591f365591dcfe17f61a668a2ff14842d9",
+          "paths": [
+            "phase4c2/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "b62bb6600c1d90d17a11c37896a349291f43c2cc5cff3e31ae15d234b236ae43",
+          "paths": [
+            "phase5_2/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "c260e328c8793861f20582c6f6adc72dc55bf601f7d19385a6a09f867b10d2d4",
+          "paths": [
+            "phase2/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "c3dac458e3291e990fbf65d5fed9e25f24a34d12345f9102431ab720bdd44dd3",
+          "paths": [
+            "phase5_2_2/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "cccb777f0a72467bdfa9e9f5556cc7e2feef20909187d323f29ea05983311de7",
+          "paths": [
+            "phase4a/run/PdfEditorPrototype.dll"
+          ]
+        },
+        {
+          "sha256": "d4e225df2c033ed247a67e263712606d77ddf54877022d1fd584d43a1751a591",
+          "paths": [
+            "phase4b/run/PdfEditorPrototype.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PdfWorker.dll",
+      "distinctHashes": 11,
+      "families": [
+        {
+          "sha256": "06d707e08022caf01d8027ef49ab2d8faa18bfb9793767724109172ab12d47ee",
+          "paths": [
+            "phase2/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "56039eb907ed76e387ccd8cd921abce69c41a9c8ab6643a1b79ca654c1e0d7af",
+          "paths": [
+            "phase5_2_2/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "5ae00262f2f8e7255ef7ecaf830fef680ab6a5f7b2e510139d4b54aeac44e842",
+          "paths": [
+            "phase4b/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "695fd16f8f849a44fa80b13da4ad2d35cdb42b67c4169b7e21c33dd3688236d2",
+          "paths": [
+            "phase5_2/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "8016ac87996c13cd139d37fe330dbb41bff514a3cf6327d014e3aaa29f1b5e06",
+          "paths": [
+            "phase5_1/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "8021048a426d360ff8daef41094d77cbe761aab5baed9582c91561c122d34672",
+          "paths": [
+            "phase4a/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "84bec5ec6ecd9cf849ec4eba47b0dc7b65f5cb70050722d2856ec56c3d2e655d",
+          "paths": [
+            "phase4a1/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "92c60c363c0eef9f4f80542a882fd0feef5d61b7979a2369f2ca963577e630ba",
+          "paths": [
+            "phase3/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "a8f689f43f9e0b8033e5823e1c22a0e771c0a7072da176406fb0c2fbc4698cdb",
+          "paths": [
+            "phase4c2/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "be026dc3d051c6f82ef485ee91b5bc16ea0140eba148d2423e8a6a736ad39dbd",
+          "paths": [
+            "phase4c1/run/PdfWorker.dll"
+          ]
+        },
+        {
+          "sha256": "feee3a2cef01640e58cf1069f4bcf99dd38ead93893f8773234a23a4221e51b9",
+          "paths": [
+            "phase5_2_1/run/PdfWorker.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PrototypeSansAscii.ttf",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "ced1b2cb9d52bc4373ee3178af5bdd2cd8853bc49c5d06420dc3114f336ef398",
+          "paths": [
+            "phase2/run/assets/PrototypeSansAscii.ttf",
+            "phase2/runtime/assets/PrototypeSansAscii.ttf",
+            "phase3/run/assets/PrototypeSansAscii.ttf",
+            "phase3/runtime/assets/PrototypeSansAscii.ttf",
+            "phase4a/run/assets/PrototypeSansAscii.ttf",
+            "phase4a/runtime/assets/PrototypeSansAscii.ttf",
+            "phase4a1/run/assets/PrototypeSansAscii.ttf",
+            "phase4a1/runtime/assets/PrototypeSansAscii.ttf",
+            "phase4b/run/assets/PrototypeSansAscii.ttf",
+            "phase4b/runtime/assets/PrototypeSansAscii.ttf",
+            "phase4c1/run/assets/PrototypeSansAscii.ttf",
+            "phase4c1/runtime/assets/PrototypeSansAscii.ttf",
+            "phase4c2/run/assets/PrototypeSansAscii.ttf",
+            "phase4c2/runtime/assets/PrototypeSansAscii.ttf",
+            "phase5_1/run/assets/PrototypeSansAscii.ttf",
+            "phase5_1/runtime/assets/PrototypeSansAscii.ttf",
+            "phase5_2/run/assets/PrototypeSansAscii.ttf",
+            "phase5_2/runtime/assets/PrototypeSansAscii.ttf",
+            "phase5_2_1/run/assets/PrototypeSansAscii.ttf",
+            "phase5_2_1/runtime/assets/PrototypeSansAscii.ttf",
+            "phase5_2_2/run/assets/PrototypeSansAscii.ttf",
+            "phase5_2_2/runtime/assets/PrototypeSansAscii.ttf"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "abseil.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "f54fff0b905df5b3464527c652a30e903b172d6dcab4d89b5e6f105d5e4a4603",
+          "paths": [
+            "phase2/run/licenses/PDFium/abseil.txt",
+            "phase2/runtime/licenses/PDFium/abseil.txt",
+            "phase3/run/licenses/PDFium/abseil.txt",
+            "phase3/runtime/licenses/PDFium/abseil.txt",
+            "phase4a/run/licenses/PDFium/abseil.txt",
+            "phase4a/runtime/licenses/PDFium/abseil.txt",
+            "phase4a1/run/licenses/PDFium/abseil.txt",
+            "phase4a1/runtime/licenses/PDFium/abseil.txt",
+            "phase4b/run/licenses/PDFium/abseil.txt",
+            "phase4b/runtime/licenses/PDFium/abseil.txt",
+            "phase4c1/run/licenses/PDFium/abseil.txt",
+            "phase4c1/runtime/licenses/PDFium/abseil.txt",
+            "phase4c2/run/licenses/PDFium/abseil.txt",
+            "phase4c2/runtime/licenses/PDFium/abseil.txt",
+            "phase5_1/run/licenses/PDFium/abseil.txt",
+            "phase5_1/runtime/licenses/PDFium/abseil.txt",
+            "phase5_2/run/licenses/PDFium/abseil.txt",
+            "phase5_2/runtime/licenses/PDFium/abseil.txt",
+            "phase5_2_1/run/licenses/PDFium/abseil.txt",
+            "phase5_2_1/runtime/licenses/PDFium/abseil.txt",
+            "phase5_2_2/run/licenses/PDFium/abseil.txt",
+            "phase5_2_2/runtime/licenses/PDFium/abseil.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "agg23.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "c110d3ea2ad77467ce0dcff7d3337e6c8be8049a5103f4b9bd5fd911a77972e5",
+          "paths": [
+            "phase2/run/licenses/PDFium/agg23.txt",
+            "phase2/runtime/licenses/PDFium/agg23.txt",
+            "phase3/run/licenses/PDFium/agg23.txt",
+            "phase3/runtime/licenses/PDFium/agg23.txt",
+            "phase4a/run/licenses/PDFium/agg23.txt",
+            "phase4a/runtime/licenses/PDFium/agg23.txt",
+            "phase4a1/run/licenses/PDFium/agg23.txt",
+            "phase4a1/runtime/licenses/PDFium/agg23.txt",
+            "phase4b/run/licenses/PDFium/agg23.txt",
+            "phase4b/runtime/licenses/PDFium/agg23.txt",
+            "phase4c1/run/licenses/PDFium/agg23.txt",
+            "phase4c1/runtime/licenses/PDFium/agg23.txt",
+            "phase4c2/run/licenses/PDFium/agg23.txt",
+            "phase4c2/runtime/licenses/PDFium/agg23.txt",
+            "phase5_1/run/licenses/PDFium/agg23.txt",
+            "phase5_1/runtime/licenses/PDFium/agg23.txt",
+            "phase5_2/run/licenses/PDFium/agg23.txt",
+            "phase5_2/runtime/licenses/PDFium/agg23.txt",
+            "phase5_2_1/run/licenses/PDFium/agg23.txt",
+            "phase5_2_1/runtime/licenses/PDFium/agg23.txt",
+            "phase5_2_2/run/licenses/PDFium/agg23.txt",
+            "phase5_2_2/runtime/licenses/PDFium/agg23.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fast_float.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "bf1b57355feca8fce77ee95f48002f8d4789fb71b30ec7599c06cda4901fbb2b",
+          "paths": [
+            "phase2/run/licenses/PDFium/fast_float.txt",
+            "phase2/runtime/licenses/PDFium/fast_float.txt",
+            "phase3/run/licenses/PDFium/fast_float.txt",
+            "phase3/runtime/licenses/PDFium/fast_float.txt",
+            "phase4a/run/licenses/PDFium/fast_float.txt",
+            "phase4a/runtime/licenses/PDFium/fast_float.txt",
+            "phase4a1/run/licenses/PDFium/fast_float.txt",
+            "phase4a1/runtime/licenses/PDFium/fast_float.txt",
+            "phase4b/run/licenses/PDFium/fast_float.txt",
+            "phase4b/runtime/licenses/PDFium/fast_float.txt",
+            "phase4c1/run/licenses/PDFium/fast_float.txt",
+            "phase4c1/runtime/licenses/PDFium/fast_float.txt",
+            "phase4c2/run/licenses/PDFium/fast_float.txt",
+            "phase4c2/runtime/licenses/PDFium/fast_float.txt",
+            "phase5_1/run/licenses/PDFium/fast_float.txt",
+            "phase5_1/runtime/licenses/PDFium/fast_float.txt",
+            "phase5_2/run/licenses/PDFium/fast_float.txt",
+            "phase5_2/runtime/licenses/PDFium/fast_float.txt",
+            "phase5_2_1/run/licenses/PDFium/fast_float.txt",
+            "phase5_2_1/runtime/licenses/PDFium/fast_float.txt",
+            "phase5_2_2/run/licenses/PDFium/fast_float.txt",
+            "phase5_2_2/runtime/licenses/PDFium/fast_float.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "freetype.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8",
+          "paths": [
+            "phase2/run/licenses/PDFium/freetype.txt",
+            "phase2/runtime/licenses/PDFium/freetype.txt",
+            "phase3/run/licenses/PDFium/freetype.txt",
+            "phase3/runtime/licenses/PDFium/freetype.txt",
+            "phase4a/run/licenses/PDFium/freetype.txt",
+            "phase4a/runtime/licenses/PDFium/freetype.txt",
+            "phase4a1/run/licenses/PDFium/freetype.txt",
+            "phase4a1/runtime/licenses/PDFium/freetype.txt",
+            "phase4b/run/licenses/PDFium/freetype.txt",
+            "phase4b/runtime/licenses/PDFium/freetype.txt",
+            "phase4c1/run/licenses/PDFium/freetype.txt",
+            "phase4c1/runtime/licenses/PDFium/freetype.txt",
+            "phase4c2/run/licenses/PDFium/freetype.txt",
+            "phase4c2/runtime/licenses/PDFium/freetype.txt",
+            "phase5_1/run/licenses/PDFium/freetype.txt",
+            "phase5_1/runtime/licenses/PDFium/freetype.txt",
+            "phase5_2/run/licenses/PDFium/freetype.txt",
+            "phase5_2/runtime/licenses/PDFium/freetype.txt",
+            "phase5_2_1/run/licenses/PDFium/freetype.txt",
+            "phase5_2_1/runtime/licenses/PDFium/freetype.txt",
+            "phase5_2_2/run/licenses/PDFium/freetype.txt",
+            "phase5_2_2/runtime/licenses/PDFium/freetype.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "icu.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "93679f4389d53b6835d89843f251844fb9bc455b35bab036d3c8e7abe497a47a",
+          "paths": [
+            "phase2/run/licenses/PDFium/icu.txt",
+            "phase2/runtime/licenses/PDFium/icu.txt",
+            "phase3/run/licenses/PDFium/icu.txt",
+            "phase3/runtime/licenses/PDFium/icu.txt",
+            "phase4a/run/licenses/PDFium/icu.txt",
+            "phase4a/runtime/licenses/PDFium/icu.txt",
+            "phase4a1/run/licenses/PDFium/icu.txt",
+            "phase4a1/runtime/licenses/PDFium/icu.txt",
+            "phase4b/run/licenses/PDFium/icu.txt",
+            "phase4b/runtime/licenses/PDFium/icu.txt",
+            "phase4c1/run/licenses/PDFium/icu.txt",
+            "phase4c1/runtime/licenses/PDFium/icu.txt",
+            "phase4c2/run/licenses/PDFium/icu.txt",
+            "phase4c2/runtime/licenses/PDFium/icu.txt",
+            "phase5_1/run/licenses/PDFium/icu.txt",
+            "phase5_1/runtime/licenses/PDFium/icu.txt",
+            "phase5_2/run/licenses/PDFium/icu.txt",
+            "phase5_2/runtime/licenses/PDFium/icu.txt",
+            "phase5_2_1/run/licenses/PDFium/icu.txt",
+            "phase5_2_1/runtime/licenses/PDFium/icu.txt",
+            "phase5_2_2/run/licenses/PDFium/icu.txt",
+            "phase5_2_2/runtime/licenses/PDFium/icu.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lcms.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "7312b68c5b25e9bf2b828706fb4e29588f22705112f411fd42e1f7d84c3d139a",
+          "paths": [
+            "phase2/run/licenses/PDFium/lcms.txt",
+            "phase2/runtime/licenses/PDFium/lcms.txt",
+            "phase3/run/licenses/PDFium/lcms.txt",
+            "phase3/runtime/licenses/PDFium/lcms.txt",
+            "phase4a/run/licenses/PDFium/lcms.txt",
+            "phase4a/runtime/licenses/PDFium/lcms.txt",
+            "phase4a1/run/licenses/PDFium/lcms.txt",
+            "phase4a1/runtime/licenses/PDFium/lcms.txt",
+            "phase4b/run/licenses/PDFium/lcms.txt",
+            "phase4b/runtime/licenses/PDFium/lcms.txt",
+            "phase4c1/run/licenses/PDFium/lcms.txt",
+            "phase4c1/runtime/licenses/PDFium/lcms.txt",
+            "phase4c2/run/licenses/PDFium/lcms.txt",
+            "phase4c2/runtime/licenses/PDFium/lcms.txt",
+            "phase5_1/run/licenses/PDFium/lcms.txt",
+            "phase5_1/runtime/licenses/PDFium/lcms.txt",
+            "phase5_2/run/licenses/PDFium/lcms.txt",
+            "phase5_2/runtime/licenses/PDFium/lcms.txt",
+            "phase5_2_1/run/licenses/PDFium/lcms.txt",
+            "phase5_2_1/runtime/licenses/PDFium/lcms.txt",
+            "phase5_2_2/run/licenses/PDFium/lcms.txt",
+            "phase5_2_2/runtime/licenses/PDFium/lcms.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libjpeg_turbo.ijg",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "db16a04128171879c60708d171b88d97345a2dd20f9bfc173680a4497c73f704",
+          "paths": [
+            "phase2/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase2/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase3/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase3/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4a/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4a/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4a1/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4a1/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4b/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4b/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4c1/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4c1/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4c2/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase4c2/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_1/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_1/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_2/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_2/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_2_1/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_2_1/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_2_2/run/licenses/PDFium/libjpeg_turbo.ijg",
+            "phase5_2_2/runtime/licenses/PDFium/libjpeg_turbo.ijg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libjpeg_turbo.md",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "be2b2b5ab168bce87bc3e31f2a5c5adba4b7f6e9e51d618e958d1d46972ebd95",
+          "paths": [
+            "phase2/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase2/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase3/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase3/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase4a/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase4a/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase4a1/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase4a1/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase4b/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase4b/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase4c1/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase4c1/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase4c2/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase4c2/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_1/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_1/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_2/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_2/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_2_1/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_2_1/runtime/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_2_2/run/licenses/PDFium/libjpeg_turbo.md",
+            "phase5_2_2/runtime/licenses/PDFium/libjpeg_turbo.md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libopenjpeg.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "c5ab0890a737c2dfa7ba675036554f6d17741d98629b0c2a145354d00617e6b2",
+          "paths": [
+            "phase2/run/licenses/PDFium/libopenjpeg.txt",
+            "phase2/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase3/run/licenses/PDFium/libopenjpeg.txt",
+            "phase3/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase4a/run/licenses/PDFium/libopenjpeg.txt",
+            "phase4a/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase4a1/run/licenses/PDFium/libopenjpeg.txt",
+            "phase4a1/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase4b/run/licenses/PDFium/libopenjpeg.txt",
+            "phase4b/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase4c1/run/licenses/PDFium/libopenjpeg.txt",
+            "phase4c1/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase4c2/run/licenses/PDFium/libopenjpeg.txt",
+            "phase4c2/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase5_1/run/licenses/PDFium/libopenjpeg.txt",
+            "phase5_1/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase5_2/run/licenses/PDFium/libopenjpeg.txt",
+            "phase5_2/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase5_2_1/run/licenses/PDFium/libopenjpeg.txt",
+            "phase5_2_1/runtime/licenses/PDFium/libopenjpeg.txt",
+            "phase5_2_2/run/licenses/PDFium/libopenjpeg.txt",
+            "phase5_2_2/runtime/licenses/PDFium/libopenjpeg.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libpng.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "452390433ba0f88aa3e2b122c647741b72a0c117cd6ed7a329b49785aecb5511",
+          "paths": [
+            "phase2/run/licenses/PDFium/libpng.txt",
+            "phase2/runtime/licenses/PDFium/libpng.txt",
+            "phase3/run/licenses/PDFium/libpng.txt",
+            "phase3/runtime/licenses/PDFium/libpng.txt",
+            "phase4a/run/licenses/PDFium/libpng.txt",
+            "phase4a/runtime/licenses/PDFium/libpng.txt",
+            "phase4a1/run/licenses/PDFium/libpng.txt",
+            "phase4a1/runtime/licenses/PDFium/libpng.txt",
+            "phase4b/run/licenses/PDFium/libpng.txt",
+            "phase4b/runtime/licenses/PDFium/libpng.txt",
+            "phase4c1/run/licenses/PDFium/libpng.txt",
+            "phase4c1/runtime/licenses/PDFium/libpng.txt",
+            "phase4c2/run/licenses/PDFium/libpng.txt",
+            "phase4c2/runtime/licenses/PDFium/libpng.txt",
+            "phase5_1/run/licenses/PDFium/libpng.txt",
+            "phase5_1/runtime/licenses/PDFium/libpng.txt",
+            "phase5_2/run/licenses/PDFium/libpng.txt",
+            "phase5_2/runtime/licenses/PDFium/libpng.txt",
+            "phase5_2_1/run/licenses/PDFium/libpng.txt",
+            "phase5_2_1/runtime/licenses/PDFium/libpng.txt",
+            "phase5_2_2/run/licenses/PDFium/libpng.txt",
+            "phase5_2_2/runtime/licenses/PDFium/libpng.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "llvm-libc.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "3b6226c32e168c83b891d8d6f0d3c29c2116dc3ef93dc93c307b54f279ecf383",
+          "paths": [
+            "phase2/run/licenses/PDFium/llvm-libc.txt",
+            "phase2/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase3/run/licenses/PDFium/llvm-libc.txt",
+            "phase3/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase4a/run/licenses/PDFium/llvm-libc.txt",
+            "phase4a/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase4a1/run/licenses/PDFium/llvm-libc.txt",
+            "phase4a1/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase4b/run/licenses/PDFium/llvm-libc.txt",
+            "phase4b/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase4c1/run/licenses/PDFium/llvm-libc.txt",
+            "phase4c1/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase4c2/run/licenses/PDFium/llvm-libc.txt",
+            "phase4c2/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase5_1/run/licenses/PDFium/llvm-libc.txt",
+            "phase5_1/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase5_2/run/licenses/PDFium/llvm-libc.txt",
+            "phase5_2/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase5_2_1/run/licenses/PDFium/llvm-libc.txt",
+            "phase5_2_1/runtime/licenses/PDFium/llvm-libc.txt",
+            "phase5_2_2/run/licenses/PDFium/llvm-libc.txt",
+            "phase5_2_2/runtime/licenses/PDFium/llvm-libc.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "native-version.json",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "5be5e8d927beb34ebf011372747cdecc3b35aab5b909ab44c11e2dfbad91e3d0",
+          "paths": [
+            "phase2/run/native-version.json",
+            "phase2/runtime/native-version.json",
+            "phase3/run/native-version.json",
+            "phase3/runtime/native-version.json",
+            "phase4a/run/native-version.json",
+            "phase4a/runtime/native-version.json",
+            "phase4a1/run/native-version.json",
+            "phase4a1/runtime/native-version.json",
+            "phase4b/run/native-version.json",
+            "phase4b/runtime/native-version.json",
+            "phase4c1/run/native-version.json",
+            "phase4c1/runtime/native-version.json",
+            "phase4c2/run/native-version.json",
+            "phase4c2/runtime/native-version.json",
+            "phase5_1/run/native-version.json",
+            "phase5_1/runtime/native-version.json",
+            "phase5_2/run/native-version.json",
+            "phase5_2/runtime/native-version.json",
+            "phase5_2_1/run/native-version.json",
+            "phase5_2_1/runtime/native-version.json",
+            "phase5_2_2/run/native-version.json",
+            "phase5_2_2/runtime/native-version.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pdfium-binaries.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "8854f4388f1ca13b3ad9baa42e95f5546b4c0b17109c159256d3eca7be39b09b",
+          "paths": [
+            "phase2/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase2/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase3/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase3/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase4a/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase4a/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase4a1/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase4a1/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase4b/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase4b/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase4c1/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase4c1/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase4c2/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase4c2/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_1/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_1/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_2/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_2/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_2_1/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_2_1/runtime/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_2_2/run/licenses/PDFium/pdfium-binaries.txt",
+            "phase5_2_2/runtime/licenses/PDFium/pdfium-binaries.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pdfium.dll",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e",
+          "paths": [
+            "phase2/run/pdfium.dll",
+            "phase2/runtime/pdfium.dll",
+            "phase3/run/pdfium.dll",
+            "phase3/runtime/pdfium.dll",
+            "phase4a/run/pdfium.dll",
+            "phase4a/runtime/pdfium.dll",
+            "phase4a1/run/pdfium.dll",
+            "phase4a1/runtime/pdfium.dll",
+            "phase4b/run/pdfium.dll",
+            "phase4b/runtime/pdfium.dll",
+            "phase4c1/run/pdfium.dll",
+            "phase4c1/runtime/pdfium.dll",
+            "phase4c2/run/pdfium.dll",
+            "phase4c2/runtime/pdfium.dll",
+            "phase5_1/run/pdfium.dll",
+            "phase5_1/runtime/pdfium.dll",
+            "phase5_2/run/pdfium.dll",
+            "phase5_2/runtime/pdfium.dll",
+            "phase5_2_1/run/pdfium.dll",
+            "phase5_2_1/runtime/pdfium.dll",
+            "phase5_2_2/run/pdfium.dll",
+            "phase5_2_2/runtime/pdfium.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pdfium.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "961eacd9633fff6d051db7208b755e9210e30efac7adec3e6a6d52798f0ccf0e",
+          "paths": [
+            "phase2/run/licenses/PDFium/pdfium.txt",
+            "phase2/runtime/licenses/PDFium/pdfium.txt",
+            "phase3/run/licenses/PDFium/pdfium.txt",
+            "phase3/runtime/licenses/PDFium/pdfium.txt",
+            "phase4a/run/licenses/PDFium/pdfium.txt",
+            "phase4a/runtime/licenses/PDFium/pdfium.txt",
+            "phase4a1/run/licenses/PDFium/pdfium.txt",
+            "phase4a1/runtime/licenses/PDFium/pdfium.txt",
+            "phase4b/run/licenses/PDFium/pdfium.txt",
+            "phase4b/runtime/licenses/PDFium/pdfium.txt",
+            "phase4c1/run/licenses/PDFium/pdfium.txt",
+            "phase4c1/runtime/licenses/PDFium/pdfium.txt",
+            "phase4c2/run/licenses/PDFium/pdfium.txt",
+            "phase4c2/runtime/licenses/PDFium/pdfium.txt",
+            "phase5_1/run/licenses/PDFium/pdfium.txt",
+            "phase5_1/runtime/licenses/PDFium/pdfium.txt",
+            "phase5_2/run/licenses/PDFium/pdfium.txt",
+            "phase5_2/runtime/licenses/PDFium/pdfium.txt",
+            "phase5_2_1/run/licenses/PDFium/pdfium.txt",
+            "phase5_2_1/runtime/licenses/PDFium/pdfium.txt",
+            "phase5_2_2/run/licenses/PDFium/pdfium.txt",
+            "phase5_2_2/runtime/licenses/PDFium/pdfium.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "simdutf.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "c172a0ba936ff31230febb5dad869e25cb7c1a07480c7a381be8cf011bb52719",
+          "paths": [
+            "phase2/run/licenses/PDFium/simdutf.txt",
+            "phase2/runtime/licenses/PDFium/simdutf.txt",
+            "phase3/run/licenses/PDFium/simdutf.txt",
+            "phase3/runtime/licenses/PDFium/simdutf.txt",
+            "phase4a/run/licenses/PDFium/simdutf.txt",
+            "phase4a/runtime/licenses/PDFium/simdutf.txt",
+            "phase4a1/run/licenses/PDFium/simdutf.txt",
+            "phase4a1/runtime/licenses/PDFium/simdutf.txt",
+            "phase4b/run/licenses/PDFium/simdutf.txt",
+            "phase4b/runtime/licenses/PDFium/simdutf.txt",
+            "phase4c1/run/licenses/PDFium/simdutf.txt",
+            "phase4c1/runtime/licenses/PDFium/simdutf.txt",
+            "phase4c2/run/licenses/PDFium/simdutf.txt",
+            "phase4c2/runtime/licenses/PDFium/simdutf.txt",
+            "phase5_1/run/licenses/PDFium/simdutf.txt",
+            "phase5_1/runtime/licenses/PDFium/simdutf.txt",
+            "phase5_2/run/licenses/PDFium/simdutf.txt",
+            "phase5_2/runtime/licenses/PDFium/simdutf.txt",
+            "phase5_2_1/run/licenses/PDFium/simdutf.txt",
+            "phase5_2_1/runtime/licenses/PDFium/simdutf.txt",
+            "phase5_2_2/run/licenses/PDFium/simdutf.txt",
+            "phase5_2_2/runtime/licenses/PDFium/simdutf.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "zlib.txt",
+      "distinctHashes": 1,
+      "families": [
+        {
+          "sha256": "33fd641c9f3b0e0be64bc78fea9e94807674cdd70c48477599226cb8956565fe",
+          "paths": [
+            "phase2/run/licenses/PDFium/zlib.txt",
+            "phase2/runtime/licenses/PDFium/zlib.txt",
+            "phase3/run/licenses/PDFium/zlib.txt",
+            "phase3/runtime/licenses/PDFium/zlib.txt",
+            "phase4a/run/licenses/PDFium/zlib.txt",
+            "phase4a/runtime/licenses/PDFium/zlib.txt",
+            "phase4a1/run/licenses/PDFium/zlib.txt",
+            "phase4a1/runtime/licenses/PDFium/zlib.txt",
+            "phase4b/run/licenses/PDFium/zlib.txt",
+            "phase4b/runtime/licenses/PDFium/zlib.txt",
+            "phase4c1/run/licenses/PDFium/zlib.txt",
+            "phase4c1/runtime/licenses/PDFium/zlib.txt",
+            "phase4c2/run/licenses/PDFium/zlib.txt",
+            "phase4c2/runtime/licenses/PDFium/zlib.txt",
+            "phase5_1/run/licenses/PDFium/zlib.txt",
+            "phase5_1/runtime/licenses/PDFium/zlib.txt",
+            "phase5_2/run/licenses/PDFium/zlib.txt",
+            "phase5_2/runtime/licenses/PDFium/zlib.txt",
+            "phase5_2_1/run/licenses/PDFium/zlib.txt",
+            "phase5_2_1/runtime/licenses/PDFium/zlib.txt",
+            "phase5_2_2/run/licenses/PDFium/zlib.txt",
+            "phase5_2_2/runtime/licenses/PDFium/zlib.txt"
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Hashes, not filenames, establish identity. Managed phase-specific binaries and nonidentical fonts remain historical references. Current pinned manifest is only for future current-app builds; it does not replace historical assets."
+}

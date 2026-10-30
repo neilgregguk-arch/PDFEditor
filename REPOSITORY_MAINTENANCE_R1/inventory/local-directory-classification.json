@@ -64,6 +64,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated",
+    "files": 2054,
+    "bytes": 119321672,
+    "withoutVerifiedBackupFiles": 1147,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": ".venv-clean/Lib/site-packages/pymupdf",
     "files": 225,
     "bytes": 109181582,
@@ -76,6 +84,14 @@
     "files": 225,
     "bytes": 109181264,
     "withoutVerifiedBackupFiles": 223,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation",
+    "files": 1912,
+    "bytes": 101034265,
+    "withoutVerifiedBackupFiles": 1137,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -113,9 +129,9 @@
   },
   {
     "path": "phase5_2_2",
-    "files": 1931,
-    "bytes": 72151957,
-    "withoutVerifiedBackupFiles": 1683,
+    "files": 1935,
+    "bytes": 72155783,
+    "withoutVerifiedBackupFiles": 1703,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -132,6 +148,14 @@
     "files": 1738,
     "bytes": 63982006,
     "withoutVerifiedBackupFiles": 1488,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/evidence",
+    "files": 1036,
+    "bytes": 62315286,
+    "withoutVerifiedBackupFiles": 388,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -296,6 +320,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/test-work",
+    "files": 741,
+    "bytes": 27961409,
+    "withoutVerifiedBackupFiles": 733,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase3",
     "files": 697,
     "bytes": 25817965,
@@ -368,6 +400,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/evidence/document-poppler",
+    "files": 540,
+    "bytes": 11705504,
+    "withoutVerifiedBackupFiles": 0,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": ".venv-clean/Lib/site-packages/pip",
     "files": 842,
     "bytes": 11049250,
@@ -380,6 +420,30 @@
     "files": 842,
     "bytes": 11044837,
     "withoutVerifiedBackupFiles": 821,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-reproduce-shipping",
+    "files": 123,
+    "bytes": 10752039,
+    "withoutVerifiedBackupFiles": 10,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-reproduce-shipping/run",
+    "files": 119,
+    "bytes": 10711489,
+    "withoutVerifiedBackupFiles": 6,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/run",
+    "files": 119,
+    "bytes": 10711489,
+    "withoutVerifiedBackupFiles": 8,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -472,6 +536,22 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/dependencies/pdfium-156.0.8076.0-win-x64-bede3932ce96",
+    "files": 19,
+    "bytes": 7535368,
+    "withoutVerifiedBackupFiles": 0,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/dependencies",
+    "files": 19,
+    "bytes": 7535368,
+    "withoutVerifiedBackupFiles": 0,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": ".venv-clean/Lib/site-packages/numpy/_core/tests",
     "files": 168,
     "bytes": 7286714,
@@ -532,6 +612,14 @@
     "files": 124,
     "bytes": 5907392,
     "withoutVerifiedBackupFiles": 113,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-5a5e62bd50a14c5abb952b011080bbad",
+    "files": 124,
+    "bytes": 5907391,
+    "withoutVerifiedBackupFiles": 124,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -696,6 +784,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/test-work/suite-6e7fffc9f1834bc382ac2d29835e118a",
+    "files": 107,
+    "bytes": 4200493,
+    "withoutVerifiedBackupFiles": 107,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": ".venv-clean/Lib/site-packages/numpy/lib",
     "files": 155,
     "bytes": 4088685,
@@ -732,6 +828,14 @@
     "files": 85,
     "bytes": 3898481,
     "withoutVerifiedBackupFiles": 85,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/evidence/controls-1793361364089453300",
+    "files": 77,
+    "bytes": 3866960,
+    "withoutVerifiedBackupFiles": 53,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -976,6 +1080,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/evidence/paragraph-controls-1793361232321195000",
+    "files": 40,
+    "bytes": 2712236,
+    "withoutVerifiedBackupFiles": 32,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase5_1/test-work/suite-e45bcdf8a577498d9ff020ee14d40108",
     "files": 11,
     "bytes": 2703716,
@@ -1068,6 +1180,14 @@
     "files": 50,
     "bytes": 2479559,
     "withoutVerifiedBackupFiles": 40,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-bd8fbf6d4f7846c783721061f92ba9cc",
+    "files": 59,
+    "bytes": 2478861,
+    "withoutVerifiedBackupFiles": 58,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -1264,6 +1384,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/test-work/suite-8db8a55b8a664af3910a9f85f4696d8d",
+    "files": 50,
+    "bytes": 2468043,
+    "withoutVerifiedBackupFiles": 50,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase5_2_2/test-work/suite-5cd4db2672584b1b8b71570e9cc0e982",
     "files": 50,
     "bytes": 2468037,
@@ -1292,6 +1420,14 @@
     "files": 50,
     "bytes": 2465530,
     "withoutVerifiedBackupFiles": 40,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-4619f21e8487496399b40c8a32dcd89e",
+    "files": 93,
+    "bytes": 2461036,
+    "withoutVerifiedBackupFiles": 93,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -1544,6 +1680,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/test-work/suite-8fdea582432746e9ac8eedec92a6b051",
+    "files": 60,
+    "bytes": 2221318,
+    "withoutVerifiedBackupFiles": 60,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase5_1/test-work/suite-c2237f62b3d44ac8bb035cb3d9260b66",
     "files": 60,
     "bytes": 2221316,
@@ -1696,6 +1840,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/evidence/presentation-release-1793361170613082200",
+    "files": 66,
+    "bytes": 2126991,
+    "withoutVerifiedBackupFiles": 35,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase5_2_1/test-work/suite-3e2c1f9707b94ec19700cc75a2f9f89c",
     "files": 44,
     "bytes": 2097919,
@@ -1740,6 +1892,14 @@
     "files": 44,
     "bytes": 2097903,
     "withoutVerifiedBackupFiles": 33,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-2b6c7bd29b314714bba774033852c213",
+    "files": 44,
+    "bytes": 2097900,
+    "withoutVerifiedBackupFiles": 44,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -1929,9 +2089,17 @@
   },
   {
     "path": "phase5_2_2/App",
-    "files": 30,
-    "bytes": 1956903,
-    "withoutVerifiedBackupFiles": 19,
+    "files": 32,
+    "bytes": 1958863,
+    "withoutVerifiedBackupFiles": 27,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/evidence/multi-region-release-1793360808132048600",
+    "files": 54,
+    "bytes": 1930654,
+    "withoutVerifiedBackupFiles": 33,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -2008,6 +2176,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/evidence/original-controls-1793361310060789800",
+    "files": 35,
+    "bytes": 1830463,
+    "withoutVerifiedBackupFiles": 29,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": ".venv/Scripts",
     "files": 17,
     "bytes": 1749152,
@@ -2052,6 +2228,14 @@
     "files": 64,
     "bytes": 1678644,
     "withoutVerifiedBackupFiles": 60,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-a9199a615cf54da2bd8f351167c4fe4b",
+    "files": 74,
+    "bytes": 1665058,
+    "withoutVerifiedBackupFiles": 74,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -2260,6 +2444,14 @@
     "files": 32,
     "bytes": 1606878,
     "withoutVerifiedBackupFiles": 32,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-af00a5bdccf34dbb99a3d620a8248ae1",
+    "files": 47,
+    "bytes": 1586380,
+    "withoutVerifiedBackupFiles": 43,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -2672,6 +2864,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/test-work/frozen-phase2",
+    "files": 45,
+    "bytes": 1502687,
+    "withoutVerifiedBackupFiles": 42,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase2/test-work/suite-1793134738999419200",
     "files": 45,
     "bytes": 1502687,
@@ -2888,6 +3088,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/evidence/original-tests-1793360777416375900",
+    "files": 43,
+    "bytes": 1471283,
+    "withoutVerifiedBackupFiles": 42,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": ".venv-clean/Lib/site-packages/networkx/generators",
     "files": 119,
     "bytes": 1469482,
@@ -3076,6 +3284,14 @@
     "files": 38,
     "bytes": 1372248,
     "withoutVerifiedBackupFiles": 29,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
+    "path": ".local-generated/R1-validation/test-work/suite-239a3fafdf1145e7b574813e65f0a9ab",
+    "files": 38,
+    "bytes": 1372242,
+    "withoutVerifiedBackupFiles": 38,
     "classification": "Requiring preservation",
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
@@ -3368,6 +3584,14 @@
     "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
   },
   {
+    "path": ".local-generated/R1-validation/evidence/adversarial",
+    "files": 27,
+    "bytes": 1154285,
+    "withoutVerifiedBackupFiles": 27,
+    "classification": "Requiring preservation",
+    "retention": "Unique local outputs/environment or evidence not verified in external archive; no blanket removal."
+  },
+  {
     "path": "phase4b/test-work/suite-1793195147059182400",
     "files": 34,
     "bytes": 1139906,
@@ -3435,7 +3659,7 @@
     "path": "phase5_2_2/App/bin/Release/net8.0-windows",
     "files": 7,
     "bytes": 1084694,
-    "withoutVerifiedBackupFiles": 0,
+    "withoutVerifiedBackupFiles": 4,
     "classification": "Reproducible",
     "retention": "Only matching verified build duplicates are planned. Preserve unknown files/source/user documents."
   },
@@ -3443,7 +3667,7 @@
     "path": "phase5_2_2/App/bin/Release",
     "files": 7,
     "bytes": 1084694,
-    "withoutVerifiedBackupFiles": 0,
+    "withoutVerifiedBackupFiles": 4,
     "classification": "Reproducible",
     "retention": "Only matching verified build duplicates are planned. Preserve unknown files/source/user documents."
   },
@@ -3451,7 +3675,7 @@
     "path": "phase5_2_2/App/bin",
     "files": 7,
     "bytes": 1084694,
-    "withoutVerifiedBackupFiles": 0,
+    "withoutVerifiedBackupFiles": 4,
     "classification": "Reproducible",
     "retention": "Only matching verified build duplicates are planned. Preserve unknown files/source/user documents."
   },
