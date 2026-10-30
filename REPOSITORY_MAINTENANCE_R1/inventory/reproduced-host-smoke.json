@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "failures": 0,
+  "exit": 0,
+  "sourceHashUnchanged": true,
+  "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\.local-generated\\R1-reproduce-shipping\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+  "report": {
+    "stage": 0,
+    "tests": 0,
+    "failures": 0,
+    "rows": [],
+    "pid": 35432,
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\.local-generated\\R1-reproduce-shipping\\run\\original-paragraphs\\Word-cafe-paragraph.pdf",
+    "scope": "actual WPF controls/routed events/shared mouse mapping; no hardware/file-picker automation"
+  },
+  "scope": "Explicit-stamp executable host launches WPF, inspects actual PDF via worker, exits cleanly. Full feature suites ran on default rebuilt source-identical build, not repeated for PE version stamp."
+}

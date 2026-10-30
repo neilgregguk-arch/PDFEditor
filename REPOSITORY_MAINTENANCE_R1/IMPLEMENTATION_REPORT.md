@@ -1,0 +1,11 @@
+# R1 implementation report
+
+Work is on maintenance/R1, based on058cd3df42199c2c39af80519d3a14c0e009201b. Main is not merged. Final commit is reported in the delivery message; checkpoints are ordinary maintenance commits. No Phase5.3 or PDF editing/discovery/font/transaction logic changes.
+
+Implemented: repeatable tracked/local SHA256 storage audit; complete A–G classification and unapproved archive manifest; phase evidence retention index; narrow root ignore rules; offline pinned runtime cache; isolated opt-in current build with source/native/product identity manifests; redirected inherited validation; conservative PowerShell cleanup preflight and executor; non-destructive safety tests; licensing/environment/unique-local risk inventory; twelve human reports plus progress.
+
+The sole deliberate pre-existing tracked-path change is .gitignore. Existing source, fixtures, run/runtime binaries, handovers, licences, evidence and the user's untracked manual PDF are preserved. Old phase manifests and ordinary build entry points still work. The new wrapper publishes into .local-generated rather than overwriting a delivered run directory. Compiler bin/obj products may be regenerated as part of an authorised build; no maintenance deletion was performed.
+
+Local-Cleanup.ps1 defaults to Audit. DryRun enumerates each exact proposed file. Clean requires -ApproveCleanup, validates the workspace, build/source hashes, allowlist, file size/hash, actual Git backup bytes and non-reparse ancestry, preflights all candidates, then uses file-by-file literal-path removal through ShouldProcess. No recursive removal, git clean or tracked-file deletion. Only two SDK executable-host duplicates currently qualify; all broader environments/test workspaces/unique outputs remain outside the plan. Clean was tested only with -WhatIf, never destructively.
+
+Actual deletion savings are zero. Documentation and validation introduce measured new local data. Duplicate logical bytes, proposed migration bytes and future avoided growth are not achieved savings. No GitHub Releases, archive uploads or other remote storage changes. Push this completed branch only; stop for review and separate approval of any future cleanup/migration.

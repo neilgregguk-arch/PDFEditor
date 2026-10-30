@@ -1,0 +1,99 @@
+{
+  "tests": 18,
+  "success": true,
+  "failures": 0,
+  "sourceSha256": "ed6e91766b04d6b33cd6ed5f26036e1a1167d9dff6b8c24735224beb20d1e87c",
+  "scope": "Frozen original test source and original phase2 binary; outputs redirected only",
+  "rows": [
+    {
+      "test": "r1_frozen_phase2.Tests.test_A_actual_pdf_and_glyph_mapping",
+      "status": "pass",
+      "ms": 259.84
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_A_successful_region_edit",
+      "status": "pass",
+      "ms": 163.39
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_B_longer_wraps",
+      "status": "pass",
+      "ms": 139.72
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_C_actual_neighbour_collision_preflight",
+      "status": "pass",
+      "ms": 76.56
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_C_unsafe_expansion_rejected",
+      "status": "pass",
+      "ms": 64.95
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_D_missing_glyph_rejected",
+      "status": "pass",
+      "ms": 67.6
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_append_preserves_legitimate_original_phrase_only_once",
+      "status": "pass",
+      "ms": 195.13
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_empty_deletion_is_real",
+      "status": "pass",
+      "ms": 130.1
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_existing_destination_unchanged",
+      "status": "pass",
+      "ms": 123.69
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_explicit_linebreaks",
+      "status": "pass",
+      "ms": 127.0
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_locked_destination_unchanged",
+      "status": "pass",
+      "ms": 120.9
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_long_word_soft_wrap",
+      "status": "pass",
+      "ms": 136.66
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_original_cannot_be_overwritten",
+      "status": "pass",
+      "ms": 121.23
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_G_stale_source_hash_rejected",
+      "status": "pass",
+      "ms": 0.33
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_cross_language_revision_roundtrip",
+      "status": "pass",
+      "ms": 61.44
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_noop_is_not_reported_as_saved_edit",
+      "status": "pass",
+      "ms": 127.81
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_tampered_manifest_view_only",
+      "status": "pass",
+      "ms": 38.93
+    },
+    {
+      "test": "r1_frozen_phase2.Tests.test_unknown_pdf_view_only",
+      "status": "pass",
+      "ms": 37.4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "fonts": [
+    {
+      "fixture": "phase5_2_2/run/font-corpus/Word-Arial.pdf",
+      "resource": "/F1",
+      "fontName": "/BCDEEE+ArialMT",
+      "embedded": true,
+      "fontProgramSha256": "f0a3299c46793256d4d27408155d0541d9c31bfcc773017dfc5d2efb51ce24e6",
+      "fsType": 8
+    },
+    {
+      "fixture": "phase5_2_2/run/font-corpus/Word-Arial.pdf",
+      "resource": "/F2",
+      "fontName": "/BCDFEE+ArialMT",
+      "embedded": true,
+      "fontProgramSha256": "f0a3299c46793256d4d27408155d0541d9c31bfcc773017dfc5d2efb51ce24e6",
+      "fsType": 8
+    },
+    {
+      "fixture": "phase5_2_2/run/font-corpus/Word-Calibri.pdf",
+      "resource": "/F1",
+      "fontName": "/BCDEEE+Calibri",
+      "embedded": true,
+      "fontProgramSha256": "89652f1c6ed9504df48a0714b6bc9e9ffab3b5af8b1bbe9d1a4ee5d474c49b57",
+      "fsType": 8
+    },
+    {
+      "fixture": "phase5_2_2/run/font-corpus/Word-Calibri.pdf",
+      "resource": "/F2",
+      "fontName": "/BCDFEE+Calibri",
+      "embedded": true,
+      "fontProgramSha256": "89652f1c6ed9504df48a0714b6bc9e9ffab3b5af8b1bbe9d1a4ee5d474c49b57",
+      "fsType": 8
+    }
+  ],
+  "note": "Technical font names/embedding metadata only, not proof of redistribution permission. No fonts or fixtures removed."
+}

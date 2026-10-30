@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "id": "pdfium-156.0.8076.0-win-x64",
+  "pdfiumVersion": "156.0.8076.0",
+  "sourceWheel": "pypdfium2 5.14.0 Windows x64 (inherited provenance)",
+  "sourceCommit": "058cd3df42199c2c39af80519d3a14c0e009201b",
+  "nativeSha256": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e",
+  "restoration": "Exact local Git blobs from verified remote starting commit; no unverified download URL",
+  "files": [
+    {
+      "path": "assets/FONT-LICENSE.txt",
+      "sourcePath": "phase5_2_2/runtime/assets/FONT-LICENSE.txt",
+      "gitBlob": "e651be1c4fe958e06fd7d7a2e79b3e7c2cb70a8e",
+      "bytes": 5954,
+      "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d"
+    },
+    {
+      "path": "assets/PrototypeSansAscii.ttf",
+      "sourcePath": "phase5_2_2/runtime/assets/PrototypeSansAscii.ttf",
+      "gitBlob": "54a4b57ec22509248aa86a81518fe13d9ad1a1a3",
+      "bytes": 24208,
+      "sha256": "ced1b2cb9d52bc4373ee3178af5bdd2cd8853bc49c5d06420dc3114f336ef398"
+    },
+    {
+      "path": "licenses/PDFium/abseil.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/abseil.txt",
+      "gitBlob": "5f1cb8a9cbe7937856e60acb14d7f6c53bcf9dd2",
+      "bytes": 11564,
+      "sha256": "f54fff0b905df5b3464527c652a30e903b172d6dcab4d89b5e6f105d5e4a4603"
+    },
+    {
+      "path": "licenses/PDFium/agg23.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/agg23.txt",
+      "gitBlob": "3040a2b5347e2a37545ed281bed18d5a289dec42",
+      "bytes": 725,
+      "sha256": "c110d3ea2ad77467ce0dcff7d3337e6c8be8049a5103f4b9bd5fd911a77972e5"
+    },
+    {
+      "path": "licenses/PDFium/fast_float.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/fast_float.txt",
+      "gitBlob": "15ef4cfcd7bf569cfc5204a46673e75f9f31d4d3",
+      "bytes": 1106,
+      "sha256": "bf1b57355feca8fce77ee95f48002f8d4789fb71b30ec7599c06cda4901fbb2b"
+    },
+    {
+      "path": "licenses/PDFium/freetype.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/freetype.txt",
+      "gitBlob": "bbaba33f47d92ee4ed527582d96aeebf54cdcbb0",
+      "bytes": 6741,
+      "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8"
+    },
+    {
+      "path": "licenses/PDFium/icu.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/icu.txt",
+      "gitBlob": "f27631c7ec5cd99a496351125be35bd22237a6ea",
+      "bytes": 28286,
+      "sha256": "93679f4389d53b6835d89843f251844fb9bc455b35bab036d3c8e7abe497a47a"
+    },
+    {
+      "path": "licenses/PDFium/lcms.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/lcms.txt",
+      "gitBlob": "a657cd949386d63fa79b04803b0f0c2ca566393f",
+      "bytes": 1353,
+      "sha256": "7312b68c5b25e9bf2b828706fb4e29588f22705112f411fd42e1f7d84c3d139a"
+    },
+    {
+      "path": "licenses/PDFium/libjpeg_turbo.ijg",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/libjpeg_turbo.ijg",
+      "gitBlob": "1e5525c409bf7bd2beda956ea7232ff24b64f6a4",
+      "bytes": 13059,
+      "sha256": "db16a04128171879c60708d171b88d97345a2dd20f9bfc173680a4497c73f704"
+    },
+    {
+      "path": "licenses/PDFium/libjpeg_turbo.md",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/libjpeg_turbo.md",
+      "gitBlob": "7d3f7966d7f92e0cf320206f323a2f163d6ac042",
+      "bytes": 5755,
+      "sha256": "be2b2b5ab168bce87bc3e31f2a5c5adba4b7f6e9e51d618e958d1d46972ebd95"
+    },
+    {
+      "path": "licenses/PDFium/libopenjpeg.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/libopenjpeg.txt",
+      "gitBlob": "89df544ff5597e1a5e560f33ca0653d54884b2dc",
+      "bytes": 1794,
+      "sha256": "c5ab0890a737c2dfa7ba675036554f6d17741d98629b0c2a145354d00617e6b2"
+    },
+    {
+      "path": "licenses/PDFium/libpng.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/libpng.txt",
+      "gitBlob": "795711a9204bce6f79f7c57e4e2fda7072c485c8",
+      "bytes": 5479,
+      "sha256": "452390433ba0f88aa3e2b122c647741b72a0c117cd6ed7a329b49785aecb5511"
+    },
+    {
+      "path": "licenses/PDFium/llvm-libc.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/llvm-libc.txt",
+      "gitBlob": "bbcccbe442c6375e73a721635d73f991de84c666",
+      "bytes": 15418,
+      "sha256": "3b6226c32e168c83b891d8d6f0d3c29c2116dc3ef93dc93c307b54f279ecf383"
+    },
+    {
+      "path": "licenses/PDFium/pdfium-binaries.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/pdfium-binaries.txt",
+      "gitBlob": "34239ca13cc971c34a92a4b3cf5dc01541228b85",
+      "bytes": 1184,
+      "sha256": "8854f4388f1ca13b3ad9baa42e95f5546b4c0b17109c159256d3eca7be39b09b"
+    },
+    {
+      "path": "licenses/PDFium/pdfium.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/pdfium.txt",
+      "gitBlob": "4fc4ca949cd514dcd91894eb2edf7ee21bc0ce2f",
+      "bytes": 12818,
+      "sha256": "961eacd9633fff6d051db7208b755e9210e30efac7adec3e6a6d52798f0ccf0e"
+    },
+    {
+      "path": "licenses/PDFium/simdutf.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/simdutf.txt",
+      "gitBlob": "87f8da9e80b8b7c84f58b700b811bccdb89e4ad1",
+      "bytes": 1077,
+      "sha256": "c172a0ba936ff31230febb5dad869e25cb7c1a07480c7a381be8cf011bb52719"
+    },
+    {
+      "path": "licenses/PDFium/zlib.txt",
+      "sourcePath": "phase5_2_2/runtime/licenses/PDFium/zlib.txt",
+      "gitBlob": "f664e828acc9a8bd94bdfb88c7203be2bd66b47d",
+      "bytes": 1332,
+      "sha256": "33fd641c9f3b0e0be64bc78fea9e94807674cdd70c48477599226cb8956565fe"
+    },
+    {
+      "path": "native-version.json",
+      "sourcePath": "phase5_2_2/runtime/native-version.json",
+      "gitBlob": "ec6ccdc22cd1ec2bda797381db14060df7877ade",
+      "bytes": 347,
+      "sha256": "5be5e8d927beb34ebf011372747cdecc3b35aab5b909ab44c11e2dfbad91e3d0"
+    },
+    {
+      "path": "pdfium.dll",
+      "sourcePath": "phase5_2_2/runtime/pdfium.dll",
+      "gitBlob": "0db0aed3cccd60754a6099e2d4dbd99918fd5dfc",
+      "bytes": 7397168,
+      "sha256": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e"
+    }
+  ]
+}

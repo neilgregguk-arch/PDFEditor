@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "workspace": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2",
+  "backupCommit": "058cd3df42199c2c39af80519d3a14c0e009201b",
+  "remoteVerification": "058cd3df42199c2c39af80519d3a14c0e009201b\trefs/heads/main",
+  "validatedBuildManifest": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\.local-generated\\R1-reproduce-shipping\\build-manifest.json",
+  "validatedBuildSha256": "521f9f6d402e667fff5241d59702173ca242857ca97b8c912525dfa344df34c5",
+  "files": [
+    {
+      "path": "phase5_2_2/App/bin/Release/net8.0-windows/PdfEditorPrototype.exe",
+      "bytes": 152064,
+      "sha256": "3b2585c3d07c05edf5e7882c5537c5011f524bcd9a2ae9e2b073143301e95d36",
+      "backupPath": "phase5_2_2/run/PdfEditorPrototype.exe",
+      "reason": "Reproducible build duplicate with byte-identical verified Git backup"
+    },
+    {
+      "path": "phase5_2_2/Worker/bin/Release/net8.0-windows/PdfWorker.exe",
+      "bytes": 151552,
+      "sha256": "ee27ca65f36c8e96d2876c823f5e8e435fd0fbe4d6498d74e1712dd5a2c07dfd",
+      "backupPath": "phase5_2_2/run/PdfWorker.exe",
+      "reason": "Reproducible build duplicate with byte-identical verified Git backup"
+    }
+  ],
+  "estimatedLogicalSavingsBytes": 303616,
+  "cleanupAuthorised": false,
+  "note": "Explicit user approval required to execute. No directory-wide deletion; only current phase matching backed-up SDK products. Test-work, environments, unique evidence and user files retained."
+}

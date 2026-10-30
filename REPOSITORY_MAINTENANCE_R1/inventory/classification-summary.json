@@ -1,0 +1,323 @@
+{
+  "categories": {
+    "A": {
+      "files": 789,
+      "bytes": 4416770
+    },
+    "B": {
+      "files": 90,
+      "bytes": 561956
+    },
+    "F": {
+      "files": 14718,
+      "bytes": 842530514
+    },
+    "D": {
+      "files": 429,
+      "bytes": 173454667
+    },
+    "C": {
+      "files": 881,
+      "bytes": 20691236
+    },
+    "E": {
+      "files": 132,
+      "bytes": 9443031
+    }
+  },
+  "phases": {
+    ".gitattributes": {
+      "files": 1,
+      "bytes": 76,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    ".gitignore": {
+      "files": 1,
+      "bytes": 44,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "ARCHITECTURE_RECOMMENDATION.md": {
+      "files": 1,
+      "bytes": 7483,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "clean-install.log": {
+      "files": 1,
+      "bytes": 5078,
+      "evidenceBytes": 5078,
+      "buildBytes": 0
+    },
+    "clean-test-results.log": {
+      "files": 1,
+      "bytes": 1908,
+      "evidenceBytes": 1908,
+      "buildBytes": 0
+    },
+    "feasibility.py": {
+      "files": 1,
+      "bytes": 23238,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "offline_check.py": {
+      "files": 1,
+      "bytes": 399,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PDF_ENGINE_COMPARISON.md": {
+      "files": 1,
+      "bytes": 9704,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_2_PROPOSAL.md": {
+      "files": 1,
+      "bytes": 6177,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_2_1_PROGRESS.md": {
+      "files": 1,
+      "bytes": 11243,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_2_2_PROGRESS.md": {
+      "files": 1,
+      "bytes": 9152,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_2_PROGRESS.md": {
+      "files": 1,
+      "bytes": 11962,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 3745,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "requirements.txt": {
+      "files": 1,
+      "bytes": 354,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "review_evidence.py": {
+      "files": 1,
+      "bytes": 5327,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "run.log": {
+      "files": 1,
+      "bytes": 20559,
+      "evidenceBytes": 20559,
+      "buildBytes": 0
+    },
+    "run.ps1": {
+      "files": 1,
+      "bytes": 607,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "run_tests.py": {
+      "files": 1,
+      "bytes": 573,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "START_HERE.md": {
+      "files": 1,
+      "bytes": 4830,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "TECHNICAL_FEASIBILITY_REPORT.md": {
+      "files": 1,
+      "bytes": 14103,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "test-results.log": {
+      "files": 1,
+      "bytes": 1908,
+      "evidenceBytes": 1908,
+      "buildBytes": 0
+    },
+    "test_feasibility.py": {
+      "files": 1,
+      "bytes": 6539,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "assets": {
+      "files": 4,
+      "bytes": 97693,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "output": {
+      "files": 23,
+      "bytes": 351425,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "phase2": {
+      "files": 173,
+      "bytes": 24954377,
+      "evidenceBytes": 1645981,
+      "buildBytes": 15601047
+    },
+    "phase3": {
+      "files": 252,
+      "bytes": 28919343,
+      "evidenceBytes": 12605419,
+      "buildBytes": 15657599
+    },
+    "phase4a": {
+      "files": 441,
+      "bytes": 35496499,
+      "evidenceBytes": 18841986,
+      "buildBytes": 15702717
+    },
+    "phase4a1": {
+      "files": 588,
+      "bytes": 55501458,
+      "evidenceBytes": 38608101,
+      "buildBytes": 15743425
+    },
+    "phase4b": {
+      "files": 767,
+      "bytes": 41355745,
+      "evidenceBytes": 24158518,
+      "buildBytes": 15866969
+    },
+    "phase4c1": {
+      "files": 1061,
+      "bytes": 62193576,
+      "evidenceBytes": 44771112,
+      "buildBytes": 15921449
+    },
+    "phase4c2": {
+      "files": 1758,
+      "bytes": 95491117,
+      "evidenceBytes": 77781635,
+      "buildBytes": 15985609
+    },
+    "phase5_1": {
+      "files": 3212,
+      "bytes": 207901772,
+      "evidenceBytes": 189719704,
+      "buildBytes": 16081729
+    },
+    "phase5_2": {
+      "files": 2190,
+      "bytes": 152353883,
+      "evidenceBytes": 133786124,
+      "buildBytes": 16142387
+    },
+    "phase5_2_1": {
+      "files": 3011,
+      "bytes": 159851091,
+      "evidenceBytes": 141130225,
+      "buildBytes": 16242071
+    },
+    "phase5_2_2": {
+      "files": 3146,
+      "bytes": 177895738,
+      "evidenceBytes": 159062894,
+      "buildBytes": 16339939
+    },
+    "PHASE_1_HANDOVER": {
+      "files": 2,
+      "bytes": 81697,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_2_HANDOVER": {
+      "files": 23,
+      "bytes": 434351,
+      "evidenceBytes": 389362,
+      "buildBytes": 0
+    },
+    "PHASE_3_HANDOVER": {
+      "files": 5,
+      "bytes": 31994,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_4A1_HANDOVER": {
+      "files": 6,
+      "bytes": 33482,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_4A_HANDOVER": {
+      "files": 6,
+      "bytes": 48010,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_4B_HANDOVER": {
+      "files": 6,
+      "bytes": 36106,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_4C1_HANDOVER": {
+      "files": 6,
+      "bytes": 44092,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_4C2_HANDOVER": {
+      "files": 6,
+      "bytes": 25098,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_1_HANDOVER": {
+      "files": 6,
+      "bytes": 33072,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_2_1_HANDOVER": {
+      "files": 6,
+      "bytes": 26079,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_2_2_HANDOVER": {
+      "files": 6,
+      "bytes": 19427,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "PHASE_5_2_HANDOVER": {
+      "files": 6,
+      "bytes": 30396,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    },
+    "results": {
+      "files": 307,
+      "bytes": 7745644,
+      "evidenceBytes": 0,
+      "buildBytes": 0
+    }
+  },
+  "archiveCandidates": 14850,
+  "archiveCandidateBytes": 851973545,
+  "plannedLocalFiles": 2,
+  "plannedLogicalBytes": 303616,
+  "noDeletionPerformed": true
+}

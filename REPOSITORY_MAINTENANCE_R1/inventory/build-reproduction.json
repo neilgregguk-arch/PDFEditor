@@ -1,0 +1,62 @@
+{
+  "originalSourceContentCommit": "058cd3df42199c2c39af80519d3a14c0e009201b",
+  "historicalInformationalStamp": "376e2de7ffe54c71fd38c2249cebb15782667ba6",
+  "rows": [
+    {
+      "path": "run/Core.dll",
+      "rebuilt": "be3fffc58b0d47eb4b75bd007cc28ecb2f4305fd2cd5ae469dbe02b6c121aaba",
+      "shipping": "8ddc413f8bb293d20d1bf63c42d532420d96830fdfa17b66ec71d2106c03b7fd",
+      "identical": false
+    },
+    {
+      "path": "run/Core.pdb",
+      "rebuilt": "926e1977c98c733d055d805a53aaaf0b00e17c17b0a567262204fa01d2c2a8a8",
+      "shipping": "55d734fe782da2759fcb6923a2a30a17154a1fc8f01963dc29257e07d4ee0c08",
+      "identical": false
+    },
+    {
+      "path": "run/PdfEditorPrototype.dll",
+      "rebuilt": "eaf7b6e0dc7a9c22faf9b58afcc5668c1fc92f7b584f664accb23f68cdf0647b",
+      "shipping": "c3dac458e3291e990fbf65d5fed9e25f24a34d12345f9102431ab720bdd44dd3",
+      "identical": false
+    },
+    {
+      "path": "run/PdfEditorPrototype.exe",
+      "rebuilt": "3b2585c3d07c05edf5e7882c5537c5011f524bcd9a2ae9e2b073143301e95d36",
+      "shipping": "3b2585c3d07c05edf5e7882c5537c5011f524bcd9a2ae9e2b073143301e95d36",
+      "identical": true
+    },
+    {
+      "path": "run/PdfEditorPrototype.pdb",
+      "rebuilt": "a4f50f20aa358c4f9154267e545d2e7531aec4c4ade17ff202bb79851882ebbf",
+      "shipping": "d4d39e36a7fab6c60d573bf7ce4d9cf0f07c55b5f0ce57370475826ac397d7e4",
+      "identical": false
+    },
+    {
+      "path": "run/pdfium.dll",
+      "rebuilt": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e",
+      "shipping": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e",
+      "identical": true
+    },
+    {
+      "path": "run/PdfWorker.dll",
+      "rebuilt": "3bc0d0155490c88c9944f8f8e236c985ca3e2204a38aafd5728153d3687fbc73",
+      "shipping": "56039eb907ed76e387ccd8cd921abce69c41a9c8ab6643a1b79ca654c1e0d7af",
+      "identical": false
+    },
+    {
+      "path": "run/PdfWorker.exe",
+      "rebuilt": "ee27ca65f36c8e96d2876c823f5e8e435fd0fbe4d6498d74e1712dd5a2c07dfd",
+      "shipping": "ee27ca65f36c8e96d2876c823f5e8e435fd0fbe4d6498d74e1712dd5a2c07dfd",
+      "identical": true
+    },
+    {
+      "path": "run/PdfWorker.pdb",
+      "rebuilt": "960e2e1531f08b5bab9a47e54d15fefbb76ca95d4b5645daaf36cb20e0cbbfac",
+      "shipping": "c7949948ff5122e7f86eb50cded3bb1b7b137ab3d574782056b42b1af869163b",
+      "identical": false
+    }
+  ],
+  "allIdentical": false,
+  "scope": "Original source byte hashes unchanged. Explicit original informational stamp from delivered PE metadata; no source checkout or application logic change."
+}

@@ -1,0 +1,27 @@
+{
+  "roots": [
+    {
+      "role": "application-recovery",
+      "path": "C:\\Users\\NGregg\\AppData\\Local\\PdfEditorPrototype",
+      "exists": true,
+      "files": 20,
+      "logicalBytes": 1708664,
+      "classification": "Essential recovery/source-bound drafts; never cleanup",
+      "errors": [],
+      "contentsRead": false
+    },
+    {
+      "role": "application-temporary-work",
+      "path": "C:\\Users\\NGregg\\AppData\\Local\\Temp\\PdfEditorPrototype",
+      "exists": true,
+      "files": 3476,
+      "logicalBytes": 167439569,
+      "classification": "Requiring preservation: may belong to live sessions; outside workspace plan",
+      "errors": [],
+      "contentsRead": false
+    }
+  ],
+  "includedInWorkspaceTotal": false,
+  "cleanupTarget": false,
+  "note": "Metadata-only; no user drafts read or altered. Not a global AppData/NuGet/SDK/OneDrive backup audit."
+}

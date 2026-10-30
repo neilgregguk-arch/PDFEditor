@@ -1,0 +1,119 @@
+{
+  "tests": 18,
+  "failures": 0,
+  "rows": [
+    {
+      "name": "default-audit",
+      "pass_": true,
+      "exit": 0,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "dry-run-every-target",
+      "pass_": true,
+      "exit": 0,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "clean-without-approval-refused",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "clean-approved-whatif-no-removal",
+      "pass_": true,
+      "exit": 0,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "parent-traversal",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "absolute-path",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "source-code",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "fixture",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "user-document",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "git-data",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "credentials",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "unknown-assembly",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "historical-binary",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "changed-file-hash",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "wrong-backup-bytes",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "duplicate-target",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "wrong-workspace",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    },
+    {
+      "name": "changed-build-manifest",
+      "pass_": true,
+      "exit": 1,
+      "scope": "No deletion; Audit/DryRun/WhatIf/refusal only"
+    }
+  ],
+  "candidateHashesUnchanged": true,
+  "cleanupExecuted": false,
+  "whatIfOnly": true,
+  "logs": "C:\\Users\\NGregg\\AppData\\Local\\Temp\\pdfeditor-r1-cleanup-tests-zes639sl",
+  "limitations": "No real cleanup/deletion is executed or approved. Reparse-point rejection is implemented and inspected but a live junction test was not created during this R1 run."
+}

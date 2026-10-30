@@ -1,0 +1,196 @@
+{
+  "stage": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\.local-generated\\R1-validation",
+  "workers": [
+    {
+      "suite": "engine",
+      "tests": 18,
+      "failures": 0
+    },
+    {
+      "suite": "discovery",
+      "tests": 22,
+      "failures": 0
+    },
+    {
+      "suite": "compatibility",
+      "tests": 23,
+      "failures": 0
+    },
+    {
+      "suite": "position",
+      "tests": 20,
+      "failures": 0
+    },
+    {
+      "suite": "insertion",
+      "tests": 30,
+      "failures": 0
+    },
+    {
+      "suite": "document",
+      "tests": 17,
+      "failures": 0
+    },
+    {
+      "suite": "wrap",
+      "tests": 21,
+      "failures": 0
+    },
+    {
+      "suite": "roundtrip",
+      "tests": 37,
+      "failures": 0
+    },
+    {
+      "suite": "original",
+      "tests": 31,
+      "failures": 0
+    }
+  ],
+  "multi": {
+    "tests": 29,
+    "failures": 0
+  },
+  "presentation": {
+    "tests": 27,
+    "failures": 0
+  },
+  "marked": {
+    "tests": 16,
+    "failures": 0
+  },
+  "original": {
+    "tests": 12,
+    "failures": 0
+  },
+  "controls": [
+    {
+      "suite": "control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "discovery-control-tests.json",
+      "tests": 5,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "font-control-tests.json",
+      "tests": 4,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "insertion-control-tests.json",
+      "tests": 8,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "paragraph-control-tests.json",
+      "tests": 0,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "position-control-tests.json",
+      "tests": 6,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "session-control-tests.json",
+      "tests": 12,
+      "failures": 0,
+      "failed": []
+    },
+    {
+      "suite": "wrap-control-tests.json",
+      "tests": 11,
+      "failures": 0,
+      "failed": []
+    }
+  ],
+  "independent": {
+    "candidates": 110,
+    "success": true,
+    "paragraphGroups": 117,
+    "structureSuccess": true
+  },
+  "recipes": [
+    {
+      "suite": "test_engine",
+      "exit": 0,
+      "seconds": 2.59
+    },
+    {
+      "suite": "test_discovery",
+      "exit": 0,
+      "seconds": 4.5
+    },
+    {
+      "suite": "test_compatibility",
+      "exit": 0,
+      "seconds": 4.7
+    },
+    {
+      "suite": "test_position",
+      "exit": 0,
+      "seconds": 6.14
+    },
+    {
+      "suite": "test_insertion",
+      "exit": 0,
+      "seconds": 16.72
+    },
+    {
+      "suite": "test_document",
+      "exit": 0,
+      "seconds": 5.81
+    },
+    {
+      "suite": "test_wrap",
+      "exit": 0,
+      "seconds": 12.23
+    },
+    {
+      "suite": "test_roundtrip",
+      "exit": 0,
+      "seconds": 48.0
+    },
+    {
+      "suite": "test_original",
+      "exit": 0,
+      "seconds": 33.16
+    },
+    {
+      "suite": "multi_region_process",
+      "exit": 0,
+      "seconds": 65.58
+    },
+    {
+      "suite": "presentation_process",
+      "exit": 0,
+      "seconds": 61.91
+    },
+    {
+      "suite": "paragraph_process",
+      "exit": 0,
+      "seconds": 77.78
+    },
+    {
+      "suite": "original_process",
+      "exit": 0,
+      "seconds": 54.31
+    }
+  ],
+  "cleanupExecuted": false,
+  "scope": "Build/run after maintenance only. No destructive local cleanup approved or performed; post-cleanup verification remains conditional.",
+  "models": {
+    "tests": 35,
+    "failures": 0
+  },
+  "wrapperInvocationIssue": "First presentation wrapper interpreted --stage as optional paste filename before app launch. sys.argv binding corrected and remaining suites resumed; no test/application logic changed."
+}

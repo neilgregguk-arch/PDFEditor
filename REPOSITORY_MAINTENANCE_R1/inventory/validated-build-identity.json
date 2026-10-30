@@ -1,0 +1,219 @@
+{
+  "head": "70a49f2cbc89f53d6809a68f2dc185e492f27e0c",
+  "sdk": "10.0.303",
+  "products": [
+    {
+      "path": "run/Core.dll",
+      "bytes": 267264,
+      "sha256": "bbfbfeccb7279603a37c0ba6f7a4bab00326f623d34cb0e730fcdf2872626af8"
+    },
+    {
+      "path": "run/Core.pdb",
+      "bytes": 64336,
+      "sha256": "628c95d99074249d90be25144f232122e358af33afc5a7c11e241d260aa32626"
+    },
+    {
+      "path": "run/PdfEditorPrototype.dll",
+      "bytes": 519680,
+      "sha256": "dffb00edad953641d2b7b307c8f51841999bf7eb315c74dd0fe8a47b59eae13d"
+    },
+    {
+      "path": "run/PdfEditorPrototype.exe",
+      "bytes": 152064,
+      "sha256": "b1e6c6f107f6f94feb53fb116418b7bf8b45631a3a52a3b5cab5f06b18922e34"
+    },
+    {
+      "path": "run/PdfEditorPrototype.pdb",
+      "bytes": 80120,
+      "sha256": "91d2ece922830556e7c8ca5383f09498b7afb5de3174516bdcd4dd4c10cd3b07"
+    },
+    {
+      "path": "run/pdfium.dll",
+      "bytes": 7397168,
+      "sha256": "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e"
+    },
+    {
+      "path": "run/PdfWorker.dll",
+      "bytes": 6656,
+      "sha256": "7e2ccd1ddb8d108cce1dcb268eafe0428900a76454b4b48b074192699479b94d"
+    },
+    {
+      "path": "run/PdfWorker.exe",
+      "bytes": 151552,
+      "sha256": "47d6fa58a31eefcde5f88d4d80cb6369b8bde24026655687737c89517a2965dc"
+    },
+    {
+      "path": "run/PdfWorker.pdb",
+      "bytes": 13884,
+      "sha256": "0640ad1aed6aec3b473b5cbb6a114a420ddbb306862ad841d313f78bd68247b5"
+    }
+  ],
+  "runtimeEntriesVerified": 19,
+  "sourceHashes": [
+    {
+      "path": "phase5_2_2/App/App.csproj",
+      "sha256": "ae16ecf1ba26985f4a516ea01e41fb00620884c5a2014d8533ff228b8dda6673"
+    },
+    {
+      "path": "phase5_2_2/App/ControlTests.cs",
+      "sha256": "ba4ee61968c5c6ae08681f600bfaf05b8f6c1f9074e8a6dbd3deb24445aa46da"
+    },
+    {
+      "path": "phase5_2_2/App/DiscoveryControlTests.cs",
+      "sha256": "414d50203d9b7a08beba311f255729a70623ded72579db9120fdcf1d20d43acf"
+    },
+    {
+      "path": "phase5_2_2/App/DraftPresentation.cs",
+      "sha256": "900ff1936b6fa235a887404c2dc36b2b95a80cbcce1928a4a10785ef8dba2a5b"
+    },
+    {
+      "path": "phase5_2_2/App/EditorWindow.cs",
+      "sha256": "f42ae704993ecbe669bf87c56b73b2548118b4c0f73f04a97d1fa45d4a7b41bc"
+    },
+    {
+      "path": "phase5_2_2/App/FontControlTests.cs",
+      "sha256": "a70316d6de406b92589a6b9236bb51199f4512498bdadc851850edf551678e11"
+    },
+    {
+      "path": "phase5_2_2/App/Global.cs",
+      "sha256": "9eb56b713f4bd450c169f140e74ff7b6d5e456f3742a30188b947223d01628e4"
+    },
+    {
+      "path": "phase5_2_2/App/InsertionControlTests.cs",
+      "sha256": "db1e6d869a9dc460f4a54bf7c52dce34a9d1dd7132bf43b34cf9ae5a32523725"
+    },
+    {
+      "path": "phase5_2_2/App/MultiRegionControlTests.cs",
+      "sha256": "7f5807d5382fee997128868ae43558b2f94febc1f95684d6147c16f7bf4ef852"
+    },
+    {
+      "path": "phase5_2_2/App/MultiRegionRecoveryCheck.cs",
+      "sha256": "27c634dce4123eaf6f083d608a57d4d3a3bd90d19191a95a7914becd6ce4d5cc"
+    },
+    {
+      "path": "phase5_2_2/App/ParagraphControlTests.cs",
+      "sha256": "b672f45e720bde3f523870febf097dec3a44e0e45170be71168a88f33ad2bc3c"
+    },
+    {
+      "path": "phase5_2_2/App/PositionControlTests.cs",
+      "sha256": "da58a10818ebfa44f606169582a23036142f7b4028eb87b7cf158b9f23fa59c1"
+    },
+    {
+      "path": "phase5_2_2/App/PositionSelection.cs",
+      "sha256": "d92bd082976f819d9aa73e8452cc0beabe84c8d5527cff95f7a3baa9a1de8a84"
+    },
+    {
+      "path": "phase5_2_2/App/PositionedInk.cs",
+      "sha256": "1c463a79001c2dd6e16cb4d1181d69724a88efe688b0eb176bdb2bb5d2e35784"
+    },
+    {
+      "path": "phase5_2_2/App/PresentationControlTests.cs",
+      "sha256": "9b70a66b3e3535d992b22bd64be035a17c64b998e278ce8a0b682ca50e750989"
+    },
+    {
+      "path": "phase5_2_2/App/PresentationState.cs",
+      "sha256": "11ca3dd41fefc8b2040b7fc96f8fa244804faedb5433e02ba5539421ff9b9708"
+    },
+    {
+      "path": "phase5_2_2/App/ProcessRecoveryTests.cs",
+      "sha256": "29573108694e8a582ff462e759096708917d8017f1dce90ce05297c3ee27ba1d"
+    },
+    {
+      "path": "phase5_2_2/App/Program.cs",
+      "sha256": "f9ea12d0e03cfaa29198e766741147c54e03bf7d92116c58f33f85450422a28e"
+    },
+    {
+      "path": "phase5_2_2/App/SessionControlTests.cs",
+      "sha256": "513d00af80ebb5f87736fcd43ffb228ff030c0f9199a55aed5cb589103b9b19e"
+    },
+    {
+      "path": "phase5_2_2/App/SessionEditing.cs",
+      "sha256": "7b57e0dd854acecd27480b8f8577ab817da026d4f2a7bc48fbd8012fc5b6f6b1"
+    },
+    {
+      "path": "phase5_2_2/App/UnicodeClipboard.cs",
+      "sha256": "d37803278feb7a0e90e93b1b2ccabe753f6d371a2e59c970cec5095f9570fdbf"
+    },
+    {
+      "path": "phase5_2_2/App/WorkerClient.cs",
+      "sha256": "bedfb96e1a5c21755b7f1ca34b9ae2c73b564dc5a291eb30d03fe998cd4bcc07"
+    },
+    {
+      "path": "phase5_2_2/App/WrapControlTests.cs",
+      "sha256": "96f650e14a5221e99d87af19a4457d456340fddaf4f30780b407d7e9e7faabe5"
+    },
+    {
+      "path": "phase5_2_2/Checks/Checks.csproj",
+      "sha256": "ab5caee02adaef5498888d6ea54af0e1ad00a9786938f6099b1df74c4420b7cb"
+    },
+    {
+      "path": "phase5_2_2/Checks/Program.cs",
+      "sha256": "4d59fd0b8ce0608669b30b5d31d9357e3ac4137b4c1226e4469c7653c632ec8a"
+    },
+    {
+      "path": "phase5_2_2/Core/Core.csproj",
+      "sha256": "66009f809c782cf25ebf0ee2f4f7ed6a97c15b36eb77807be8d1c71904c45d72"
+    },
+    {
+      "path": "phase5_2_2/Core/Discovery.cs",
+      "sha256": "51d795eb551fbae5efcd780ccc48ca55b779d1c64e938179b415d78548975051"
+    },
+    {
+      "path": "phase5_2_2/Core/DocumentSession.cs",
+      "sha256": "742d1042de6929758895c1f7357d8320e40e7679d1877ee79653a13875f6cb97"
+    },
+    {
+      "path": "phase5_2_2/Core/DocumentTransaction.cs",
+      "sha256": "08b5c45b33c374e733f1667021b04c496edf938aeaf0171c9ef74b97cda0075e"
+    },
+    {
+      "path": "phase5_2_2/Core/Global.cs",
+      "sha256": "9eb56b713f4bd450c169f140e74ff7b6d5e456f3742a30188b947223d01628e4"
+    },
+    {
+      "path": "phase5_2_2/Core/GlyphAnalysis.cs",
+      "sha256": "4bb988f33a4edab566804fbf0a10d476e0fab75dfd43152d29595d338578fd30"
+    },
+    {
+      "path": "phase5_2_2/Core/Models.cs",
+      "sha256": "2cfa12966668272aa4dac0875e181c42ada91b433b836cc4a6f4f9e2652e4245"
+    },
+    {
+      "path": "phase5_2_2/Core/Native.cs",
+      "sha256": "9b2f867e2b1c1ae463a0de99976d7e02e0ba7a3ae8ed610669e877c0488b4e16"
+    },
+    {
+      "path": "phase5_2_2/Core/OriginalParagraphs.cs",
+      "sha256": "1e014df93ac210d1e1ed211009529771fc855e3416bbf74eaa8764ce798e0245"
+    },
+    {
+      "path": "phase5_2_2/Core/OriginalStructureProof.cs",
+      "sha256": "0479df73c231721ba05643908397dee53f17b318218ae8dc8a9d580eec13acf4"
+    },
+    {
+      "path": "phase5_2_2/Core/ParagraphMarks.cs",
+      "sha256": "41f6db47a237d0f52282e4f722402ad8c30614ab55424221b8516f81b1359366"
+    },
+    {
+      "path": "phase5_2_2/Core/PdfEngine.cs",
+      "sha256": "ad6d5210835ef86d40f2ae27a21b400e31a57c0b009efd93bdebe8db16f16f70"
+    },
+    {
+      "path": "phase5_2_2/Core/PositionLayout.cs",
+      "sha256": "6f1fa9f1119282205521b29f669a52dd968501e0d6c223ecfb3919801394a7c3"
+    },
+    {
+      "path": "phase5_2_2/Directory.Build.props",
+      "sha256": "0dbae1b9289ba7ea8509cdfa436e58af35e87b7f7146e611ee96999045e16795"
+    },
+    {
+      "path": "phase5_2_2/Worker/Program.cs",
+      "sha256": "10ae501150fd1bbff89e3b38d7a8a2137ad3c34ff7999db322c658d6975140a4"
+    },
+    {
+      "path": "phase5_2_2/Worker/Worker.csproj",
+      "sha256": "7b2e86f4a1fc79ef0572c3a9b50a9de9ece149f01a7ed985a269c5a32e813ed4"
+    }
+  ],
+  "note": "Managed hashes differ from shipping build; informational version stamp differs, and full managed/PDB bit equivalence was not established even with original stamp. Exact shipping reference binaries remain unchanged."
+}

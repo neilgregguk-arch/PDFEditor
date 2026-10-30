@@ -1,0 +1,76 @@
+{
+  "tests": 14,
+  "failures": 0,
+  "rows": [
+    {
+      "path": ".local-generated/new-run/report.json",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "artifacts/staging/app.zip",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "phase5_2_2/App/bin/Release/new.dll",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "phase5_2_2/Core/obj/cache.json",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "phase5_2_2/test-work/temp.pdf",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": ".venv/Scripts/python.exe",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "phase5_2_2/run/original-paragraphs/Word-cafe-paragraph.pdf",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "future-fixtures/new-example.pdf",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "phase5_2_2/evidence/retained-example.png",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "REPOSITORY_MAINTENANCE_R1/LOCAL_WORKSPACE_AUDIT.md",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "phase5_2_2/App/EditorWindow.cs",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "phase5_2_2/runtime/licenses/PDFium/pdfium.txt",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "future-fixtures/new-log.log",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "phase5_1/run/paragraph-examples/Word-two-rows-edited-manual-test.pdf",
+      "ignored": false,
+      "expected": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "pymupdf",
+    "version": "2.0",
+    "license": "Dual Licensed - GNU AFFERO GPL 3.0 or Artifex Commercial License",
+    "licenseExpression": null,
+    "home": null,
+    "projectUrls": [
+      "Documentation, https://pymupdf.readthedocs.io/",
+      "Source, https://github.com/pymupdf/pymupdf",
+      "Tracker, https://github.com/pymupdf/PyMuPDF/issues",
+      "Changelog, https://pymupdf.readthedocs.io/en/latest/changes.html"
+    ]
+  },
+  {
+    "name": "pymupdf4llm",
+    "version": "2.0",
+    "license": null,
+    "licenseExpression": null,
+    "home": null,
+    "projectUrls": []
+  },
+  {
+    "name": "pypdfium2",
+    "version": "5.14.0",
+    "license": "BSD-3-Clause, Apache-2.0, dependency licenses",
+    "licenseExpression": null,
+    "home": "https://github.com/pypdfium2-team/pypdfium2",
+    "projectUrls": [
+      "Source, https://github.com/pypdfium2-team/pypdfium2",
+      "Tracker, https://github.com/pypdfium2-team/pypdfium2/issues",
+      "Documentation, https://pypdfium2.readthedocs.io",
+      "Changelog, https://pypdfium2.readthedocs.io/en/stable/changelog.html"
+    ]
+  },
+  {
+    "name": "pypdf",
+    "version": "6.10.0",
+    "license": null,
+    "licenseExpression": "BSD-3-Clause",
+    "home": null,
+    "projectUrls": [
+      "Bug Reports, https://github.com/py-pdf/pypdf/issues",
+      "Changelog, https://pypdf.readthedocs.io/en/latest/meta/CHANGELOG.html",
+      "Documentation, https://pypdf.readthedocs.io/en/latest/",
+      "Source, https://github.com/py-pdf/pypdf"
+    ]
+  },
+  {
+    "name": "pikepdf",
+    "version": "10.17.0",
+    "license": null,
+    "licenseExpression": "MPL-2.0",
+    "home": null,
+    "projectUrls": [
+      "documentation, https://pikepdf.readthedocs.io/",
+      "repository, https://github.com/pikepdf/pikepdf",
+      "changelog, https://pikepdf.readthedocs.io/en/latest/releasenotes/index.html"
+    ]
+  },
+  {
+    "name": "fonttools",
+    "version": "4.67.0",
+    "license": "MIT",
+    "licenseExpression": null,
+    "home": "http://github.com/fonttools/fonttools",
+    "projectUrls": []
+  },
+  {
+    "name": "reportlab",
+    "version": "4.4.9",
+    "license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+    "licenseExpression": null,
+    "home": "https://www.reportlab.com/",
+    "projectUrls": []
+  },
+  {
+    "name": "pillow",
+    "version": "13.0.0",
+    "license": null,
+    "licenseExpression": "MIT-CMU",
+    "home": null,
+    "projectUrls": [
+      "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "Changelog, https://github.com/python-pillow/Pillow/releases",
+      "Documentation, https://pillow.readthedocs.io",
+      "Funding, https://tidelift.com/lifter/search/pypi/pillow",
+      "Homepage, https://python-pillow.org",
+      "Mastodon, https://fosstodon.org/@pillow",
+      "Security, https://pillow.readthedocs.io/en/stable/handbook/security.html",
+      "Source, https://github.com/python-pillow/Pillow"
+    ]
+  }
+]
