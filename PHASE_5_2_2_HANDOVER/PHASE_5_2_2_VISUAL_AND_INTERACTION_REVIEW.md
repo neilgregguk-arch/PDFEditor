@@ -1,0 +1,9 @@
+# Phase 5.2.2 visual and interaction review
+
+Actual WPF RenderTargetBitmap PNGs and JSON states remain beside baseline-multi-* and the folders referenced by multi-region-release.json and presentation-release.json. visual-qa contact sheets only crop/scale these genuine captures; full-resolution originals remain available. They are not mock-ups.
+
+Review two-invalid-upper-active / two-invalid-return, lower-exact-original, shortened-pending / shortened-verified, invalid-upper-valid-lower / valid-upper-invalid-lower, source-picker-lower-restored, both-retained-zoom-0..3, both-corrected-verified and reopened-reedited-verified. The two explicit adversaries are labelled: interactive editor placed over another source and preview placed over another preview. Those positions are test-only; no PDF geometry changes.
+
+Observed: both drafts stay bounded and internally scrollable; Text area exposes both original identities; selection restoration remains visible; safe correction returns to positioned ink; exact-original restoration removes amber; a safe neighbour is not amber solely because another draft is rejected. Save As remains disabled for rejected, pending, stale or incomplete combined validation. Protected graphic/paragraph states and inherited valid/invalid active/inactive captures are preserved by the 27-case presentation suite.
+
+Hit logs record InputHitTest targets, page points and screen mapping, source/retained bounds, layer index/ZIndex, focus and selected identity. The programmatic harness raises actual WPF preview/bubble events with an explicit diagnostic page-point override. It is not physical mouse injection. Any separate SendInput computer-use observations are identified in computer-use-review.json; those are automated Windows actions, not human manual acceptance or OS/DPI/accessibility certification. The user must still repeat the guide on their normal setup.

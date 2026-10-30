@@ -1,0 +1,62 @@
+[
+  {
+    "font": "/F1",
+    "name": "/BCDEEE+PrototypeSans-Regular",
+    "glyphs": {
+      "u": {
+        "name": "u",
+        "metrics": [
+          0,
+          0
+        ],
+        "contours": 0
+      },
+      "c": {
+        "name": "c",
+        "metrics": [
+          1126,
+          113
+        ],
+        "contours": 1
+      },
+      "a": {
+        "name": "a",
+        "metrics": [
+          1255,
+          123
+        ],
+        "contours": 2
+      }
+    }
+  },
+  {
+    "font": "/F2",
+    "name": "/BCDFEE+PrototypeSans-Regular",
+    "glyphs": {
+      "u": {
+        "name": "u",
+        "metrics": [
+          0,
+          0
+        ],
+        "contours": 0
+      },
+      "c": {
+        "name": "c",
+        "metrics": [
+          1126,
+          113
+        ],
+        "contours": 1
+      },
+      "a": {
+        "name": "a",
+        "metrics": [
+          1255,
+          123
+        ],
+        "contours": 2
+      }
+    }
+  }
+]

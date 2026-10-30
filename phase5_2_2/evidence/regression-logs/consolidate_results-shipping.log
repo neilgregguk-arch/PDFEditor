@@ -1,0 +1,10 @@
+Final inherited WPF: 57 checks; 0 failures
+engine 18 0 True
+discovery 22 0 True
+compatibility 23 0 True
+position 20 0 True
+insertion 30 0 True
+document 17 0 True
+wrap 21 0 True
+roundtrip 37 0 True
+original 31 0 True

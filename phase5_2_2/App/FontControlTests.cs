@@ -30,7 +30,7 @@ public sealed partial class EditorWindow
   });
   await Check("unsupported-character-typing-history-recovery-and-export",async()=>
   {
-   Replace("face calm. Z");await Pump();Assert(draft.EndsWith('Z')&&layout?.Safe==false&&status.Text.Contains("Your changes have been kept"),"Glyph warning/draft missing");
+   Replace("face calm. Z");await Pump();Assert(draft.EndsWith('Z')&&layout?.Safe==false&&status.Text.Contains("U+005A")&&status.Text.Contains("mapping unavailable")&&Text()==draft,"Glyph warning/draft missing");
    Replace("face calm. Z cafe");await Pump();Assert(draft.EndsWith("Z cafe"),"Continued typing blocked");await UndoDocument(false);Assert(draft=="face calm. Z","Invalid draft undo lost text");await UndoDocument(true);Assert(draft=="face calm. Z cafe","Invalid draft redo lost text");PersistDraft();Assert(DocumentSession.Restore(SessionRecoveryPath(session!.SourceHash),session.SourceHash).Regions[ActiveKey].Text==draft,"Subset recovery mismatch");
    var result=await ExportTo(Path.Combine(folder,"must-not-export.pdf"));Assert(result?.Safe==false&&draft=="face calm. Z cafe","Rejected export lost draft");WriteAudit();File.Copy(Path.Combine(folder,"window.png"),Path.Combine(folder,"subset-glyph-warning.png"),true);return new{draft,status=status.Text,result!.ProposedTextEligibility,result.ExportEligibility,result.GlyphIssues};
   });

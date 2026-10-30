@@ -17,6 +17,17 @@ public sealed partial class EditorWindow
  {
   return session==viewportOwner&&retainedViewports.TryGetValue(DocumentSession.Key(r.Page,r.Id),out var v)&&v.Source==session!.SourceHash&&v.Identity==r.SourceIdentity&&v.Text==text?v.Offset:0;
  }
+ readonly FontFamily retainedReviewFamily=new("Segoe UI");
+ readonly Dictionary<string,FontFamily> originalPresentationFamilies=[];
+ FontFamily OriginalPresentationFamily(Region r)
+ {
+  if(!originalPresentationFamilies.TryGetValue(r.FontFile,out var family))
+  {
+   string asset=Path.Combine(AppContext.BaseDirectory,"assets",r.FontFile);var face=new GlyphTypeface(new Uri(asset));
+   originalPresentationFamilies[r.FontFile]=family=new FontFamily(new Uri(Path.GetDirectoryName(asset)+Path.DirectorySeparatorChar),"./#"+face.FamilyNames.Values.First());
+  }
+  return family;
+ }
  readonly Border retainedDraftFrame=new(){Visibility=Visibility.Collapsed,IsHitTestVisible=false,BorderThickness=new Thickness(1),BorderBrush=Brushes.DarkGoldenrod,Background=new SolidColorBrush(Color.FromArgb(34,255,192,64)),ClipToBounds=true};
  bool IsRetainedDraft(Region r,string text,Layout plan)
  {
@@ -72,12 +83,14 @@ public sealed partial class EditorWindow
    if(retained)
    {
     var box=RetainedDraftBounds(r);double width=box.Width*Dip,height=box.Height*Dip;
+    editor.FontFamily=retainedReviewFamily;editor.Document.FontFamily=retainedReviewFamily;
     retainedDraftFrame.Width=width;retainedDraftFrame.Height=height;Canvas.SetLeft(retainedDraftFrame,box.X*Dip);Canvas.SetTop(retainedDraftFrame,box.Y*Dip);
     editor.Width=Math.Max(1,width-4);editor.Height=Math.Max(1,height-4);Canvas.SetLeft(editor,box.X*Dip+2);Canvas.SetTop(editor,box.Y*Dip+2);ConfigureRetainedText(editor,r);
-    editor.ToolTip=$"Retained draft · {draft.Length} characters · not a PDF layout. Scroll here to review and correct all text. "+DraftReason(r,draft,layout);
+    editor.ToolTip=$"Retained draft · {draft.Length} characters · review font Segoe UI, not a PDF layout. Scroll here to review and correct all text. "+DraftReason(r,draft,layout);
    }
    else
    {
+    editor.FontFamily=OriginalPresentationFamily(r);editor.Document.FontFamily=editor.FontFamily;
     editor.ToolTip=null;editor.Document.PageWidth=double.NaN;editor.Document.ColumnWidth=1000000;editor.Document.LineHeight=r.LineHeight*Dip;
     foreach(var paragraph in editor.Document.Blocks.OfType<Paragraph>())paragraph.LineHeight=r.LineHeight*Dip;
     editor.Width=(r.Positioned!=null?Math.Max(r.Width,ParagraphLayout.Width(r,draft))+24:r.Width)*Dip;editor.Height=Math.Max(r.LineHeight*Dip+12,layout.Height*Dip+12);
@@ -89,12 +102,12 @@ public sealed partial class EditorWindow
  }
  Border RetainedDraftPreview(Region r,string text)
  {
-  string asset=Path.Combine(AppContext.BaseDirectory,"assets",r.FontFile);var face=new GlyphTypeface(new Uri(asset));var family=new FontFamily(new Uri(Path.GetDirectoryName(asset)+Path.DirectorySeparatorChar),"./#"+face.FamilyNames.Values.First());
+  var family=retainedReviewFamily;var face=new GlyphTypeface(new Uri(Path.Combine(AppContext.BaseDirectory,"assets",r.FontFile)));
   var paragraph=new Paragraph(new Run(text)){Margin=new Thickness(0),Padding=new Thickness(0)};
-  var view=new RichTextBox{Document=new FlowDocument(paragraph){PagePadding=new Thickness(0),FontFamily=family,FontSize=r.FontSize*Dip,FontStyle=face.Style,FontWeight=face.Weight},IsReadOnly=true,IsUndoEnabled=false,IsHitTestVisible=false,BorderThickness=new Thickness(0),Padding=new Thickness(0),Background=Brushes.Transparent,Foreground=new SolidColorBrush(Color.FromRgb((byte)r.R,(byte)r.G,(byte)r.B)),FontFamily=family,FontSize=r.FontSize*Dip};
+  var view=new RichTextBox{Document=new FlowDocument(paragraph){Focusable=false,PagePadding=new Thickness(0),FontFamily=family,FontSize=r.FontSize*Dip,FontStyle=face.Style,FontWeight=face.Weight},IsReadOnly=true,IsUndoEnabled=false,IsHitTestVisible=false,Focusable=false,IsTabStop=false,BorderThickness=new Thickness(0),Padding=new Thickness(0),Background=Brushes.Transparent,Foreground=new SolidColorBrush(Color.FromRgb((byte)r.R,(byte)r.G,(byte)r.B)),FontFamily=family,FontSize=r.FontSize*Dip};
   Typography.SetKerning(view.Document,false);Typography.SetStandardLigatures(view.Document,false);TextOptions.SetTextFormattingMode(view,TextFormattingMode.Ideal);ConfigureRetainedText(view,r);
   double offset=RememberedRetainedOffset(r,text);view.Loaded+=(sender,args)=>view.Dispatcher.BeginInvoke(()=>view.ScrollToVerticalOffset(offset),System.Windows.Threading.DispatcherPriority.Loaded);
-  var bounds=RetainedDraftBounds(r);return new Border{Child=view,Padding=new Thickness(1),BorderThickness=new Thickness(1),BorderBrush=Brushes.DarkGoldenrod,Background=retainedDraftFrame.Background,Width=bounds.Width*Dip,Height=bounds.Height*Dip,ClipToBounds=true,Tag=new{source=r.SourceHash,identity=r.SourceIdentity,revision=session?.Revision,text},ToolTip=$"Retained draft · {text.Length} characters · not exportable. Click to edit and scroll through the complete text."};
+  var bounds=RetainedDraftBounds(r);return new Border{Child=view,Padding=new Thickness(1),BorderThickness=new Thickness(1),BorderBrush=Brushes.DarkGoldenrod,Background=retainedDraftFrame.Background,Width=bounds.Width*Dip,Height=bounds.Height*Dip,ClipToBounds=true,Tag=new{source=r.SourceHash,identity=r.SourceIdentity,revision=session?.Revision,text},ToolTip=$"Retained draft · {text.Length} characters · review font Segoe UI, not exportable. Click to edit and scroll through the complete text."};
  }
  void RefreshDraftPresentation()
  {

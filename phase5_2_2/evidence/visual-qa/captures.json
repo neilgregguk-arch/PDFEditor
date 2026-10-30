@@ -1,0 +1,32 @@
+{
+  "baseline": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\baseline-multi-1793356252749531400",
+  "multi": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600",
+  "presentation": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500",
+  "sheets": {
+    "multi-region": [
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\baseline-multi-1793356252749531400\\two-invalid-return.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\two-invalid-return.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\lower-exact-original.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\shortened-verified.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\source-picker-lower-restored.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\both-corrected-verified.png"
+    ],
+    "overlap-and-mapping": [
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\adversarial-overlap-before-click.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\adversarial-overlap-source-selected.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\adversarial-preview-overlap.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\unmapped-u.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\invalid-upper-valid-lower.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\multi-region-release-1793358243265715600\\valid-upper-invalid-lower.png"
+    ],
+    "inherited-presentation": [
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500\\original-unmodified.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500\\active-valid-verified.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500\\inactive-valid.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500\\replace-70-active.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500\\replace-70-inactive.png",
+      "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2_2\\evidence\\presentation-release-1793358458015025500\\saved-reopened.png"
+    ]
+  },
+  "note": "Scaled real WPF renders, not mockups. Original PNG/JSON retained. Routed harness is programmatic, not physical input."
+}

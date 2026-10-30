@@ -169,7 +169,7 @@ public sealed partial class EditorWindow:Window
   editor.Width=(r.Positioned!=null?Math.Max(r.Width,ParagraphLayout.Width(r,draft))+24:r.Width)*Dip;Canvas.SetLeft(editor,r.X*Dip);Canvas.SetTop(editor,r.Top*Dip);editor.UpdateLayout();
   var first=Position(0).GetCharacterRect(LogicalDirection.Forward);
   editor.Width=(r.Positioned!=null?Math.Max(r.Width,ParagraphLayout.Width(r,draft))+24:r.Width)*Dip+first.X*2;Canvas.SetLeft(editor,r.X*Dip-first.X);Canvas.SetTop(editor,r.Top*Dip-first.Y);editor.UpdateLayout();
-  ConfigureDraftPresentation();UpdatePositionedInk();editor.Focus();editor.CaretPosition=Position(index);editor.Selection.Select(editor.CaretPosition,editor.CaretPosition);Status(IsRetainedDraft(r,draft,layout!)?"Retained draft · not a PDF layout. Scroll within the amber area to correct all text. "+DraftReason(r,draft,layout!):"Draft editing · original-font positions; export requires current verification.",IsRetainedDraft(r,draft,layout!));PaintInactiveDrafts();UpdateDocumentStatus();ScheduleAudit();
+  ConfigureDraftPresentation();UpdatePositionedInk();editor.Focus();editor.CaretPosition=Position(index);editor.Selection.Select(editor.CaretPosition,editor.CaretPosition);Status(IsRetainedDraft(r,draft,layout!)?"Retained draft · review font Segoe UI, not a PDF layout. Scroll within the amber area to correct all text. "+DraftReason(r,draft,layout!):"Draft editing · original-font positions; export requires current verification.",IsRetainedDraft(r,draft,layout!));PaintInactiveDrafts();UpdateDocumentStatus();ScheduleAudit();
  }
  async void PageClick(object sender,MouseButtonEventArgs e)
  {
@@ -233,7 +233,7 @@ public sealed partial class EditorWindow:Window
   positionCaretRow=null;preferredCaretX=null;session.Change(ActiveKey,draft,caret);revision=session.Revision;verifiedRevision=-1;layout=ParagraphLayout.Plan(r,draft);
   var state=session.Regions[ActiveKey];state.Validation=state.Modified?(layout.Safe?"Pending":"Blocked"):"Unchanged";state.Message=layout.Diagnostic;
   ConfigureDraftPresentation();UpdatePositionedInk();recoveryTimer.Stop();recoveryTimer.Start();
-  Status(session.Modified.Length==0?"Original source text · no unsaved changes.":layout.Safe?"Pending verification · checking the complete document…":"Retained draft · not a PDF layout. Scroll within the amber area to correct all text. "+DraftReason(r,draft,layout),!layout.Safe);UpdateDocumentStatus();
+  Status(session.Modified.Length==0?"Original source text · no unsaved changes.":layout.Safe?"Pending verification · checking the complete document…":"Retained draft · review font Segoe UI, not a PDF layout. Scroll within the amber area to correct all text. "+DraftReason(r,draft,layout),!layout.Safe);UpdateDocumentStatus();
   debounce.Stop();if(session.Modified.Length>0)debounce.Start();ScheduleAudit();
  }
  async Task ValidateDraft()
@@ -290,7 +290,7 @@ public sealed partial class EditorWindow:Window
    var origin=PointToScreen(new Point(0,0));var pOrigin=page.PointToScreen(new Point(0,0));
    var carets=new List<object>();
    if(active)for(int i=0;i<=Math.Min(draft.Length,UsesPositionedPresentation?200:32);i++){var rect=Position(i).GetCharacterRect(LogicalDirection.Forward);var screen=editor.PointToScreen(new Point(rect.X,rect.Y));carets.Add(new{index=i,x=screen.X-origin.X,y=screen.Y-origin.Y,height=rect.Height*zoomFactor});}
-   File.WriteAllText(Path.Combine(auditFolder,"state.json"),Wire.Write(new{revision,verifiedRevision,source=info?.Path,sourceHash=info?.Hash,active,draft,caretIndex,selection=editor.Selection.Text,zoom=zoomFactor,status=status.Text,safe=layout?.Safe,presentation=session?.Regions.Values.Select(s=>new{key=s.Key,s.Identity,state=PresentationState(s.Original,s.Text,ParagraphLayout.Plan(s.Original,s.Text)),reason=DraftReason(s.Original,s.Text,ParagraphLayout.Plan(s.Original,s.Text))}).ToArray(),workerRequests=worker.Calls,workerPid=(int?)null,pageOrigin=new{x=pOrigin.X-origin.X,y=pOrigin.Y-origin.Y},pageScale=Dip*zoomFactor,carets}));
+   File.WriteAllText(Path.Combine(auditFolder,"state.json"),Wire.Write(new{revision,verifiedRevision,source=info?.Path,sourceHash=info?.Hash,active,editorKeyboardFocus=editor.IsKeyboardFocusWithin,focusType=Keyboard.FocusedElement?.GetType().Name,focusIsEditor=ReferenceEquals(Keyboard.FocusedElement,editor),draft,caretIndex,selection=editor.Selection.Text,zoom=zoomFactor,status=status.Text,safe=layout?.Safe,presentation=session?.Regions.Values.Select(s=>new{key=s.Key,s.Identity,state=PresentationState(s.Original,s.Text,ParagraphLayout.Plan(s.Original,s.Text)),reason=DraftReason(s.Original,s.Text,ParagraphLayout.Plan(s.Original,s.Text))}).ToArray(),workerRequests=worker.Calls,workerPid=(int?)null,pageOrigin=new{x=pOrigin.X-origin.X,y=pOrigin.Y-origin.Y},pageScale=Dip*zoomFactor,carets}));
    var content=(FrameworkElement)Content;var bmp=new RenderTargetBitmap((int)content.ActualWidth,(int)content.ActualHeight,96,96,PixelFormats.Pbgra32);bmp.Render(content);var png=new PngBitmapEncoder();png.Frames.Add(BitmapFrame.Create(bmp));using var fs=File.Create(Path.Combine(auditFolder,"window.png"));png.Save(fs);
   }
   catch{/* Test diagnostics must never interrupt user input. */}

@@ -1,0 +1,20 @@
+{
+  "scope": "Automated Windows computer-use clicks, Ctrl+A and text input, not human manual acceptance",
+  "source": "phase5_2_2/run/original-paragraphs/Word-cafe-paragraph.pdf",
+  "steps": [
+    "Initial lower original click and 769-character replacement in earlier computer-use-shipping observation",
+    "Upper original page click (350,258), native Keyboard.FocusedElement=editor confirmed; Ctrl+A visibly selects upper text",
+    "Upper replaced with same 769-character draft; both retained surfaces visible",
+    "Lower expanded retained preview clicked at window (800,550), beyond original source bounds; native editor focus true; 769 characters retained",
+    "Lower replaced with u; visible amber u, precise U+0075 restriction, native focus true",
+    "Lower replaced with calm cafe.; amber clears for lower, upper remains rejected and whole-session export stays blocked"
+  ],
+  "uiaDiscrepancy": "UIA focused_element reports anonymous readonly document; actual WPF audit and successful Ctrl+A/input prove keyboard focus remains in owned editor. No confirmed additional native focus-loss root cause. Inactive RichTextBox/FlowDocument explicitly nonfocusable/non-tabstop as defensive isolation.",
+  "evidence": [
+    "computer-use-final/visible-u-state.json",
+    "computer-use-final/visible-u-native-wpf.png",
+    "computer-use-final/corrected-lower-state.json",
+    "computer-use-final/corrected-lower-native-wpf.png"
+  ],
+  "remaining": "User manual acceptance, broad physical keyboard/clipboard/OS-DPI/accessibility validation remain open"
+}

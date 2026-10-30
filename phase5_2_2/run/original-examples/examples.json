@@ -1,0 +1,27 @@
+[
+  {
+    "file": "Word-first-export.pdf",
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\original-generation1-1793278707061644800.pdf",
+    "sha256": "5a1f68149d858c07662e897318547ac4eee018945e7fb2572c32b94ae1b4b2c1"
+  },
+  {
+    "file": "Word-second-generation.pdf",
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\original-generation2-1793278708692601500.pdf",
+    "sha256": "513cc079548e0d45424967a4852bd51572cbd05ac3aee35bae413a37a0934130"
+  },
+  {
+    "file": "Word-third-generation.pdf",
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\original-generation3-1793278710344181700.pdf",
+    "sha256": "5c3128433cc3cf908fe452054dfddb368e25624793e8283fbf93e61ca94368b8"
+  },
+  {
+    "file": "Mixed-original-marked-natural.pdf",
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-tests-1793278703964204600\\mixed-establish-page1-marker-1793278728784257800.pdf",
+    "sha256": "6d317e8e91ac909ee7cbc6e32996b805e1b6dc7a6efa68ee8f99864b5d89c8d2"
+  },
+  {
+    "file": "Mixed-recovered-edited.pdf",
+    "source": "C:\\Users\\NGregg\\OneDrive - ARK-H Handling Ltd\\Documents\\ChatGPT\\PDF Editor V2\\phase5_2\\evidence\\original-controls-1793278433141708900\\original-ui-mixed-recovered.pdf",
+    "sha256": "98f2e40243b9c9f407ea1cca846fd2ce197296b8484e51b77cc9d73cd4e54286"
+  }
+]

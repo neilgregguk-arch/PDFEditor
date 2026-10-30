@@ -1,0 +1,27 @@
+test_01_letter_grouping (frozen_suite.Tests.test_01_letter_grouping) ... ok
+test_02_report_multiline_and_page_two (frozen_suite.Tests.test_02_report_multiline_and_page_two) ... ok
+test_03_regular_original_font_save (frozen_suite.Tests.test_03_regular_original_font_save) ... ok
+test_04_bold_original_font_save (frozen_suite.Tests.test_04_bold_original_font_save) ... ok
+test_05_colour_and_size_save (frozen_suite.Tests.test_05_colour_and_size_save) ... ok
+test_06_independent_generator_save (frozen_suite.Tests.test_06_independent_generator_save) ... ok
+test_07_second_generation_same_paragraph (frozen_suite.Tests.test_07_second_generation_same_paragraph) ... ok
+test_08_adjacent_labels_not_joined (frozen_suite.Tests.test_08_adjacent_labels_not_joined) ... ok
+test_09_columns_not_joined (frozen_suite.Tests.test_09_columns_not_joined) ... ok
+test_10_table_refused (frozen_suite.Tests.test_10_table_refused) ... ok
+test_11_ambiguous_short_lines_limited (frozen_suite.Tests.test_11_ambiguous_short_lines_limited) ... ok
+test_12_transform_refused (frozen_suite.Tests.test_12_transform_refused) ... ok
+test_13_font_substitution_refused (frozen_suite.Tests.test_13_font_substitution_refused) ... ok
+test_14_subset_refused_word_positioned (frozen_suite.Tests.test_14_subset_refused_word_positioned) ... ok
+test_15_overflow_no_destination (frozen_suite.Tests.test_15_overflow_no_destination) ... ok
+test_16_missing_glyph_no_destination (frozen_suite.Tests.test_16_missing_glyph_no_destination) ... ok
+test_17_unsupported_or_unknown_region_cannot_commit (frozen_suite.Tests.test_17_unsupported_or_unknown_region_cannot_commit) ... ok
+test_18_cache_and_fingerprint (frozen_suite.Tests.test_18_cache_and_fingerprint) ... ok
+test_19_images_are_observed_and_block_overlap (frozen_suite.Tests.test_19_images_are_observed_and_block_overlap) ... ok
+test_20_visual_order_beats_object_order (frozen_suite.Tests.test_20_visual_order_beats_object_order) ... ok
+test_21_annotations_block_commit (frozen_suite.Tests.test_21_annotations_block_commit) ... ok
+test_22_spacing_metric_rounding_refused (frozen_suite.Tests.test_22_spacing_metric_rounding_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 3.627s
+
+OK

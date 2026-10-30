@@ -28,7 +28,7 @@ public sealed partial class EditorWindow
      var bubble=new MouseButtonEventArgs(Mouse.PrimaryDevice,Environment.TickCount,MouseButton.Left){RoutedEvent=Mouse.MouseDownEvent};if(hit is UIElement u)u.RaiseEvent(bubble);else ((ContentElement)hit!).RaiseEvent(bubble);if(routedTaskForControlTest!=null)await routedTaskForControlTest;
     }
     await Pump();var screen=page.PointToScreen(pt);var result=new{expected=expected.Id,pageX=x,pageY=y,screenX=screen.X,screenY=screen.Y,visualHit=hit?.GetType().Name,policyTarget=policy,before,after=ActiveKey,active,preview.Handled,original=expected.ObservedBounds,retained=RetainedDraftBounds(expected),editorZ=Panel.GetZIndex(editor),editorOrder=page.Children.IndexOf(editor),inactiveOrder=page.Children.IndexOf(inactiveDrafts),focus=Keyboard.FocusedElement?.GetType().Name};
-    if(require)Assert(active&&info!.Region!.Id==expected.Id,"Routed page click failed to activate "+expected.Id);return result;
+    if(require)Assert(active&&info!.Region!.Id==expected.Id&&editor.IsKeyboardFocusWithin,"Routed page click failed to activate and focus "+expected.Id);return result;
    }
    finally{routedPagePointForControlTest=null;routedTaskForControlTest=null;}
   }
@@ -46,7 +46,7 @@ public sealed partial class EditorWindow
   });
   await Check("exact-original-shortening-and-u-compatibility-diagnostics",async()=>
   {
-   await Click(lower,lower.ObservedBounds!.X+4,lower.Baseline-3,true);Replace("u");await Pump();await ValidateDraft();var uPlan=ParagraphLayout.Plan(lower,draft);var mapping=lower.Characters.Single(c=>c.Unicode==117);bool outline=new GlyphTypeface(new Uri(lower.FontFile)).CharacterToGlyphMap.ContainsKey(117);await Capture("unmapped-u");Replace(lower.OriginalText);await Pump();await ValidateDraft();var exact=new{draft,original=lower.OriginalText,retained=IsRetainedDraft(lower,draft,ParagraphLayout.Plan(lower,draft)),session!.VerifiedRevision,revision=session!.Revision,message=session.Regions[ActiveKey].Message,status=status.Text};await Capture("lower-exact-original");if(!baseline)Assert(draft==lower.OriginalText&&!IsRetainedDraft(lower,draft,ParagraphLayout.Plan(lower,draft)),"Exact original remained retained");return new{mapping,outline,uPlan.ReasonCodes,uPlan.GlyphIssues,exact};
+   await Click(lower,lower.ObservedBounds!.X+4,lower.Baseline-3,true);Replace("u");await Pump();await ValidateDraft();var uPlan=ParagraphLayout.Plan(lower,draft);var mapping=lower.Characters.Single(c=>c.Unicode==117);var nativeFace=new GlyphTypeface(new Uri(lower.FontFile));bool cmapEntry=nativeFace.CharacterToGlyphMap.TryGetValue(117,out var gid);double nativeAdvance=cmapEntry?nativeFace.AdvanceWidths[gid]:-1;bool hasOutline=cmapEntry&&!nativeFace.GetGlyphOutline(gid,lower.FontSize,lower.FontSize).IsEmpty();await Capture("unmapped-u");if(!baseline){var a=Position(0).GetCharacterRect(LogicalDirection.Forward);var b=Position(1).GetCharacterRect(LogicalDirection.Backward);Assert(b.X>a.X+1,"Unsupported u has no review advance");Assert(editor.FontFamily.Source=="Segoe UI","Rejected review still uses invisible subset glyph");}Replace(lower.OriginalText);await Pump();await ValidateDraft();var exact=new{draft,original=lower.OriginalText,retained=IsRetainedDraft(lower,draft,ParagraphLayout.Plan(lower,draft)),session!.VerifiedRevision,revision=session!.Revision,message=session.Regions[ActiveKey].Message,status=status.Text};await Capture("lower-exact-original");if(!baseline)Assert(draft==lower.OriginalText&&!IsRetainedDraft(lower,draft,ParagraphLayout.Plan(lower,draft)),"Exact original remained retained");return new{mapping,cmapEntry,nativeAdvance,hasOutline,uPlan.ReasonCodes,uPlan.GlyphIssues,exact};
   });
 
   if(!baseline)
@@ -80,7 +80,7 @@ public sealed partial class EditorWindow
     var lowerPreview=inactiveDrafts.Children.OfType<FrameworkElement>().First();Canvas.SetTop(lowerPreview,upper.ObservedBounds!.Y*Dip);await Pump();await Capture("adversarial-preview-overlap");
     var choice=regionPicker.Items.Cast<RegionChoice>().Single(c=>c.Id==lower.Id);regionPicker.SelectedItem=choice;
     for(int i=0;i<150&&(opening||info!.Region!.Id!=lower.Id||!active);i++)await Task.Delay(40);debounce.Stop();
-    Assert(active&&info!.Region!.Id==lower.Id&&draft==longText,"Source picker failed");Assert(editor.Selection.Text==longText[10..24],"Selection not restored");await Capture("source-picker-lower-restored");return new{sourceIdentity=choice.Identity,selection=editor.Selection.Text,caret=session!.Regions[ActiveKey].Caret};
+    Assert(active&&info!.Region!.Id==lower.Id&&draft==longText&&editor.IsKeyboardFocusWithin,"Source picker failed to focus editor");Assert(editor.Selection.Text==longText[10..24],"Selection not restored");await Capture("source-picker-lower-restored");return new{sourceIdentity=choice.Identity,selection=editor.Selection.Text,caret=session!.Regions[ActiveKey].Caret};
    });
    await Check("both-exact-originals-after-rejection",async()=>
    {
@@ -88,7 +88,7 @@ public sealed partial class EditorWindow
    });
    await Check("different-safe-shortening-pending-verified-and-stale",async()=>
    {
-    await Reset();await Choose(upper);Replace(longText);await ValidateDraft();Replace(safe);Assert(PresentationState(upper,draft,ParagraphLayout.Plan(upper,draft))=="Pending"&&!saveButton!.IsEnabled,"New safe text reused rejection or approval");await Capture("shortened-pending");await ValidateDraft();Assert(PresentationState(upper,draft,ParagraphLayout.Plan(upper,draft))=="Verified"&&!IsRetainedDraft(upper,draft,layout!)&&saveButton!.IsEnabled,"Safe shortening not verified");await Capture("shortened-verified");
+    await Reset();await Choose(upper);Replace(longText);await ValidateDraft();Replace(safe);Assert(PresentationState(upper,draft,ParagraphLayout.Plan(upper,draft))=="Pending"&&!saveButton!.IsEnabled,"New safe text reused rejection or approval");await Capture("shortened-pending");await ValidateDraft();Assert(PresentationState(upper,draft,ParagraphLayout.Plan(upper,draft))=="Verified"&&!IsRetainedDraft(upper,draft,layout!)&&saveButton!.IsEnabled,"Safe shortening not verified");await Capture("shortened-verified");Assert(editor.FontFamily.Source!="Segoe UI","Verified text kept the review font");
     await Choose(lower);Replace(safe);Assert(PresentationState(upper,safe,ParagraphLayout.Plan(upper,safe))=="Stale"&&!saveButton!.IsEnabled,"Other edit did not stale verification");await ValidateDraft();Assert(session!.VerifiedRevision==session!.Revision&&saveButton!.IsEnabled,"Both safe drafts failed");return new{state=PresentationSummary()};
    });
    foreach(var input in new[]{("ordinary-u","u"),("crlf","cafe\r\ncalm"),("lf","cafe\ncalm"),("multiple-paragraphs","cafe\n\ncalm\ncafe"),("trailing-break","cafe\n"),("tab","cafe\tcalm"),("nbsp","cafe\u00a0calm"),("unmapped-symbol","cafe \u2603"),("mapped-only",safe)})

@@ -1,0 +1,23 @@
+test_A_actual_pdf_and_glyph_mapping (regression_phase4a1.Tests.test_A_actual_pdf_and_glyph_mapping) ... ok
+test_A_successful_region_edit (regression_phase4a1.Tests.test_A_successful_region_edit) ... ok
+test_B_longer_wraps (regression_phase4a1.Tests.test_B_longer_wraps) ... ok
+test_C_actual_neighbour_collision_preflight (regression_phase4a1.Tests.test_C_actual_neighbour_collision_preflight) ... ok
+test_C_unsafe_expansion_rejected (regression_phase4a1.Tests.test_C_unsafe_expansion_rejected) ... ok
+test_D_missing_glyph_rejected (regression_phase4a1.Tests.test_D_missing_glyph_rejected) ... ok
+test_G_append_preserves_legitimate_original_phrase_only_once (regression_phase4a1.Tests.test_G_append_preserves_legitimate_original_phrase_only_once) ... ok
+test_G_empty_deletion_is_real (regression_phase4a1.Tests.test_G_empty_deletion_is_real) ... ok
+test_G_existing_destination_unchanged (regression_phase4a1.Tests.test_G_existing_destination_unchanged) ... ok
+test_G_explicit_linebreaks (regression_phase4a1.Tests.test_G_explicit_linebreaks) ... ok
+test_G_locked_destination_unchanged (regression_phase4a1.Tests.test_G_locked_destination_unchanged) ... ok
+test_G_long_word_soft_wrap (regression_phase4a1.Tests.test_G_long_word_soft_wrap) ... ok
+test_G_original_cannot_be_overwritten (regression_phase4a1.Tests.test_G_original_cannot_be_overwritten) ... ok
+test_G_stale_source_hash_rejected (regression_phase4a1.Tests.test_G_stale_source_hash_rejected) ... ok
+test_cross_language_revision_roundtrip (regression_phase4a1.Tests.test_cross_language_revision_roundtrip) ... ok
+test_manifestless_supported_copy_is_discovered (regression_phase4a1.Tests.test_manifestless_supported_copy_is_discovered) ... ok
+test_noop_is_not_reported_as_saved_edit (regression_phase4a1.Tests.test_noop_is_not_reported_as_saved_edit) ... ok
+test_tampered_manifest_view_only (regression_phase4a1.Tests.test_tampered_manifest_view_only) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.835s
+
+OK
