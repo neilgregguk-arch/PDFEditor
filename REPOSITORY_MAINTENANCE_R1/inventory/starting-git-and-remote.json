@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-30T11:32:06.438525+00:00",
+  "head": "058cd3df42199c2c39af80519d3a14c0e009201b",
+  "branch": "main",
+  "status": "?? phase5_1/run/paragraph-examples/Word-two-rows-edited-manual-test.pdf\n",
+  "remoteMain": "058cd3df42199c2c39af80519d3a14c0e009201b\trefs/heads/main",
+  "remoteTags": "",
+  "countObjects": "count: 1\nsize: 1\nin-pack: 9524\npacks: 5\nsize-pack: 77627\nprune-packable: 0\ngarbage: 0\nsize-garbage: 0\n",
+  "attributes": "# Preserve exact bytes for frozen source/evidence SHA256 manifests.\n* -text\n",
+  "rootIgnore": ".venv/\n.venv-clean/\n__pycache__/\ntmp/\n*.pyc\n",
+  "ghAuth": "not authenticated; public read-only REST used for releases",
+  "releases": [],
+  "releaseListingComplete": true
+}

@@ -3,3 +3,14 @@
 __pycache__/
 tmp/
 *.pyc
+
+# R1: generated outputs use named local roots; historical evidence stays tracked.
+.local-generated/
+artifacts/staging/
+**/bin/
+**/obj/
+**/__pycache__/
+**/.vs/
+**/.idea/
+# Per-phase test sandboxes; never ignore PDFs, PNGs, JSON or logs globally.
+phase*/test-work/

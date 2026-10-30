@@ -1,0 +1,128 @@
+{
+  "pdfium": {
+    "69f1e860f6742fbaafcc4db80e785eec9a4ee0da36ea6d1dc0867ea0f18baea6": [
+      {
+        "path": ".venv-clean/Lib/site-packages/pypdfium2_raw/pdfium.dll",
+        "bytes": 7381504,
+        "status": "ignored"
+      }
+    ],
+    "bede3932ce96a2e1ed9a7e6cae71aec8914efd2907d37ab44b1b81f9c8a6d04e": [
+      {
+        "path": "phase2/evidence/development/pre-font-rename-run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase2/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase2/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase3/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase3/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4a/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4a/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4a1/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4a1/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4b/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4b/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4c1/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4c1/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4c2/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase4c2/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_1/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_1/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_2/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_2/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_2_1/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_2_1/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_2_2/run/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      },
+      {
+        "path": "phase5_2_2/runtime/pdfium.dll",
+        "bytes": 7397168,
+        "status": "tracked"
+      }
+    ]
+  }
+}
