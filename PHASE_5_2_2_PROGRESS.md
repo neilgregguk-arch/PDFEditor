@@ -1,0 +1,17 @@
+# Phase 5.2.2 progress — INCOMPLETE
+
+Start: 22228b4bf414912d803fe8ccc1f52b6a9fbe0df6, main. Only untracked starting file: private phase5_1/run/paragraph-examples/Word-two-rows-edited-manual-test.pdf (preserve/exclude). Copied tracked 5.2.1 source/run/runtime/tools to isolated phase5_2_2, no old evidence. Baseline created after migration with unchanged old keys. No Core/ownership/geometry/export change is authorised to make UI tests pass. No 5.3 or Repository Maintenance R1.
+
+## Starting observations and hypotheses
+Full brief and 5.2.1 App presentation/selection/validation paths reviewed. FindRegionAt recognises expanded retained bounds, but SelectRegionAt uses a separate original/proposed-only activation guard. A null-proposal draft can therefore be identified yet refused outside its narrow original rectangle. This is a hypothesis pending actual WPF/event/hit diagnostics, not an assumed overlay interception. Current Blocked/message fields are per region, while validation revisions are global; whole-session failure can leave historical messages on a corrected region. U+0075 may be an unavailable verified PDF encoding even if the embedded font has an outline; inspect actual compatibility records.
+
+## Exact next action
+Implement actual WPF two-region baseline diagnostics before changing behaviour: lower long draft, upper long draft, visual InputHitTest and routed page points across source/expanded bounds, exact-original and safe shortening, worker responses and u/newline/tab/NBSP mapping. Capture before-fix output. Then centralise source-identity-based activation and revision-bound presentation/diagnostics, add current-page region access if overlap requires it, and run dedicated + inherited suites/independent readers.
+
+Build ./phase5_2_2/build.ps1; Python .venv/Scripts/python.exe phase5_2_2/tools/<tool>.py. All implementation/tests/reports/publication incomplete. Preserve failing attempts. Final six handovers, runnable build, manifest, commit/push and manual acceptance stop required.
+
+## Checkpoint: reproduced and corrections under test
+Baseline evidence `phase5_2_2/evidence/baseline-multi-1793356252749531400`: 2 diagnostic cases, expanded clicks resolve expected source region but stay inactive. Actual visual hit Image, original clicks work; no evidence of overlay interception in this sequence. U+0075 is FontPresentEncodingUnavailable / PDF_ENCODING_ROUNDTRIP_FAILED, glyph 86, advance -1, outline exists. Exact-original shortening already leaves amber in baseline; user B is not universally reproduced.
+
+Central activation guard now reuses FindRegionAt. Source ownership takes precedence; stable ordering for expanded surfaces; current-page source selector covers overlap. App-only exact text/source/identity/revision evidence distinguishes unchanged/pending/verified/rejected/stale; whole worker failure no longer accuses every locally fitting region. Precise newline/Unicode diagnostics; Core unchanged.
+First development matrix 28 checks / 3 failures retained: source picker selection restoration implementation defect corrected by snapshotting offsets before ActivateAt; two test assumptions corrected (returning to previously verified text is stale, two corrected regions yield two marked groups). Await shipping rerun. Worker/model regressions running. Exact next: finish worker tests, rebuild, run multi_region_process + inherited WPF/process suites, independently inspect all successful PDFs and real screenshots, complete six handovers/preservation/manifest, commit/push. INCOMPLETE.
